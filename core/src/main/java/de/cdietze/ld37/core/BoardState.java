@@ -18,6 +18,8 @@ public class BoardState {
   {
     entities.add(Entities.createCat(3));
     entities.add(new Entities.Mouse(51, Direction.UP));
+    entities.add(new Entities.Mouse(52, Direction.RIGHT));
+    entities.add(new Entities.Mouse(53, Direction.UP));
   }
 
   public boolean tryMoveCat(Entity cat, int target) {
@@ -45,7 +47,9 @@ public class BoardState {
 
   private boolean tryMoveMouseForward(Entities.Mouse mouse) {
     int newIndex = addDirToIndex(dim, mouse.fieldIndex.get(), mouse.dir.get());
-    if (newIndex < 0) return false;
+    if (newIndex < 0) return false; // cannot move off board
+    if (getEntityAt(newIndex).isPresent()) return false; // target is occupied
+    // TODO(?) check if target is protected
     mouse.fieldIndex.update(newIndex);
     return true;
   }
