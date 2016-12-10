@@ -184,7 +184,7 @@ public class BoardScreen extends Screen {
   }
 
   private interface Depths {
-    float fields = -1f;
-    float entities = 1f;
+    float fields = 1f;
+    float entities = 2f;
   }
 }
