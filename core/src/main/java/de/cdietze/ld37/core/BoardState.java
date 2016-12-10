@@ -17,16 +17,20 @@ public class BoardState {
 
   {
     entities.add(Entities.createCat(3));
+    entities.add(Entities.createCat(4));
     entities.add(new Entities.Mouse(51, Direction.UP));
     entities.add(new Entities.Mouse(52, Direction.RIGHT));
     entities.add(new Entities.Mouse(53, Direction.UP));
   }
 
   public boolean tryMoveCat(Entity cat, int target) {
-    if (getEntityAt(target).isPresent()) return false;
     int absX = Math.abs(toX(dim, cat.fieldIndex.get()) - toX(dim, target));
     int absY = Math.abs(toY(dim, cat.fieldIndex.get()) - toY(dim, target));
     if ((absX != 1 || absY != 2) && (absX != 2 || absY != 1)) return false;
+    Optional<Entity> targetEntity = getEntityAt(target);
+    if (targetEntity.isPresent() && targetEntity.get().type == Entity.Type.MOUSE) {
+      entities.remove(targetEntity.get());
+    } else if (targetEntity.isPresent()) return false;
     cat.fieldIndex.update(target);
     runAi();
     return true;
