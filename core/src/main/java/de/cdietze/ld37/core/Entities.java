@@ -2,6 +2,7 @@ package de.cdietze.ld37.core;
 
 import react.IntValue;
 import react.Value;
+import react.ValueView;
 
 public class Entities {
 
@@ -18,9 +19,16 @@ public class Entities {
 
     public final IntValue dustAmount;
 
-    public Dust(int initialFieldIndex, int amount) {
+    public Dust(int initialFieldIndex, int amount, final IntValue dustRemaining) {
       super(Type.DUST, initialFieldIndex);
       dustAmount = new IntValue(amount);
+      dustAmount.connectNotify(new ValueView.Listener<Integer>() {
+        @Override
+        public void onChange(Integer value, Integer oldValue) {
+          int change = value - (oldValue != null ? oldValue : 0);
+          dustRemaining.increment(change);
+        }
+      });
     }
   }
 }
