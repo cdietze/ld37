@@ -9,9 +9,11 @@ import playn.scene.ImageLayer;
 import playn.scene.Layer;
 import playn.scene.Pointer;
 import pythagoras.f.Dimension;
+import react.Function;
 import react.RList;
 import react.Slot;
 import tripleplay.ui.Background;
+import tripleplay.ui.Label;
 import tripleplay.ui.Root;
 import tripleplay.ui.Style;
 import tripleplay.ui.layout.BorderLayout;
@@ -67,6 +69,13 @@ public class BoardScreen extends Screen {
     boardElement.addStyles(Style.BACKGROUND.is(Background.blank().inset(10f)));
 
     root.add(boardElement.setConstraint(BorderLayout.CENTER));
+
+    root.add(new Label(state.dustRemaining.map(new Function<Integer, String>() {
+      @Override
+      public String apply(Integer input) {
+        return "Dust Remaining: " + input;
+      }
+    })).setConstraint(BorderLayout.EAST));
   }
 
   private GroupLayer createFieldGroupLayer() {

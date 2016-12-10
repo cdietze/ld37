@@ -3,6 +3,7 @@ package de.cdietze.ld37.core;
 import com.google.common.base.Optional;
 import com.google.common.collect.ImmutableList;
 import pythagoras.i.Dimension;
+import react.IntValue;
 import react.RList;
 import react.Value;
 import tripleplay.util.Logger;
@@ -21,11 +22,12 @@ public class BoardState {
   public final RList<Entity> entities = RList.create();
   public final Entities.Vacuum vacuum;
   public final List<Value<Boolean>> explored = buildExplored(fieldCount);
+  public final IntValue dustRemaining = new IntValue(0);
 
   {
     vacuum = new Entities.Vacuum(56, Direction.UP);
     entities.add(vacuum);
-    entities.add(new Entities.Dust(57, 4));
+    entities.add(new Entities.Dust(57, 4, dustRemaining));
     exploreNeighbors(vacuum.fieldIndex.get());
   }
 
