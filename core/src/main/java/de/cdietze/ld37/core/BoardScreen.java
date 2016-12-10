@@ -1,18 +1,22 @@
 package de.cdietze.ld37.core;
 
+import com.google.common.base.Optional;
 import de.cdietze.playn_util.ScaledElement;
 import de.cdietze.playn_util.Screen;
 import playn.scene.GroupLayer;
 import playn.scene.ImageLayer;
 import playn.scene.Layer;
+import playn.scene.Pointer;
 import pythagoras.f.Dimension;
 import react.RList;
 import react.Slot;
+import react.Value;
 import tripleplay.ui.Background;
 import tripleplay.ui.Root;
 import tripleplay.ui.Style;
 import tripleplay.ui.layout.BorderLayout;
 import tripleplay.util.Layers;
+import tripleplay.util.Logger;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,6 +25,8 @@ import static de.cdietze.ld37.core.PointUtils.toX;
 import static de.cdietze.ld37.core.PointUtils.toY;
 
 public class BoardScreen extends Screen {
+  public static final Logger log = new Logger("screen");
+
   private static final float fieldGapWidth = 0.03f;
   private static final Dimension maxSize = new Dimension(1200, 800);
   public final MainGame game;
@@ -31,6 +37,7 @@ public class BoardScreen extends Screen {
   public final GroupLayer boardLayer;
   private final BoardState state;
   private final pythagoras.i.Dimension dim;
+  private Value<Optional<Entity>> selectedEntity = Value.create(Optional.<Entity>absent());
 
   public BoardScreen(MainGame game, BoardState state) {
     super(game);
@@ -71,9 +78,21 @@ public class BoardScreen extends Screen {
     return group;
   }
 
-  private Layer createFieldLayer(int fieldIndex) {
+  private Layer createFieldLayer(final int fieldIndex) {
     int color = (toX(dim, fieldIndex) + toY(dim, fieldIndex)) % 2 == 0 ? 0xffB6B6B6 : 0xff8D9AB0;
     Layer l = Layers.solid(color, 1f - 2 * fieldGapWidth, 1f - 2 * fieldGapWidth).setOrigin(Layer.Origin.CENTER);
+    l.events().connect(new Pointer.Listener() {
+      @Override
+      public void onStart(Pointer.Interaction iact) {
+        if (selectedEntity.get().isPresent()) {
+          Entity entity = selectedEntity.get().get();
+          log.debug("Move entity", "entity", entity, "to fieldIndex", fieldIndex);
+          entity.fieldIndex.update(fieldIndex);
+          selectedEntity.update(Optional.<Entity>absent());
+        }
+      }
+    });
+
     return l;
   }
 
@@ -96,10 +115,16 @@ public class BoardScreen extends Screen {
     return group;
   }
 
-  private Layer createEntityLayer(Entity entity) {
-    ImageLayer imageLayer = new ImageLayer(game.images.cat);
-    imageLayer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
-    return imageLayer;
+  private Layer createEntityLayer(final Entity entity) {
+    ImageLayer layer = new ImageLayer(game.images.cat);
+    layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+    layer.events().connect(new Pointer.Listener() {
+      @Override
+      public void onStart(Pointer.Interaction iact) {
+        selectedEntity.update(Optional.of(entity));
+      }
+    });
+    return layer;
   }
 
   private Slot<Integer> moveLayerWithFieldIndexSlot(final Layer layer) {
