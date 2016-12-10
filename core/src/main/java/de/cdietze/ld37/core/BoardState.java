@@ -1,9 +1,14 @@
 package de.cdietze.ld37.core;
 
 import com.google.common.base.Optional;
+import com.google.common.collect.ImmutableList;
 import pythagoras.i.Dimension;
 import react.RList;
+import react.Value;
 import tripleplay.util.Logger;
+
+import java.util.BitSet;
+import java.util.List;
 
 import static de.cdietze.ld37.core.PointUtils.*;
 
@@ -14,14 +19,18 @@ public class BoardState {
 
   public final int fieldCount = dim.width * dim.height;
   public final RList<Entity> entities = RList.create();
+  public final Entities.Vacuum vacuum;
+  public final List<Value<Boolean>> explored = buildExplored(fieldCount);
 
   {
+    vacuum = new Entities.Vacuum(56, Direction.UP);
+    entities.add(vacuum);
     entities.add(Entities.createCat(3));
     entities.add(Entities.createCat(4));
-    entities.add(new Entities.Vacuum(56, Direction.UP));
     entities.add(new Entities.Mouse(51, Direction.UP));
     entities.add(new Entities.Mouse(52, Direction.RIGHT));
     entities.add(new Entities.Mouse(53, Direction.UP));
+    exploreNeighbors(vacuum.fieldIndex.get());
   }
 
   public boolean tryMoveCat(Entity cat, int target) {
@@ -35,6 +44,22 @@ public class BoardState {
     cat.fieldIndex.update(target);
     runAi();
     return true;
+  }
+
+  private static List<Value<Boolean>> buildExplored(int fieldCount) {
+    ImmutableList.Builder<Value<Boolean>> builder = ImmutableList.builder();
+    for (int i = 0; i < fieldCount; i++) {
+      builder.add(Value.create(false));
+    }
+    return builder.build();
+  }
+
+  private void exploreNeighbors(int fieldIndex) {
+    explored.get(fieldIndex).update(true);
+    BitSet neighbors = PointUtils.neighbors(dim, fieldIndex);
+    for (int neighbor = neighbors.nextSetBit(0); neighbor >= 0; neighbor = neighbors.nextSetBit(neighbor + 1)) {
+      explored.get(neighbor).update(true);
+    }
   }
 
   private void runAi() {

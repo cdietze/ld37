@@ -87,6 +87,9 @@ public final class PointUtils {
     if (p.y() < dim.height() - 1) builder.add(new Point(p.x(), p.y() + 1));
     return builder.build();
   }
+  public static List<Point> neighborPoints(IDimension dim, int index) {
+    return neighborPoints(dim, toPoint(dim, index));
+  }
 
   public static BitSet neighbors(IDimension dim, int index, BitSet result) {
     int x = toX(dim, index);

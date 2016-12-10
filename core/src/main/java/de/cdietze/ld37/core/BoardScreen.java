@@ -3,6 +3,7 @@ package de.cdietze.ld37.core;
 import com.google.common.base.Optional;
 import de.cdietze.playn_util.ScaledElement;
 import de.cdietze.playn_util.Screen;
+import playn.core.Color;
 import playn.scene.GroupLayer;
 import playn.scene.ImageLayer;
 import playn.scene.Layer;
@@ -85,7 +86,14 @@ public class BoardScreen extends Screen {
 
   private Layer createFieldLayer(final int fieldIndex) {
     int color = (toX(dim, fieldIndex) + toY(dim, fieldIndex)) % 2 == 0 ? 0xffB6B6B6 : 0xff8D9AB0;
-    Layer l = Layers.solid(color, 1f - 2 * fieldGapWidth, 1f - 2 * fieldGapWidth).setOrigin(Layer.Origin.CENTER);
+    final Layer l = Layers.solid(color, 1f - 2 * fieldGapWidth, 1f - 2 * fieldGapWidth).setOrigin(Layer.Origin.CENTER);
+    state.explored.get(fieldIndex).connectNotify(new Slot<Boolean>() {
+      @Override
+      public void onEmit(Boolean explored) {
+        log.debug("isExplored", "fieldIndex", fieldIndex, "explored", explored);
+        l.setTint(explored ? Colors.WHITE : Color.argb(0, 255, 255, 255));
+      }
+    });
     l.events().connect(new Pointer.Listener() {
       @Override
       public void onStart(Pointer.Interaction iact) {
