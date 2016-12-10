@@ -8,6 +8,8 @@ public class JavaMain {
 
   public static void main (String[] args) {
     LWJGLPlatform.Config config = new LWJGLPlatform.Config();
+    config.width = 800;
+    config.height= 450;
     // use config to customize the Java platform, if needed
     LWJGLPlatform plat = new LWJGLPlatform(config);
     new MainGame(plat);
