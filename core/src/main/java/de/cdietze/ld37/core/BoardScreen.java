@@ -135,8 +135,10 @@ public class BoardScreen extends Screen {
         return Optional.<Layer>of(layer);
       }
       case MOUSE: {
+        Entities.Mouse mouse = (Entities.Mouse) entity;
         final ImageLayer layer = new ImageLayer(game.images.mouse);
         layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+        mouse.dir.connectNotify(rotateWithDirectionSlot(layer));
         return Optional.<Layer>of(layer);
       }
     }
@@ -150,6 +152,15 @@ public class BoardScreen extends Screen {
         int x = toX(dim, fieldIndex);
         int y = toY(dim, fieldIndex);
         layer.setTranslation(x, y);
+      }
+    };
+  }
+
+  private Slot<Direction> rotateWithDirectionSlot(final Layer layer) {
+    return new Slot<Direction>() {
+      @Override
+      public void onEmit(Direction dir) {
+        layer.setRotation(dir.angle());
       }
     };
   }

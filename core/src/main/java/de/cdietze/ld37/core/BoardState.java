@@ -5,8 +5,7 @@ import pythagoras.i.Dimension;
 import react.RList;
 import tripleplay.util.Logger;
 
-import static de.cdietze.ld37.core.PointUtils.toX;
-import static de.cdietze.ld37.core.PointUtils.toY;
+import static de.cdietze.ld37.core.PointUtils.*;
 
 public class BoardState {
   public static final Logger log = new Logger("state");
@@ -18,7 +17,7 @@ public class BoardState {
 
   {
     entities.add(Entities.createCat(3));
-    entities.add(Entities.createMouse(51));
+    entities.add(new Entities.Mouse(51, Direction.UP));
   }
 
   public boolean tryMoveCat(Entity cat, int target) {
@@ -27,6 +26,27 @@ public class BoardState {
     int absY = Math.abs(toY(dim, cat.fieldIndex.get()) - toY(dim, target));
     if ((absX != 1 || absY != 2) && (absX != 2 || absY != 1)) return false;
     cat.fieldIndex.update(target);
+    runAi();
+    return true;
+  }
+
+  private void runAi() {
+    for (Entity entity : entities) {
+      if (entity.type == Entity.Type.MOUSE) runMouse((Entities.Mouse) entity);
+    }
+  }
+
+  private void runMouse(Entities.Mouse mouse) {
+    if (!tryMoveMouseForward(mouse)) {
+      // If mouse cannot move forward, turn left
+      mouse.dir.update(mouse.dir.get().rotateCCW());
+    }
+  }
+
+  private boolean tryMoveMouseForward(Entities.Mouse mouse) {
+    int newIndex = addDirToIndex(dim, mouse.fieldIndex.get(), mouse.dir.get());
+    if (newIndex < 0) return false;
+    mouse.fieldIndex.update(newIndex);
     return true;
   }
 
