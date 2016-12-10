@@ -11,7 +11,7 @@ import tripleplay.util.Logger;
 import java.util.BitSet;
 import java.util.List;
 
-import static de.cdietze.ld37.core.PointUtils.*;
+import static de.cdietze.ld37.core.PointUtils.isNeighbor;
 
 public class BoardState {
   public static final Logger log = new Logger("state");
@@ -35,19 +35,15 @@ public class BoardState {
     if (!isNeighbor(dim, vacuum.fieldIndex.get(), target)) return false;
     vacuum.fieldIndex.update(target);
     exploreNeighbors(target);
+    tryToCollectDust();
     return false;
   }
 
-  public boolean tryMoveCat(Entity cat, int target) {
-    int absX = Math.abs(toX(dim, cat.fieldIndex.get()) - toX(dim, target));
-    int absY = Math.abs(toY(dim, cat.fieldIndex.get()) - toY(dim, target));
-    if ((absX != 1 || absY != 2) && (absX != 2 || absY != 1)) return false;
-    Optional<Entity> targetEntity = getEntityAt(target);
-    if (targetEntity.isPresent() && targetEntity.get().type == Entity.Type.MOUSE) {
-      entities.remove(targetEntity.get());
-    } else if (targetEntity.isPresent()) return false;
-    cat.fieldIndex.update(target);
-    return true;
+  private void tryToCollectDust() {
+    Optional<Entity> entity = getEntityAt(vacuum.fieldIndex.get(), Entity.Type.DUST);
+    if (!entity.isPresent()) return;
+    Entities.Dust dust = (Entities.Dust) entity.get();
+    dust.dustAmount.decrementClamp(1, 0);
   }
 
   private static List<Value<Boolean>> buildExplored(int fieldCount) {
@@ -66,9 +62,9 @@ public class BoardState {
     }
   }
 
-  private Optional<Entity> getEntityAt(int index) {
+  private Optional<Entity> getEntityAt(int index, Entity.Type type) {
     for (Entity entity : entities) {
-      if (entity.fieldIndex.get() == index) return Optional.of(entity);
+      if (entity.type == type && entity.fieldIndex.get() == index) return Optional.of(entity);
     }
     return Optional.absent();
   }
