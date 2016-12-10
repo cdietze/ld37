@@ -123,6 +123,13 @@ public class BoardScreen extends Screen {
 
   private Optional<Layer> createEntityLayer(final Entity entity) {
     switch (entity.type) {
+      case VACUUM: {
+        Entities.Vacuum vacuum = (Entities.Vacuum) entity;
+        final ImageLayer layer = new ImageLayer(game.images.vacuum);
+        layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+        vacuum.dir.connectNotify(rotateWithDirectionSlot(layer));
+        return Optional.<Layer>of(layer);
+      }
       case CAT: {
         final ImageLayer layer = new ImageLayer(game.images.cat);
         layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);

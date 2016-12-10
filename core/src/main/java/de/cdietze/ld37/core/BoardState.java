@@ -18,6 +18,7 @@ public class BoardState {
   {
     entities.add(Entities.createCat(3));
     entities.add(Entities.createCat(4));
+    entities.add(new Entities.Vacuum(56, Direction.UP));
     entities.add(new Entities.Mouse(51, Direction.UP));
     entities.add(new Entities.Mouse(52, Direction.RIGHT));
     entities.add(new Entities.Mouse(53, Direction.UP));

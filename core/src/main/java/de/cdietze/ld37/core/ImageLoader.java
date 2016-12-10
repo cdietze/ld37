@@ -14,5 +14,6 @@ public class ImageLoader {
   public class Images {
     public final Image cat = plat.assets().getImage("images/cat.png");
     public final Image mouse = plat.assets().getImage("images/mouse.png");
+    public final Image vacuum = plat.assets().getImage("images/vacuum.png");
   }
 }
