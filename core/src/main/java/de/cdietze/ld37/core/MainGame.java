@@ -21,9 +21,12 @@ public class MainGame extends SceneGame {
     }
   };
 
+  public final ImageLoader.Images images;
+
   public MainGame(Platform plat) {
     super(plat, 33); // update our "simulation" 33ms (30 times per second)
 
+    this.images = ImageLoader.loadImages(plat);
     // create and add background image layer
     Image bgImage = plat.assets().getImage("images/bg.png");
     ImageLayer bgLayer = new ImageLayer(bgImage);
