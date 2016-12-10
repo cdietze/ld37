@@ -129,6 +129,13 @@ public class BoardScreen extends Screen {
         vacuum.dir.connectNotify(rotateWithDirectionSlot(layer));
         return Optional.<Layer>of(layer);
       }
+      case DUST: {
+        Entities.Dust dust = (Entities.Dust) entity;
+        // TODO pick right image for dustAmount
+        final ImageLayer layer = new ImageLayer(game.images.dust4);
+        layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+        return Optional.<Layer>of(layer);
+      }
     }
     return Optional.absent();
   }
