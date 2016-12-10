@@ -92,23 +92,24 @@ public class BoardScreen extends Screen {
   }
 
   private Layer createFieldLayer(final int fieldIndex) {
-    int color = (toX(dim, fieldIndex) + toY(dim, fieldIndex)) % 2 == 0 ? 0xffB6B6B6 : 0xff8D9AB0;
-    final Layer l = Layers.solid(color, 1f - 2 * fieldGapWidth, 1f - 2 * fieldGapWidth).setOrigin(Layer.Origin.CENTER);
+    final ImageLayer layer = new ImageLayer(game.images.parquet);
+    layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+    boolean isOdd = (toX(dim, fieldIndex) + toY(dim, fieldIndex)) % 2 == 0;
+    if (isOdd) layer.setRotation(MathUtil.HALF_PI);
     state.explored.get(fieldIndex).connectNotify(new Slot<Boolean>() {
       @Override
       public void onEmit(Boolean explored) {
         log.debug("isExplored", "fieldIndex", fieldIndex, "explored", explored);
-        l.setTint(explored ? Colors.WHITE : Color.argb(0, 255, 255, 255));
+        layer.setTint(explored ? Colors.WHITE : Color.argb(0, 255, 255, 255));
       }
     });
-    l.events().connect(new Pointer.Listener() {
+    layer.events().connect(new Pointer.Listener() {
       @Override
       public void onStart(Pointer.Interaction iact) {
         state.tryMoveVacuum(fieldIndex);
       }
     });
-
-    return l;
+    return layer;
   }
 
   private GroupLayer createEntityGroupLayer() {
