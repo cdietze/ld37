@@ -3,13 +3,19 @@ package de.cdietze.ld37.core;
 import de.cdietze.playn_util.ScaledElement;
 import de.cdietze.playn_util.Screen;
 import playn.scene.GroupLayer;
+import playn.scene.ImageLayer;
 import playn.scene.Layer;
 import pythagoras.f.Dimension;
+import react.RList;
+import react.Slot;
 import tripleplay.ui.Background;
 import tripleplay.ui.Root;
 import tripleplay.ui.Style;
 import tripleplay.ui.layout.BorderLayout;
 import tripleplay.util.Layers;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import static de.cdietze.ld37.core.PointUtils.toX;
 import static de.cdietze.ld37.core.PointUtils.toY;
@@ -33,7 +39,8 @@ public class BoardScreen extends Screen {
     this.dim = state.dim;
     this.boardLayer = new GroupLayer();
     boardLayer.setSize(dim.width(), dim.height()).setOrigin(Layer.Origin.CENTER);
-    this.boardLayer.addAt(createFieldLayerGroup().setDepth(Depths.fields), .5f, .5f);
+    this.boardLayer.addAt(createFieldGroupLayer().setDepth(Depths.fields), .5f, .5f);
+    this.boardLayer.addAt(createEntityGroupLayer().setDepth(Depths.entities), .5f, .5f);
   }
 
   @Override
@@ -53,7 +60,7 @@ public class BoardScreen extends Screen {
     root.add(boardElement.setConstraint(BorderLayout.CENTER));
   }
 
-  private GroupLayer createFieldLayerGroup() {
+  private GroupLayer createFieldGroupLayer() {
     GroupLayer group = new GroupLayer();
     for (int fieldIndex = 0; fieldIndex < state.fieldCount; ++fieldIndex) {
       Layer fieldLayer = createFieldLayer(fieldIndex);
@@ -70,7 +77,44 @@ public class BoardScreen extends Screen {
     return l;
   }
 
+  private GroupLayer createEntityGroupLayer() {
+    final GroupLayer group = new GroupLayer();
+    final Map<Entity, Layer> map = new HashMap<>();
+    state.entities.connectNotify(new RList.Listener<Entity>() {
+      @Override
+      public void onAdd(Entity entity) {
+        Layer layer = createEntityLayer(entity);
+        group.add(layer);
+        entity.fieldIndex.connectNotify(moveLayerWithFieldIndexSlot(layer));
+        map.put(entity, layer);
+      }
+      @Override
+      public void onRemove(Entity entity) {
+        map.remove(entity).close();
+      }
+    });
+    return group;
+  }
+
+  private Layer createEntityLayer(Entity entity) {
+    ImageLayer imageLayer = new ImageLayer(game.images.cat);
+    imageLayer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+    return imageLayer;
+  }
+
+  private Slot<Integer> moveLayerWithFieldIndexSlot(final Layer layer) {
+    return new Slot<Integer>() {
+      @Override
+      public void onEmit(Integer fieldIndex) {
+        int x = toX(dim, fieldIndex);
+        int y = toY(dim, fieldIndex);
+        layer.setTranslation(x, y);
+      }
+    };
+  }
+
   private interface Depths {
     float fields = -1f;
+    float entities = 1f;
   }
 }

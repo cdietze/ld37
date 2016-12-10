@@ -11,4 +11,8 @@ public class BoardState {
 
   public final int fieldCount = dim.width * dim.height;
   public final RList<Entity> entities = RList.create();
+
+  {
+    entities.add(Entities.createCat(3));
+  }
 }
