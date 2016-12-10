@@ -8,7 +8,6 @@ import react.RList;
 import react.Value;
 import tripleplay.util.Logger;
 
-import java.util.BitSet;
 import java.util.List;
 
 import static de.cdietze.ld37.core.PointUtils.isNeighbor;
@@ -28,13 +27,14 @@ public class BoardState {
     vacuum = new Entities.Vacuum(56, Direction.UP);
     entities.add(vacuum);
     entities.add(new Entities.Dust(57, 4, dustRemaining));
-    exploreNeighbors(vacuum.fieldIndex.get());
+    entities.add(new Entities.Dust(60, 4, dustRemaining));
+    explore(vacuum.fieldIndex.get());
   }
 
   public boolean tryMoveVacuum(int target) {
     if (!isNeighbor(dim, vacuum.fieldIndex.get(), target)) return false;
     vacuum.fieldIndex.update(target);
-    exploreNeighbors(target);
+    explore(target);
     tryToCollectDust();
     return false;
   }
@@ -54,12 +54,8 @@ public class BoardState {
     return builder.build();
   }
 
-  private void exploreNeighbors(int fieldIndex) {
+  private void explore(int fieldIndex) {
     explored.get(fieldIndex).update(true);
-    BitSet neighbors = PointUtils.neighbors(dim, fieldIndex);
-    for (int neighbor = neighbors.nextSetBit(0); neighbor >= 0; neighbor = neighbors.nextSetBit(neighbor + 1)) {
-      explored.get(neighbor).update(true);
-    }
   }
 
   private Optional<Entity> getEntityAt(int index, Entity.Type type) {
