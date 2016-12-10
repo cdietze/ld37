@@ -22,7 +22,6 @@ import tripleplay.util.Logger;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 import static de.cdietze.ld37.core.PointUtils.toX;
 import static de.cdietze.ld37.core.PointUtils.toY;
@@ -107,29 +106,41 @@ public class BoardScreen extends Screen {
     state.entities.connectNotify(new RList.Listener<Entity>() {
       @Override
       public void onAdd(Entity entity) {
-        Layer layer = createEntityLayer(entity);
-        group.add(layer);
-        entity.fieldIndex.connectNotify(moveLayerWithFieldIndexSlot(layer));
-        entityLayerMap.put(entity, layer);
+        Optional<Layer> layer = createEntityLayer(entity);
+        if (!layer.isPresent()) return;
+        group.add(layer.get());
+        entity.fieldIndex.connectNotify(moveLayerWithFieldIndexSlot(layer.get()));
+        entityLayerMap.put(entity, layer.get());
       }
       @Override
       public void onRemove(Entity entity) {
-        entityLayerMap.remove(entity).close();
+        Layer layer = entityLayerMap.remove(entity);
+        if (layer != null) layer.close();
       }
     });
     return group;
   }
 
-  private Layer createEntityLayer(final Entity entity) {
-    final ImageLayer layer = new ImageLayer(game.images.cat);
-    layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
-    layer.events().connect(new Pointer.Listener() {
-      @Override
-      public void onStart(Pointer.Interaction iact) {
-        selectedEntity.update(Optional.of(entity));
+  private Optional<Layer> createEntityLayer(final Entity entity) {
+    switch (entity.type) {
+      case CAT: {
+        final ImageLayer layer = new ImageLayer(game.images.cat);
+        layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+        layer.events().connect(new Pointer.Listener() {
+          @Override
+          public void onStart(Pointer.Interaction iact) {
+            selectedEntity.update(Optional.of(entity));
+          }
+        });
+        return Optional.<Layer>of(layer);
       }
-    });
-    return layer;
+      case MOUSE: {
+        final ImageLayer layer = new ImageLayer(game.images.mouse);
+        layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+        return Optional.<Layer>of(layer);
+      }
+    }
+    return Optional.absent();
   }
 
   private Slot<Integer> moveLayerWithFieldIndexSlot(final Layer layer) {
@@ -148,17 +159,17 @@ public class BoardScreen extends Screen {
       @Override
       public void onChange(Optional<Entity> value, Optional<Entity> oldValue) {
         if (oldValue != null && oldValue.isPresent()) {
-          getEntityLayer(oldValue.get()).setTint(Colors.WHITE);
+          getEntityLayer(oldValue.get()).get().setTint(Colors.WHITE);
         }
         if (value.isPresent()) {
-          getEntityLayer(value.get()).setTint(0xffff9999);
+          getEntityLayer(value.get()).get().setTint(0xffff9999);
         }
       }
     });
   }
 
-  private Layer getEntityLayer(Entity entity) {
-    return Objects.requireNonNull(entityLayerMap.get(entity));
+  private Optional<Layer> getEntityLayer(Entity entity) {
+    return Optional.fromNullable(entityLayerMap.get(entity));
   }
 
   private interface Depths {
