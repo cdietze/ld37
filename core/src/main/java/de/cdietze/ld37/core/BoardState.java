@@ -25,12 +25,14 @@ public class BoardState {
   {
     vacuum = new Entities.Vacuum(56, Direction.UP);
     entities.add(vacuum);
-    entities.add(Entities.createCat(3));
-    entities.add(Entities.createCat(4));
-    entities.add(new Entities.Mouse(51, Direction.UP));
-    entities.add(new Entities.Mouse(52, Direction.RIGHT));
-    entities.add(new Entities.Mouse(53, Direction.UP));
     exploreNeighbors(vacuum.fieldIndex.get());
+  }
+
+  public boolean tryMoveVacuum(int target) {
+    if (!isNeighbor(dim, vacuum.fieldIndex.get(), target)) return false;
+    vacuum.fieldIndex.update(target);
+    exploreNeighbors(target);
+    return false;
   }
 
   public boolean tryMoveCat(Entity cat, int target) {
@@ -42,7 +44,6 @@ public class BoardState {
       entities.remove(targetEntity.get());
     } else if (targetEntity.isPresent()) return false;
     cat.fieldIndex.update(target);
-    runAi();
     return true;
   }
 
@@ -60,28 +61,6 @@ public class BoardState {
     for (int neighbor = neighbors.nextSetBit(0); neighbor >= 0; neighbor = neighbors.nextSetBit(neighbor + 1)) {
       explored.get(neighbor).update(true);
     }
-  }
-
-  private void runAi() {
-    for (Entity entity : entities) {
-      if (entity.type == Entity.Type.MOUSE) runMouse((Entities.Mouse) entity);
-    }
-  }
-
-  private void runMouse(Entities.Mouse mouse) {
-    if (!tryMoveMouseForward(mouse)) {
-      // If mouse cannot move forward, turn left
-      mouse.dir.update(mouse.dir.get().rotateCCW());
-    }
-  }
-
-  private boolean tryMoveMouseForward(Entities.Mouse mouse) {
-    int newIndex = addDirToIndex(dim, mouse.fieldIndex.get(), mouse.dir.get());
-    if (newIndex < 0) return false; // cannot move off board
-    if (getEntityAt(newIndex).isPresent()) return false; // target is occupied
-    // TODO(?) check if target is protected
-    mouse.fieldIndex.update(newIndex);
-    return true;
   }
 
   private Optional<Entity> getEntityAt(int index) {

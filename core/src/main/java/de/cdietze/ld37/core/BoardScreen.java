@@ -11,8 +11,6 @@ import playn.scene.Pointer;
 import pythagoras.f.Dimension;
 import react.RList;
 import react.Slot;
-import react.Value;
-import react.ValueView;
 import tripleplay.ui.Background;
 import tripleplay.ui.Root;
 import tripleplay.ui.Style;
@@ -41,7 +39,6 @@ public class BoardScreen extends Screen {
   private final BoardState state;
   private final pythagoras.i.Dimension dim;
 
-  private Value<Optional<Entity>> selectedEntity = Value.create(Optional.<Entity>absent());
   private final Map<Entity, Layer> entityLayerMap = new HashMap<>();
 
   public BoardScreen(MainGame game, BoardState state) {
@@ -53,7 +50,6 @@ public class BoardScreen extends Screen {
     boardLayer.setSize(dim.width(), dim.height()).setOrigin(Layer.Origin.CENTER);
     this.boardLayer.addAt(createFieldGroupLayer().setDepth(Depths.fields), .5f, .5f);
     this.boardLayer.addAt(createEntityGroupLayer().setDepth(Depths.entities), .5f, .5f);
-    initSelectedEntityListener();
   }
 
   @Override
@@ -97,12 +93,7 @@ public class BoardScreen extends Screen {
     l.events().connect(new Pointer.Listener() {
       @Override
       public void onStart(Pointer.Interaction iact) {
-        if (selectedEntity.get().isPresent()) {
-          Entity entity = selectedEntity.get().get();
-          log.debug("Move entity", "entity", entity, "to fieldIndex", fieldIndex);
-          selectedEntity.update(Optional.<Entity>absent());
-          state.tryMoveCat(entity, fieldIndex);
-        }
+        state.tryMoveVacuum(fieldIndex);
       }
     });
 
@@ -138,24 +129,6 @@ public class BoardScreen extends Screen {
         vacuum.dir.connectNotify(rotateWithDirectionSlot(layer));
         return Optional.<Layer>of(layer);
       }
-      case CAT: {
-        final ImageLayer layer = new ImageLayer(game.images.cat);
-        layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
-        layer.events().connect(new Pointer.Listener() {
-          @Override
-          public void onStart(Pointer.Interaction iact) {
-            selectedEntity.update(Optional.of(entity));
-          }
-        });
-        return Optional.<Layer>of(layer);
-      }
-      case MOUSE: {
-        Entities.Mouse mouse = (Entities.Mouse) entity;
-        final ImageLayer layer = new ImageLayer(game.images.mouse);
-        layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
-        mouse.dir.connectNotify(rotateWithDirectionSlot(layer));
-        return Optional.<Layer>of(layer);
-      }
     }
     return Optional.absent();
   }
@@ -178,20 +151,6 @@ public class BoardScreen extends Screen {
         layer.setRotation(dir.angle());
       }
     };
-  }
-
-  private void initSelectedEntityListener() {
-    selectedEntity.connectNotify(new ValueView.Listener<Optional<Entity>>() {
-      @Override
-      public void onChange(Optional<Entity> value, Optional<Entity> oldValue) {
-        if (oldValue != null && oldValue.isPresent()) {
-          getEntityLayer(oldValue.get()).get().setTint(Colors.WHITE);
-        }
-        if (value.isPresent()) {
-          getEntityLayer(value.get()).get().setTint(0xffff9999);
-        }
-      }
-    });
   }
 
   private Optional<Layer> getEntityLayer(Entity entity) {

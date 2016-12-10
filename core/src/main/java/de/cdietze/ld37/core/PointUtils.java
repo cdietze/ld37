@@ -108,6 +108,16 @@ public final class PointUtils {
     return neighbors(dim, index, new BitSet());
   }
 
+  public static boolean isNeighbor(IDimension dim, int a, int b) {
+    int aX = toX(dim, a);
+    int aY = toY(dim, a);
+    int bX = toX(dim, b);
+    int bY = toY(dim, b);
+    int offX = Math.abs(aX - bX);
+    int offY = Math.abs(aY - bY);
+    return offX == 0 && offY == 1 || offX == 1 && offY == 0;
+  }
+
   public static int randomIndex(Random random, IDimension dim) {
     return random.nextInt(dim.width() * dim.height());
   }
