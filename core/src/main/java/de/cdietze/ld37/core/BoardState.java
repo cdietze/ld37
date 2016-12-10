@@ -25,6 +25,7 @@ public class BoardState {
   {
     vacuum = new Entities.Vacuum(56, Direction.UP);
     entities.add(vacuum);
+    entities.add(new Entities.Dust(57, 4));
     exploreNeighbors(vacuum.fieldIndex.get());
   }
 

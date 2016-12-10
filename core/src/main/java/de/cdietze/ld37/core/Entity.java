@@ -21,6 +21,6 @@ public abstract class Entity {
   }
 
   enum Type {
-    MOUSE, CAT, VACUUM;
+    MOUSE, CAT, VACUUM, DUST;
   }
 }
