@@ -68,6 +68,8 @@ public class BoardScreen extends Screen {
     ScaledElement boardElement = new ScaledElement(boardLayer);
     boardElement.addStyles(Style.BACKGROUND.is(Background.blank().inset(10f)));
 
+    boardLayer.add(Layers.solid(0xffcccccc, dim.width, dim.height).setDepth(Depths.background));
+
     root.add(boardElement.setConstraint(BorderLayout.CENTER));
 
     root.add(new Label(state.dustRemaining.map(new Function<Integer, String>() {
@@ -134,16 +136,26 @@ public class BoardScreen extends Screen {
       case VACUUM: {
         Entities.Vacuum vacuum = (Entities.Vacuum) entity;
         final ImageLayer layer = new ImageLayer(game.images.vacuum);
+        layer.setDepth(Depths.vacuum);
         layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
         vacuum.dir.connectNotify(rotateWithDirectionSlot(layer));
         return Optional.<Layer>of(layer);
       }
       case DUST: {
         Entities.Dust dust = (Entities.Dust) entity;
-        // TODO pick right image for dustAmount
-        final ImageLayer layer = new ImageLayer(game.images.dust4);
-        layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
-        return Optional.<Layer>of(layer);
+        final GroupLayer group = new GroupLayer();
+        //group.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+        dust.dustAmount.connectNotify(new Slot<Integer>() {
+          @Override
+          public void onEmit(Integer newDustAmount) {
+            group.removeAll();
+            if (newDustAmount == 0) return;
+            final ImageLayer layer = new ImageLayer(game.images.dustList.get(newDustAmount - 1));
+            layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+            group.add(layer);
+          }
+        });
+        return Optional.<Layer>of(group);
       }
     }
     return Optional.absent();
@@ -174,7 +186,9 @@ public class BoardScreen extends Screen {
   }
 
   private interface Depths {
+    float background = 0f;
     float fields = 1f;
     float entities = 2f;
+    float vacuum = 3f;
   }
 }

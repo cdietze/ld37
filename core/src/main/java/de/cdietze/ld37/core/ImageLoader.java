@@ -16,7 +16,10 @@ public class ImageLoader {
 
   public class Images {
     public final Image vacuum = plat.assets().getImage("images/vacuum.png");
-    public final Image dust4 = plat.assets().getImage("images/dust4.png");
-    public final List<Image> dustList = ImmutableList.of(dust4, dust4, dust4, dust4);
+    public final List<Image> dustList = ImmutableList.of(
+            plat.assets().getImage("images/dust1.png"),
+            plat.assets().getImage("images/dust2.png"),
+            plat.assets().getImage("images/dust3.png"),
+            plat.assets().getImage("images/dust4.png"));
   }
 }
