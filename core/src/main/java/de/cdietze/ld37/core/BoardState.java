@@ -8,9 +8,8 @@ import react.RList;
 import react.Value;
 import tripleplay.util.Logger;
 
+import java.util.BitSet;
 import java.util.List;
-
-import static de.cdietze.ld37.core.PointUtils.isNeighbor;
 
 public class BoardState {
   public static final Logger log = new Logger("state");
@@ -32,10 +31,18 @@ public class BoardState {
   }
 
   public boolean tryMoveVacuum(int target) {
-    if (!isNeighbor(dim, vacuum.fieldIndex.get(), target)) return false;
+    if (!hasExploredNeighbor(target)) return false;
     vacuum.fieldIndex.update(target);
     explore(target);
     tryToCollectDust();
+    return false;
+  }
+
+  private boolean hasExploredNeighbor(int target) {
+    BitSet neighbors = PointUtils.neighbors(dim, target);
+    for (int neighbor = neighbors.nextSetBit(0); neighbor >= 0; neighbor = neighbors.nextSetBit(neighbor + 1)) {
+      if (explored.get(neighbor).get()) return true;
+    }
     return false;
   }
 
