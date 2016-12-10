@@ -18,6 +18,7 @@ public class BoardState {
 
   {
     entities.add(Entities.createCat(3));
+    entities.add(Entities.createMouse(51));
   }
 
   public boolean tryMoveCat(Entity cat, int target) {
