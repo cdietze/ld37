@@ -44,8 +44,14 @@ public final class PointUtils {
     return toPoint(dim, index, new Point());
   }
 
+  /**
+   * @return -1 if cannot move in `dir`
+   */
   public static int addDirToIndex(IDimension dim, int index, Direction dir) {
-    return index + dir.x() + dir.y() * dim.width();
+    int newX = toX(dim, index) + dir.x();
+    int newY = toY(dim, index) + dir.y();
+    if (!contains(dim, newX, newY)) return -1;
+    return toIndex(dim, newX, newY);
   }
 
   public static boolean contains(IDimension dim, int index) {
