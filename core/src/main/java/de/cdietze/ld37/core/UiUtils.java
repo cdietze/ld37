@@ -3,6 +3,8 @@ package de.cdietze.ld37.core;
 import playn.core.Font;
 import playn.core.Graphics;
 import playn.core.Platform;
+import playn.scene.Layer;
+import react.Slot;
 import tripleplay.ui.*;
 import tripleplay.ui.layout.AxisLayout;
 
@@ -20,4 +22,13 @@ public final class UiUtils {
     return SimpleStyles.newSheetBuilder(gfx).add(Element.class, Style.FONT.is(new Font("Helvetica", 24)));
   }
   public static Stylesheet newSheet(Graphics gfx) { return newSheetBuilder(gfx).create(); }
+
+  public static Slot<Boolean> visibiltySlot(final Layer layer) {
+    return new Slot<Boolean>() {
+      @Override
+      public void onEmit(Boolean event) {
+        layer.setVisible(event);
+      }
+    };
+  }
 }

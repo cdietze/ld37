@@ -9,6 +9,7 @@ import playn.scene.ImageLayer;
 import playn.scene.Layer;
 import playn.scene.Pointer;
 import pythagoras.f.Dimension;
+import pythagoras.f.MathUtil;
 import react.Function;
 import react.RList;
 import react.Slot;
@@ -156,6 +157,7 @@ public class BoardScreen extends Screen {
             group.add(layer);
           }
         });
+        state.explored.get(entity.fieldIndex.get()).connectNotify(UiUtils.visibiltySlot(group));
         return Optional.<Layer>of(group);
       }
     }
