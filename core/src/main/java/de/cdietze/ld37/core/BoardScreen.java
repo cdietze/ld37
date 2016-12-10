@@ -11,15 +11,18 @@ import pythagoras.f.Dimension;
 import react.RList;
 import react.Slot;
 import react.Value;
+import react.ValueView;
 import tripleplay.ui.Background;
 import tripleplay.ui.Root;
 import tripleplay.ui.Style;
 import tripleplay.ui.layout.BorderLayout;
+import tripleplay.util.Colors;
 import tripleplay.util.Layers;
 import tripleplay.util.Logger;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 import static de.cdietze.ld37.core.PointUtils.toX;
 import static de.cdietze.ld37.core.PointUtils.toY;
@@ -37,7 +40,9 @@ public class BoardScreen extends Screen {
   public final GroupLayer boardLayer;
   private final BoardState state;
   private final pythagoras.i.Dimension dim;
+
   private Value<Optional<Entity>> selectedEntity = Value.create(Optional.<Entity>absent());
+  private final Map<Entity, Layer> entityLayerMap = new HashMap<>();
 
   public BoardScreen(MainGame game, BoardState state) {
     super(game);
@@ -48,6 +53,7 @@ public class BoardScreen extends Screen {
     boardLayer.setSize(dim.width(), dim.height()).setOrigin(Layer.Origin.CENTER);
     this.boardLayer.addAt(createFieldGroupLayer().setDepth(Depths.fields), .5f, .5f);
     this.boardLayer.addAt(createEntityGroupLayer().setDepth(Depths.entities), .5f, .5f);
+    initSelectedEntityListener();
   }
 
   @Override
@@ -87,8 +93,8 @@ public class BoardScreen extends Screen {
         if (selectedEntity.get().isPresent()) {
           Entity entity = selectedEntity.get().get();
           log.debug("Move entity", "entity", entity, "to fieldIndex", fieldIndex);
-          entity.fieldIndex.update(fieldIndex);
           selectedEntity.update(Optional.<Entity>absent());
+          state.tryMoveCat(entity, fieldIndex);
         }
       }
     });
@@ -98,25 +104,24 @@ public class BoardScreen extends Screen {
 
   private GroupLayer createEntityGroupLayer() {
     final GroupLayer group = new GroupLayer();
-    final Map<Entity, Layer> map = new HashMap<>();
     state.entities.connectNotify(new RList.Listener<Entity>() {
       @Override
       public void onAdd(Entity entity) {
         Layer layer = createEntityLayer(entity);
         group.add(layer);
         entity.fieldIndex.connectNotify(moveLayerWithFieldIndexSlot(layer));
-        map.put(entity, layer);
+        entityLayerMap.put(entity, layer);
       }
       @Override
       public void onRemove(Entity entity) {
-        map.remove(entity).close();
+        entityLayerMap.remove(entity).close();
       }
     });
     return group;
   }
 
   private Layer createEntityLayer(final Entity entity) {
-    ImageLayer layer = new ImageLayer(game.images.cat);
+    final ImageLayer layer = new ImageLayer(game.images.cat);
     layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
     layer.events().connect(new Pointer.Listener() {
       @Override
@@ -136,6 +141,24 @@ public class BoardScreen extends Screen {
         layer.setTranslation(x, y);
       }
     };
+  }
+
+  private void initSelectedEntityListener() {
+    selectedEntity.connectNotify(new ValueView.Listener<Optional<Entity>>() {
+      @Override
+      public void onChange(Optional<Entity> value, Optional<Entity> oldValue) {
+        if (oldValue != null && oldValue.isPresent()) {
+          getEntityLayer(oldValue.get()).setTint(Colors.WHITE);
+        }
+        if (value.isPresent()) {
+          getEntityLayer(value.get()).setTint(0xffff9999);
+        }
+      }
+    });
+  }
+
+  private Layer getEntityLayer(Entity entity) {
+    return Objects.requireNonNull(entityLayerMap.get(entity));
   }
 
   private interface Depths {
