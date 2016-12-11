@@ -26,6 +26,7 @@ public class BoardState {
   public final List<Value<Boolean>> explored;
   public final IntValue dustRemaining = new IntValue(0);
   public final IntValue battery = new IntValue(10);
+  public final IntValue moveCount = new IntValue(0);
 
   public BoardState(LevelGenerator.Level level) {
     this.dim = level.dim;
@@ -78,6 +79,7 @@ public class BoardState {
   public boolean tryMoveVacuum(int target) {
     if (!canMoveHere(target)) return false;
     vacuum.fieldIndex.update(target);
+    moveCount.increment(1);
     explore(target);
     tryToCollectDust();
     consumeBattery();

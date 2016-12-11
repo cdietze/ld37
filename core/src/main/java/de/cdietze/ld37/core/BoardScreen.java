@@ -282,7 +282,7 @@ public class BoardScreen extends Screen {
         if (dustRemaining > 0) return;
         Group group = UiUtils.createDialogGroup(plat);
         group.add(new Label("Nice and clean again!"));
-        group.add(new Label("Thanks for playing!"));
+        group.add(new Label("You needed " + state.moveCount.get() + " moves."));
         group.add(new Button("Play again").onClick(new Slot<Button>() {
           @Override
           public void onEmit(Button event) {
