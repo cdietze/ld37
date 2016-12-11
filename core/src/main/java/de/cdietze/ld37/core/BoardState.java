@@ -8,8 +8,9 @@ import react.RList;
 import react.Value;
 import tripleplay.util.Logger;
 
-import java.util.BitSet;
 import java.util.List;
+
+import static de.cdietze.ld37.core.PointUtils.isNeighbor;
 
 public class BoardState {
   public static final Logger log = new Logger("state");
@@ -21,6 +22,7 @@ public class BoardState {
   public final Entities.Vacuum vacuum;
   public final List<Value<Boolean>> explored = buildExplored(fieldCount);
   public final IntValue dustRemaining = new IntValue(0);
+  public final IntValue battery = new IntValue(0);
 
   {
     vacuum = new Entities.Vacuum(56, Direction.UP);
@@ -28,21 +30,15 @@ public class BoardState {
     entities.add(new Entities.Dust(57, 4, dustRemaining));
     entities.add(new Entities.Dust(60, 4, dustRemaining));
     explore(vacuum.fieldIndex.get());
+    battery.update(10);
   }
 
-  public boolean tryMoveVacuum(int target) {
-    if (!hasExploredNeighbor(target)) return false;
+  public boolean tryMoveVacuum(int target) { 
+    if (!isNeighbor(dim, vacuum.fieldIndex.get(), target)) return false;
     vacuum.fieldIndex.update(target);
     explore(target);
     tryToCollectDust();
-    return false;
-  }
-
-  private boolean hasExploredNeighbor(int target) {
-    BitSet neighbors = PointUtils.neighbors(dim, target);
-    for (int neighbor = neighbors.nextSetBit(0); neighbor >= 0; neighbor = neighbors.nextSetBit(neighbor + 1)) {
-      if (explored.get(neighbor).get()) return true;
-    }
+    consumeBattery();
     return false;
   }
 
@@ -51,6 +47,10 @@ public class BoardState {
     if (!entity.isPresent()) return;
     Entities.Dust dust = (Entities.Dust) entity.get();
     dust.dustAmount.decrementClamp(1, 0);
+  }
+
+  private void consumeBattery() {
+    battery.decrementClamp(1, 0);
   }
 
   private static List<Value<Boolean>> buildExplored(int fieldCount) {
