@@ -130,6 +130,10 @@ public final class PointUtils {
     return randomPoint(random, dim, new Point());
   }
 
+  public static int orthogonalDistance(IDimension dim, int a, int b) {
+    return Math.abs(toX(dim, a) - toX(dim, b)) + Math.abs(toY(dim, a) - toY(dim, b));
+  }
+
   /**
    * Expand orthogonally on all fields in set. Only adds fields where the predicate is true.
    *

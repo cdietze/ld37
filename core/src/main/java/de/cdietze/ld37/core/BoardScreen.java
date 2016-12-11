@@ -37,7 +37,7 @@ public class BoardScreen extends Screen {
    */
   public final GroupLayer boardLayer;
   private final BoardState state;
-  private final pythagoras.i.Dimension dim;
+  private final pythagoras.i.IDimension dim;
 
   private final Map<Entity, Layer> entityLayerMap = new HashMap<>();
 
@@ -66,7 +66,7 @@ public class BoardScreen extends Screen {
     ScaledElement boardElement = new ScaledElement(boardLayer);
     boardElement.addStyles(Style.BACKGROUND.is(Background.blank().inset(10f)));
 
-    boardLayer.add(Layers.solid(0xffcccccc, dim.width, dim.height).setDepth(Depths.background));
+    boardLayer.add(Layers.solid(0xffcccccc, dim.width(), dim.height()).setDepth(Depths.background));
 
     root.add(boardElement.setConstraint(BorderLayout.CENTER));
 
@@ -90,7 +90,8 @@ public class BoardScreen extends Screen {
 
   private GroupLayer createFieldGroupLayer() {
     GroupLayer group = new GroupLayer();
-    for (int fieldIndex = 0; fieldIndex < state.fieldCount; ++fieldIndex) {
+    int fieldCount = dim.width() * dim.height();
+    for (int fieldIndex = 0; fieldIndex < fieldCount; ++fieldIndex) {
       Layer fieldLayer = createFieldLayer(fieldIndex);
       int x = toX(dim, fieldIndex);
       int y = toY(dim, fieldIndex);
@@ -107,7 +108,6 @@ public class BoardScreen extends Screen {
     state.explored.get(fieldIndex).connectNotify(new Slot<Boolean>() {
       @Override
       public void onEmit(Boolean explored) {
-        log.debug("isExplored", "fieldIndex", fieldIndex, "explored", explored);
         layer.setTint(explored ? Colors.WHITE : Color.argb(0, 255, 255, 255));
       }
     });

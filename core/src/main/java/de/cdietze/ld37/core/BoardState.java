@@ -1,13 +1,17 @@
 package de.cdietze.ld37.core;
 
 import com.google.common.base.Optional;
+import com.google.common.base.Predicate;
 import com.google.common.collect.ImmutableList;
-import pythagoras.i.Dimension;
+import com.google.common.collect.Iterables;
+import com.google.common.collect.Multiset;
+import pythagoras.i.IDimension;
 import react.IntValue;
 import react.RList;
 import react.Value;
 import tripleplay.util.Logger;
 
+import java.util.BitSet;
 import java.util.List;
 
 import static de.cdietze.ld37.core.PointUtils.isNeighbor;
@@ -15,32 +19,55 @@ import static de.cdietze.ld37.core.PointUtils.isNeighbor;
 public class BoardState {
   public static final Logger log = new Logger("state");
 
-  public final Dimension dim = new Dimension(8, 8);
+  public final IDimension dim;
 
-  public final int fieldCount = dim.width * dim.height;
   public final RList<Entity> entities = RList.create();
   public final Entities.Vacuum vacuum;
-  public final List<Value<Boolean>> explored = buildExplored(fieldCount);
+  public final List<Value<Boolean>> explored;
   public final IntValue dustRemaining = new IntValue(0);
-  public final IntValue battery = new IntValue(0);
+  public final IntValue battery = new IntValue(10);
 
-  {
-    vacuum = new Entities.Vacuum(56, Direction.UP);
-    entities.add(vacuum);
-    entities.add(Entities.createBase(vacuum.fieldIndex.get()));
-    entities.add(Entities.createCable(vacuum.fieldIndex.get()));
-    entities.add(Entities.createBase(0));
-    entities.add(Entities.createCable(0));
-    entities.add(Entities.createCable(1));
-    entities.add(Entities.createCable(8));
-    entities.add(Entities.createCable(9));
-    entities.add(Entities.createLint(9));
-    entities.add(Entities.createLint(10));
-    entities.add(new Entities.Dust(57, 4, dustRemaining));
-    entities.add(new Entities.Dust(60, 4, dustRemaining));
-    entities.add(new Entities.Mouse(62, Direction.UP));
+  public BoardState(LevelGenerator.Level level) {
+    this.dim = level.dim;
+    this.vacuum = new Entities.Vacuum(level.vacuumIndex, Direction.UP);
+    this.entities.add(vacuum);
+    for (Integer baseIndex : level.baseIndexes) {
+      entities.add(Entities.createBase(baseIndex));
+    }
+    for (Multiset.Entry<Integer> entry : level.dustAmount.entrySet()) {
+      entities.add(new Entities.Dust(entry.getElement(), entry.getCount(), this.dustRemaining));
+    }
+
+    entities.addAll(createCables());
+    entities.addAll(createLint());
+    this.explored = buildExplored(dim);
     explore(vacuum.fieldIndex.get());
-    battery.update(10);
+  }
+
+  private List<Entity> createCables() {
+    ImmutableList.Builder<Entity> builder = ImmutableList.builder();
+    BitSet indexes = new BitSet();
+    for (Entity base : Iterables.filter(entities, entityTypePredicate(Entity.Type.BASE))) {
+      indexes.set(base.fieldIndex.get());
+      indexes.or(PointUtils.neighbors(dim, base.fieldIndex.get()));
+    }
+    for (int i = indexes.nextSetBit(0); i >= 0; i = indexes.nextSetBit(i + 1)) {
+      builder.add(Entities.createCable(i));
+    }
+    return builder.build();
+  }
+
+  private List<Entity> createLint() {
+    ImmutableList.Builder<Entity> builder = ImmutableList.builder();
+    BitSet indexes = new BitSet();
+    for (Entity dust : Iterables.filter(entities, entityTypePredicate(Entity.Type.DUST))) {
+      indexes.set(dust.fieldIndex.get());
+      indexes.or(PointUtils.neighbors(dim, dust.fieldIndex.get()));
+    }
+    for (int i = indexes.nextSetBit(0); i >= 0; i = indexes.nextSetBit(i + 1)) {
+      builder.add(Entities.createLint(i));
+    }
+    return builder.build();
   }
 
   public boolean tryMoveVacuum(int target) {
@@ -91,7 +118,8 @@ public class BoardState {
     }
   }
 
-  private static List<Value<Boolean>> buildExplored(int fieldCount) {
+  private static List<Value<Boolean>> buildExplored(IDimension dim) {
+    int fieldCount = dim.width() * dim.height();
     ImmutableList.Builder<Value<Boolean>> builder = ImmutableList.builder();
     for (int i = 0; i < fieldCount; i++) {
       builder.add(Value.create(false));
@@ -108,5 +136,14 @@ public class BoardState {
       if (entity.type == type && entity.fieldIndex.get() == index) return Optional.of(entity);
     }
     return Optional.absent();
+  }
+
+  private static Predicate<Entity> entityTypePredicate(final Entity.Type type) {
+    return new Predicate<Entity>() {
+      @Override
+      public boolean apply(Entity entity) {
+        return entity.type == type;
+      }
+    };
   }
 }
