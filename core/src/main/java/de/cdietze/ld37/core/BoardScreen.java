@@ -9,7 +9,6 @@ import playn.scene.Layer;
 import playn.scene.Pointer;
 import pythagoras.f.MathUtil;
 import pythagoras.i.Dimension;
-import react.Function;
 import react.RList;
 import react.Slot;
 import tripleplay.ui.Button;
@@ -76,6 +75,10 @@ public class BoardScreen extends Screen {
     wallsLayer.setOrigin(Layer.Origin.CENTER);
     group.addAt(wallsLayer, group.width() * .5f, group.height() * .5f);
 
+    GroupLayer batteryLayer = createBatteryRemainingLayer();
+    batteryLayer.setDepth(8f);
+    group.addAt(batteryLayer, 0.35f, 0.90f);
+
     GroupLayer dustLayer = createDustRemainingLayer();
     dustLayer.setDepth(10f);
     group.addAt(dustLayer, 0.35f, 0.94f);
@@ -87,17 +90,6 @@ public class BoardScreen extends Screen {
     boardLayer.setScale(1f / wallToFloor / 8);
     root
             .layer.addAt(group, offsetX, offsetY);
-
-    root.add(
-            new Group(AxisLayout.vertical()).add(
-                    new Label(state.battery.map(new Function<Integer, String>() {
-                      @Override
-                      public String apply(Integer input) {
-                        return "Battery Remaining: " + input;
-                      }
-                    }))
-
-            ).setConstraint(BorderLayout.EAST));
 
     initWinListener();
     // log.info("screen#wasAdded", "viewSize", plat.graphics().viewSize, "offsetX", offsetX, "offsetY", offsetY, "squareSize", squareSize);
@@ -119,6 +111,27 @@ public class BoardScreen extends Screen {
         for (int i = 0; i < group.children(); ++i) {
           group.childAt(i).setTx(dustDist * i);
           group.childAt(i).setTy((i % 2) * -0.01f);
+        }
+      }
+    });
+    return group;
+  }
+
+  private GroupLayer createBatteryRemainingLayer() {
+    final GroupLayer group = new GroupLayer();
+    final float itemDist = .5f / 15;
+    state.battery.connectNotify(new Slot<Integer>() {
+      @Override
+      public void onEmit(Integer dustRemaining) {
+        while (group.children() > dustRemaining) group.childAt(group.children() - 1).close();
+        while (group.children() < dustRemaining) {
+          final ImageLayer layer = new ImageLayer(game.images.battery);
+          layer.setScale(0.05f / 128f);
+          //layer.setSize(0.05f, 0.05f);
+          group.add(layer);
+        }
+        for (int i = 0; i < group.children(); ++i) {
+          group.childAt(i).setTx(itemDist * i);
         }
       }
     });

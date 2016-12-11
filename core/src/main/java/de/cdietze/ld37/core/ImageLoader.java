@@ -22,6 +22,7 @@ public class ImageLoader {
     public final Image cable = plat.assets().getImage("images/cable.png");
     public final Image lint = plat.assets().getImage("images/lint.png");
     public final Image walls = plat.assets().getImage("images/walls.png");
+    public final Image battery = plat.assets().getImage("images/battery.png");
     public final List<Image> dustList = ImmutableList.of(
             plat.assets().getImage("images/dust1.png"),
             plat.assets().getImage("images/dust2.png"),
