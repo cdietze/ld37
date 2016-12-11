@@ -13,10 +13,8 @@ import pythagoras.f.MathUtil;
 import react.Function;
 import react.RList;
 import react.Slot;
-import tripleplay.ui.Background;
-import tripleplay.ui.Label;
-import tripleplay.ui.Root;
-import tripleplay.ui.Style;
+import tripleplay.ui.*;
+import tripleplay.ui.layout.AxisLayout;
 import tripleplay.ui.layout.BorderLayout;
 import tripleplay.util.Colors;
 import tripleplay.util.Layers;
@@ -73,12 +71,22 @@ public class BoardScreen extends Screen {
 
     root.add(boardElement.setConstraint(BorderLayout.CENTER));
 
-    root.add(new Label(state.dustRemaining.map(new Function<Integer, String>() {
-      @Override
-      public String apply(Integer input) {
-        return "Dust Remaining: " + input;
-      }
-    })).setConstraint(BorderLayout.EAST));
+    root.add(
+            new Group(AxisLayout.vertical()).add(
+                    new Label(state.dustRemaining.map(new Function<Integer, String>() {
+                      @Override
+                      public String apply(Integer input) {
+                        return "Dust Remaining: " + input;
+                      }
+                    })),
+                    new Label(state.battery.map(new Function<Integer, String>() {
+                      @Override
+                      public String apply(Integer input) {
+                        return "Battery Remaining: " + input;
+                      }
+                    }))
+
+            ).setConstraint(BorderLayout.EAST));
   }
 
   private GroupLayer createFieldGroupLayer() {
