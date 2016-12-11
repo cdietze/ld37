@@ -64,7 +64,6 @@ public class BoardScreen extends Screen {
     float offsetX = (plat.graphics().viewSize.width() - squareSize) * .5f;
     float offsetY = (plat.graphics().viewSize.height() - squareSize) * .5f;
 
-    log.info("screen#wasAdded", "offsetX", offsetX, "offsetY", offsetY);
     GroupLayer group = new GroupLayer();
     group.setSize(1f, 1f);
     group.setScale(squareSize);
@@ -82,7 +81,7 @@ public class BoardScreen extends Screen {
     group.addAt(boardLayer, group.width() * .5f, group.height() * .5f);
     boardLayer.setDepth(5f);
     float wallWidth = 148f;
-    float wallToFloor = squareSize / (wallImageWidth - 2 * wallWidth);
+    float wallToFloor = wallImageWidth / (wallImageWidth - 2 * wallWidth);
     boardLayer.setScale(1f / wallToFloor / 8);
     root
             .layer.addAt(group, offsetX, offsetY);
@@ -97,6 +96,8 @@ public class BoardScreen extends Screen {
                     }))
 
             ).setConstraint(BorderLayout.EAST));
+
+    // log.info("screen#wasAdded", "viewSize", plat.graphics().viewSize, "offsetX", offsetX, "offsetY", offsetY, "squareSize", squareSize);
   }
 
   private GroupLayer createDustRemainingLayer() {
