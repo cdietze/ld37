@@ -10,7 +10,14 @@ public class MathUtils {
   public static List<Integer> shuffledRange(int size, Random random) {
     ArrayList<Integer> list = new ArrayList<>(size);
     for (int i = 0; i < size; ++i) list.add(i);
-    Collections.shuffle(list, random);
+    shuffle(list, random);
     return list;
+  }
+
+  /** GWT does not emulate {@link java.util.Collections#shuffle(List, Random)} */
+  public static void shuffle(List<?> list, Random random) {
+    for (int index = 0; index < list.size(); index += 1) {
+      Collections.swap(list, index, index + random.nextInt(list.size() - index));
+    }
   }
 }
