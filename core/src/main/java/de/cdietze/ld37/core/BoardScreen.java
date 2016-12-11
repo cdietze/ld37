@@ -80,6 +80,7 @@ public class BoardScreen extends Screen {
     group.addAt(dustLayer, 0.35f, 0.94f);
 
     group.addAt(boardLayer, group.width() * .5f, group.height() * .5f);
+    boardLayer.setDepth(5f);
     float wallWidth = 148f;
     float wallToFloor = squareSize / (wallImageWidth - 2 * wallWidth);
     boardLayer.setScale(1f / wallToFloor / 8);
@@ -140,7 +141,7 @@ public class BoardScreen extends Screen {
     state.explored.get(fieldIndex).connectNotify(new Slot<Boolean>() {
       @Override
       public void onEmit(Boolean explored) {
-        layer.setTint(explored ? Colors.WHITE : Color.argb(100, 255, 255, 255));
+        layer.setTint(explored ? Colors.WHITE : Color.argb(200, 80, 80, 80));
       }
     });
     layer.events().connect(new Pointer.Listener() {
