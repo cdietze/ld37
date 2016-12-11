@@ -17,7 +17,6 @@ import tripleplay.ui.*;
 import tripleplay.ui.layout.AxisLayout;
 import tripleplay.ui.layout.BorderLayout;
 import tripleplay.util.Colors;
-import tripleplay.util.Layers;
 import tripleplay.util.Logger;
 
 import java.util.HashMap;
@@ -66,7 +65,7 @@ public class BoardScreen extends Screen {
     ScaledElement boardElement = new ScaledElement(boardLayer);
     boardElement.addStyles(Style.BACKGROUND.is(Background.blank().inset(10f)));
 
-    boardLayer.add(Layers.solid(0xffcccccc, dim.width(), dim.height()).setDepth(Depths.background));
+//    boardLayer.add(Layers.solid(0xffcccccc, dim.width(), dim.height()).setDepth(Depths.background));
 
     root.add(boardElement.setConstraint(BorderLayout.CENTER));
 
@@ -108,7 +107,7 @@ public class BoardScreen extends Screen {
     state.explored.get(fieldIndex).connectNotify(new Slot<Boolean>() {
       @Override
       public void onEmit(Boolean explored) {
-        layer.setTint(explored ? Colors.WHITE : Color.argb(0, 255, 255, 255));
+        layer.setTint(explored ? Colors.WHITE : Color.argb(100, 255, 255, 255));
       }
     });
     layer.events().connect(new Pointer.Listener() {
