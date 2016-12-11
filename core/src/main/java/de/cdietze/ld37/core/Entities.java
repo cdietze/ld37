@@ -6,6 +6,16 @@ import react.ValueView;
 
 public class Entities {
 
+  public static Entity createBase(int initialFieldIndex) {
+    return new Entity(Entity.Type.BASE, initialFieldIndex);
+  }
+  public static Entity createCable(int initialFieldIndex) {
+    return new Entity(Entity.Type.CABLE, initialFieldIndex);
+  }
+  public static Entity createLint(int initialFieldIndex) {
+    return new Entity(Entity.Type.LINT, initialFieldIndex);
+  }
+
   public static class Vacuum extends Entity {
     public final Value<Direction> dir;
 
@@ -32,9 +42,12 @@ public class Entities {
     }
   }
 
-  public static class Base extends Entity {
-    public Base(int initialFieldIndex) {
-      super(Type.BASE, initialFieldIndex);
+  public static class Mouse extends Entity {
+    public final Value<Direction> dir;
+
+    public Mouse(int initialFieldIndex, Direction initialDirection) {
+      super(Type.MOUSE, initialFieldIndex);
+      this.dir = Value.create(initialDirection);
     }
   }
 }

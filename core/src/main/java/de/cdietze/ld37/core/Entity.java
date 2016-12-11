@@ -3,7 +3,7 @@ package de.cdietze.ld37.core;
 import com.google.common.base.MoreObjects;
 import react.IntValue;
 
-public abstract class Entity {
+public class Entity {
   public final Type type;
   public final IntValue fieldIndex;
 
@@ -21,6 +21,6 @@ public abstract class Entity {
   }
 
   enum Type {
-    MOUSE, CAT, VACUUM, DUST, BASE;
+    MOUSE, VACUUM, DUST, BASE, CABLE, LINT;
   }
 }

@@ -27,9 +27,18 @@ public class BoardState {
   {
     vacuum = new Entities.Vacuum(56, Direction.UP);
     entities.add(vacuum);
-    entities.add(new Entities.Base(vacuum.fieldIndex.get()));
+    entities.add(Entities.createBase(vacuum.fieldIndex.get()));
+    entities.add(Entities.createCable(vacuum.fieldIndex.get()));
+    entities.add(Entities.createBase(0));
+    entities.add(Entities.createCable(0));
+    entities.add(Entities.createCable(1));
+    entities.add(Entities.createCable(8));
+    entities.add(Entities.createCable(9));
+    entities.add(Entities.createLint(9));
+    entities.add(Entities.createLint(10));
     entities.add(new Entities.Dust(57, 4, dustRemaining));
     entities.add(new Entities.Dust(60, 4, dustRemaining));
+    entities.add(new Entities.Mouse(62, Direction.UP));
     explore(vacuum.fieldIndex.get());
     battery.update(10);
   }
