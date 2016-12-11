@@ -29,7 +29,6 @@ import static de.cdietze.ld37.core.PointUtils.toY;
 public class BoardScreen extends Screen {
   public static final Logger log = new Logger("screen");
 
-  private static final float fieldGapWidth = 0.03f;
   private static final Dimension maxSize = new Dimension(1200, 800);
   public final MainGame game;
 
@@ -154,6 +153,7 @@ public class BoardScreen extends Screen {
       case DUST: {
         Entities.Dust dust = (Entities.Dust) entity;
         final GroupLayer group = new GroupLayer();
+        group.setDepth(Depths.entities);
         //group.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
         dust.dustAmount.connectNotify(new Slot<Integer>() {
           @Override
@@ -170,7 +170,31 @@ public class BoardScreen extends Screen {
       }
       case BASE: {
         final ImageLayer layer = new ImageLayer(game.images.base);
+        layer.setDepth(Depths.entities);
         layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+        state.explored.get(entity.fieldIndex.get()).connectNotify(UiUtils.visibiltySlot(layer));
+        return Optional.<Layer>of(layer);
+      }
+      case CABLE: {
+        final ImageLayer layer = new ImageLayer(game.images.cable);
+        layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+        layer.setDepth(Depths.cables);
+        state.explored.get(entity.fieldIndex.get()).connectNotify(UiUtils.visibiltySlot(layer));
+        return Optional.<Layer>of(layer);
+      }
+      case LINT: {
+        final ImageLayer layer = new ImageLayer(game.images.lint);
+        layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+        layer.setDepth(Depths.lint);
+        state.explored.get(entity.fieldIndex.get()).connectNotify(UiUtils.visibiltySlot(layer));
+        return Optional.<Layer>of(layer);
+      }
+      case MOUSE: {
+        Entities.Mouse mouse = (Entities.Mouse) entity;
+        final ImageLayer layer = new ImageLayer(game.images.mouse);
+        layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+        state.explored.get(mouse.fieldIndex.get()).connectNotify(UiUtils.visibiltySlot(layer));
+        mouse.dir.connectNotify(rotateWithDirectionSlot(layer));
         return Optional.<Layer>of(layer);
       }
     }
@@ -204,6 +228,8 @@ public class BoardScreen extends Screen {
   private interface Depths {
     float background = 0f;
     float fields = 1f;
+    float cables = 1.5f;
+    float lint = 1.8f;
     float entities = 2f;
     float vacuum = 3f;
   }
