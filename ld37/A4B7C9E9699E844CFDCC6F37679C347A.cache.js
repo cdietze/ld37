@@ -3,7 +3,7 @@ var __gwtModuleFunction = $wnd.ld37;
 var $sendStats = __gwtModuleFunction.__sendStats;
 $sendStats('moduleStartup', 'moduleEvalStart');
 var $gwt_version = "2.7.0";
-var $strongName = '555D80DC31EAB8300C923AA2B527848F';
+var $strongName = 'A4B7C9E9699E844CFDCC6F37679C347A';
 var $gwt = {};
 var $doc = $wnd.document;
 var $moduleName, $moduleBase;
@@ -22,7 +22,7 @@ var $stats = $wnd.__gwtStatsEvent ? function(a) {
 return $wnd.__gwtStatsEvent && $wnd.__gwtStatsEvent(a);
 } : null;
 var $sessionId = $wnd.__gwtStatsSessionId ? $wnd.__gwtStatsSessionId : null;
-var $intern_0 = 2147483647, $intern_1 = {3:1, 5:1}, $intern_2 = {76:1}, $intern_3 = {3:1, 25:1, 37:1}, $intern_4 = {3:1, 14:1, 8:1, 10:1}, $intern_5 = {51:1, 13:1, 3:1, 7:1, 6:1}, $intern_6 = {41:1, 13:1, 3:1, 7:1, 6:1}, $intern_7 = {13:1, 42:1, 3:1, 7:1, 6:1}, $intern_8 = {13:1, 43:1, 3:1, 7:1, 6:1}, $intern_9 = {19:1, 3:1, 7:1, 6:1}, $intern_10 = {13:1, 72:1, 3:1, 7:1, 6:1}, $intern_11 = {13:1, 31:1, 3:1, 7:1, 6:1}, $intern_12 = 4194303, $intern_13 = {121:1}, $intern_14 = {45:1}, $intern_15 = {81:1}, $intern_16 = 1.5707963705062866, $intern_17 = 16777215, $intern_18 = {44:1, 3:1, 7:1, 6:1}, $intern_19 = {24:1}, $intern_20 = 65535, $intern_21 = {29:1, 3:1}, $intern_22 = 16777619, $intern_23 = {12:1, 11:1}, $intern_24 = {30:1, 27:1}, $intern_25 = {30:1, 27:1, 39:1, 38:1}, $intern_26 = 0.10000000149011612, $intern_27 = 0.699999988079071, $intern_28 = {3:1, 7:1, 6:1, 56:1}, $intern_29 = 3.4028234663852886E38, $intern_30 = {3:1, 159:1}, $intern_31 = {82:1, 3:1}, $intern_32 = 34962, $intern_33 = 34963, $intern_34 = {12:1, 18:1, 11:1}, $intern_35 = {3:1, 7:1, 6:1, 15:1}, $intern_36 = {142:1, 38:1}, $intern_37 = -3.4028234663852886E38, $intern_38 = -5592406, $intern_39 = -1118482, $intern_40 = {78:1, 24:1}, $intern_41 = -3355444, $intern_42 = -16777216, $intern_43 = {3:1, 7:1, 6:1, 53:1}, $intern_44 = {3:1, 7:1, 6:1, 122:1, 33:1}, $intern_45 = {3:1, 7:1, 6:1, 54:1};
+var $intern_0 = 2147483647, $intern_1 = {3:1, 5:1}, $intern_2 = {60:1}, $intern_3 = 4194303, $intern_4 = {214:1, 3:1}, $intern_5 = {54:1}, $intern_6 = {3:1, 28:1, 38:1}, $intern_7 = 1048575, $intern_8 = {3:1, 14:1, 8:1, 10:1}, $intern_9 = {58:1, 13:1, 3:1, 7:1, 6:1}, $intern_10 = {44:1, 13:1, 3:1, 7:1, 6:1}, $intern_11 = {13:1, 45:1, 3:1, 7:1, 6:1}, $intern_12 = {13:1, 46:1, 3:1, 7:1, 6:1}, $intern_13 = {18:1, 3:1, 7:1, 6:1}, $intern_14 = {13:1, 79:1, 3:1, 7:1, 6:1}, $intern_15 = {13:1, 33:1, 3:1, 7:1, 6:1}, $intern_16 = 524288, $intern_17 = {130:1}, $intern_18 = {49:1}, $intern_19 = 1.5707963705062866, $intern_20 = {47:1, 3:1, 7:1, 6:1}, $intern_21 = {23:1}, $intern_22 = 65535, $intern_23 = {31:1, 3:1}, $intern_24 = 16777619, $intern_25 = {494:1, 3:1}, $intern_26 = 15525485, $intern_27 = 5.9604644775390625E-8, $intern_28 = 16777216, $intern_29 = 16777215, $intern_30 = {12:1, 11:1}, $intern_31 = {32:1, 29:1}, $intern_32 = {32:1, 29:1, 41:1, 39:1}, $intern_33 = 0.10000000149011612, $intern_34 = 0.699999988079071, $intern_35 = {3:1, 7:1, 6:1, 65:1}, $intern_36 = 3.4028234663852886E38, $intern_37 = {3:1, 166:1}, $intern_38 = {87:1, 3:1}, $intern_39 = 34962, $intern_40 = 34963, $intern_41 = {12:1, 19:1, 11:1}, $intern_42 = {3:1, 7:1, 6:1, 17:1}, $intern_43 = {150:1, 39:1}, $intern_44 = -3.4028234663852886E38, $intern_45 = -5592406, $intern_46 = -1118482, $intern_47 = {73:1, 23:1}, $intern_48 = -16777216, $intern_49 = {3:1, 7:1, 6:1, 62:1}, $intern_50 = {3:1, 7:1, 6:1, 131:1, 34:1}, $intern_51 = {3:1, 7:1, 6:1, 63:1}, $intern_52 = {3:1, 7:1, 6:1, 48:1};
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function typeMarkerFn(){
 }
@@ -140,6 +140,10 @@ function hashCode__I__devirtual$(this$static){
   return isJavaString(this$static)?getHashCode_0(this$static):hasJavaObjectVirtualDispatch(this$static)?this$static.hashCode$():isJavaArray(this$static)?getHashCode(this$static):getHashCode(this$static);
 }
 
+function toString__Ljava_lang_String___devirtual$(this$static){
+  return isJavaString(this$static)?this$static:hasJavaObjectVirtualDispatch(this$static)?this$static.toString$():isJavaArray(this$static)?$toString(this$static):this$static.toString?this$static.toString():'[JavaScriptObject]';
+}
+
 defineClass(1, null, {}, Object_0);
 _.equals$ = function equals(other){
   return this === other;
@@ -161,7 +165,7 @@ _.toString = function(){
   return this.toString$();
 }
 ;
-stringCastMap = {3:1, 460:1, 7:1, 2:1};
+stringCastMap = {3:1, 213:1, 7:1, 2:1};
 modernizeBrowser();
 function hasJavaObjectVirtualDispatch(src_0){
   return !instanceofArray(src_0) && hasTypeMarker(src_0);
@@ -327,7 +331,7 @@ function maybeSetClassLiteral(typeId, clazz){
   prototype_0.___clazz$ = clazz;
 }
 
-defineClass(160, 1, {}, Class);
+defineClass(167, 1, {}, Class);
 _.createClassLiteralForArray = function createClassLiteralForArray(dimensions){
   var clazz;
   clazz = new Class;
@@ -358,13 +362,13 @@ _.isPrimitive = function isPrimitive(){
   return (this.modifiers & 1) != 0;
 }
 ;
-_.toString$ = function toString_13(){
+_.toString$ = function toString_22(){
   return ((this.modifiers & 2) != 0?'interface ':(this.modifiers & 1) != 0?'':'class ') + ($ensureNamesAreInitialized(this) , this.typeName);
 }
 ;
 _.modifiers = 0;
 var nextSequentialId = 1;
-var Ljava_lang_Object_2_classLit = createForClass('java.lang', 'Object', 1, null), Lcom_google_gwt_core_client_JavaScriptObject_2_classLit = createForClass('com.google.gwt.core.client', 'JavaScriptObject$', 0, Ljava_lang_Object_2_classLit), Ljava_lang_Class_2_classLit = createForClass('java.lang', 'Class', 160, Ljava_lang_Object_2_classLit);
+var Ljava_lang_Object_2_classLit = createForClass('java.lang', 'Object', 1, null), Lcom_google_gwt_core_client_JavaScriptObject_2_classLit = createForClass('com.google.gwt.core.client', 'JavaScriptObject$', 0, Ljava_lang_Object_2_classLit), Ljava_lang_Class_2_classLit = createForClass('java.lang', 'Class', 167, Ljava_lang_Object_2_classLit);
 function $clinit_SoundController(){
   $clinit_SoundController = emptyMethod;
   $wnd.$GWT_VOICES_VERSION = '3.3.2';
@@ -390,7 +394,7 @@ function SoundController(){
   i != -1 && (s = s.substring(0, i));
   s.length > 0?s + '/':'';
   gwtVoices = getParameter('gwt-voices');
-  $equals(($clinit_SoundType() , FLASH).queryParameterValue, gwtVoices)?$setPreferredSoundTypes(this, initValues(getClassLiteralForArray(Lcom_allen_1sauer_gwt_voices_client_SoundType_2_classLit, 1), $intern_1, 34, 0, [FLASH])):$equals(HTML5.queryParameterValue, gwtVoices)?$setPreferredSoundTypes(this, initValues(getClassLiteralForArray(Lcom_allen_1sauer_gwt_voices_client_SoundType_2_classLit, 1), $intern_1, 34, 0, [HTML5])):$equals(WEB_AUDIO.queryParameterValue, gwtVoices)?$setPreferredSoundTypes(this, initValues(getClassLiteralForArray(Lcom_allen_1sauer_gwt_voices_client_SoundType_2_classLit, 1), $intern_1, 34, 0, [WEB_AUDIO])):$equals(NATIVE.queryParameterValue, gwtVoices)?$setPreferredSoundTypes(this, initValues(getClassLiteralForArray(Lcom_allen_1sauer_gwt_voices_client_SoundType_2_classLit, 1), $intern_1, 34, 0, [NATIVE])):$setPreferredSoundTypes(this, initValues(getClassLiteralForArray(Lcom_allen_1sauer_gwt_voices_client_SoundType_2_classLit, 1), $intern_1, 34, 0, [WEB_AUDIO, FLASH, HTML5]));
+  $equals(($clinit_SoundType() , FLASH).queryParameterValue, gwtVoices)?$setPreferredSoundTypes(this, initValues(getClassLiteralForArray(Lcom_allen_1sauer_gwt_voices_client_SoundType_2_classLit, 1), $intern_1, 35, 0, [FLASH])):$equals(HTML5.queryParameterValue, gwtVoices)?$setPreferredSoundTypes(this, initValues(getClassLiteralForArray(Lcom_allen_1sauer_gwt_voices_client_SoundType_2_classLit, 1), $intern_1, 35, 0, [HTML5])):$equals(WEB_AUDIO.queryParameterValue, gwtVoices)?$setPreferredSoundTypes(this, initValues(getClassLiteralForArray(Lcom_allen_1sauer_gwt_voices_client_SoundType_2_classLit, 1), $intern_1, 35, 0, [WEB_AUDIO])):$equals(NATIVE.queryParameterValue, gwtVoices)?$setPreferredSoundTypes(this, initValues(getClassLiteralForArray(Lcom_allen_1sauer_gwt_voices_client_SoundType_2_classLit, 1), $intern_1, 35, 0, [NATIVE])):$setPreferredSoundTypes(this, initValues(getClassLiteralForArray(Lcom_allen_1sauer_gwt_voices_client_SoundType_2_classLit, 1), $intern_1, 35, 0, [WEB_AUDIO, FLASH, HTML5]));
   $appendChild(($clinit_RootPanel() , $doc.body), this.soundContainer);
   style = this.soundContainer.style;
   $setPropertyImpl(style, 'position', ($clinit_Style$Position() , 'absolute'));
@@ -401,8 +405,8 @@ function SoundController(){
   $setPropertyImpl(style, 'height', '0.0px');
 }
 
-defineClass(360, 1, {}, SoundController);
-var Lcom_allen_1sauer_gwt_voices_client_SoundController_2_classLit = createForClass('com.allen_sauer.gwt.voices.client', 'SoundController', 360, Ljava_lang_Object_2_classLit);
+defineClass(378, 1, {}, SoundController);
+var Lcom_allen_1sauer_gwt_voices_client_SoundController_2_classLit = createForClass('com.allen_sauer.gwt.voices.client', 'SoundController', 378, Ljava_lang_Object_2_classLit);
 function Enum(name_0, ordinal){
   this.name_0 = name_0;
   this.ordinal = ordinal;
@@ -442,14 +446,14 @@ function SoundType(enum$name, enum$ordinal, queryParameterValue){
 
 function values_0(){
   $clinit_SoundType();
-  return initValues(getClassLiteralForArray(Lcom_allen_1sauer_gwt_voices_client_SoundType_2_classLit, 1), $intern_1, 34, 0, [FLASH, HTML5, NATIVE, WEB_AUDIO]);
+  return initValues(getClassLiteralForArray(Lcom_allen_1sauer_gwt_voices_client_SoundType_2_classLit, 1), $intern_1, 35, 0, [FLASH, HTML5, NATIVE, WEB_AUDIO]);
 }
 
-defineClass(34, 6, {34:1, 3:1, 7:1, 6:1}, SoundType);
+defineClass(35, 6, {35:1, 3:1, 7:1, 6:1}, SoundType);
 var FLASH, HTML5, NATIVE, WEB_AUDIO;
-var Lcom_allen_1sauer_gwt_voices_client_SoundType_2_classLit = createForEnum('com.allen_sauer.gwt.voices.client', 'SoundType', 34, Ljava_lang_Enum_2_classLit, values_0);
-defineClass(514, 1, {3:1});
-var Lcom_google_common_base_Optional_2_classLit = createForClass('com.google.common.base', 'Optional', 514, Ljava_lang_Object_2_classLit);
+var Lcom_allen_1sauer_gwt_voices_client_SoundType_2_classLit = createForEnum('com.allen_sauer.gwt.voices.client', 'SoundType', 35, Ljava_lang_Enum_2_classLit, values_0);
+defineClass(552, 1, {3:1});
+var Lcom_google_common_base_Optional_2_classLit = createForClass('com.google.common.base', 'Optional', 552, Ljava_lang_Object_2_classLit);
 function $clinit_Absent(){
   $clinit_Absent = emptyMethod;
   INSTANCE = new Absent;
@@ -458,13 +462,13 @@ function $clinit_Absent(){
 function Absent(){
 }
 
-defineClass(442, 514, {3:1}, Absent);
+defineClass(476, 552, {3:1}, Absent);
 _.equals$ = function equals_1(object){
   return object === this;
 }
 ;
 _.get_0 = function get_0(){
-  throw new IllegalStateException('Optional.get() cannot be called on an absent value');
+  throw new IllegalStateException_0('Optional.get() cannot be called on an absent value');
 }
 ;
 _.hashCode$ = function hashCode_2(){
@@ -480,7 +484,66 @@ _.toString$ = function toString_2(){
 }
 ;
 var INSTANCE;
-var Lcom_google_common_base_Absent_2_classLit = createForClass('com.google.common.base', 'Absent', 442, Lcom_google_common_base_Optional_2_classLit);
+var Lcom_google_common_base_Absent_2_classLit = createForClass('com.google.common.base', 'Absent', 476, Lcom_google_common_base_Optional_2_classLit);
+function $appendTo(this$static, appendable, parts){
+  checkNotNull(appendable);
+  if ($hasNext(parts)) {
+    $append_5(appendable, $toString_0(this$static, $next(parts)));
+    while ($hasNext(parts)) {
+      $append_5(appendable, this$static.separator);
+      $append_5(appendable, $toString_0(this$static, $next(parts)));
+    }
+  }
+  return appendable;
+}
+
+function $appendTo_0(this$static, builder, parts){
+  $appendTo(this$static, builder, parts);
+  return builder;
+}
+
+function Joiner(){
+  this.separator = checkNotNull(', ');
+}
+
+defineClass(210, 1, {}, Joiner);
+_.toString_0 = function toString_3(part){
+  checkNotNull(part);
+  return instanceOf(part, 213)?part:toString__Ljava_lang_String___devirtual$(part);
+}
+;
+_.useForNull = function useForNull(nullText){
+  checkNotNull(nullText);
+  return new Joiner$1(this, this, nullText);
+}
+;
+var Lcom_google_common_base_Joiner_2_classLit = createForClass('com.google.common.base', 'Joiner', 210, Ljava_lang_Object_2_classLit);
+function $toString_0(this$static, part){
+  return part == null?this$static.val$nullText3:this$static.this$01.toString_0(part);
+}
+
+function Joiner$1(this$0, $anonymous0, val$nullText){
+  this.this$01 = this$0;
+  this.val$nullText3 = val$nullText;
+  this.separator = $anonymous0.separator;
+}
+
+defineClass(474, 210, {}, Joiner$1);
+_.toString_0 = function toString_4(part){
+  return $toString_0(this, part);
+}
+;
+_.useForNull = function useForNull_0(nullText){
+  throw new UnsupportedOperationException_0('already specified useForNull');
+}
+;
+var Lcom_google_common_base_Joiner$1_2_classLit = createForClass('com.google.common.base', 'Joiner/1', 474, Lcom_google_common_base_Joiner_2_classLit);
+function Joiner$MapJoiner(keyValueSeparator){
+  checkNotNull(keyValueSeparator);
+}
+
+defineClass(473, 1, {}, Joiner$MapJoiner);
+var Lcom_google_common_base_Joiner$MapJoiner_2_classLit = createForClass('com.google.common.base', 'Joiner/MapJoiner', 473, Ljava_lang_Object_2_classLit);
 function $addHolder(this$static, name_0, value_0){
   var valueHolder, valueHolder_0;
   valueHolder = (valueHolder_0 = new MoreObjects$ToStringHelper$ValueHolder , this$static.holderTail = this$static.holderTail.next = valueHolder_0 , valueHolder_0);
@@ -489,19 +552,19 @@ function $addHolder(this$static, name_0, value_0){
   return this$static;
 }
 
-function $toString_0(this$static){
+function $toString_1(this$static){
   var arrayString, builder, nextSeparator, objectArray, value_0, valueHolder;
   nextSeparator = '';
-  builder = $append_1($append_6(new StringBuilder_0, this$static.className), 123);
+  builder = $append_1($append_7(new StringBuilder_0, this$static.className), 123);
   for (valueHolder = this$static.holderHead.next; valueHolder; valueHolder = valueHolder.next) {
     value_0 = valueHolder.value_0;
     builder.string += nextSeparator;
     nextSeparator = ', ';
-    valueHolder.name_0 != null && $append_1($append_6(builder, valueHolder.name_0), 61);
+    valueHolder.name_0 != null && $append_1($append_7(builder, valueHolder.name_0), 61);
     if (value_0 != null && (getClass__Ljava_lang_Class___devirtual$(value_0).modifiers & 4) != 0) {
       objectArray = initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [value_0]);
       arrayString = deepToString(objectArray, new HashSet);
-      $append_6(builder, $substring_0(arrayString, 1, arrayString.length - 1));
+      $append_7(builder, $substring_0(arrayString, 1, arrayString.length - 1));
     }
      else {
       builder.string += value_0;
@@ -516,17 +579,17 @@ function MoreObjects$ToStringHelper(className){
   this.className = checkNotNull(className);
 }
 
-defineClass(392, 1, {}, MoreObjects$ToStringHelper);
-_.toString$ = function toString_3(){
-  return $toString_0(this);
+defineClass(191, 1, {}, MoreObjects$ToStringHelper);
+_.toString$ = function toString_5(){
+  return $toString_1(this);
 }
 ;
-var Lcom_google_common_base_MoreObjects$ToStringHelper_2_classLit = createForClass('com.google.common.base', 'MoreObjects/ToStringHelper', 392, Ljava_lang_Object_2_classLit);
+var Lcom_google_common_base_MoreObjects$ToStringHelper_2_classLit = createForClass('com.google.common.base', 'MoreObjects/ToStringHelper', 191, Ljava_lang_Object_2_classLit);
 function MoreObjects$ToStringHelper$ValueHolder(){
 }
 
-defineClass(184, 1, {}, MoreObjects$ToStringHelper$ValueHolder);
-var Lcom_google_common_base_MoreObjects$ToStringHelper$ValueHolder_2_classLit = createForClass('com.google.common.base', 'MoreObjects/ToStringHelper/ValueHolder', 184, Ljava_lang_Object_2_classLit);
+defineClass(192, 1, {}, MoreObjects$ToStringHelper$ValueHolder);
+var Lcom_google_common_base_MoreObjects$ToStringHelper$ValueHolder_2_classLit = createForClass('com.google.common.base', 'MoreObjects/ToStringHelper/ValueHolder', 192, Ljava_lang_Object_2_classLit);
 function equal(a, b){
   return maskUndefined(a) === maskUndefined(b) || a != null && equals_Ljava_lang_Object__Z__devirtual$(a, b);
 }
@@ -552,6 +615,12 @@ function checkArgument_0(expression, errorMessage){
   }
 }
 
+function checkArgument_1(expression, errorMessageTemplate, errorMessageArgs){
+  if (!expression) {
+    throw new IllegalArgumentException_0(format_0(errorMessageTemplate, errorMessageArgs));
+  }
+}
+
 function checkNotNull(reference){
   if (reference == null) {
     throw new NullPointerException;
@@ -566,6 +635,18 @@ function checkPositionIndex(size_0){
   return 0;
 }
 
+function checkState(expression){
+  if (!expression) {
+    throw new IllegalStateException;
+  }
+}
+
+function checkState_0(expression){
+  if (!expression) {
+    throw new IllegalStateException_0('no calls to next() since the last call to remove()');
+  }
+}
+
 function format_0(template, args){
   var builder, i, placeholderStart, templateStart;
   template = '' + template;
@@ -577,17 +658,17 @@ function format_0(template, args){
     if (placeholderStart == -1) {
       break;
     }
-    $append_6(builder, template.substr(templateStart, placeholderStart - templateStart));
-    $append_5(builder, args[i++]);
+    $append_7(builder, template.substr(templateStart, placeholderStart - templateStart));
+    $append_6(builder, args[i++]);
     templateStart = placeholderStart + 2;
   }
-  $append_6(builder, __substr(template, templateStart, template.length - templateStart));
+  $append_7(builder, __substr(template, templateStart, template.length - templateStart));
   if (i < args.length) {
     builder.string += ' [';
-    $append_5(builder, args[i++]);
+    $append_6(builder, args[i++]);
     while (i < args.length) {
       builder.string += ', ';
-      $append_5(builder, args[i++]);
+      $append_6(builder, args[i++]);
     }
     builder.string += ']';
   }
@@ -598,10 +679,10 @@ function Present(reference){
   this.reference = reference;
 }
 
-defineClass(98, 514, {98:1, 3:1}, Present);
+defineClass(53, 552, {53:1, 3:1}, Present);
 _.equals$ = function equals_2(object){
   var other;
-  if (instanceOf(object, 98)) {
+  if (instanceOf(object, 53)) {
     other = object;
     return equals_Ljava_lang_Object__Z__devirtual$(this.reference, other.reference);
   }
@@ -620,16 +701,20 @@ _.isPresent = function isPresent_0(){
   return true;
 }
 ;
-_.toString$ = function toString_4(){
+_.toString$ = function toString_6(){
   return 'Optional.of(' + this.reference + ')';
 }
 ;
-var Lcom_google_common_base_Present_2_classLit = createForClass('com.google.common.base', 'Present', 98, Lcom_google_common_base_Optional_2_classLit);
-defineClass(76, 1, $intern_2);
-var Lcom_google_common_collect_UnmodifiableIterator_2_classLit = createForClass('com.google.common.collect', 'UnmodifiableIterator', 76, Ljava_lang_Object_2_classLit);
-defineClass(509, 76, $intern_2);
-var Lcom_google_common_collect_UnmodifiableListIterator_2_classLit = createForClass('com.google.common.collect', 'UnmodifiableListIterator', 509, Lcom_google_common_collect_UnmodifiableIterator_2_classLit);
-defineClass(386, 509, $intern_2);
+var Lcom_google_common_base_Present_2_classLit = createForClass('com.google.common.base', 'Present', 53, Lcom_google_common_base_Optional_2_classLit);
+defineClass(60, 1, $intern_2);
+_.remove = function remove_0(){
+  throw new UnsupportedOperationException;
+}
+;
+var Lcom_google_common_collect_UnmodifiableIterator_2_classLit = createForClass('com.google.common.collect', 'UnmodifiableIterator', 60, Ljava_lang_Object_2_classLit);
+defineClass(540, 60, $intern_2);
+var Lcom_google_common_collect_UnmodifiableListIterator_2_classLit = createForClass('com.google.common.collect', 'UnmodifiableListIterator', 540, Lcom_google_common_collect_UnmodifiableIterator_2_classLit);
+defineClass(400, 540, $intern_2);
 _.hasNext = function hasNext(){
   return this.position_0 < this.size_0;
 }
@@ -643,14 +728,57 @@ _.next_0 = function next_0(){
 ;
 _.position_0 = 0;
 _.size_0 = 0;
-var Lcom_google_common_collect_AbstractIndexedListIterator_2_classLit = createForClass('com.google.common.collect', 'AbstractIndexedListIterator', 386, Lcom_google_common_collect_UnmodifiableListIterator_2_classLit);
+var Lcom_google_common_collect_AbstractIndexedListIterator_2_classLit = createForClass('com.google.common.collect', 'AbstractIndexedListIterator', 400, Lcom_google_common_collect_UnmodifiableListIterator_2_classLit);
+function $hasNext(this$static){
+  checkState(this$static.state != 3);
+  switch (this$static.state) {
+    case 2:
+      return false;
+    case 0:
+      return true;
+  }
+  return $tryToComputeNext(this$static);
+}
+
+function $next(this$static){
+  var result;
+  if (!$hasNext(this$static)) {
+    throw new NoSuchElementException;
+  }
+  this$static.state = 1;
+  result = this$static.next;
+  this$static.next = null;
+  return result;
+}
+
+function $tryToComputeNext(this$static){
+  this$static.state = 3;
+  this$static.next = $computeNext(this$static);
+  if (this$static.state != 2) {
+    this$static.state = 0;
+    return true;
+  }
+  return false;
+}
+
+defineClass(419, 60, $intern_2);
+_.hasNext = function hasNext_0(){
+  return $hasNext(this);
+}
+;
+_.next_0 = function next_1(){
+  return $next(this);
+}
+;
+_.state = 1;
+var Lcom_google_common_collect_AbstractIterator_2_classLit = createForClass('com.google.common.collect', 'AbstractIterator', 419, Lcom_google_common_collect_UnmodifiableIterator_2_classLit);
 function $addAll(this$static, c){
   var changed, e, e$iterator;
   checkNotNull_0(c);
   changed = false;
-  for (e$iterator = $iterator(new AbstractMap$1(c.map_0)); $hasNext(e$iterator.val$outerIter2);) {
-    e = $next_1(e$iterator);
-    changed = changed | $add_3(this$static, e);
+  for (e$iterator = $iterator_0(new AbstractMap$1(c.map_0)); $hasNext_0(e$iterator.val$outerIter2);) {
+    e = $next_2(e$iterator);
+    changed = changed | $add_4(this$static, e);
   }
   return changed;
 }
@@ -694,7 +822,7 @@ function $toArray_0(this$static, a){
   return a;
 }
 
-function $toString_1(this$static){
+function $toString_2(this$static){
   var comma, e, e$iterator, sb;
   sb = new StringBuilder_1('[');
   comma = false;
@@ -707,7 +835,7 @@ function $toString_1(this$static){
   return sb.string;
 }
 
-defineClass(475, 1, {});
+defineClass(509, 1, {});
 _.contains = function contains(o){
   return $advanceToFind(this, o);
 }
@@ -720,44 +848,365 @@ _.toArray_0 = function toArray_0(a){
   return $toArray_0(this, a);
 }
 ;
-_.toString$ = function toString_5(){
-  return $toString_1(this);
+_.toString$ = function toString_7(){
+  return $toString_2(this);
 }
 ;
-var Ljava_util_AbstractCollection_2_classLit = createForClass('java.util', 'AbstractCollection', 475, Ljava_lang_Object_2_classLit);
+var Ljava_util_AbstractCollection_2_classLit = createForClass('java.util', 'AbstractCollection', 509, Ljava_lang_Object_2_classLit);
+function $entrySet(this$static){
+  var result;
+  result = this$static.entrySet;
+  !result && (this$static.entrySet = result = new AbstractMultiset$EntrySet(this$static));
+  return result;
+}
+
+defineClass(546, 509, {214:1});
+_.contains = function contains_0(element){
+  return $count(this, element) > 0;
+}
+;
+_.equals$ = function equals_3(object){
+  return equalsImpl_0(this, object);
+}
+;
+_.hashCode$ = function hashCode_4(){
+  return $entrySet(this).hashCode$();
+}
+;
+_.iterator = function iterator_0(){
+  return new Multisets$MultisetIteratorImpl(this, $entrySet(this).iterator());
+}
+;
+_.size_1 = function size_1(){
+  return sizeImpl(this);
+}
+;
+_.toString$ = function toString_8(){
+  return $entrySet(this).toString$();
+}
+;
+var Lcom_google_common_collect_AbstractMultiset_2_classLit = createForClass('com.google.common.collect', 'AbstractMultiset', 546, Ljava_util_AbstractCollection_2_classLit);
+function $add(this$static, element){
+  var frequency, newCount, oldCount, result;
+  checkArgument_1(true, 'occurrences cannot be negative: %s', initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [valueOf(4)]));
+  frequency = this$static.backingMap.get_2(element);
+  if (!frequency) {
+    oldCount = 0;
+    this$static.backingMap.put(element, new Count(4));
+  }
+   else {
+    oldCount = frequency.value_0;
+    newCount = add_1(fromInt(oldCount), {l:4, m:0, h:0});
+    checkArgument_1(lte(newCount, {l:$intern_3, m:511, h:0}), 'too many occurrences: %s', initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [valueOf_0(newCount)]));
+    result = frequency.value_0;
+    frequency.value_0 = result + 4;
+  }
+  this$static.size_0 = add_1(this$static.size_0, {l:4, m:0, h:0});
+  return oldCount;
+}
+
+function $count(this$static, element){
+  var frequency;
+  frequency = safeGet(this$static.backingMap, element);
+  return !frequency?0:frequency.value_0;
+}
+
+function $entryIterator(this$static){
+  var backingEntries;
+  backingEntries = this$static.backingMap.entrySet_0().iterator();
+  return new AbstractMapBasedMultiset$1(this$static, backingEntries);
+}
+
+function $remove(this$static, element){
+  var frequency, numberRemoved, oldCount;
+  checkArgument_1(true, 'occurrences cannot be negative: %s', initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [valueOf(1)]));
+  frequency = this$static.backingMap.get_2(element);
+  if (!frequency) {
+    return 0;
+  }
+  oldCount = frequency.value_0;
+  if (oldCount > 1) {
+    numberRemoved = 1;
+  }
+   else {
+    numberRemoved = oldCount;
+    this$static.backingMap.remove_0(element);
+  }
+  frequency.value_0 += -numberRemoved;
+  this$static.size_0 = sub_0(this$static.size_0, fromInt(numberRemoved));
+  return oldCount;
+}
+
+function $setCount(this$static, element, count){
+  var existingCounter, oldCount;
+  checkNonnegative(count);
+  if (count == 0) {
+    existingCounter = this$static.backingMap.remove_0(element);
+    oldCount = getAndSet(existingCounter, 0);
+  }
+   else {
+    existingCounter = this$static.backingMap.get_2(element);
+    oldCount = getAndSet(existingCounter, count);
+    !existingCounter && this$static.backingMap.put(element, new Count(count));
+  }
+  this$static.size_0 = add_1(this$static.size_0, fromInt(count - oldCount));
+  return oldCount;
+}
+
+function AbstractMapBasedMultiset(backingMap){
+  this.backingMap = checkNotNull(backingMap);
+  this.size_0 = fromInt(sizeImpl(this));
+}
+
+function getAndSet(i, count){
+  if (!i) {
+    return 0;
+  }
+  return $getAndSet(i, count);
+}
+
+defineClass(412, 546, $intern_4);
+_.iterator = function iterator_1(){
+  return new AbstractMapBasedMultiset$MapBasedMultisetIterator(this);
+}
+;
+_.size_1 = function size_2(){
+  return saturatedCast(this.size_0);
+}
+;
+_.size_0 = {l:0, m:0, h:0};
+var Lcom_google_common_collect_AbstractMapBasedMultiset_2_classLit = createForClass('com.google.common.collect', 'AbstractMapBasedMultiset', 412, Lcom_google_common_collect_AbstractMultiset_2_classLit);
+function AbstractMapBasedMultiset$1(this$0, val$backingEntries){
+  this.this$01 = this$0;
+  this.val$backingEntries2 = val$backingEntries;
+}
+
+defineClass(415, 1, {}, AbstractMapBasedMultiset$1);
+_.hasNext = function hasNext_1(){
+  return this.val$backingEntries2.hasNext();
+}
+;
+_.next_0 = function next_2(){
+  var mapEntry;
+  return mapEntry = this.val$backingEntries2.next_0() , this.toRemove = mapEntry , new AbstractMapBasedMultiset$1$1(this, mapEntry);
+}
+;
+_.remove = function remove_1(){
+  checkState_0(!!this.toRemove);
+  this.this$01.size_0 = sub_0(this.this$01.size_0, fromInt($getAndSet(this.toRemove.getValue(), 0)));
+  this.val$backingEntries2.remove();
+  this.toRemove = null;
+}
+;
+var Lcom_google_common_collect_AbstractMapBasedMultiset$1_2_classLit = createForClass('com.google.common.collect', 'AbstractMapBasedMultiset/1', 415, Ljava_lang_Object_2_classLit);
+defineClass(547, 1, {215:1});
+_.equals$ = function equals_4(object){
+  var that;
+  if (instanceOf(object, 215)) {
+    that = object;
+    return $getCount(this) == $getCount(that) && equal(this.val$mapEntry2.getKey(), that.val$mapEntry2.getKey());
+  }
+  return false;
+}
+;
+_.hashCode$ = function hashCode_5(){
+  var e;
+  e = this.val$mapEntry2.getKey();
+  return (e == null?0:hashCode__I__devirtual$(e)) ^ $getCount(this);
+}
+;
+_.toString$ = function toString_9(){
+  var n, text_0;
+  text_0 = '' + this.val$mapEntry2.getKey();
+  n = $getCount(this);
+  return n == 1?text_0:text_0 + ' x ' + n;
+}
+;
+var Lcom_google_common_collect_Multisets$AbstractEntry_2_classLit = createForClass('com.google.common.collect', 'Multisets/AbstractEntry', 547, Ljava_lang_Object_2_classLit);
+function $getCount(this$static){
+  var count, frequency;
+  count = this$static.val$mapEntry2.getValue();
+  if (!count || count.value_0 == 0) {
+    frequency = this$static.this$11.this$01.backingMap.get_2(this$static.val$mapEntry2.getKey());
+    if (frequency) {
+      return frequency.value_0;
+    }
+  }
+  return !count?0:count.value_0;
+}
+
+function AbstractMapBasedMultiset$1$1(this$1, val$mapEntry){
+  this.this$11 = this$1;
+  this.val$mapEntry2 = val$mapEntry;
+}
+
+defineClass(416, 547, {215:1}, AbstractMapBasedMultiset$1$1);
+var Lcom_google_common_collect_AbstractMapBasedMultiset$1$1_2_classLit = createForClass('com.google.common.collect', 'AbstractMapBasedMultiset/1/1', 416, Lcom_google_common_collect_Multisets$AbstractEntry_2_classLit);
+function AbstractMapBasedMultiset$MapBasedMultisetIterator(this$0){
+  this.this$01 = this$0;
+  this.entryIterator = this$0.backingMap.entrySet_0().iterator();
+}
+
+defineClass(414, 1, {}, AbstractMapBasedMultiset$MapBasedMultisetIterator);
+_.hasNext = function hasNext_2(){
+  return this.occurrencesLeft > 0 || this.entryIterator.hasNext();
+}
+;
+_.next_0 = function next_3(){
+  if (this.occurrencesLeft == 0) {
+    this.currentEntry = this.entryIterator.next_0();
+    this.occurrencesLeft = this.currentEntry.getValue().value_0;
+  }
+  --this.occurrencesLeft;
+  this.canRemove = true;
+  return this.currentEntry.getKey();
+}
+;
+_.remove = function remove_2(){
+  var frequency;
+  checkState_0(this.canRemove);
+  frequency = this.currentEntry.getValue().value_0;
+  if (frequency <= 0) {
+    throw new ConcurrentModificationException;
+  }
+  (this.currentEntry.getValue().value_0 += -1) == 0 && this.entryIterator.remove();
+  this.this$01.size_0 = sub_0(this.this$01.size_0, {l:1, m:0, h:0});
+  this.canRemove = false;
+}
+;
+_.canRemove = false;
+_.occurrencesLeft = 0;
+var Lcom_google_common_collect_AbstractMapBasedMultiset$MapBasedMultisetIterator_2_classLit = createForClass('com.google.common.collect', 'AbstractMapBasedMultiset/MapBasedMultisetIterator', 414, Ljava_lang_Object_2_classLit);
+defineClass(510, 509, $intern_5);
+_.equals$ = function equals_5(o){
+  var other;
+  if (o === this) {
+    return true;
+  }
+  if (!instanceOf(o, 54)) {
+    return false;
+  }
+  other = o;
+  if (other.size_1() != this.size_1()) {
+    return false;
+  }
+  return $containsAll(this, other);
+}
+;
+_.hashCode$ = function hashCode_6(){
+  return hashCode_25(this);
+}
+;
+var Ljava_util_AbstractSet_2_classLit = createForClass('java.util', 'AbstractSet', 510, Ljava_util_AbstractCollection_2_classLit);
+defineClass(548, 510, $intern_5);
+var Lcom_google_common_collect_Sets$ImprovedAbstractSet_2_classLit = createForClass('com.google.common.collect', 'Sets/ImprovedAbstractSet', 548, Ljava_util_AbstractSet_2_classLit);
+defineClass(549, 548, $intern_5);
+_.contains = function contains_1(o){
+  var count, entry;
+  if (instanceOf(o, 215)) {
+    entry = o;
+    if ($getCount(entry) <= 0) {
+      return false;
+    }
+    count = $count(this.this$01, entry.val$mapEntry2.getKey());
+    return count == $getCount(entry);
+  }
+  return false;
+}
+;
+var Lcom_google_common_collect_Multisets$EntrySet_2_classLit = createForClass('com.google.common.collect', 'Multisets/EntrySet', 549, Lcom_google_common_collect_Sets$ImprovedAbstractSet_2_classLit);
+function AbstractMultiset$EntrySet(this$0){
+  this.this$01 = this$0;
+}
+
+defineClass(417, 549, $intern_5, AbstractMultiset$EntrySet);
+_.iterator = function iterator_2(){
+  return $entryIterator(this.this$01);
+}
+;
+_.size_1 = function size_3(){
+  return this.this$01.backingMap.size_1();
+}
+;
+var Lcom_google_common_collect_AbstractMultiset$EntrySet_2_classLit = createForClass('com.google.common.collect', 'AbstractMultiset/EntrySet', 417, Lcom_google_common_collect_Multisets$EntrySet_2_classLit);
+function checkNonnegative(value_0){
+  if (value_0 < 0) {
+    throw new IllegalArgumentException_0('count cannot be negative but was: ' + value_0);
+  }
+  return value_0;
+}
+
+function $clinit_Collections2(){
+  $clinit_Collections2 = emptyMethod;
+  STANDARD_JOINER = (new Joiner).useForNull('null');
+}
+
+var STANDARD_JOINER;
+function $getAndSet(this$static, newValue){
+  var result;
+  result = this$static.value_0;
+  this$static.value_0 = newValue;
+  return result;
+}
+
+function Count(value_0){
+  this.value_0 = value_0;
+}
+
+defineClass(125, 1, {125:1, 3:1}, Count);
+_.equals$ = function equals_6(obj){
+  return instanceOf(obj, 125) && obj.value_0 == this.value_0;
+}
+;
+_.hashCode$ = function hashCode_7(){
+  return this.value_0;
+}
+;
+_.toString$ = function toString_10(){
+  return '' + this.value_0;
+}
+;
+_.value_0 = 0;
+var Lcom_google_common_collect_Count_2_classLit = createForClass('com.google.common.collect', 'Count', 125, Ljava_lang_Object_2_classLit);
+defineClass(402, 1, {});
+_.toString$ = function toString_11(){
+  return toString_14($iterator(this.iterable));
+}
+;
+var Lcom_google_common_collect_FluentIterable_2_classLit = createForClass('com.google.common.collect', 'FluentIterable', 402, Ljava_lang_Object_2_classLit);
 function $clinit_ImmutableCollection(){
   $clinit_ImmutableCollection = emptyMethod;
   new ForwardingImmutableCollection(($clinit_Collections() , $clinit_Collections() , EMPTY_LIST));
 }
 
-defineClass(506, 475, {3:1});
+defineClass(537, 509, {3:1});
 _.add_0 = function add_0(e){
   throw new UnsupportedOperationException;
 }
 ;
-_.contains = function contains_0(object){
+_.contains = function contains_2(object){
   return object != null && $advanceToFind(this, object);
 }
 ;
-_.iterator = function iterator_0(){
+_.iterator = function iterator_3(){
   return this.iterator_0();
 }
 ;
-var Lcom_google_common_collect_ImmutableCollection_2_classLit = createForClass('com.google.common.collect', 'ImmutableCollection', 506, Ljava_util_AbstractCollection_2_classLit);
+var Lcom_google_common_collect_ImmutableCollection_2_classLit = createForClass('com.google.common.collect', 'ImmutableCollection', 537, Ljava_util_AbstractCollection_2_classLit);
 function ForwardingImmutableCollection(delegate){
   this.delegate = delegate;
 }
 
-defineClass(390, 506, {3:1}, ForwardingImmutableCollection);
-_.contains = function contains_1(object){
+defineClass(408, 537, {3:1}, ForwardingImmutableCollection);
+_.contains = function contains_3(object){
   return false;
 }
 ;
-_.iterator_0 = function iterator_1(){
+_.iterator_0 = function iterator_4(){
   return unmodifiableIterator(($clinit_Collections() , $clinit_Collections$EmptyListIterator() , INSTANCE_1));
 }
 ;
-_.size_1 = function size_1(){
+_.size_1 = function size_4(){
   return 0;
 }
 ;
@@ -769,11 +1218,11 @@ _.toArray_0 = function toArray_2(other){
   return $toArray_0(this.delegate, other);
 }
 ;
-_.toString$ = function toString_6(){
-  return $toString_1(this.delegate);
+_.toString$ = function toString_12(){
+  return $toString_2(this.delegate);
 }
 ;
-var Lcom_google_common_collect_ForwardingImmutableCollection_2_classLit = createForClass('com.google.common.collect', 'ForwardingImmutableCollection', 390, Lcom_google_common_collect_ImmutableCollection_2_classLit);
+var Lcom_google_common_collect_ForwardingImmutableCollection_2_classLit = createForClass('com.google.common.collect', 'ForwardingImmutableCollection', 408, Lcom_google_common_collect_ImmutableCollection_2_classLit);
 function $clinit_ImmutableList(){
   $clinit_ImmutableList = emptyMethod;
   $clinit_ImmutableCollection();
@@ -805,35 +1254,35 @@ function nullCheckedList(array){
   return new Arrays$ArrayList(array);
 }
 
-defineClass(507, 506, $intern_3);
-_.equals$ = function equals_3(obj){
+defineClass(538, 537, $intern_6);
+_.equals$ = function equals_7(obj){
   return equalsImpl(this, obj);
 }
 ;
-_.hashCode$ = function hashCode_4(){
+_.hashCode$ = function hashCode_8(){
   return hashCodeImpl(this);
 }
 ;
-_.iterator_0 = function iterator_2(){
+_.iterator_0 = function iterator_5(){
   return new ImmutableList$1(this, this.size_1());
 }
 ;
-_.iterator = function iterator_3(){
+_.iterator = function iterator_6(){
   return this.iterator_0();
 }
 ;
 var EMPTY;
-var Lcom_google_common_collect_ImmutableList_2_classLit = createForClass('com.google.common.collect', 'ImmutableList', 507, Lcom_google_common_collect_ImmutableCollection_2_classLit);
+var Lcom_google_common_collect_ImmutableList_2_classLit = createForClass('com.google.common.collect', 'ImmutableList', 538, Lcom_google_common_collect_ImmutableCollection_2_classLit);
 function $get(this$static, index_0){
   return this$static.delegateList().get_1(index_0);
 }
 
-defineClass(511, 507, $intern_3);
-_.contains = function contains_2(object){
+defineClass(545, 538, $intern_6);
+_.contains = function contains_4(object){
   return object != null && this.delegateList().contains(object);
 }
 ;
-_.equals$ = function equals_4(obj){
+_.equals$ = function equals_8(obj){
   return this.delegateList().equals$(obj);
 }
 ;
@@ -841,15 +1290,15 @@ _.get_1 = function get_2(index_0){
   return $get(this, index_0);
 }
 ;
-_.hashCode$ = function hashCode_5(){
+_.hashCode$ = function hashCode_9(){
   return this.delegateList().hashCode$();
 }
 ;
-_.iterator_0 = function iterator_4(){
+_.iterator_0 = function iterator_7(){
   return unmodifiableIterator(this.delegateList().iterator());
 }
 ;
-_.size_1 = function size_2(){
+_.size_1 = function size_5(){
   return this.delegateList().size_1();
 }
 ;
@@ -861,13 +1310,19 @@ _.toArray_0 = function toArray_4(other){
   return this.delegateList().toArray_0(other);
 }
 ;
-_.toString$ = function toString_7(){
+_.toString$ = function toString_13(){
   return this.delegateList().toString$();
 }
 ;
-var Lcom_google_common_collect_ForwardingImmutableList_2_classLit = createForClass('com.google.common.collect', 'ForwardingImmutableList', 511, Lcom_google_common_collect_ImmutableList_2_classLit);
-defineClass(508, 1, {});
-var Lcom_google_common_collect_ImmutableCollection$Builder_2_classLit = createForClass('com.google.common.collect', 'ImmutableCollection/Builder', 508, Ljava_lang_Object_2_classLit);
+var Lcom_google_common_collect_ForwardingImmutableList_2_classLit = createForClass('com.google.common.collect', 'ForwardingImmutableList', 545, Lcom_google_common_collect_ImmutableList_2_classLit);
+function HashMultiset(){
+  AbstractMapBasedMultiset.call(this, new HashMap);
+}
+
+defineClass(413, 412, $intern_4, HashMultiset);
+var Lcom_google_common_collect_HashMultiset_2_classLit = createForClass('com.google.common.collect', 'HashMultiset', 413, Lcom_google_common_collect_AbstractMapBasedMultiset_2_classLit);
+defineClass(539, 1, {});
+var Lcom_google_common_collect_ImmutableCollection$Builder_2_classLit = createForClass('com.google.common.collect', 'ImmutableCollection/Builder', 539, Ljava_lang_Object_2_classLit);
 function $get_0(this$static, index_0){
   return this$static.this$01.get_1(index_0);
 }
@@ -879,10 +1334,10 @@ function ImmutableList$1(this$0, $anonymous0){
   this.position_0 = 0;
 }
 
-defineClass(387, 386, $intern_2, ImmutableList$1);
-var Lcom_google_common_collect_ImmutableList$1_2_classLit = createForClass('com.google.common.collect', 'ImmutableList/1', 387, Lcom_google_common_collect_AbstractIndexedListIterator_2_classLit);
-function $add(this$static, element){
-  $add_2(this$static.contents, checkNotNull(element));
+defineClass(401, 400, $intern_2, ImmutableList$1);
+var Lcom_google_common_collect_ImmutableList$1_2_classLit = createForClass('com.google.common.collect', 'ImmutableList/1', 401, Lcom_google_common_collect_AbstractIndexedListIterator_2_classLit);
+function $add_0(this$static, element){
+  $add_3(this$static.contents, checkNotNull(element));
   return this$static;
 }
 
@@ -890,8 +1345,30 @@ function ImmutableList$Builder(){
   this.contents = new ArrayList;
 }
 
-defineClass(385, 508, {}, ImmutableList$Builder);
-var Lcom_google_common_collect_ImmutableList$Builder_2_classLit = createForClass('com.google.common.collect', 'ImmutableList/Builder', 385, Lcom_google_common_collect_ImmutableCollection$Builder_2_classLit);
+defineClass(118, 539, {}, ImmutableList$Builder);
+var Lcom_google_common_collect_ImmutableList$Builder_2_classLit = createForClass('com.google.common.collect', 'ImmutableList/Builder', 118, Lcom_google_common_collect_ImmutableCollection$Builder_2_classLit);
+function filter_0(unfiltered, predicate){
+  checkNotNull(unfiltered);
+  checkNotNull(predicate);
+  return new Iterables$6(unfiltered, predicate);
+}
+
+function $iterator(this$static){
+  return filter_1($listIterator(this$static.val$unfiltered1), this$static.val$predicate2);
+}
+
+function Iterables$6(val$unfiltered, val$predicate){
+  this.val$unfiltered1 = val$unfiltered;
+  this.val$predicate2 = val$predicate;
+  this.iterable = this;
+}
+
+defineClass(403, 402, {}, Iterables$6);
+_.iterator = function iterator_8(){
+  return $iterator(this);
+}
+;
+var Lcom_google_common_collect_Iterables$6_2_classLit = createForClass('com.google.common.collect', 'Iterables/6', 403, Lcom_google_common_collect_FluentIterable_2_classLit);
 function elementsEqual(iterator1, iterator2){
   var o1, o2;
   while (iterator1.hasNext()) {
@@ -907,9 +1384,19 @@ function elementsEqual(iterator1, iterator2){
   return !iterator2.hasNext();
 }
 
+function filter_1(unfiltered, predicate){
+  checkNotNull(unfiltered);
+  checkNotNull(predicate);
+  return new Iterators$7(unfiltered, predicate);
+}
+
+function toString_14(iterator){
+  return $append_1($appendTo_0(($clinit_Collections2() , STANDARD_JOINER), $append_1(new StringBuilder, 91), iterator), 93).string;
+}
+
 function unmodifiableIterator(iterator){
   checkNotNull(iterator);
-  if (instanceOf(iterator, 76)) {
+  if (instanceOf(iterator, 60)) {
     return iterator;
   }
   return new Iterators$3(iterator);
@@ -919,22 +1406,40 @@ function Iterators$3(val$iterator){
   this.val$iterator1 = val$iterator;
 }
 
-defineClass(440, 76, $intern_2, Iterators$3);
-_.hasNext = function hasNext_0(){
+defineClass(422, 60, $intern_2, Iterators$3);
+_.hasNext = function hasNext_3(){
   return this.val$iterator1.hasNext();
 }
 ;
-_.next_0 = function next_1(){
+_.next_0 = function next_4(){
   return this.val$iterator1.next_0();
 }
 ;
-var Lcom_google_common_collect_Iterators$3_2_classLit = createForClass('com.google.common.collect', 'Iterators/3', 440, Lcom_google_common_collect_UnmodifiableIterator_2_classLit);
+var Lcom_google_common_collect_Iterators$3_2_classLit = createForClass('com.google.common.collect', 'Iterators/3', 422, Lcom_google_common_collect_UnmodifiableIterator_2_classLit);
+function $computeNext(this$static){
+  var element;
+  while (this$static.val$unfiltered1.val$iiter2.hasNext()) {
+    element = $next_3(this$static.val$unfiltered1);
+    if ($apply(this$static.val$predicate2, element)) {
+      return element;
+    }
+  }
+  return this$static.state = 2 , null;
+}
+
+function Iterators$7(val$unfiltered, val$predicate){
+  this.val$unfiltered1 = val$unfiltered;
+  this.val$predicate2 = val$predicate;
+}
+
+defineClass(423, 419, $intern_2, Iterators$7);
+var Lcom_google_common_collect_Iterators$7_2_classLit = createForClass('com.google.common.collect', 'Iterators/7', 423, Lcom_google_common_collect_AbstractIterator_2_classLit);
 function equalsImpl(thisList, other){
   var i, otherList, size_0;
   if (maskUndefined(other) === maskUndefined(checkNotNull(thisList))) {
     return true;
   }
-  if (!instanceOf(other, 25)) {
+  if (!instanceOf(other, 28)) {
     return false;
   }
   otherList = other;
@@ -942,7 +1447,7 @@ function equalsImpl(thisList, other){
   if (size_0 != otherList.size_1()) {
     return false;
   }
-  if (instanceOf(otherList, 37)) {
+  if (instanceOf(otherList, 38)) {
     for (i = 0; i < size_0; i++) {
       if (!equal(thisList.get_1(i), otherList.get_1(i))) {
         return false;
@@ -966,27 +1471,126 @@ function hashCodeImpl(list){
   return hashCode;
 }
 
-function RegularImmutableList(delegate){
-  $clinit_ImmutableList();
-  this.delegate = ($clinit_Collections() , instanceOf(delegate, 37)?new Collections$UnmodifiableRandomAccessList(delegate):new Collections$UnmodifiableList(delegate));
+function $clinit_Maps(){
+  $clinit_Maps = emptyMethod;
+  new Joiner$MapJoiner(($clinit_Collections2() , '='));
 }
 
-defineClass(143, 511, $intern_3, RegularImmutableList);
+function safeGet(map_0, key){
+  $clinit_Maps();
+  checkNotNull(map_0);
+  try {
+    return map_0.get_2(key);
+  }
+   catch ($e0) {
+    $e0 = wrap_0($e0);
+    if (instanceOf($e0, 55)) {
+      return null;
+    }
+     else if (instanceOf($e0, 40)) {
+      return null;
+    }
+     else 
+      throw unwrap($e0);
+  }
+}
+
+function equalsImpl_0(multiset, object){
+  var entry, entry$iterator, that;
+  if (object === multiset) {
+    return true;
+  }
+  if (instanceOf(object, 214)) {
+    that = object;
+    if (saturatedCast(multiset.size_0) != saturatedCast(that.size_0) || $entrySet(multiset).size_1() != $entrySet(that).size_1()) {
+      return false;
+    }
+    for (entry$iterator = $entrySet(that).iterator(); entry$iterator.hasNext();) {
+      entry = entry$iterator.next_0();
+      if ($count(multiset, entry.val$mapEntry2.getKey()) != $getCount(entry)) {
+        return false;
+      }
+    }
+    return true;
+  }
+  return false;
+}
+
+function sizeImpl(multiset){
+  var entry, entry$iterator, size_0;
+  size_0 = {l:0, m:0, h:0};
+  for (entry$iterator = $entrySet(multiset).iterator(); entry$iterator.hasNext();) {
+    entry = entry$iterator.next_0();
+    size_0 = add_1(size_0, fromInt($getCount(entry)));
+  }
+  return saturatedCast(size_0);
+}
+
+function Multisets$MultisetIteratorImpl(multiset, entryIterator){
+  this.multiset = multiset;
+  this.entryIterator = entryIterator;
+}
+
+defineClass(418, 1, {}, Multisets$MultisetIteratorImpl);
+_.hasNext = function hasNext_4(){
+  return this.laterCount > 0 || this.entryIterator.hasNext();
+}
+;
+_.next_0 = function next_5(){
+  if (!(this.laterCount > 0 || this.entryIterator.hasNext())) {
+    throw new NoSuchElementException;
+  }
+  if (this.laterCount == 0) {
+    this.currentEntry = this.entryIterator.next_0();
+    this.totalCount = this.laterCount = $getCount(this.currentEntry);
+  }
+  --this.laterCount;
+  this.canRemove = true;
+  return this.currentEntry.val$mapEntry2.getKey();
+}
+;
+_.remove = function remove_3(){
+  checkState_0(this.canRemove);
+  this.totalCount == 1?this.entryIterator.remove():$remove(this.multiset, this.currentEntry.val$mapEntry2.getKey()) > 0;
+  --this.totalCount;
+  this.canRemove = false;
+}
+;
+_.canRemove = false;
+_.laterCount = 0;
+_.totalCount = 0;
+var Lcom_google_common_collect_Multisets$MultisetIteratorImpl_2_classLit = createForClass('com.google.common.collect', 'Multisets/MultisetIteratorImpl', 418, Ljava_lang_Object_2_classLit);
+function RegularImmutableList(delegate){
+  $clinit_ImmutableList();
+  this.delegate = ($clinit_Collections() , instanceOf(delegate, 38)?new Collections$UnmodifiableRandomAccessList(delegate):new Collections$UnmodifiableList(delegate));
+}
+
+defineClass(148, 545, $intern_6, RegularImmutableList);
 _.delegateList = function delegateList(){
   return this.delegate;
 }
 ;
-var Lcom_google_common_collect_RegularImmutableList_2_classLit = createForClass('com.google.common.collect', 'RegularImmutableList', 143, Lcom_google_common_collect_ForwardingImmutableList_2_classLit);
+var Lcom_google_common_collect_RegularImmutableList_2_classLit = createForClass('com.google.common.collect', 'RegularImmutableList', 148, Lcom_google_common_collect_ForwardingImmutableList_2_classLit);
 function SingletonImmutableList(element){
   this.delegate = ($clinit_Collections() , new Collections$SingletonList(checkNotNull(element)));
 }
 
-defineClass(436, 511, $intern_3, SingletonImmutableList);
+defineClass(424, 545, $intern_6, SingletonImmutableList);
 _.delegateList = function delegateList_0(){
   return this.delegate;
 }
 ;
-var Lcom_google_common_collect_SingletonImmutableList_2_classLit = createForClass('com.google.common.collect', 'SingletonImmutableList', 436, Lcom_google_common_collect_ForwardingImmutableList_2_classLit);
+var Lcom_google_common_collect_SingletonImmutableList_2_classLit = createForClass('com.google.common.collect', 'SingletonImmutableList', 424, Lcom_google_common_collect_ForwardingImmutableList_2_classLit);
+function saturatedCast(value_0){
+  if (gt(value_0, {l:$intern_3, m:511, h:0})) {
+    return $intern_0;
+  }
+  if (lt(value_0, {l:0, m:4193792, h:$intern_7})) {
+    return -2147483648;
+  }
+  return toInt(value_0);
+}
+
 function $addColorStop(this$static, offset, color_0){
   this$static.addColorStop(offset, color_0);
 }
@@ -1077,12 +1681,12 @@ function Context2d$LineCap(enum$name, enum$ordinal, value_0){
 
 function values_1(){
   $clinit_Context2d$LineCap();
-  return initValues(getClassLiteralForArray(Lcom_google_gwt_canvas_dom_client_Context2d$LineCap_2_classLit, 1), $intern_1, 92, 0, [BUTT, ROUND, SQUARE]);
+  return initValues(getClassLiteralForArray(Lcom_google_gwt_canvas_dom_client_Context2d$LineCap_2_classLit, 1), $intern_1, 97, 0, [BUTT, ROUND, SQUARE]);
 }
 
-defineClass(92, 6, {92:1, 3:1, 7:1, 6:1}, Context2d$LineCap);
+defineClass(97, 6, {97:1, 3:1, 7:1, 6:1}, Context2d$LineCap);
 var BUTT, ROUND, SQUARE;
-var Lcom_google_gwt_canvas_dom_client_Context2d$LineCap_2_classLit = createForEnum('com.google.gwt.canvas.dom.client', 'Context2d/LineCap', 92, Ljava_lang_Enum_2_classLit, values_1);
+var Lcom_google_gwt_canvas_dom_client_Context2d$LineCap_2_classLit = createForEnum('com.google.gwt.canvas.dom.client', 'Context2d/LineCap', 97, Ljava_lang_Enum_2_classLit, values_1);
 function $clinit_Context2d$LineJoin(){
   $clinit_Context2d$LineJoin = emptyMethod;
   BEVEL = new Context2d$LineJoin('BEVEL', 0, 'bevel');
@@ -1097,12 +1701,12 @@ function Context2d$LineJoin(enum$name, enum$ordinal, value_0){
 
 function values_2(){
   $clinit_Context2d$LineJoin();
-  return initValues(getClassLiteralForArray(Lcom_google_gwt_canvas_dom_client_Context2d$LineJoin_2_classLit, 1), $intern_1, 93, 0, [BEVEL, MITER, ROUND_0]);
+  return initValues(getClassLiteralForArray(Lcom_google_gwt_canvas_dom_client_Context2d$LineJoin_2_classLit, 1), $intern_1, 98, 0, [BEVEL, MITER, ROUND_0]);
 }
 
-defineClass(93, 6, {93:1, 3:1, 7:1, 6:1}, Context2d$LineJoin);
+defineClass(98, 6, {98:1, 3:1, 7:1, 6:1}, Context2d$LineJoin);
 var BEVEL, MITER, ROUND_0;
-var Lcom_google_gwt_canvas_dom_client_Context2d$LineJoin_2_classLit = createForEnum('com.google.gwt.canvas.dom.client', 'Context2d/LineJoin', 93, Ljava_lang_Enum_2_classLit, values_2);
+var Lcom_google_gwt_canvas_dom_client_Context2d$LineJoin_2_classLit = createForEnum('com.google.gwt.canvas.dom.client', 'Context2d/LineJoin', 98, Ljava_lang_Enum_2_classLit, values_2);
 function $clinit_Context2d$TextBaseline(){
   $clinit_Context2d$TextBaseline = emptyMethod;
   ALPHABETIC = new Context2d$TextBaseline('ALPHABETIC', 0, 'alphabetic');
@@ -1120,12 +1724,12 @@ function Context2d$TextBaseline(enum$name, enum$ordinal, value_0){
 
 function values_3(){
   $clinit_Context2d$TextBaseline();
-  return initValues(getClassLiteralForArray(Lcom_google_gwt_canvas_dom_client_Context2d$TextBaseline_2_classLit, 1), $intern_1, 50, 0, [ALPHABETIC, BOTTOM, HANGING, IDEOGRAPHIC, MIDDLE, TOP]);
+  return initValues(getClassLiteralForArray(Lcom_google_gwt_canvas_dom_client_Context2d$TextBaseline_2_classLit, 1), $intern_1, 57, 0, [ALPHABETIC, BOTTOM, HANGING, IDEOGRAPHIC, MIDDLE, TOP]);
 }
 
-defineClass(50, 6, {50:1, 3:1, 7:1, 6:1}, Context2d$TextBaseline);
+defineClass(57, 6, {57:1, 3:1, 7:1, 6:1}, Context2d$TextBaseline);
 var ALPHABETIC, BOTTOM, HANGING, IDEOGRAPHIC, MIDDLE, TOP;
-var Lcom_google_gwt_canvas_dom_client_Context2d$TextBaseline_2_classLit = createForEnum('com.google.gwt.canvas.dom.client', 'Context2d/TextBaseline', 50, Ljava_lang_Enum_2_classLit, values_3);
+var Lcom_google_gwt_canvas_dom_client_Context2d$TextBaseline_2_classLit = createForEnum('com.google.gwt.canvas.dom.client', 'Context2d/TextBaseline', 57, Ljava_lang_Enum_2_classLit, values_3);
 function setUncaughtExceptionHandler(handler){
   uncaughtExceptionHandler = handler;
 }
@@ -1133,7 +1737,7 @@ function setUncaughtExceptionHandler(handler){
 var uncaughtExceptionHandler = null;
 function $addSuppressed(this$static, exception){
   checkNotNull_1(exception, 'Cannot suppress a null exception.');
-  checkCriticalArgument(exception != this$static, 'Exception can not suppress itself.');
+  checkCriticalArgument_0(exception != this$static, 'Exception can not suppress itself.');
   if (this$static.disableSuppression) {
     return;
   }
@@ -1141,13 +1745,13 @@ function $addSuppressed(this$static, exception){
 }
 
 function $initCause(this$static, cause){
-  checkState(!this$static.cause);
-  checkCriticalArgument(cause != this$static, 'Self-causation not permitted');
+  checkState_2(!this$static.cause);
+  checkCriticalArgument_0(cause != this$static, 'Self-causation not permitted');
   this$static.cause = cause;
   return this$static;
 }
 
-function $toString_2(this$static){
+function $toString_3(this$static){
   var className, msg;
   className = $getName(this$static.___clazz$);
   msg = this$static.getMessage();
@@ -1173,8 +1777,8 @@ _.printStackTrace = function printStackTrace(out){
   }
 }
 ;
-_.toString$ = function toString_8(){
-  return $toString_2(this);
+_.toString$ = function toString_15(){
+  return $toString_3(this);
 }
 ;
 _.disableSuppression = false;
@@ -1191,15 +1795,15 @@ function RuntimeException_0(message){
 }
 
 function RuntimeException_1(cause){
-  this.detailMessage = !cause?null:$toString_2(cause);
+  this.detailMessage = !cause?null:$toString_3(cause);
   this.cause = cause;
   this.fillInStackTrace();
 }
 
-defineClass(8, 14, $intern_4, RuntimeException, RuntimeException_0, RuntimeException_1);
+defineClass(8, 14, $intern_8, RuntimeException, RuntimeException_0, RuntimeException_1);
 var Ljava_lang_RuntimeException_2_classLit = createForClass('java.lang', 'RuntimeException', 8, Ljava_lang_Exception_2_classLit);
-defineClass(201, 8, $intern_4);
-var Lcom_google_gwt_core_client_impl_JavaScriptExceptionBase_2_classLit = createForClass('com.google.gwt.core.client.impl', 'JavaScriptExceptionBase', 201, Ljava_lang_RuntimeException_2_classLit);
+defineClass(216, 8, $intern_8);
+var Lcom_google_gwt_core_client_impl_JavaScriptExceptionBase_2_classLit = createForClass('com.google.gwt.core.client.impl', 'JavaScriptExceptionBase', 216, Ljava_lang_RuntimeException_2_classLit);
 function $clinit_JavaScriptException(){
   $clinit_JavaScriptException = emptyMethod;
   NOT_SET = new Object_0;
@@ -1225,7 +1829,7 @@ function JavaScriptException(e){
   this.description = '';
 }
 
-defineClass(67, 201, {67:1, 3:1, 14:1, 8:1, 10:1}, JavaScriptException);
+defineClass(76, 216, {76:1, 3:1, 14:1, 8:1, 10:1}, JavaScriptException);
 _.getMessage = function getMessage_0(){
   $ensureInit(this);
   return this.message_0;
@@ -1236,13 +1840,17 @@ _.getThrown = function getThrown(){
 }
 ;
 var NOT_SET;
-var Lcom_google_gwt_core_client_JavaScriptException_2_classLit = createForClass('com.google.gwt.core.client', 'JavaScriptException', 67, Lcom_google_gwt_core_client_impl_JavaScriptExceptionBase_2_classLit);
+var Lcom_google_gwt_core_client_JavaScriptException_2_classLit = createForClass('com.google.gwt.core.client', 'JavaScriptException', 76, Lcom_google_gwt_core_client_impl_JavaScriptExceptionBase_2_classLit);
 function $push(this$static, value_0){
   this$static[this$static.length] = value_0;
 }
 
 function $push_0(this$static, value_0){
   this$static[this$static.length] = value_0;
+}
+
+function $set(this$static, index_0, value_0){
+  this$static[index_0] = value_0;
 }
 
 function now_1(){
@@ -1252,8 +1860,8 @@ function now_1(){
   return (new Date).getTime();
 }
 
-defineClass(461, 1, {});
-var Lcom_google_gwt_core_client_Scheduler_2_classLit = createForClass('com.google.gwt.core.client', 'Scheduler', 461, Ljava_lang_Object_2_classLit);
+defineClass(495, 1, {});
+var Lcom_google_gwt_core_client_Scheduler_2_classLit = createForClass('com.google.gwt.core.client', 'Scheduler', 495, Ljava_lang_Object_2_classLit);
 function apply_0(jsFunction, thisObj, args){
   return jsFunction.apply(thisObj, args);
   var __0;
@@ -1343,7 +1951,7 @@ function reportUncaughtException(e){
     $reportError(handler.this$01, 'Uncaught Exception: ', e);
     return;
   }
-  reportToBrowser(instanceOf(e, 67)?e.getThrown():e);
+  reportToBrowser(instanceOf(e, 76)?e.getThrown():e);
 }
 
 function watchdogEntryDepthCancel(timerId){
@@ -1418,9 +2026,9 @@ function runScheduledTasks(tasks, rescheduled){
   return rescheduled;
 }
 
-defineClass(369, 461, {}, SchedulerImpl);
+defineClass(394, 495, {}, SchedulerImpl);
 var INSTANCE_0;
-var Lcom_google_gwt_core_client_impl_SchedulerImpl_2_classLit = createForClass('com.google.gwt.core.client.impl', 'SchedulerImpl', 369, Lcom_google_gwt_core_client_Scheduler_2_classLit);
+var Lcom_google_gwt_core_client_impl_SchedulerImpl_2_classLit = createForClass('com.google.gwt.core.client.impl', 'SchedulerImpl', 394, Lcom_google_gwt_core_client_Scheduler_2_classLit);
 function $clinit_StackTraceCreator(){
   $clinit_StackTraceCreator = emptyMethod;
   var c, enforceLegacy;
@@ -1458,12 +2066,12 @@ function parseInt_0(number){
 }
 
 var collector;
-defineClass(472, 1, {});
-var Lcom_google_gwt_core_client_impl_StackTraceCreator$Collector_2_classLit = createForClass('com.google.gwt.core.client.impl', 'StackTraceCreator/Collector', 472, Ljava_lang_Object_2_classLit);
+defineClass(506, 1, {});
+var Lcom_google_gwt_core_client_impl_StackTraceCreator$Collector_2_classLit = createForClass('com.google.gwt.core.client.impl', 'StackTraceCreator/Collector', 506, Ljava_lang_Object_2_classLit);
 function StackTraceCreator$CollectorLegacy(){
 }
 
-defineClass(202, 472, {}, StackTraceCreator$CollectorLegacy);
+defineClass(217, 506, {}, StackTraceCreator$CollectorLegacy);
 _.collect = function collect(t, thrownIgnored){
   var seen = {}, name_1;
   t.fnStack = [];
@@ -1490,14 +2098,14 @@ _.getStackTrace = function getStackTrace(t){
   var i, length_0, stack_0, stackTrace;
   stack_0 = ($clinit_StackTraceCreator() , t && t.fnStack && t.fnStack instanceof Array?t.fnStack:[]);
   length_0 = stack_0.length;
-  stackTrace = initDim(Ljava_lang_StackTraceElement_2_classLit, $intern_1, 58, length_0, 0, 1);
+  stackTrace = initDim(Ljava_lang_StackTraceElement_2_classLit, $intern_1, 67, length_0, 0, 1);
   for (i = 0; i < length_0; i++) {
     stackTrace[i] = new StackTraceElement(stack_0[i], null, -1);
   }
   return stackTrace;
 }
 ;
-var Lcom_google_gwt_core_client_impl_StackTraceCreator$CollectorLegacy_2_classLit = createForClass('com.google.gwt.core.client.impl', 'StackTraceCreator/CollectorLegacy', 202, Lcom_google_gwt_core_client_impl_StackTraceCreator$Collector_2_classLit);
+var Lcom_google_gwt_core_client_impl_StackTraceCreator$CollectorLegacy_2_classLit = createForClass('com.google.gwt.core.client.impl', 'StackTraceCreator/CollectorLegacy', 217, Lcom_google_gwt_core_client_impl_StackTraceCreator$Collector_2_classLit);
 function $clinit_StackTraceCreator$CollectorModern(){
   $clinit_StackTraceCreator$CollectorModern = emptyMethod;
   Error.stackTraceLimit = 64;
@@ -1544,7 +2152,7 @@ function $parse(this$static, stString){
   return this$static.createSte(fileName, toReturn, line, col);
 }
 
-defineClass(473, 472, {});
+defineClass(507, 506, {});
 _.collect = function collect_0(t, jsThrown){
   function fixIE(e){
     if (!('stack' in e)) {
@@ -1569,7 +2177,7 @@ _.createSte = function createSte(fileName, method, line, col){
 _.getStackTrace = function getStackTrace_0(t){
   var addIndex, i, length_0, stack_0, stackTrace, ste, e;
   stack_0 = ($clinit_StackTraceCreator() , e = t.__gwt$backingJsError , e && e.stack?e.stack.split('\n'):[]);
-  stackTrace = initDim(Ljava_lang_StackTraceElement_2_classLit, $intern_1, 58, 0, 0, 1);
+  stackTrace = initDim(Ljava_lang_StackTraceElement_2_classLit, $intern_1, 67, 0, 0, 1);
   addIndex = 0;
   length_0 = stack_0.length;
   if (length_0 == 0) {
@@ -1583,30 +2191,36 @@ _.getStackTrace = function getStackTrace_0(t){
   return stackTrace;
 }
 ;
-var Lcom_google_gwt_core_client_impl_StackTraceCreator$CollectorModern_2_classLit = createForClass('com.google.gwt.core.client.impl', 'StackTraceCreator/CollectorModern', 473, Lcom_google_gwt_core_client_impl_StackTraceCreator$Collector_2_classLit);
+var Lcom_google_gwt_core_client_impl_StackTraceCreator$CollectorModern_2_classLit = createForClass('com.google.gwt.core.client.impl', 'StackTraceCreator/CollectorModern', 507, Lcom_google_gwt_core_client_impl_StackTraceCreator$Collector_2_classLit);
 function StackTraceCreator$CollectorModernNoSourceMap(){
   $clinit_StackTraceCreator$CollectorModern();
 }
 
-defineClass(203, 473, {}, StackTraceCreator$CollectorModernNoSourceMap);
+defineClass(218, 507, {}, StackTraceCreator$CollectorModernNoSourceMap);
 _.createSte = function createSte_0(fileName, method, line, col){
   return new StackTraceElement(method, fileName, -1);
 }
 ;
-var Lcom_google_gwt_core_client_impl_StackTraceCreator$CollectorModernNoSourceMap_2_classLit = createForClass('com.google.gwt.core.client.impl', 'StackTraceCreator/CollectorModernNoSourceMap', 203, Lcom_google_gwt_core_client_impl_StackTraceCreator$CollectorModern_2_classLit);
+var Lcom_google_gwt_core_client_impl_StackTraceCreator$CollectorModernNoSourceMap_2_classLit = createForClass('com.google.gwt.core.client.impl', 'StackTraceCreator/CollectorModernNoSourceMap', 218, Lcom_google_gwt_core_client_impl_StackTraceCreator$CollectorModern_2_classLit);
 function checkArrayType(expression, errorMessage){
   if (!expression) {
     throw new ArrayStoreException('' + errorMessage);
   }
 }
 
-function checkCriticalArgument(expression, errorMessage){
+function checkCriticalArgument(expression){
+  if (!expression) {
+    throw new IllegalArgumentException;
+  }
+}
+
+function checkCriticalArgument_0(expression, errorMessage){
   if (!expression) {
     throw new IllegalArgumentException_0('' + errorMessage);
   }
 }
 
-function checkCriticalArgument_0(expression, errorMessageArgs){
+function checkCriticalArgument_1(expression, errorMessageArgs){
   if (!expression) {
     throw new IllegalArgumentException_0(format_1('%s > %s', errorMessageArgs));
   }
@@ -1643,9 +2257,15 @@ function checkPositionIndex_0(index_0, size_0){
   }
 }
 
-function checkState(expression){
+function checkState_1(expression){
   if (!expression) {
-    throw new IllegalStateException("Can't overwrite cause");
+    throw new IllegalStateException;
+  }
+}
+
+function checkState_2(expression){
+  if (!expression) {
+    throw new IllegalStateException_0("Can't overwrite cause");
   }
 }
 
@@ -1660,17 +2280,17 @@ function format_1(template, args){
     if (placeholderStart == -1) {
       break;
     }
-    $append_6(builder, template.substr(templateStart, placeholderStart - templateStart));
-    $append_5(builder, args[i++]);
+    $append_7(builder, template.substr(templateStart, placeholderStart - templateStart));
+    $append_6(builder, args[i++]);
     templateStart = placeholderStart + 2;
   }
-  $append_6(builder, __substr(template, templateStart, template.length - templateStart));
+  $append_7(builder, __substr(template, templateStart, template.length - templateStart));
   if (i < args.length) {
     builder.string += ' [';
-    $append_5(builder, args[i++]);
+    $append_6(builder, args[i++]);
     while (i < args.length) {
       builder.string += ', ';
-      $append_5(builder, args[i++]);
+      $append_6(builder, args[i++]);
     }
     builder.string += ']';
   }
@@ -1861,30 +2481,30 @@ function Style$FontStyle(enum$name, enum$ordinal){
 
 function values_4(){
   $clinit_Style$FontStyle();
-  return initValues(getClassLiteralForArray(Lcom_google_gwt_dom_client_Style$FontStyle_2_classLit, 1), $intern_1, 51, 0, [NORMAL, ITALIC, OBLIQUE]);
+  return initValues(getClassLiteralForArray(Lcom_google_gwt_dom_client_Style$FontStyle_2_classLit, 1), $intern_1, 58, 0, [NORMAL, ITALIC, OBLIQUE]);
 }
 
-defineClass(51, 6, $intern_5);
+defineClass(58, 6, $intern_9);
 var ITALIC, NORMAL, OBLIQUE;
-var Lcom_google_gwt_dom_client_Style$FontStyle_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontStyle', 51, Ljava_lang_Enum_2_classLit, values_4);
+var Lcom_google_gwt_dom_client_Style$FontStyle_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontStyle', 58, Ljava_lang_Enum_2_classLit, values_4);
 function Style$FontStyle$1(){
   Style$FontStyle.call(this, 'NORMAL', 0);
 }
 
-defineClass(338, 51, $intern_5, Style$FontStyle$1);
-var Lcom_google_gwt_dom_client_Style$FontStyle$1_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontStyle/1', 338, Lcom_google_gwt_dom_client_Style$FontStyle_2_classLit, null);
+defineClass(356, 58, $intern_9, Style$FontStyle$1);
+var Lcom_google_gwt_dom_client_Style$FontStyle$1_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontStyle/1', 356, Lcom_google_gwt_dom_client_Style$FontStyle_2_classLit, null);
 function Style$FontStyle$2(){
   Style$FontStyle.call(this, 'ITALIC', 1);
 }
 
-defineClass(339, 51, $intern_5, Style$FontStyle$2);
-var Lcom_google_gwt_dom_client_Style$FontStyle$2_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontStyle/2', 339, Lcom_google_gwt_dom_client_Style$FontStyle_2_classLit, null);
+defineClass(357, 58, $intern_9, Style$FontStyle$2);
+var Lcom_google_gwt_dom_client_Style$FontStyle$2_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontStyle/2', 357, Lcom_google_gwt_dom_client_Style$FontStyle_2_classLit, null);
 function Style$FontStyle$3(){
   Style$FontStyle.call(this, 'OBLIQUE', 2);
 }
 
-defineClass(340, 51, $intern_5, Style$FontStyle$3);
-var Lcom_google_gwt_dom_client_Style$FontStyle$3_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontStyle/3', 340, Lcom_google_gwt_dom_client_Style$FontStyle_2_classLit, null);
+defineClass(358, 58, $intern_9, Style$FontStyle$3);
+var Lcom_google_gwt_dom_client_Style$FontStyle$3_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontStyle/3', 358, Lcom_google_gwt_dom_client_Style$FontStyle_2_classLit, null);
 function $clinit_Style$FontWeight(){
   $clinit_Style$FontWeight = emptyMethod;
   NORMAL_0 = new Style$FontWeight$1;
@@ -1899,36 +2519,36 @@ function Style$FontWeight(enum$name, enum$ordinal){
 
 function values_5(){
   $clinit_Style$FontWeight();
-  return initValues(getClassLiteralForArray(Lcom_google_gwt_dom_client_Style$FontWeight_2_classLit, 1), $intern_1, 41, 0, [NORMAL_0, BOLD, BOLDER, LIGHTER]);
+  return initValues(getClassLiteralForArray(Lcom_google_gwt_dom_client_Style$FontWeight_2_classLit, 1), $intern_1, 44, 0, [NORMAL_0, BOLD, BOLDER, LIGHTER]);
 }
 
-defineClass(41, 6, $intern_6);
+defineClass(44, 6, $intern_10);
 var BOLD, BOLDER, LIGHTER, NORMAL_0;
-var Lcom_google_gwt_dom_client_Style$FontWeight_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontWeight', 41, Ljava_lang_Enum_2_classLit, values_5);
+var Lcom_google_gwt_dom_client_Style$FontWeight_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontWeight', 44, Ljava_lang_Enum_2_classLit, values_5);
 function Style$FontWeight$1(){
   Style$FontWeight.call(this, 'NORMAL', 0);
 }
 
-defineClass(341, 41, $intern_6, Style$FontWeight$1);
-var Lcom_google_gwt_dom_client_Style$FontWeight$1_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontWeight/1', 341, Lcom_google_gwt_dom_client_Style$FontWeight_2_classLit, null);
+defineClass(359, 44, $intern_10, Style$FontWeight$1);
+var Lcom_google_gwt_dom_client_Style$FontWeight$1_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontWeight/1', 359, Lcom_google_gwt_dom_client_Style$FontWeight_2_classLit, null);
 function Style$FontWeight$2(){
   Style$FontWeight.call(this, 'BOLD', 1);
 }
 
-defineClass(342, 41, $intern_6, Style$FontWeight$2);
-var Lcom_google_gwt_dom_client_Style$FontWeight$2_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontWeight/2', 342, Lcom_google_gwt_dom_client_Style$FontWeight_2_classLit, null);
+defineClass(360, 44, $intern_10, Style$FontWeight$2);
+var Lcom_google_gwt_dom_client_Style$FontWeight$2_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontWeight/2', 360, Lcom_google_gwt_dom_client_Style$FontWeight_2_classLit, null);
 function Style$FontWeight$3(){
   Style$FontWeight.call(this, 'BOLDER', 2);
 }
 
-defineClass(343, 41, $intern_6, Style$FontWeight$3);
-var Lcom_google_gwt_dom_client_Style$FontWeight$3_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontWeight/3', 343, Lcom_google_gwt_dom_client_Style$FontWeight_2_classLit, null);
+defineClass(361, 44, $intern_10, Style$FontWeight$3);
+var Lcom_google_gwt_dom_client_Style$FontWeight$3_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontWeight/3', 361, Lcom_google_gwt_dom_client_Style$FontWeight_2_classLit, null);
 function Style$FontWeight$4(){
   Style$FontWeight.call(this, 'LIGHTER', 3);
 }
 
-defineClass(344, 41, $intern_6, Style$FontWeight$4);
-var Lcom_google_gwt_dom_client_Style$FontWeight$4_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontWeight/4', 344, Lcom_google_gwt_dom_client_Style$FontWeight_2_classLit, null);
+defineClass(362, 44, $intern_10, Style$FontWeight$4);
+var Lcom_google_gwt_dom_client_Style$FontWeight$4_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/FontWeight/4', 362, Lcom_google_gwt_dom_client_Style$FontWeight_2_classLit, null);
 function $clinit_Style$Overflow(){
   $clinit_Style$Overflow = emptyMethod;
   VISIBLE = new Style$Overflow$1;
@@ -1943,36 +2563,36 @@ function Style$Overflow(enum$name, enum$ordinal){
 
 function values_6(){
   $clinit_Style$Overflow();
-  return initValues(getClassLiteralForArray(Lcom_google_gwt_dom_client_Style$Overflow_2_classLit, 1), $intern_1, 42, 0, [VISIBLE, HIDDEN, SCROLL, AUTO]);
+  return initValues(getClassLiteralForArray(Lcom_google_gwt_dom_client_Style$Overflow_2_classLit, 1), $intern_1, 45, 0, [VISIBLE, HIDDEN, SCROLL, AUTO]);
 }
 
-defineClass(42, 6, $intern_7);
+defineClass(45, 6, $intern_11);
 var AUTO, HIDDEN, SCROLL, VISIBLE;
-var Lcom_google_gwt_dom_client_Style$Overflow_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Overflow', 42, Ljava_lang_Enum_2_classLit, values_6);
+var Lcom_google_gwt_dom_client_Style$Overflow_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Overflow', 45, Ljava_lang_Enum_2_classLit, values_6);
 function Style$Overflow$1(){
   Style$Overflow.call(this, 'VISIBLE', 0);
 }
 
-defineClass(345, 42, $intern_7, Style$Overflow$1);
-var Lcom_google_gwt_dom_client_Style$Overflow$1_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Overflow/1', 345, Lcom_google_gwt_dom_client_Style$Overflow_2_classLit, null);
+defineClass(363, 45, $intern_11, Style$Overflow$1);
+var Lcom_google_gwt_dom_client_Style$Overflow$1_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Overflow/1', 363, Lcom_google_gwt_dom_client_Style$Overflow_2_classLit, null);
 function Style$Overflow$2(){
   Style$Overflow.call(this, 'HIDDEN', 1);
 }
 
-defineClass(346, 42, $intern_7, Style$Overflow$2);
-var Lcom_google_gwt_dom_client_Style$Overflow$2_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Overflow/2', 346, Lcom_google_gwt_dom_client_Style$Overflow_2_classLit, null);
+defineClass(364, 45, $intern_11, Style$Overflow$2);
+var Lcom_google_gwt_dom_client_Style$Overflow$2_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Overflow/2', 364, Lcom_google_gwt_dom_client_Style$Overflow_2_classLit, null);
 function Style$Overflow$3(){
   Style$Overflow.call(this, 'SCROLL', 2);
 }
 
-defineClass(347, 42, $intern_7, Style$Overflow$3);
-var Lcom_google_gwt_dom_client_Style$Overflow$3_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Overflow/3', 347, Lcom_google_gwt_dom_client_Style$Overflow_2_classLit, null);
+defineClass(365, 45, $intern_11, Style$Overflow$3);
+var Lcom_google_gwt_dom_client_Style$Overflow$3_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Overflow/3', 365, Lcom_google_gwt_dom_client_Style$Overflow_2_classLit, null);
 function Style$Overflow$4(){
   Style$Overflow.call(this, 'AUTO', 3);
 }
 
-defineClass(348, 42, $intern_7, Style$Overflow$4);
-var Lcom_google_gwt_dom_client_Style$Overflow$4_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Overflow/4', 348, Lcom_google_gwt_dom_client_Style$Overflow_2_classLit, null);
+defineClass(366, 45, $intern_11, Style$Overflow$4);
+var Lcom_google_gwt_dom_client_Style$Overflow$4_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Overflow/4', 366, Lcom_google_gwt_dom_client_Style$Overflow_2_classLit, null);
 function $clinit_Style$Position(){
   $clinit_Style$Position = emptyMethod;
   STATIC = new Style$Position$1;
@@ -1987,36 +2607,36 @@ function Style$Position(enum$name, enum$ordinal){
 
 function values_7(){
   $clinit_Style$Position();
-  return initValues(getClassLiteralForArray(Lcom_google_gwt_dom_client_Style$Position_2_classLit, 1), $intern_1, 43, 0, [STATIC, RELATIVE, ABSOLUTE, FIXED]);
+  return initValues(getClassLiteralForArray(Lcom_google_gwt_dom_client_Style$Position_2_classLit, 1), $intern_1, 46, 0, [STATIC, RELATIVE, ABSOLUTE, FIXED]);
 }
 
-defineClass(43, 6, $intern_8);
+defineClass(46, 6, $intern_12);
 var ABSOLUTE, FIXED, RELATIVE, STATIC;
-var Lcom_google_gwt_dom_client_Style$Position_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Position', 43, Ljava_lang_Enum_2_classLit, values_7);
+var Lcom_google_gwt_dom_client_Style$Position_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Position', 46, Ljava_lang_Enum_2_classLit, values_7);
 function Style$Position$1(){
   Style$Position.call(this, 'STATIC', 0);
 }
 
-defineClass(349, 43, $intern_8, Style$Position$1);
-var Lcom_google_gwt_dom_client_Style$Position$1_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Position/1', 349, Lcom_google_gwt_dom_client_Style$Position_2_classLit, null);
+defineClass(367, 46, $intern_12, Style$Position$1);
+var Lcom_google_gwt_dom_client_Style$Position$1_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Position/1', 367, Lcom_google_gwt_dom_client_Style$Position_2_classLit, null);
 function Style$Position$2(){
   Style$Position.call(this, 'RELATIVE', 1);
 }
 
-defineClass(350, 43, $intern_8, Style$Position$2);
-var Lcom_google_gwt_dom_client_Style$Position$2_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Position/2', 350, Lcom_google_gwt_dom_client_Style$Position_2_classLit, null);
+defineClass(368, 46, $intern_12, Style$Position$2);
+var Lcom_google_gwt_dom_client_Style$Position$2_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Position/2', 368, Lcom_google_gwt_dom_client_Style$Position_2_classLit, null);
 function Style$Position$3(){
   Style$Position.call(this, 'ABSOLUTE', 2);
 }
 
-defineClass(351, 43, $intern_8, Style$Position$3);
-var Lcom_google_gwt_dom_client_Style$Position$3_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Position/3', 351, Lcom_google_gwt_dom_client_Style$Position_2_classLit, null);
+defineClass(369, 46, $intern_12, Style$Position$3);
+var Lcom_google_gwt_dom_client_Style$Position$3_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Position/3', 369, Lcom_google_gwt_dom_client_Style$Position_2_classLit, null);
 function Style$Position$4(){
   Style$Position.call(this, 'FIXED', 3);
 }
 
-defineClass(352, 43, $intern_8, Style$Position$4);
-var Lcom_google_gwt_dom_client_Style$Position$4_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Position/4', 352, Lcom_google_gwt_dom_client_Style$Position_2_classLit, null);
+defineClass(370, 46, $intern_12, Style$Position$4);
+var Lcom_google_gwt_dom_client_Style$Position$4_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Position/4', 370, Lcom_google_gwt_dom_client_Style$Position_2_classLit, null);
 function $clinit_Style$Unit(){
   $clinit_Style$Unit = emptyMethod;
   PX = new Style$Unit$1;
@@ -2036,66 +2656,66 @@ function Style$Unit(enum$name, enum$ordinal){
 
 function values_8(){
   $clinit_Style$Unit();
-  return initValues(getClassLiteralForArray(Lcom_google_gwt_dom_client_Style$Unit_2_classLit, 1), $intern_1, 19, 0, [PX, PCT, EM, EX, PT, PC, IN, CM, MM]);
+  return initValues(getClassLiteralForArray(Lcom_google_gwt_dom_client_Style$Unit_2_classLit, 1), $intern_1, 18, 0, [PX, PCT, EM, EX, PT, PC, IN, CM, MM]);
 }
 
-defineClass(19, 6, $intern_9);
+defineClass(18, 6, $intern_13);
 var CM, EM, EX, IN, MM, PC, PCT, PT, PX;
-var Lcom_google_gwt_dom_client_Style$Unit_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit', 19, Ljava_lang_Enum_2_classLit, values_8);
+var Lcom_google_gwt_dom_client_Style$Unit_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit', 18, Ljava_lang_Enum_2_classLit, values_8);
 function Style$Unit$1(){
   Style$Unit.call(this, 'PX', 0);
 }
 
-defineClass(329, 19, $intern_9, Style$Unit$1);
-var Lcom_google_gwt_dom_client_Style$Unit$1_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/1', 329, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
+defineClass(347, 18, $intern_13, Style$Unit$1);
+var Lcom_google_gwt_dom_client_Style$Unit$1_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/1', 347, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
 function Style$Unit$2(){
   Style$Unit.call(this, 'PCT', 1);
 }
 
-defineClass(330, 19, $intern_9, Style$Unit$2);
-var Lcom_google_gwt_dom_client_Style$Unit$2_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/2', 330, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
+defineClass(348, 18, $intern_13, Style$Unit$2);
+var Lcom_google_gwt_dom_client_Style$Unit$2_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/2', 348, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
 function Style$Unit$3(){
   Style$Unit.call(this, 'EM', 2);
 }
 
-defineClass(331, 19, $intern_9, Style$Unit$3);
-var Lcom_google_gwt_dom_client_Style$Unit$3_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/3', 331, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
+defineClass(349, 18, $intern_13, Style$Unit$3);
+var Lcom_google_gwt_dom_client_Style$Unit$3_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/3', 349, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
 function Style$Unit$4(){
   Style$Unit.call(this, 'EX', 3);
 }
 
-defineClass(332, 19, $intern_9, Style$Unit$4);
-var Lcom_google_gwt_dom_client_Style$Unit$4_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/4', 332, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
+defineClass(350, 18, $intern_13, Style$Unit$4);
+var Lcom_google_gwt_dom_client_Style$Unit$4_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/4', 350, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
 function Style$Unit$5(){
   Style$Unit.call(this, 'PT', 4);
 }
 
-defineClass(333, 19, $intern_9, Style$Unit$5);
-var Lcom_google_gwt_dom_client_Style$Unit$5_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/5', 333, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
+defineClass(351, 18, $intern_13, Style$Unit$5);
+var Lcom_google_gwt_dom_client_Style$Unit$5_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/5', 351, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
 function Style$Unit$6(){
   Style$Unit.call(this, 'PC', 5);
 }
 
-defineClass(334, 19, $intern_9, Style$Unit$6);
-var Lcom_google_gwt_dom_client_Style$Unit$6_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/6', 334, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
+defineClass(352, 18, $intern_13, Style$Unit$6);
+var Lcom_google_gwt_dom_client_Style$Unit$6_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/6', 352, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
 function Style$Unit$7(){
   Style$Unit.call(this, 'IN', 6);
 }
 
-defineClass(335, 19, $intern_9, Style$Unit$7);
-var Lcom_google_gwt_dom_client_Style$Unit$7_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/7', 335, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
+defineClass(353, 18, $intern_13, Style$Unit$7);
+var Lcom_google_gwt_dom_client_Style$Unit$7_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/7', 353, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
 function Style$Unit$8(){
   Style$Unit.call(this, 'CM', 7);
 }
 
-defineClass(336, 19, $intern_9, Style$Unit$8);
-var Lcom_google_gwt_dom_client_Style$Unit$8_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/8', 336, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
+defineClass(354, 18, $intern_13, Style$Unit$8);
+var Lcom_google_gwt_dom_client_Style$Unit$8_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/8', 354, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
 function Style$Unit$9(){
   Style$Unit.call(this, 'MM', 8);
 }
 
-defineClass(337, 19, $intern_9, Style$Unit$9);
-var Lcom_google_gwt_dom_client_Style$Unit$9_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/9', 337, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
+defineClass(355, 18, $intern_13, Style$Unit$9);
+var Lcom_google_gwt_dom_client_Style$Unit$9_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Unit/9', 355, Lcom_google_gwt_dom_client_Style$Unit_2_classLit, null);
 function $clinit_Style$Visibility(){
   $clinit_Style$Visibility = emptyMethod;
   VISIBLE_0 = new Style$Visibility$1;
@@ -2108,24 +2728,24 @@ function Style$Visibility(enum$name, enum$ordinal){
 
 function values_9(){
   $clinit_Style$Visibility();
-  return initValues(getClassLiteralForArray(Lcom_google_gwt_dom_client_Style$Visibility_2_classLit, 1), $intern_1, 72, 0, [VISIBLE_0, HIDDEN_0]);
+  return initValues(getClassLiteralForArray(Lcom_google_gwt_dom_client_Style$Visibility_2_classLit, 1), $intern_1, 79, 0, [VISIBLE_0, HIDDEN_0]);
 }
 
-defineClass(72, 6, $intern_10);
+defineClass(79, 6, $intern_14);
 var HIDDEN_0, VISIBLE_0;
-var Lcom_google_gwt_dom_client_Style$Visibility_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Visibility', 72, Ljava_lang_Enum_2_classLit, values_9);
+var Lcom_google_gwt_dom_client_Style$Visibility_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Visibility', 79, Ljava_lang_Enum_2_classLit, values_9);
 function Style$Visibility$1(){
   Style$Visibility.call(this, 'VISIBLE', 0);
 }
 
-defineClass(353, 72, $intern_10, Style$Visibility$1);
-var Lcom_google_gwt_dom_client_Style$Visibility$1_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Visibility/1', 353, Lcom_google_gwt_dom_client_Style$Visibility_2_classLit, null);
+defineClass(371, 79, $intern_14, Style$Visibility$1);
+var Lcom_google_gwt_dom_client_Style$Visibility$1_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Visibility/1', 371, Lcom_google_gwt_dom_client_Style$Visibility_2_classLit, null);
 function Style$Visibility$2(){
   Style$Visibility.call(this, 'HIDDEN', 1);
 }
 
-defineClass(354, 72, $intern_10, Style$Visibility$2);
-var Lcom_google_gwt_dom_client_Style$Visibility$2_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Visibility/2', 354, Lcom_google_gwt_dom_client_Style$Visibility_2_classLit, null);
+defineClass(372, 79, $intern_14, Style$Visibility$2);
+var Lcom_google_gwt_dom_client_Style$Visibility$2_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/Visibility/2', 372, Lcom_google_gwt_dom_client_Style$Visibility_2_classLit, null);
 function $clinit_Style$WhiteSpace(){
   $clinit_Style$WhiteSpace = emptyMethod;
   NORMAL_1 = new Style$WhiteSpace$1;
@@ -2141,42 +2761,42 @@ function Style$WhiteSpace(enum$name, enum$ordinal){
 
 function values_10(){
   $clinit_Style$WhiteSpace();
-  return initValues(getClassLiteralForArray(Lcom_google_gwt_dom_client_Style$WhiteSpace_2_classLit, 1), $intern_1, 31, 0, [NORMAL_1, NOWRAP, PRE, PRE_LINE, PRE_WRAP]);
+  return initValues(getClassLiteralForArray(Lcom_google_gwt_dom_client_Style$WhiteSpace_2_classLit, 1), $intern_1, 33, 0, [NORMAL_1, NOWRAP, PRE, PRE_LINE, PRE_WRAP]);
 }
 
-defineClass(31, 6, $intern_11);
+defineClass(33, 6, $intern_15);
 var NORMAL_1, NOWRAP, PRE, PRE_LINE, PRE_WRAP;
-var Lcom_google_gwt_dom_client_Style$WhiteSpace_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/WhiteSpace', 31, Ljava_lang_Enum_2_classLit, values_10);
+var Lcom_google_gwt_dom_client_Style$WhiteSpace_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/WhiteSpace', 33, Ljava_lang_Enum_2_classLit, values_10);
 function Style$WhiteSpace$1(){
   Style$WhiteSpace.call(this, 'NORMAL', 0);
 }
 
-defineClass(355, 31, $intern_11, Style$WhiteSpace$1);
-var Lcom_google_gwt_dom_client_Style$WhiteSpace$1_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/WhiteSpace/1', 355, Lcom_google_gwt_dom_client_Style$WhiteSpace_2_classLit, null);
+defineClass(373, 33, $intern_15, Style$WhiteSpace$1);
+var Lcom_google_gwt_dom_client_Style$WhiteSpace$1_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/WhiteSpace/1', 373, Lcom_google_gwt_dom_client_Style$WhiteSpace_2_classLit, null);
 function Style$WhiteSpace$2(){
   Style$WhiteSpace.call(this, 'NOWRAP', 1);
 }
 
-defineClass(356, 31, $intern_11, Style$WhiteSpace$2);
-var Lcom_google_gwt_dom_client_Style$WhiteSpace$2_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/WhiteSpace/2', 356, Lcom_google_gwt_dom_client_Style$WhiteSpace_2_classLit, null);
+defineClass(374, 33, $intern_15, Style$WhiteSpace$2);
+var Lcom_google_gwt_dom_client_Style$WhiteSpace$2_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/WhiteSpace/2', 374, Lcom_google_gwt_dom_client_Style$WhiteSpace_2_classLit, null);
 function Style$WhiteSpace$3(){
   Style$WhiteSpace.call(this, 'PRE', 2);
 }
 
-defineClass(357, 31, $intern_11, Style$WhiteSpace$3);
-var Lcom_google_gwt_dom_client_Style$WhiteSpace$3_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/WhiteSpace/3', 357, Lcom_google_gwt_dom_client_Style$WhiteSpace_2_classLit, null);
+defineClass(375, 33, $intern_15, Style$WhiteSpace$3);
+var Lcom_google_gwt_dom_client_Style$WhiteSpace$3_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/WhiteSpace/3', 375, Lcom_google_gwt_dom_client_Style$WhiteSpace_2_classLit, null);
 function Style$WhiteSpace$4(){
   Style$WhiteSpace.call(this, 'PRE_LINE', 3);
 }
 
-defineClass(358, 31, $intern_11, Style$WhiteSpace$4);
-var Lcom_google_gwt_dom_client_Style$WhiteSpace$4_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/WhiteSpace/4', 358, Lcom_google_gwt_dom_client_Style$WhiteSpace_2_classLit, null);
+defineClass(376, 33, $intern_15, Style$WhiteSpace$4);
+var Lcom_google_gwt_dom_client_Style$WhiteSpace$4_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/WhiteSpace/4', 376, Lcom_google_gwt_dom_client_Style$WhiteSpace_2_classLit, null);
 function Style$WhiteSpace$5(){
   Style$WhiteSpace.call(this, 'PRE_WRAP', 4);
 }
 
-defineClass(359, 31, $intern_11, Style$WhiteSpace$5);
-var Lcom_google_gwt_dom_client_Style$WhiteSpace$5_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/WhiteSpace/5', 359, Lcom_google_gwt_dom_client_Style$WhiteSpace_2_classLit, null);
+defineClass(377, 33, $intern_15, Style$WhiteSpace$5);
+var Lcom_google_gwt_dom_client_Style$WhiteSpace$5_2_classLit = createForEnum('com.google.gwt.dom.client', 'Style/WhiteSpace/5', 377, Lcom_google_gwt_dom_client_Style$WhiteSpace_2_classLit, null);
 function $getRelativeX(this$static, target){
   return ((this$static.clientX || 0) | 0) - $getAbsoluteLeft(target) + $getScrollLeft_0(target) + $getScrollLeft(target.ownerDocument);
 }
@@ -2276,7 +2896,7 @@ function cacheJavaScriptException(e, jse){
 
 function unwrap(e){
   var jse;
-  if (instanceOf(e, 67)) {
+  if (instanceOf(e, 76)) {
     jse = e;
     if (maskUndefined(jse.e) !== maskUndefined(($clinit_JavaScriptException() , NOT_SET))) {
       return maskUndefined(jse.e) === maskUndefined(NOT_SET)?null:jse.e;
@@ -2301,21 +2921,244 @@ function wrap_0(e){
 
 function create(value_0){
   var a0, a1, a2;
-  a0 = value_0 & $intern_12;
-  a1 = value_0 >> 22 & $intern_12;
-  a2 = value_0 < 0?1048575:0;
+  a0 = value_0 & $intern_3;
+  a1 = value_0 >> 22 & $intern_3;
+  a2 = value_0 < 0?$intern_7:0;
   return create0(a0, a1, a2);
+}
+
+function create_0(a){
+  return create0(a.l, a.m, a.h);
 }
 
 function create0(l, m, h){
   return {l:l, m:m, h:h};
 }
 
+function divMod(a, b, computeRemainder){
+  var aIsCopy, aIsMinValue, aIsNegative, bpower, c, negative;
+  if (b.l == 0 && b.m == 0 && b.h == 0) {
+    throw new ArithmeticException;
+  }
+  if (a.l == 0 && a.m == 0 && a.h == 0) {
+    computeRemainder && (remainder_0 = create0(0, 0, 0));
+    return create0(0, 0, 0);
+  }
+  if (b.h == $intern_16 && b.m == 0 && b.l == 0) {
+    return divModByMinValue(a, computeRemainder);
+  }
+  negative = false;
+  if (b.h >> 19 != 0) {
+    b = neg(b);
+    negative = true;
+  }
+  bpower = powerOfTwo(b);
+  aIsNegative = false;
+  aIsMinValue = false;
+  aIsCopy = false;
+  if (a.h == $intern_16 && a.m == 0 && a.l == 0) {
+    aIsMinValue = true;
+    aIsNegative = true;
+    if (bpower == -1) {
+      a = create_0(($clinit_LongLib$Const() , MAX_VALUE));
+      aIsCopy = true;
+      negative = !negative;
+    }
+     else {
+      c = shr(a, bpower);
+      negative && negate(c);
+      computeRemainder && (remainder_0 = create0(0, 0, 0));
+      return c;
+    }
+  }
+   else if (a.h >> 19 != 0) {
+    aIsNegative = true;
+    a = neg(a);
+    aIsCopy = true;
+    negative = !negative;
+  }
+  if (bpower != -1) {
+    return divModByShift(a, bpower, negative, aIsNegative, computeRemainder);
+  }
+  if (!gte_0(a, b)) {
+    computeRemainder && (aIsNegative?(remainder_0 = neg(a)):(remainder_0 = create0(a.l, a.m, a.h)));
+    return create0(0, 0, 0);
+  }
+  return divModHelper(aIsCopy?a:create0(a.l, a.m, a.h), b, negative, aIsNegative, aIsMinValue, computeRemainder);
+}
+
+function divModByMinValue(a, computeRemainder){
+  if (a.h == $intern_16 && a.m == 0 && a.l == 0) {
+    computeRemainder && (remainder_0 = create0(0, 0, 0));
+    return create_0(($clinit_LongLib$Const() , ONE));
+  }
+  computeRemainder && (remainder_0 = create0(a.l, a.m, a.h));
+  return create0(0, 0, 0);
+}
+
+function divModByShift(a, bpower, negative, aIsNegative, computeRemainder){
+  var c;
+  c = shr(a, bpower);
+  negative && negate(c);
+  if (computeRemainder) {
+    a = maskRight(a, bpower);
+    aIsNegative?(remainder_0 = neg(a)):(remainder_0 = create0(a.l, a.m, a.h));
+  }
+  return c;
+}
+
+function divModHelper(a, b, negative, aIsNegative, aIsMinValue, computeRemainder){
+  var bshift, gte, quotient, shift_0, a1, a2, a0;
+  shift_0 = numberOfLeadingZeros(b) - numberOfLeadingZeros(a);
+  bshift = shl(b, shift_0);
+  quotient = create0(0, 0, 0);
+  while (shift_0 >= 0) {
+    gte = trialSubtract(a, bshift);
+    if (gte) {
+      shift_0 < 22?(quotient.l |= 1 << shift_0 , undefined):shift_0 < 44?(quotient.m |= 1 << shift_0 - 22 , undefined):(quotient.h |= 1 << shift_0 - 44 , undefined);
+      if (a.l == 0 && a.m == 0 && a.h == 0) {
+        break;
+      }
+    }
+    a1 = bshift.m;
+    a2 = bshift.h;
+    a0 = bshift.l;
+    setH(bshift, a2 >>> 1);
+    bshift.m = a1 >>> 1 | (a2 & 1) << 21;
+    bshift.l = a0 >>> 1 | (a1 & 1) << 21;
+    --shift_0;
+  }
+  negative && negate(quotient);
+  if (computeRemainder) {
+    if (aIsNegative) {
+      remainder_0 = neg(a);
+      aIsMinValue && (remainder_0 = sub_0(remainder_0, ($clinit_LongLib$Const() , ONE)));
+    }
+     else {
+      remainder_0 = create0(a.l, a.m, a.h);
+    }
+  }
+  return quotient;
+}
+
+function maskRight(a, bits){
+  var b0, b1, b2;
+  if (bits <= 22) {
+    b0 = a.l & (1 << bits) - 1;
+    b1 = b2 = 0;
+  }
+   else if (bits <= 44) {
+    b0 = a.l;
+    b1 = a.m & (1 << bits - 22) - 1;
+    b2 = 0;
+  }
+   else {
+    b0 = a.l;
+    b1 = a.m;
+    b2 = a.h & (1 << bits - 44) - 1;
+  }
+  return create0(b0, b1, b2);
+}
+
+function negate(a){
+  var neg0, neg1, neg2;
+  neg0 = ~a.l + 1 & $intern_3;
+  neg1 = ~a.m + (neg0 == 0?1:0) & $intern_3;
+  neg2 = ~a.h + (neg0 == 0 && neg1 == 0?1:0) & $intern_7;
+  setL(a, neg0);
+  setM(a, neg1);
+  setH(a, neg2);
+}
+
+function numberOfLeadingZeros(a){
+  var b1, b2;
+  b2 = numberOfLeadingZeros_0(a.h);
+  if (b2 == 32) {
+    b1 = numberOfLeadingZeros_0(a.m);
+    return b1 == 32?numberOfLeadingZeros_0(a.l) + 32:b1 + 20 - 10;
+  }
+   else {
+    return b2 - 12;
+  }
+}
+
+function powerOfTwo(a){
+  var h, l, m;
+  l = a.l;
+  if ((l & l - 1) != 0) {
+    return -1;
+  }
+  m = a.m;
+  if ((m & m - 1) != 0) {
+    return -1;
+  }
+  h = a.h;
+  if ((h & h - 1) != 0) {
+    return -1;
+  }
+  if (h == 0 && m == 0 && l == 0) {
+    return -1;
+  }
+  if (h == 0 && m == 0 && l != 0) {
+    return numberOfTrailingZeros(l);
+  }
+  if (h == 0 && m != 0 && l == 0) {
+    return numberOfTrailingZeros(m) + 22;
+  }
+  if (h != 0 && m == 0 && l == 0) {
+    return numberOfTrailingZeros(h) + 44;
+  }
+  return -1;
+}
+
+function setH(a, x_0){
+  a.h = x_0;
+}
+
+function setL(a, x_0){
+  a.l = x_0;
+}
+
+function setM(a, x_0){
+  a.m = x_0;
+}
+
+function trialSubtract(a, b){
+  var sum0, sum1, sum2;
+  sum2 = a.h - b.h;
+  if (sum2 < 0) {
+    return false;
+  }
+  sum0 = a.l - b.l;
+  sum1 = a.m - b.m + (sum0 >> 22);
+  sum2 += sum1 >> 22;
+  if (sum2 < 0) {
+    return false;
+  }
+  setL(a, sum0 & $intern_3);
+  setM(a, sum1 & $intern_3);
+  setH(a, sum2 & $intern_7);
+  return true;
+}
+
+var remainder_0;
+function add_1(a, b){
+  var sum0, sum1, sum2;
+  sum0 = a.l + b.l;
+  sum1 = a.m + b.m + (sum0 >> 22);
+  sum2 = a.h + b.h + (sum1 >> 22);
+  return {l:sum0 & $intern_3, m:sum1 & $intern_3, h:sum2 & $intern_7};
+}
+
+function eq(a, b){
+  return a.l == b.l && a.m == b.m && a.h == b.h;
+}
+
 function fromInt(value_0){
   var rebase, result;
   if (value_0 > -129 && value_0 < 128) {
     rebase = value_0 + 128;
-    boxedValues == null && (boxedValues = initDim(Lcom_google_gwt_lang_LongLibBase$LongEmul_2_classLit, $intern_1, 522, 256, 0, 1));
+    boxedValues == null && (boxedValues = initDim(Lcom_google_gwt_lang_LongLibBase$LongEmul_2_classLit, $intern_1, 560, 256, 0, 1));
     result = boxedValues[rebase];
     !result && (result = boxedValues[rebase] = create(value_0));
     return result;
@@ -2330,17 +3173,125 @@ function gt(a, b){
   return signa == 0?signb != 0 || a.h > b.h || a.h == b.h && a.m > b.m || a.h == b.h && a.m == b.m && a.l > b.l:!(signb == 0 || a.h < b.h || a.h == b.h && a.m < b.m || a.h == b.h && a.m == b.m && a.l <= b.l);
 }
 
+function gte_0(a, b){
+  var signa, signb;
+  signa = a.h >> 19;
+  signb = b.h >> 19;
+  return signa == 0?signb != 0 || a.h > b.h || a.h == b.h && a.m > b.m || a.h == b.h && a.m == b.m && a.l >= b.l:!(signb == 0 || a.h < b.h || a.h == b.h && a.m < b.m || a.h == b.h && a.m == b.m && a.l < b.l);
+}
+
+function lt(a, b){
+  return !gte_0(a, b);
+}
+
+function lte(a, b){
+  return !gt(a, b);
+}
+
+function neg(a){
+  var neg0, neg1, neg2;
+  neg0 = ~a.l + 1 & $intern_3;
+  neg1 = ~a.m + (neg0 == 0?1:0) & $intern_3;
+  neg2 = ~a.h + (neg0 == 0 && neg1 == 0?1:0) & $intern_7;
+  return create0(neg0, neg1, neg2);
+}
+
+function shl(a, n){
+  var res0, res1, res2;
+  n &= 63;
+  if (n < 22) {
+    res0 = a.l << n;
+    res1 = a.m << n | a.l >> 22 - n;
+    res2 = a.h << n | a.m >> 22 - n;
+  }
+   else if (n < 44) {
+    res0 = 0;
+    res1 = a.l << n - 22;
+    res2 = a.m << n - 22 | a.l >> 44 - n;
+  }
+   else {
+    res0 = 0;
+    res1 = 0;
+    res2 = a.l << n - 44;
+  }
+  return {l:res0 & $intern_3, m:res1 & $intern_3, h:res2 & $intern_7};
+}
+
+function shr(a, n){
+  var a2, negative, res0, res1, res2;
+  n &= 63;
+  a2 = a.h;
+  negative = (a2 & $intern_16) != 0;
+  negative && (a2 |= -1048576);
+  if (n < 22) {
+    res2 = a2 >> n;
+    res1 = a.m >> n | a2 << 22 - n;
+    res0 = a.l >> n | a.m << 22 - n;
+  }
+   else if (n < 44) {
+    res2 = negative?$intern_7:0;
+    res1 = a2 >> n - 22;
+    res0 = a.m >> n - 22 | a2 << 44 - n;
+  }
+   else {
+    res2 = negative?$intern_7:0;
+    res1 = negative?$intern_3:0;
+    res0 = a2 >> n - 44;
+  }
+  return {l:res0 & $intern_3, m:res1 & $intern_3, h:res2 & $intern_7};
+}
+
+function sub_0(a, b){
+  var sum0, sum1, sum2;
+  sum0 = a.l - b.l;
+  sum1 = a.m - b.m + (sum0 >> 22);
+  sum2 = a.h - b.h + (sum1 >> 22);
+  return {l:sum0 & $intern_3, m:sum1 & $intern_3, h:sum2 & $intern_7};
+}
+
+function toInt(a){
+  return a.l | a.m << 22;
+}
+
+function toString_16(a){
+  var digits, rem, res, tenPowerLong, zeroesNeeded;
+  if (a.l == 0 && a.m == 0 && a.h == 0) {
+    return '0';
+  }
+  if (a.h == $intern_16 && a.m == 0 && a.l == 0) {
+    return '-9223372036854775808';
+  }
+  if (a.h >> 19 != 0) {
+    return '-' + toString_16(neg(a));
+  }
+  rem = a;
+  res = '';
+  while (!(rem.l == 0 && rem.m == 0 && rem.h == 0)) {
+    tenPowerLong = fromInt(1000000000);
+    rem = divMod(rem, tenPowerLong, true);
+    digits = '' + toInt(remainder_0);
+    if (!(rem.l == 0 && rem.m == 0 && rem.h == 0)) {
+      zeroesNeeded = 9 - digits.length;
+      for (; zeroesNeeded > 0; zeroesNeeded--) {
+        digits = '0' + digits;
+      }
+    }
+    res = digits + res;
+  }
+  return res;
+}
+
 var boxedValues;
 function $clinit_LongLib$Const(){
   $clinit_LongLib$Const = emptyMethod;
-  MAX_VALUE = create0($intern_12, $intern_12, 524287);
-  MIN_VALUE = create0(0, 0, 524288);
-  fromInt(1);
+  MAX_VALUE = create0($intern_3, $intern_3, 524287);
+  MIN_VALUE = create0(0, 0, $intern_16);
+  ONE = fromInt(1);
   fromInt(2);
   ZERO = fromInt(0);
 }
 
-var MAX_VALUE, MIN_VALUE, ZERO;
+var MAX_VALUE, MIN_VALUE, ONE, ZERO;
 function hasTypeMarker(o){
   return o.typeMarker$ === typeMarkerFn;
 }
@@ -2368,6 +3319,10 @@ function $key(this$static, index_0){
   return $key_0(this$static.storage, index_0);
 }
 
+function $removeItem(this$static, key){
+  $removeItem_0(this$static.storage, key);
+}
+
 function $setItem(this$static, key, data_0){
   $setItem_0(this$static.storage, key, data_0);
 }
@@ -2376,9 +3331,9 @@ function Storage_0(){
   this.storage = 'localStorage';
 }
 
-defineClass(361, 1, {}, Storage_0);
+defineClass(379, 1, {}, Storage_0);
 var localStorage_0;
-var Lcom_google_gwt_storage_client_Storage_2_classLit = createForClass('com.google.gwt.storage.client', 'Storage', 361, Ljava_lang_Object_2_classLit);
+var Lcom_google_gwt_storage_client_Storage_2_classLit = createForClass('com.google.gwt.storage.client', 'Storage', 379, Ljava_lang_Object_2_classLit);
 function $clinit_Storage$StorageSupportDetector(){
   $clinit_Storage$StorageSupportDetector = emptyMethod;
   localStorageSupported = checkStorageSupport('localStorage');
@@ -2410,6 +3365,11 @@ function $key_0(storage, index_0){
   return index_0 >= 0 && index_0 < $wnd[storage].length?$wnd[storage].key(index_0):null;
 }
 
+function $removeItem_0(storage, key){
+  $getItem_0(storage, key);
+  $wnd[storage].removeItem(key);
+}
+
 function $setItem_0(storage, key, data_0){
   $getItem_0(storage, key);
   $wnd[storage].setItem(key, data_0);
@@ -2429,19 +3389,23 @@ function $containsEntry(this$static, entry){
   return true;
 }
 
-function $implFindEntry(this$static, key){
+function $implFindEntry(this$static, key, remove){
   var entry, iter, k;
   for (iter = this$static.entrySet_0().iterator(); iter.hasNext();) {
     entry = iter.next_0();
     k = entry.getKey();
     if (maskUndefined(key) === maskUndefined(k) || key != null && equals_Ljava_lang_Object__Z__devirtual$(key, k)) {
+      if (remove) {
+        entry = new AbstractMap$SimpleEntry(entry.getKey(), entry.getValue());
+        iter.remove();
+      }
       return entry;
     }
   }
   return null;
 }
 
-function $toString_3(this$static, o){
+function $toString_4(this$static, o){
   return o === this$static?'(this Map)':'' + o;
 }
 
@@ -2449,17 +3413,17 @@ function getEntryValueOrNull(entry){
   return !entry?null:entry.getValue();
 }
 
-defineClass(474, 1, $intern_13);
+defineClass(508, 1, $intern_17);
 _.containsKey = function containsKey(key){
-  return !!$implFindEntry(this, key);
+  return !!$implFindEntry(this, key, false);
 }
 ;
-_.equals$ = function equals_5(obj){
+_.equals$ = function equals_9(obj){
   var entry, entry$iterator, otherMap;
   if (obj === this) {
     return true;
   }
-  if (!instanceOf(obj, 121)) {
+  if (!instanceOf(obj, 130)) {
     return false;
   }
   otherMap = obj;
@@ -2476,42 +3440,46 @@ _.equals$ = function equals_5(obj){
 }
 ;
 _.get_2 = function get_3(key){
-  return getEntryValueOrNull($implFindEntry(this, key));
+  return getEntryValueOrNull($implFindEntry(this, key, false));
 }
 ;
-_.hashCode$ = function hashCode_6(){
-  return hashCode_21(this.entrySet_0());
+_.hashCode$ = function hashCode_10(){
+  return hashCode_25(this.entrySet_0());
 }
 ;
 _.put = function put(key, value_0){
   throw new UnsupportedOperationException_0('Put not supported on this map');
 }
 ;
-_.size_1 = function size_3(){
+_.remove_0 = function remove_4(key){
+  return getEntryValueOrNull($implFindEntry(this, key, true));
+}
+;
+_.size_1 = function size_6(){
   return this.entrySet_0().size_1();
 }
 ;
-_.toString$ = function toString_9(){
+_.toString$ = function toString_17(){
   var comma, entry, entry$iterator, sb;
   sb = new StringBuilder_1('{');
   comma = false;
   for (entry$iterator = this.entrySet_0().iterator(); entry$iterator.hasNext();) {
     entry = entry$iterator.next_0();
     comma?(sb.string += ', ' , sb):(comma = true);
-    $append_6(sb, $toString_3(this, entry.getKey()));
+    $append_7(sb, $toString_4(this, entry.getKey()));
     sb.string += '=';
-    $append_6(sb, $toString_3(this, entry.getValue()));
+    $append_7(sb, $toString_4(this, entry.getValue()));
   }
   sb.string += '}';
   return sb.string;
 }
 ;
-var Ljava_util_AbstractMap_2_classLit = createForClass('java.util', 'AbstractMap', 474, Ljava_lang_Object_2_classLit);
+var Ljava_util_AbstractMap_2_classLit = createForClass('java.util', 'AbstractMap', 508, Ljava_lang_Object_2_classLit);
 function $get_1(this$static, key){
   if (key == null) {
     throw new NullPointerException;
   }
-  return $getItem(this$static.storage, isJavaString(key)?key:hasJavaObjectVirtualDispatch(key)?key.toString$():isJavaArray(key)?$toString(key):key.toString?key.toString():'[JavaScriptObject]');
+  return $getItem(this$static.storage, toString__Ljava_lang_String___devirtual$(key));
 }
 
 function $put(this$static, key, value_0){
@@ -2524,11 +3492,22 @@ function $put(this$static, key, value_0){
   return old;
 }
 
+function $remove_0(this$static, key){
+  var k, old;
+  if (key == null) {
+    throw new NullPointerException;
+  }
+  k = toString__Ljava_lang_String___devirtual$(key);
+  old = $getItem(this$static.storage, k);
+  $removeItem(this$static.storage, k);
+  return old;
+}
+
 function StorageMap(storage){
   this.storage = storage;
 }
 
-defineClass(362, 474, $intern_13, StorageMap);
+defineClass(380, 508, $intern_17, StorageMap);
 _.containsKey = function containsKey_0(key){
   return $get_1(this, key) != null;
 }
@@ -2545,11 +3524,15 @@ _.put = function put_0(key, value_0){
   return $put(this, key, value_0);
 }
 ;
-_.size_1 = function size_4(){
+_.remove_0 = function remove_5(key){
+  return $remove_0(this, key);
+}
+;
+_.size_1 = function size_7(){
   return $getLength(this.storage.storage);
 }
 ;
-var Lcom_google_gwt_storage_client_StorageMap_2_classLit = createForClass('com.google.gwt.storage.client', 'StorageMap', 362, Ljava_util_AbstractMap_2_classLit);
+var Lcom_google_gwt_storage_client_StorageMap_2_classLit = createForClass('com.google.gwt.storage.client', 'StorageMap', 380, Ljava_util_AbstractMap_2_classLit);
 function $eq(a, b){
   return maskUndefined(a) === maskUndefined(b) || a != null && $equals(a, b);
 }
@@ -2563,10 +3546,10 @@ function StorageMap$StorageEntry(this$0, key){
   this.key_0 = key;
 }
 
-defineClass(363, 1, $intern_14, StorageMap$StorageEntry);
-_.equals$ = function equals_6(obj){
+defineClass(381, 1, $intern_18, StorageMap$StorageEntry);
+_.equals$ = function equals_10(obj){
   var e;
-  if (!instanceOf(obj, 45)) {
+  if (!instanceOf(obj, 49)) {
     return false;
   }
   e = obj;
@@ -2581,7 +3564,7 @@ _.getValue = function getValue(){
   return $get_1(this.this$01, this.key_0);
 }
 ;
-_.hashCode$ = function hashCode_7(){
+_.hashCode$ = function hashCode_11(){
   return $hashCode(this.key_0) ^ $hashCode($get_1(this.this$01, this.key_0));
 }
 ;
@@ -2589,8 +3572,8 @@ _.setValue = function setValue(value_0){
   return $put(this.this$01, this.key_0, value_0);
 }
 ;
-var Lcom_google_gwt_storage_client_StorageMap$StorageEntry_2_classLit = createForClass('com.google.gwt.storage.client', 'StorageMap/StorageEntry', 363, Ljava_lang_Object_2_classLit);
-function $next(this$static){
+var Lcom_google_gwt_storage_client_StorageMap$StorageEntry_2_classLit = createForClass('com.google.gwt.storage.client', 'StorageMap/StorageEntry', 381, Ljava_lang_Object_2_classLit);
+function $next_0(this$static){
   if (this$static.index_0 >= $getLength(this$static.this$01.storage.storage) - 1) {
     throw new NoSuchElementException;
   }
@@ -2603,41 +3586,29 @@ function StorageMap$StorageEntryIterator(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(364, 1, {}, StorageMap$StorageEntryIterator);
-_.hasNext = function hasNext_1(){
+defineClass(382, 1, {}, StorageMap$StorageEntryIterator);
+_.hasNext = function hasNext_5(){
   return this.index_0 < $getLength(this.this$01.storage.storage) - 1;
 }
 ;
-_.next_0 = function next_2(){
-  return $next(this);
+_.next_0 = function next_6(){
+  return $next_0(this);
+}
+;
+_.remove = function remove_6(){
+  if (this.lastKey == null) {
+    throw new IllegalStateException;
+  }
+  $removeItem(this.this$01.storage, this.lastKey);
+  this.lastKey = null;
+  --this.index_0;
 }
 ;
 _.index_0 = -1;
-var Lcom_google_gwt_storage_client_StorageMap$StorageEntryIterator_2_classLit = createForClass('com.google.gwt.storage.client', 'StorageMap/StorageEntryIterator', 364, Ljava_lang_Object_2_classLit);
-defineClass(476, 475, $intern_15);
-_.equals$ = function equals_7(o){
-  var other;
-  if (o === this) {
-    return true;
-  }
-  if (!instanceOf(o, 81)) {
-    return false;
-  }
-  other = o;
-  if (other.size_1() != this.size_1()) {
-    return false;
-  }
-  return $containsAll(this, other);
-}
-;
-_.hashCode$ = function hashCode_8(){
-  return hashCode_21(this);
-}
-;
-var Ljava_util_AbstractSet_2_classLit = createForClass('java.util', 'AbstractSet', 476, Ljava_util_AbstractCollection_2_classLit);
+var Lcom_google_gwt_storage_client_StorageMap$StorageEntryIterator_2_classLit = createForClass('com.google.gwt.storage.client', 'StorageMap/StorageEntryIterator', 382, Ljava_lang_Object_2_classLit);
 function $contains(this$static, o){
   var e, key, value_0;
-  if (!instanceOf(o, 45)) {
+  if (!instanceOf(o, 49)) {
     return false;
   }
   e = o;
@@ -2650,45 +3621,45 @@ function StorageMap$StorageEntrySet(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(365, 476, $intern_15, StorageMap$StorageEntrySet);
-_.contains = function contains_3(o){
+defineClass(383, 510, $intern_5, StorageMap$StorageEntrySet);
+_.contains = function contains_5(o){
   return $contains(this, o);
 }
 ;
-_.iterator = function iterator_5(){
+_.iterator = function iterator_9(){
   return new StorageMap$StorageEntryIterator(this.this$01);
 }
 ;
-_.size_1 = function size_5(){
+_.size_1 = function size_8(){
   return $getLength(this.this$01.storage.storage);
 }
 ;
-var Lcom_google_gwt_storage_client_StorageMap$StorageEntrySet_2_classLit = createForClass('com.google.gwt.storage.client', 'StorageMap/StorageEntrySet', 365, Ljava_util_AbstractSet_2_classLit);
-function create_0(buffer, byteOffset, length_0){
+var Lcom_google_gwt_storage_client_StorageMap$StorageEntrySet_2_classLit = createForClass('com.google.gwt.storage.client', 'StorageMap/StorageEntrySet', 383, Ljava_util_AbstractSet_2_classLit);
+function create_1(buffer, byteOffset, length_0){
   return new Float32Array(buffer, byteOffset, length_0);
 }
 
-function create_1(buffer, byteOffset, length_0){
+function create_2(buffer, byteOffset, length_0){
   return new Int16Array(buffer, byteOffset, length_0);
 }
 
-function $set(this$static, index_0, value_0){
+function $set_0(this$static, index_0, value_0){
   this$static[index_0] = value_0;
 }
 
-function create_2(buffer, byteOffset, length_0){
+function create_3(buffer, byteOffset, length_0){
   return new Int32Array(buffer, byteOffset, length_0);
 }
 
-function create_3(buffer, byteOffset, length_0){
+function create_4(buffer, byteOffset, length_0){
   return new Int8Array(buffer, byteOffset, length_0);
 }
 
-function create_4(buffer, byteOffset, length_0){
+function create_5(buffer, byteOffset, length_0){
   return new Uint16Array(buffer, byteOffset, length_0);
 }
 
-function create_5(buffer, byteOffset, length_0){
+function create_6(buffer, byteOffset, length_0){
   return new Uint8Array(buffer, byteOffset, length_0);
 }
 
@@ -2732,7 +3703,7 @@ function buildListParamMap(queryString){
       }
        catch ($e0) {
         $e0 = wrap_0($e0);
-        if (!instanceOf($e0, 67))
+        if (!instanceOf($e0, 76))
           throw unwrap($e0);
       }
       values = out.get_2(key);
@@ -2954,11 +3925,11 @@ function getContext(canvas, attributes){
 }
 
 function $closeOnHide(this$static, ac){
-  $add_5(this$static._closeOnHide, ac);
+  $add_6(this$static._closeOnHide, ac);
 }
 
-defineClass(225, 1, {});
-var Ltripleplay_game_ScreenStack$Screen_2_classLit = createForClass('tripleplay.game', 'ScreenStack/Screen', 225, Ljava_lang_Object_2_classLit);
+defineClass(239, 1, {});
+var Ltripleplay_game_ScreenStack$Screen_2_classLit = createForClass('tripleplay.game', 'ScreenStack/Screen', 239, Ljava_lang_Object_2_classLit);
 function ScreenStack$UIScreen(plat){
   this.layer = new GroupLayer;
   this.update = ($clinit_AbstractSignal() , new Signal);
@@ -2967,36 +3938,73 @@ function ScreenStack$UIScreen(plat){
   this.iface = new Interface(plat, this.paint);
 }
 
-defineClass(226, 225, {});
-var Ltripleplay_game_ScreenStack$UIScreen_2_classLit = createForClass('tripleplay.game', 'ScreenStack/UIScreen', 226, Ltripleplay_game_ScreenStack$Screen_2_classLit);
-defineClass(296, 226, {});
-var Lde_cdietze_playn_1util_Screen_2_classLit = createForClass('de.cdietze.playn_util', 'Screen', 296, Ltripleplay_game_ScreenStack$UIScreen_2_classLit);
+defineClass(240, 239, {});
+var Ltripleplay_game_ScreenStack$UIScreen_2_classLit = createForClass('tripleplay.game', 'ScreenStack/UIScreen', 240, Ltripleplay_game_ScreenStack$Screen_2_classLit);
+defineClass(313, 240, {});
+var Lde_cdietze_playn_1util_Screen_2_classLit = createForClass('de.cdietze.playn_util', 'Screen', 313, Ltripleplay_game_ScreenStack$UIScreen_2_classLit);
 function $clinit_BoardScreen(){
   $clinit_BoardScreen = emptyMethod;
-  log_1 = new Logger('screen');
+  new Logger('screen');
   maxSize = new Dimension_0(1200, 800);
 }
 
 function $createEntityLayer(this$static, entity){
   var dust, group, layer, vacuum;
   switch (entity.type_0.ordinal) {
-    case 2:
+    case 1:
       {
         vacuum = entity;
         layer = new ImageLayer_0(this$static.game.images.vacuum);
         $setDepth(layer, 3);
         $setOrigin((layer.forceWidth = 1 , layer.forceHeight = 1 , layer.origin != ($clinit_Layer$Origin() , FIXED_0) && $setFlag_0(layer, ($clinit_Layer$Flag() , ODIRTY), true) , layer), CENTER_0);
-        $connectNotify(vacuum.dir_0, new BoardScreen$7(layer));
+        $connectNotify(vacuum.dir_0, new BoardScreen$8(layer));
         return new Present(checkNotNull(layer));
+      }
+
+    case 2:
+      {
+        dust = entity;
+        group = new GroupLayer;
+        $setDepth(group, 2);
+        $connectNotify(dust.dustAmount, new BoardScreen$6(this$static, group));
+        $connectNotify($get(this$static.state.explored, entity.fieldIndex._value.value_0), new UiUtils$1(group));
+        return new Present(checkNotNull(group));
       }
 
     case 3:
       {
-        dust = entity;
-        group = new GroupLayer;
-        $connectNotify(dust.dustAmount, new BoardScreen$5(this$static, group));
-        $connectNotify($get(this$static.state.explored, entity.fieldIndex._value.value_0), new UiUtils$1(group));
-        return new Present(checkNotNull(group));
+        layer = new ImageLayer_0(this$static.game.images.base);
+        $setDepth(layer, 2);
+        $setOrigin((layer.forceWidth = 1 , layer.forceHeight = 1 , layer.origin != ($clinit_Layer$Origin() , FIXED_0) && $setFlag_0(layer, ($clinit_Layer$Flag() , ODIRTY), true) , layer), CENTER_0);
+        $connectNotify($get(this$static.state.explored, entity.fieldIndex._value.value_0), new UiUtils$1(layer));
+        return new Present(checkNotNull(layer));
+      }
+
+    case 4:
+      {
+        layer = new ImageLayer_0(this$static.game.images.cable);
+        $setOrigin((layer.forceWidth = 1 , layer.forceHeight = 1 , layer.origin != ($clinit_Layer$Origin() , FIXED_0) && $setFlag_0(layer, ($clinit_Layer$Flag() , ODIRTY), true) , layer), CENTER_0);
+        $setDepth(layer, 1.5);
+        $connectNotify($get(this$static.state.explored, entity.fieldIndex._value.value_0), new UiUtils$1(layer));
+        return new Present(checkNotNull(layer));
+      }
+
+    case 5:
+      {
+        layer = new ImageLayer_0(this$static.game.images.lint);
+        $setOrigin((layer.forceWidth = 1 , layer.forceHeight = 1 , layer.origin != ($clinit_Layer$Origin() , FIXED_0) && $setFlag_0(layer, ($clinit_Layer$Flag() , ODIRTY), true) , layer), CENTER_0);
+        $setDepth(layer, 1.7999999523162842);
+        $connectNotify($get(this$static.state.explored, entity.fieldIndex._value.value_0), new UiUtils$1(layer));
+        return new Present(checkNotNull(layer));
+      }
+
+    case 0:
+      {
+        layer = new ImageLayer_0(this$static.game.images.mouse);
+        $setOrigin((layer.forceWidth = 1 , layer.forceHeight = 1 , layer.origin != ($clinit_Layer$Origin() , FIXED_0) && $setFlag_0(layer, ($clinit_Layer$Flag() , ODIRTY), true) , layer), CENTER_0);
+        $connectNotify($get(this$static.state.explored, null.nullMethod().nullField), new UiUtils$1(layer));
+        null.nullMethod(new BoardScreen$8(layer));
+        return new Present(checkNotNull(layer));
       }
 
   }
@@ -3004,13 +4012,14 @@ function $createEntityLayer(this$static, entity){
 }
 
 function $createFieldGroupLayer(this$static){
-  var fieldIndex, fieldLayer, group, x_0, y_0, layer, isOdd;
+  var fieldCount, fieldIndex, fieldLayer, group, x_0, y_0, layer, isOdd;
   group = new GroupLayer;
-  for (fieldIndex = 0; fieldIndex < this$static.state.fieldCount; ++fieldIndex) {
-    fieldLayer = (layer = new ImageLayer_0(this$static.game.images.parquet) , $setOrigin((layer.forceWidth = 1 , layer.forceHeight = 1 , layer.origin != ($clinit_Layer$Origin() , FIXED_0) && $setFlag_0(layer, ($clinit_Layer$Flag() , ODIRTY), true) , layer), CENTER_0) , isOdd = (toX(this$static.dim, fieldIndex) + toY(this$static.dim, fieldIndex)) % 2 == 0 , isOdd && $setRotation(layer, $intern_16) , $connectNotify($get(this$static.state.explored, fieldIndex), new BoardScreen$2(fieldIndex, layer)) , $addConnection((!layer.events && (layer.events = new Layer$1(layer)) , layer.events), new BoardScreen$3(this$static, fieldIndex)) , layer);
+  fieldCount = this$static.dim.width_0 * this$static.dim.height_0;
+  for (fieldIndex = 0; fieldIndex < fieldCount; ++fieldIndex) {
+    fieldLayer = (layer = new ImageLayer_0(this$static.game.images.parquet) , $setOrigin((layer.forceWidth = 1 , layer.forceHeight = 1 , layer.origin != ($clinit_Layer$Origin() , FIXED_0) && $setFlag_0(layer, ($clinit_Layer$Flag() , ODIRTY), true) , layer), CENTER_0) , isOdd = (toX(this$static.dim, fieldIndex) + toY(this$static.dim, fieldIndex)) % 2 == 0 , isOdd && $setRotation(layer, $intern_19) , $connectNotify($get(this$static.state.explored, fieldIndex), new BoardScreen$3(layer)) , $addConnection((!layer.events && (layer.events = new Layer$1(layer)) , layer.events), new BoardScreen$4(this$static, fieldIndex)) , layer);
     x_0 = toX(this$static.dim, fieldIndex);
     y_0 = toY(this$static.dim, fieldIndex);
-    $add_4(group, ($setTranslation_0(fieldLayer.transform, x_0, y_0) , fieldLayer));
+    $add_5(group, ($setTranslation_0(fieldLayer.transform, x_0, y_0) , fieldLayer));
   }
   return group;
 }
@@ -3031,92 +4040,80 @@ function BoardScreen(game, state){
   this.boardLayer = new GroupLayer;
   $setOrigin($setSize_2(this.boardLayer, this.dim.width_0, this.dim.height_0), ($clinit_Layer$Origin() , CENTER_0));
   $addAt(this.boardLayer, $setDepth($createFieldGroupLayer(this), 1));
-  $addAt(this.boardLayer, $setDepth((group = new GroupLayer , $connectNotify_0(this.state.entities, new BoardScreen$4(this, group)) , group), 2));
+  $addAt(this.boardLayer, $setDepth((group = new GroupLayer , $connectNotify_0(this.state.entities, new BoardScreen$5(this, group)) , group), 2));
 }
 
-defineClass(297, 296, {}, BoardScreen);
-var log_1, maxSize;
-var Lde_cdietze_ld37_core_BoardScreen_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen', 297, Lde_cdietze_playn_1util_Screen_2_classLit);
+defineClass(314, 313, {}, BoardScreen);
+var maxSize;
+var Lde_cdietze_ld37_core_BoardScreen_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen', 314, Lde_cdietze_playn_1util_Screen_2_classLit);
 function BoardScreen$1(){
 }
 
-defineClass(298, 1, {}, BoardScreen$1);
+defineClass(315, 1, {}, BoardScreen$1);
 _.apply_0 = function apply_1(input_0){
   return 'Dust Remaining: ' + input_0;
 }
 ;
-var Lde_cdietze_ld37_core_BoardScreen$1_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/1', 298, Ljava_lang_Object_2_classLit);
-defineClass(478, 1, {});
+var Lde_cdietze_ld37_core_BoardScreen$1_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/1', 315, Ljava_lang_Object_2_classLit);
+function BoardScreen$2(){
+}
+
+defineClass(316, 1, {}, BoardScreen$2);
+_.apply_0 = function apply_2(input_0){
+  return 'Battery Remaining: ' + input_0;
+}
+;
+var Lde_cdietze_ld37_core_BoardScreen$2_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/2', 316, Ljava_lang_Object_2_classLit);
+defineClass(512, 1, {});
 _.onChange = function onChange(value_0, oldValue){
   this.onEmit(value_0);
 }
 ;
-var Lreact_Slot_2_classLit = createForClass('react', 'Slot', 478, Ljava_lang_Object_2_classLit);
-function BoardScreen$2(val$fieldIndex, val$layer){
-  this.val$fieldIndex2 = val$fieldIndex;
-  this.val$layer3 = val$layer;
+var Lreact_Slot_2_classLit = createForClass('react', 'Slot', 512, Ljava_lang_Object_2_classLit);
+function BoardScreen$3(val$layer){
+  this.val$layer2 = val$layer;
 }
 
-defineClass(299, 478, {}, BoardScreen$2);
+defineClass(317, 512, {}, BoardScreen$3);
 _.onEmit = function onEmit(explored){
-  $debug_0(($clinit_BoardScreen() , log_1), initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, ['fieldIndex', valueOf(this.val$fieldIndex2), 'explored', explored]));
-  $setTint(this.val$layer3, explored.value_0?-1:$intern_17);
+  $setTint(this.val$layer2, explored.value_0?-1:1694498815);
 }
 ;
-_.val$fieldIndex2 = 0;
-var Lde_cdietze_ld37_core_BoardScreen$2_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/2', 299, Lreact_Slot_2_classLit);
-defineClass(489, 478, {});
+var Lde_cdietze_ld37_core_BoardScreen$3_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/3', 317, Lreact_Slot_2_classLit);
+defineClass(523, 512, {});
 _.onEmit = function onEmit_0(event_0){
   var iact;
-  if (instanceOf(event_0, 131)) {
+  if (instanceOf(event_0, 139)) {
     iact = event_0;
     iact.event_0.kind.ordinal == 0 && $tryMoveVacuum(this.this$01.state, this.val$fieldIndex2);
   }
 }
 ;
-var Lplayn_scene_Pointer$Listener_2_classLit = createForClass('playn.scene', 'Pointer/Listener', 489, Lreact_Slot_2_classLit);
-function BoardScreen$3(this$0, val$fieldIndex){
+var Lplayn_scene_Pointer$Listener_2_classLit = createForClass('playn.scene', 'Pointer/Listener', 523, Lreact_Slot_2_classLit);
+function BoardScreen$4(this$0, val$fieldIndex){
   this.this$01 = this$0;
   this.val$fieldIndex2 = val$fieldIndex;
 }
 
-defineClass(300, 489, {}, BoardScreen$3);
+defineClass(318, 523, {}, BoardScreen$4);
 _.val$fieldIndex2 = 0;
-var Lde_cdietze_ld37_core_BoardScreen$3_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/3', 300, Lplayn_scene_Pointer$Listener_2_classLit);
-defineClass(490, 1, {});
+var Lde_cdietze_ld37_core_BoardScreen$4_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/4', 318, Lplayn_scene_Pointer$Listener_2_classLit);
+defineClass(524, 1, {});
 _.onAdd = function onAdd(elem){
 }
 ;
-var Lreact_RList$Listener_2_classLit = createForClass('react', 'RList/Listener', 490, Ljava_lang_Object_2_classLit);
+_.onRemove = function onRemove(elem){
+}
+;
+var Lreact_RList$Listener_2_classLit = createForClass('react', 'RList/Listener', 524, Ljava_lang_Object_2_classLit);
 function $onAdd(this$static, entity){
   var layer;
   layer = $createEntityLayer(this$static.this$01, entity);
   if (!layer.isPresent())
     return;
-  $add_4(this$static.val$group2, layer.get_0());
-  $connectNotify(entity.fieldIndex, new BoardScreen$6(this$static.this$01, layer.get_0()));
+  $add_5(this$static.val$group2, layer.get_0());
+  $connectNotify(entity.fieldIndex, new BoardScreen$7(this$static.this$01, layer.get_0()));
   $put_4(this$static.this$01.entityLayerMap, entity, layer.get_0());
-}
-
-function BoardScreen$4(this$0, val$group){
-  this.this$01 = this$0;
-  this.val$group2 = val$group;
-}
-
-defineClass(301, 490, {}, BoardScreen$4);
-_.onAdd = function onAdd_0(entity){
-  $onAdd(this, entity);
-}
-;
-var Lde_cdietze_ld37_core_BoardScreen$4_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/4', 301, Lreact_RList$Listener_2_classLit);
-function $onEmit(this$static, newDustAmount){
-  var layer;
-  $removeAll(this$static.val$group2);
-  if (newDustAmount.value_0 == 0)
-    return;
-  layer = new ImageLayer_0($get(this$static.this$01.game.images.dustList, newDustAmount.value_0 - 1));
-  $setOrigin((layer.forceWidth = 1 , layer.forceHeight = 1 , layer.origin != ($clinit_Layer$Origin() , FIXED_0) && $setFlag_0(layer, ($clinit_Layer$Flag() , ODIRTY), true) , layer), CENTER_0);
-  $add_4(this$static.val$group2, layer);
 }
 
 function BoardScreen$5(this$0, val$group){
@@ -3124,18 +4121,45 @@ function BoardScreen$5(this$0, val$group){
   this.val$group2 = val$group;
 }
 
-defineClass(302, 478, {}, BoardScreen$5);
+defineClass(319, 524, {}, BoardScreen$5);
+_.onAdd = function onAdd_0(entity){
+  $onAdd(this, entity);
+}
+;
+_.onRemove = function onRemove_0(entity){
+  var layer;
+  layer = $remove_1(this.this$01.entityLayerMap, entity);
+  !!layer && layer.close_0();
+}
+;
+var Lde_cdietze_ld37_core_BoardScreen$5_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/5', 319, Lreact_RList$Listener_2_classLit);
+function $onEmit(this$static, newDustAmount){
+  var layer;
+  $removeAll(this$static.val$group2);
+  if (newDustAmount.value_0 == 0)
+    return;
+  layer = new ImageLayer_0($get(this$static.this$01.game.images.dustList, newDustAmount.value_0 - 1));
+  $setOrigin((layer.forceWidth = 1 , layer.forceHeight = 1 , layer.origin != ($clinit_Layer$Origin() , FIXED_0) && $setFlag_0(layer, ($clinit_Layer$Flag() , ODIRTY), true) , layer), CENTER_0);
+  $add_5(this$static.val$group2, layer);
+}
+
+function BoardScreen$6(this$0, val$group){
+  this.this$01 = this$0;
+  this.val$group2 = val$group;
+}
+
+defineClass(320, 512, {}, BoardScreen$6);
 _.onEmit = function onEmit_1(newDustAmount){
   $onEmit(this, newDustAmount);
 }
 ;
-var Lde_cdietze_ld37_core_BoardScreen$5_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/5', 302, Lreact_Slot_2_classLit);
-function BoardScreen$6(this$0, val$layer){
+var Lde_cdietze_ld37_core_BoardScreen$6_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/6', 320, Lreact_Slot_2_classLit);
+function BoardScreen$7(this$0, val$layer){
   this.this$01 = this$0;
   this.val$layer2 = val$layer;
 }
 
-defineClass(303, 478, {}, BoardScreen$6);
+defineClass(321, 512, {}, BoardScreen$7);
 _.onEmit = function onEmit_2(fieldIndex){
   var x_0, y_0;
   x_0 = toX(this.this$01.dim, fieldIndex.value_0);
@@ -3143,20 +4167,50 @@ _.onEmit = function onEmit_2(fieldIndex){
   $setTranslation(this.val$layer2, x_0, y_0);
 }
 ;
-var Lde_cdietze_ld37_core_BoardScreen$6_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/6', 303, Lreact_Slot_2_classLit);
-function BoardScreen$7(val$layer){
+var Lde_cdietze_ld37_core_BoardScreen$7_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/7', 321, Lreact_Slot_2_classLit);
+function BoardScreen$8(val$layer){
   this.val$layer2 = val$layer;
 }
 
-defineClass(304, 478, {}, BoardScreen$7);
+defineClass(178, 512, {}, BoardScreen$8);
 _.onEmit = function onEmit_3(dir_0){
   $setRotation(this.val$layer2, dir_0.angle());
 }
 ;
-var Lde_cdietze_ld37_core_BoardScreen$7_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/7', 304, Lreact_Slot_2_classLit);
+var Lde_cdietze_ld37_core_BoardScreen$8_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardScreen/8', 178, Lreact_Slot_2_classLit);
 function $clinit_BoardState(){
   $clinit_BoardState = emptyMethod;
   new Logger('state');
+}
+
+function $createCables(this$static){
+  var base, base$iterator, builder, i, indexes;
+  builder = ($clinit_ImmutableList() , new ImmutableList$Builder);
+  indexes = new BitSet;
+  for (base$iterator = $iterator(filter_0(this$static.entities, new BoardState$1(($clinit_Entity$Type() , BASE)))); $hasNext(base$iterator);) {
+    base = $next(base$iterator);
+    $set_3(indexes, base.fieldIndex._value.value_0);
+    $or(indexes, neighbors(this$static.dim, base.fieldIndex._value.value_0, new BitSet));
+  }
+  for (i = $nextSetBit(indexes, 0); i >= 0; i = $nextSetBit(indexes, i + 1)) {
+    $add_0(builder, new Entity_0(CABLE, i));
+  }
+  return copyFromCollection(builder.contents);
+}
+
+function $createLint(this$static){
+  var builder, dust, dust$iterator, i, indexes;
+  builder = ($clinit_ImmutableList() , new ImmutableList$Builder);
+  indexes = new BitSet;
+  for (dust$iterator = $iterator(filter_0(this$static.entities, new BoardState$1(($clinit_Entity$Type() , DUST)))); $hasNext(dust$iterator);) {
+    dust = $next(dust$iterator);
+    $set_3(indexes, dust.fieldIndex._value.value_0);
+    $or(indexes, neighbors(this$static.dim, dust.fieldIndex._value.value_0, new BitSet));
+  }
+  for (i = $nextSetBit(indexes, 0); i >= 0; i = $nextSetBit(indexes, i + 1)) {
+    $add_0(builder, new Entity_0(LINT, i));
+  }
+  return copyFromCollection(builder.contents);
 }
 
 function $explore(this$static, fieldIndex){
@@ -3166,29 +4220,23 @@ function $explore(this$static, fieldIndex){
 function $getEntityAt(this$static, index_0, type_0){
   var entity, entity$iterator;
   for (entity$iterator = $listIterator(this$static.entities); entity$iterator.val$iiter2.hasNext();) {
-    entity = entity$iterator.val$iiter2.next_0();
+    entity = entity$iterator._current = entity$iterator.val$iiter2.next_0();
     if (entity.type_0 == type_0 && entity.fieldIndex._value.value_0 == index_0)
       return new Present(checkNotNull(entity));
   }
   return $clinit_Absent() , $clinit_Absent() , INSTANCE;
 }
 
-function $hasExploredNeighbor(this$static, target){
-  var neighbor, neighbors;
-  neighbors = neighbors_0(this$static.dim, target, new BitSet);
-  for (neighbor = $nextSetBit(neighbors, 0); neighbor >= 0; neighbor = $nextSetBit(neighbors, neighbor + 1)) {
-    if ($get(this$static.explored, neighbor)._value.value_0)
-      return true;
-  }
-  return false;
-}
-
 function $tryMoveVacuum(this$static, target){
-  if (!$hasExploredNeighbor(this$static, target))
+  var base;
+  if (!(this$static.battery._value.value_0 > 0 && isNeighbor(this$static.dim, this$static.vacuum.fieldIndex._value.value_0, target) || this$static.battery._value.value_0 > 0 && target == this$static.vacuum.fieldIndex._value.value_0 && $getEntityAt(this$static, target, ($clinit_Entity$Type() , DUST)).isPresent() || $get(this$static.explored, target)._value.value_0 && $getEntityAt(this$static, target, ($clinit_Entity$Type() , BASE)).isPresent()))
     return false;
   $updateAndNotify(this$static.vacuum.fieldIndex, valueOf(target), false);
   $get(this$static.explored, target).updateAndNotify(($clinit_Boolean() , $clinit_Boolean() , TRUE), false);
   $tryToCollectDust(this$static);
+  $decrementClamp(this$static.battery);
+  base = $getEntityAt(this$static, this$static.vacuum.fieldIndex._value.value_0, ($clinit_Entity$Type() , BASE));
+  base.isPresent() && $updateAndNotify(this$static.battery, valueOf(10), false);
   return false;
 }
 
@@ -3199,34 +4247,54 @@ function $tryToCollectDust(this$static){
     return;
   dust = entity.get_0();
   $decrementClamp(dust.dustAmount);
+  dust.dustAmount._value.value_0 == 0 && $remove_9(this$static.entities, dust);
 }
 
-function BoardState(){
+function BoardState(level){
   $clinit_BoardState();
-  this.dim = new Dimension_2;
-  this.fieldCount = this.dim.width_0 * this.dim.height_0;
+  var baseIndex, baseIndex$iterator, entry, entry$iterator;
   this.entities = ($clinit_RList() , $clinit_RList() , new RList(new ArrayList));
-  this.explored = buildExplored(this.fieldCount);
   this.dustRemaining = new IntValue(0);
-  this.vacuum = new Entities$Vacuum(($clinit_Direction() , UP));
-  $add_7(this.entities, this.vacuum);
-  $add_7(this.entities, new Entities$Dust(57, this.dustRemaining));
-  $add_7(this.entities, new Entities$Dust(60, this.dustRemaining));
+  this.battery = new IntValue(10);
+  this.dim = level.dim;
+  this.vacuum = new Entities$Vacuum(level.vacuumIndex, ($clinit_Direction() , UP));
+  $add_8(this.entities, this.vacuum);
+  for (baseIndex$iterator = new AbstractList$IteratorImpl(level.baseIndexes); baseIndex$iterator.i < baseIndex$iterator.this$01.size_1();) {
+    baseIndex = (checkCriticalElement(baseIndex$iterator.i < baseIndex$iterator.this$01.size_1()) , baseIndex$iterator.this$01.get_1(baseIndex$iterator.last = baseIndex$iterator.i++));
+    $add_8(this.entities, createBase(baseIndex.value_0));
+  }
+  for (entry$iterator = $entrySet(level.dustAmount).iterator(); entry$iterator.hasNext();) {
+    entry = entry$iterator.next_0();
+    $add_8(this.entities, new Entities$Dust(entry.val$mapEntry2.getKey().value_0, $getCount(entry), this.dustRemaining));
+  }
+  $addAll_2(this.entities, $createCables(this));
+  $addAll_2(this.entities, $createLint(this));
+  this.explored = buildExplored(this.dim);
   $explore(this, this.vacuum.fieldIndex._value.value_0);
 }
 
-function buildExplored(fieldCount){
-  var builder, i;
+function buildExplored(dim){
+  var builder, fieldCount, i;
+  fieldCount = dim.width_0 * dim.height_0;
   builder = ($clinit_ImmutableList() , new ImmutableList$Builder);
   for (i = 0; i < fieldCount; i++) {
-    $add(builder, ($clinit_AbstractValue() , new Value(($clinit_Boolean() , $clinit_Boolean() , FALSE))));
+    $add_0(builder, ($clinit_AbstractValue() , new Value(($clinit_Boolean() , $clinit_Boolean() , FALSE))));
   }
   return copyFromCollection(builder.contents);
 }
 
-defineClass(284, 1, {}, BoardState);
-_.fieldCount = 0;
-var Lde_cdietze_ld37_core_BoardState_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardState', 284, Ljava_lang_Object_2_classLit);
+defineClass(300, 1, {}, BoardState);
+var Lde_cdietze_ld37_core_BoardState_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardState', 300, Ljava_lang_Object_2_classLit);
+function $apply(this$static, entity){
+  return entity.type_0 == this$static.val$type1;
+}
+
+function BoardState$1(val$type){
+  this.val$type1 = val$type;
+}
+
+defineClass(177, 1, {}, BoardState$1);
+var Lde_cdietze_ld37_core_BoardState$1_2_classLit = createForClass('de.cdietze.ld37.core', 'BoardState/1', 177, Ljava_lang_Object_2_classLit);
 function $clinit_Direction(){
   $clinit_Direction = emptyMethod;
   UP = new Direction$1;
@@ -3241,100 +4309,106 @@ function Direction(enum$name, enum$ordinal){
 
 function values_11(){
   $clinit_Direction();
-  return initValues(getClassLiteralForArray(Lde_cdietze_ld37_core_Direction_2_classLit, 1), $intern_1, 44, 0, [UP, DOWN, LEFT, RIGHT]);
+  return initValues(getClassLiteralForArray(Lde_cdietze_ld37_core_Direction_2_classLit, 1), $intern_1, 47, 0, [UP, DOWN, LEFT, RIGHT]);
 }
 
-defineClass(44, 6, $intern_18);
+defineClass(47, 6, $intern_20);
 var DOWN, LEFT, RIGHT, UP;
-var Lde_cdietze_ld37_core_Direction_2_classLit = createForEnum('de.cdietze.ld37.core', 'Direction', 44, Ljava_lang_Enum_2_classLit, values_11);
+var Lde_cdietze_ld37_core_Direction_2_classLit = createForEnum('de.cdietze.ld37.core', 'Direction', 47, Ljava_lang_Enum_2_classLit, values_11);
 function Direction$1(){
   Direction.call(this, 'UP', 0);
   new Point_1(0, -1);
 }
 
-defineClass(377, 44, $intern_18, Direction$1);
+defineClass(390, 47, $intern_20, Direction$1);
 _.angle = function angle_0(){
   return 0;
 }
 ;
-var Lde_cdietze_ld37_core_Direction$1_2_classLit = createForEnum('de.cdietze.ld37.core', 'Direction/1', 377, Lde_cdietze_ld37_core_Direction_2_classLit, null);
+var Lde_cdietze_ld37_core_Direction$1_2_classLit = createForEnum('de.cdietze.ld37.core', 'Direction/1', 390, Lde_cdietze_ld37_core_Direction_2_classLit, null);
 function Direction$2(){
   Direction.call(this, 'DOWN', 1);
   new Point_1(0, 1);
 }
 
-defineClass(378, 44, $intern_18, Direction$2);
+defineClass(391, 47, $intern_20, Direction$2);
 _.angle = function angle_1(){
   return 3.1415927410125732;
 }
 ;
-var Lde_cdietze_ld37_core_Direction$2_2_classLit = createForEnum('de.cdietze.ld37.core', 'Direction/2', 378, Lde_cdietze_ld37_core_Direction_2_classLit, null);
+var Lde_cdietze_ld37_core_Direction$2_2_classLit = createForEnum('de.cdietze.ld37.core', 'Direction/2', 391, Lde_cdietze_ld37_core_Direction_2_classLit, null);
 function Direction$3(){
   Direction.call(this, 'LEFT', 2);
   new Point_1(-1, 0);
 }
 
-defineClass(379, 44, $intern_18, Direction$3);
+defineClass(392, 47, $intern_20, Direction$3);
 _.angle = function angle_2(){
   return 4.71238899230957;
 }
 ;
-var Lde_cdietze_ld37_core_Direction$3_2_classLit = createForEnum('de.cdietze.ld37.core', 'Direction/3', 379, Lde_cdietze_ld37_core_Direction_2_classLit, null);
+var Lde_cdietze_ld37_core_Direction$3_2_classLit = createForEnum('de.cdietze.ld37.core', 'Direction/3', 392, Lde_cdietze_ld37_core_Direction_2_classLit, null);
 function Direction$4(){
   Direction.call(this, 'RIGHT', 3);
   new Point_1(1, 0);
 }
 
-defineClass(380, 44, $intern_18, Direction$4);
+defineClass(393, 47, $intern_20, Direction$4);
 _.angle = function angle_3(){
-  return $intern_16;
+  return $intern_19;
 }
 ;
-var Lde_cdietze_ld37_core_Direction$4_2_classLit = createForEnum('de.cdietze.ld37.core', 'Direction/4', 380, Lde_cdietze_ld37_core_Direction_2_classLit, null);
+var Lde_cdietze_ld37_core_Direction$4_2_classLit = createForEnum('de.cdietze.ld37.core', 'Direction/4', 393, Lde_cdietze_ld37_core_Direction_2_classLit, null);
+function createBase(initialFieldIndex){
+  return new Entity_0(($clinit_Entity$Type() , BASE), initialFieldIndex);
+}
+
 function Entity_0(type_0, initialFieldIndex){
   this.type_0 = type_0;
   this.fieldIndex = new IntValue(initialFieldIndex);
 }
 
-defineClass(178, 1, {});
-_.toString$ = function toString_10(){
-  return $toString_0($addHolder($addHolder(new MoreObjects$ToStringHelper($getSimpleName(this.___clazz$)), 'type', this.type_0), 'fieldIndex', this.fieldIndex));
+defineClass(99, 1, {}, Entity_0);
+_.toString$ = function toString_18(){
+  return $toString_1($addHolder($addHolder(new MoreObjects$ToStringHelper($getSimpleName(this.___clazz$)), 'type', this.type_0), 'fieldIndex', this.fieldIndex));
 }
 ;
-var Lde_cdietze_ld37_core_Entity_2_classLit = createForClass('de.cdietze.ld37.core', 'Entity', 178, Ljava_lang_Object_2_classLit);
-function Entities$Dust(initialFieldIndex, dustRemaining){
+var Lde_cdietze_ld37_core_Entity_2_classLit = createForClass('de.cdietze.ld37.core', 'Entity', 99, Ljava_lang_Object_2_classLit);
+function Entities$Dust(initialFieldIndex, amount, dustRemaining){
   Entity_0.call(this, ($clinit_Entity$Type() , DUST), initialFieldIndex);
-  this.dustAmount = new IntValue(4);
+  this.dustAmount = new IntValue(amount);
   $connectNotify(this.dustAmount, new Entities$Dust$1(dustRemaining));
 }
 
-defineClass(179, 178, {}, Entities$Dust);
-var Lde_cdietze_ld37_core_Entities$Dust_2_classLit = createForClass('de.cdietze.ld37.core', 'Entities/Dust', 179, Lde_cdietze_ld37_core_Entity_2_classLit);
+defineClass(388, 99, {}, Entities$Dust);
+var Lde_cdietze_ld37_core_Entities$Dust_2_classLit = createForClass('de.cdietze.ld37.core', 'Entities/Dust', 388, Lde_cdietze_ld37_core_Entity_2_classLit);
 function Entities$Dust$1(val$dustRemaining){
   this.val$dustRemaining2 = val$dustRemaining;
 }
 
-defineClass(376, 1, {}, Entities$Dust$1);
+defineClass(389, 1, {}, Entities$Dust$1);
 _.onChange = function onChange_0(value_0, oldValue){
   var change;
   change = value_0.value_0 - (oldValue?oldValue.value_0:0);
   $increment(this.val$dustRemaining2, change);
 }
 ;
-var Lde_cdietze_ld37_core_Entities$Dust$1_2_classLit = createForClass('de.cdietze.ld37.core', 'Entities/Dust/1', 376, Ljava_lang_Object_2_classLit);
-function Entities$Vacuum(initialDirection){
-  Entity_0.call(this, ($clinit_Entity$Type() , VACUUM), 56);
+var Lde_cdietze_ld37_core_Entities$Dust$1_2_classLit = createForClass('de.cdietze.ld37.core', 'Entities/Dust/1', 389, Ljava_lang_Object_2_classLit);
+function Entities$Vacuum(initialFieldIndex, initialDirection){
+  Entity_0.call(this, ($clinit_Entity$Type() , VACUUM), initialFieldIndex);
   this.dir_0 = ($clinit_AbstractValue() , new Value(initialDirection));
 }
 
-defineClass(375, 178, {}, Entities$Vacuum);
-var Lde_cdietze_ld37_core_Entities$Vacuum_2_classLit = createForClass('de.cdietze.ld37.core', 'Entities/Vacuum', 375, Lde_cdietze_ld37_core_Entity_2_classLit);
+defineClass(387, 99, {}, Entities$Vacuum);
+var Lde_cdietze_ld37_core_Entities$Vacuum_2_classLit = createForClass('de.cdietze.ld37.core', 'Entities/Vacuum', 387, Lde_cdietze_ld37_core_Entity_2_classLit);
 function $clinit_Entity$Type(){
   $clinit_Entity$Type = emptyMethod;
   MOUSE = new Entity$Type('MOUSE', 0);
-  CAT = new Entity$Type('CAT', 1);
-  VACUUM = new Entity$Type('VACUUM', 2);
-  DUST = new Entity$Type('DUST', 3);
+  VACUUM = new Entity$Type('VACUUM', 1);
+  DUST = new Entity$Type('DUST', 2);
+  BASE = new Entity$Type('BASE', 3);
+  CABLE = new Entity$Type('CABLE', 4);
+  LINT = new Entity$Type('LINT', 5);
 }
 
 function Entity$Type(enum$name, enum$ordinal){
@@ -3343,27 +4417,99 @@ function Entity$Type(enum$name, enum$ordinal){
 
 function values_12(){
   $clinit_Entity$Type();
-  return initValues(getClassLiteralForArray(Lde_cdietze_ld37_core_Entity$Type_2_classLit, 1), $intern_1, 75, 0, [MOUSE, CAT, VACUUM, DUST]);
+  return initValues(getClassLiteralForArray(Lde_cdietze_ld37_core_Entity$Type_2_classLit, 1), $intern_1, 59, 0, [MOUSE, VACUUM, DUST, BASE, CABLE, LINT]);
 }
 
-defineClass(75, 6, {75:1, 3:1, 7:1, 6:1}, Entity$Type);
-var CAT, DUST, MOUSE, VACUUM;
-var Lde_cdietze_ld37_core_Entity$Type_2_classLit = createForEnum('de.cdietze.ld37.core', 'Entity/Type', 75, Ljava_lang_Enum_2_classLit, values_12);
+defineClass(59, 6, {59:1, 3:1, 7:1, 6:1}, Entity$Type);
+var BASE, CABLE, DUST, LINT, MOUSE, VACUUM;
+var Lde_cdietze_ld37_core_Entity$Type_2_classLit = createForEnum('de.cdietze.ld37.core', 'Entity/Type', 59, Ljava_lang_Enum_2_classLit, values_12);
 function ImageLoader(plat){
   this.plat = plat;
 }
 
-defineClass(285, 1, {}, ImageLoader);
-var Lde_cdietze_ld37_core_ImageLoader_2_classLit = createForClass('de.cdietze.ld37.core', 'ImageLoader', 285, Ljava_lang_Object_2_classLit);
+defineClass(301, 1, {}, ImageLoader);
+var Lde_cdietze_ld37_core_ImageLoader_2_classLit = createForClass('de.cdietze.ld37.core', 'ImageLoader', 301, Ljava_lang_Object_2_classLit);
 function ImageLoader$Images(this$0){
   this.this$01 = this$0;
   this.vacuum = $getImage(this.this$01.plat.assets, 'images/vacuum.png');
   this.parquet = $getImage(this.this$01.plat.assets, 'images/parquet.png');
+  this.base = $getImage(this.this$01.plat.assets, 'images/base.png');
+  this.mouse = $getImage(this.this$01.plat.assets, 'images/mouse.png');
+  this.cable = $getImage(this.this$01.plat.assets, 'images/cable.png');
+  this.lint = $getImage(this.this$01.plat.assets, 'images/lint.png');
   this.dustList = ($clinit_ImmutableList() , new RegularImmutableList(nullCheckedList(initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [$getImage(this.this$01.plat.assets, 'images/dust1.png'), $getImage(this.this$01.plat.assets, 'images/dust2.png'), $getImage(this.this$01.plat.assets, 'images/dust3.png'), $getImage(this.this$01.plat.assets, 'images/dust4.png')]))));
 }
 
-defineClass(286, 1, {}, ImageLoader$Images);
-var Lde_cdietze_ld37_core_ImageLoader$Images_2_classLit = createForClass('de.cdietze.ld37.core', 'ImageLoader/Images', 286, Ljava_lang_Object_2_classLit);
+defineClass(302, 1, {}, ImageLoader$Images);
+var Lde_cdietze_ld37_core_ImageLoader$Images_2_classLit = createForClass('de.cdietze.ld37.core', 'ImageLoader/Images', 302, Ljava_lang_Object_2_classLit);
+function $clinit_LevelGenerator(){
+  $clinit_LevelGenerator = emptyMethod;
+  random_0 = new Random;
+}
+
+function $addAdditionalBases(this$static){
+  var candidateIndex, candidateIndex$iterator, dist, edge, existingBaseIndex, existingBaseIndex$iterator, maxDist, minDist;
+  edge = sqrt_0(this$static.dim.width_0 * this$static.dim.height_0);
+  minDist = round_int(Math.ceil(edge * 0.5));
+  maxDist = round_int(Math.floor(edge * 1.5));
+  canidateLoop: for (candidateIndex$iterator = new AbstractList$IteratorImpl(shuffledRange(this$static.dim.width_0 * this$static.dim.height_0, random_0)); candidateIndex$iterator.i < candidateIndex$iterator.this$01.size_1();) {
+    candidateIndex = (checkCriticalElement(candidateIndex$iterator.i < candidateIndex$iterator.this$01.size_1()) , candidateIndex$iterator.this$01.get_1(candidateIndex$iterator.last = candidateIndex$iterator.i++)).value_0;
+    if (this$static.level.baseIndexes.array.length >= 3)
+      return;
+    for (existingBaseIndex$iterator = new AbstractList$IteratorImpl(this$static.level.baseIndexes); existingBaseIndex$iterator.i < existingBaseIndex$iterator.this$01.size_1();) {
+      existingBaseIndex = (checkCriticalElement(existingBaseIndex$iterator.i < existingBaseIndex$iterator.this$01.size_1()) , existingBaseIndex$iterator.this$01.get_1(existingBaseIndex$iterator.last = existingBaseIndex$iterator.i++)).value_0;
+      dist = orthogonalDistance(this$static.dim, candidateIndex, existingBaseIndex);
+      if (dist < minDist || dist > maxDist)
+        continue canidateLoop;
+    }
+    $add_3(this$static.level.baseIndexes, valueOf(candidateIndex));
+  }
+}
+
+function $addDust(this$static){
+  var candidateIndex, candidateIndex$iterator, minDustAmount, neighbor, neighbor$iterator;
+  minDustAmount = round_int(0.5 * this$static.dim.width_0 * this$static.dim.height_0);
+  for (candidateIndex$iterator = new AbstractList$IteratorImpl(shuffledRange(this$static.dim.width_0 * this$static.dim.height_0, random_0)); candidateIndex$iterator.i < candidateIndex$iterator.this$01.size_1();) {
+    candidateIndex = (checkCriticalElement(candidateIndex$iterator.i < candidateIndex$iterator.this$01.size_1()) , candidateIndex$iterator.this$01.get_1(candidateIndex$iterator.last = candidateIndex$iterator.i++));
+    if (saturatedCast(this$static.level.dustAmount.size_0) >= minDustAmount)
+      return;
+    if ($indexOf_1(this$static.level.baseIndexes, candidateIndex, 0) != -1)
+      continue;
+    $setCount(this$static.level.dustAmount, candidateIndex, 4);
+    for (neighbor$iterator = unmodifiableIterator(neighborsList(this$static.dim, candidateIndex.value_0).delegateList().iterator()); neighbor$iterator.hasNext();) {
+      neighbor = neighbor$iterator.next_0().value_0;
+      $setCount(this$static.level.dustAmount, valueOf(neighbor), max_1(2, $count(this$static.level.dustAmount, valueOf(neighbor))));
+    }
+  }
+}
+
+function LevelGenerator(dim){
+  $clinit_LevelGenerator();
+  this.dim = dim;
+  this.level = new LevelGenerator$Level(dim);
+  $add_3(this.level.baseIndexes, valueOf(this.level.vacuumIndex));
+  $addAdditionalBases(this);
+  $addDust(this);
+}
+
+defineClass(298, 1, {}, LevelGenerator);
+var random_0;
+var Lde_cdietze_ld37_core_LevelGenerator_2_classLit = createForClass('de.cdietze.ld37.core', 'LevelGenerator', 298, Ljava_lang_Object_2_classLit);
+function LevelGenerator$Level(dim){
+  this.baseIndexes = new ArrayList;
+  this.dustAmount = new HashMultiset;
+  this.dim = dim;
+  this.vacuumIndex = toIndex_0(dim, dim.height_0 - 1);
+  $add(this.dustAmount, valueOf(48));
+}
+
+defineClass(299, 1, {}, LevelGenerator$Level);
+_.toString$ = function toString_19(){
+  return $toString_1($addHolder($addHolder($addHolder($addHolder(new MoreObjects$ToStringHelper(($ensureNamesAreInitialized(Lde_cdietze_ld37_core_LevelGenerator$Level_2_classLit) , Lde_cdietze_ld37_core_LevelGenerator$Level_2_classLit.simpleName)), 'dim', this.dim), 'vacuumIndex', '' + this.vacuumIndex), 'baseIndexes', this.baseIndexes), 'dustAmount', this.dustAmount));
+}
+;
+_.vacuumIndex = 0;
+var Lde_cdietze_ld37_core_LevelGenerator$Level_2_classLit = createForClass('de.cdietze.ld37.core', 'LevelGenerator/Level', 299, Ljava_lang_Object_2_classLit);
 function $onFrame(this$static){
   var nextUpdate, paintTick, updateDt, updateRate, updateTick, updates;
   nextUpdate = this$static.nextUpdate;
@@ -3392,10 +4538,10 @@ function $update(this$static, clock){
   $notifyEmit(this$static.update, clock);
 }
 
-defineClass(215, 1, {});
+defineClass(229, 1, {});
 _.nextUpdate = 0;
 _.updateRate = 0;
-var Lplayn_core_Game_2_classLit = createForClass('playn.core', 'Game', 215, Ljava_lang_Object_2_classLit);
+var Lplayn_core_Game_2_classLit = createForClass('playn.core', 'Game', 229, Ljava_lang_Object_2_classLit);
 function $createDefaultBatch(gl){
   var maxVecs;
   try {
@@ -3423,14 +4569,14 @@ function $paintScene(this$static){
   }
 }
 
-defineClass(216, 215, {});
+defineClass(230, 229, {});
 _.calpha = 0;
 _.cblue = 0;
 _.cgreen = 0;
 _.cred = 0;
-var Lplayn_scene_SceneGame_2_classLit = createForClass('playn.scene', 'SceneGame', 216, Lplayn_core_Game_2_classLit);
+var Lplayn_scene_SceneGame_2_classLit = createForClass('playn.scene', 'SceneGame', 230, Lplayn_core_Game_2_classLit);
 function MainGame(plat){
-  var bgImage, bgLayer, boardState, gl;
+  var bgImage, bgLayer, boardState, level, gl;
   this.update = ($clinit_AbstractSignal() , new Signal);
   this.paint = new Signal;
   this.updateClock = new Clock;
@@ -3451,42 +4597,43 @@ function MainGame(plat){
   bgImage = $getImage(plat.assets, 'images/bg.png');
   bgLayer = new ImageLayer_0(bgImage);
   $setSize_1(bgLayer, plat.graphics.viewSize);
-  $add_4(this.rootLayer, bgLayer);
+  $add_5(this.rootLayer, bgLayer);
   new Pointer(plat, this.rootLayer);
-  boardState = new BoardState;
+  level = ($clinit_LevelGenerator() , (new LevelGenerator(new Dimension_2)).level);
+  $info_1(plat.log_0, initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, ['level', level]));
+  boardState = new BoardState(level);
   $push_1(this.screens, new BoardScreen(this, boardState));
 }
 
-defineClass(217, 216, {}, MainGame);
-var Lde_cdietze_ld37_core_MainGame_2_classLit = createForClass('de.cdietze.ld37.core', 'MainGame', 217, Lplayn_scene_SceneGame_2_classLit);
+defineClass(231, 230, {}, MainGame);
+var Lde_cdietze_ld37_core_MainGame_2_classLit = createForClass('de.cdietze.ld37.core', 'MainGame', 231, Lplayn_scene_SceneGame_2_classLit);
 function $clinit_ScreenStack(){
   $clinit_ScreenStack = emptyMethod;
   NOOP = new ScreenStack$1;
 }
 
-function $add_0(this$static, screen_0){
+function $add_1(this$static, screen_0){
   var e, root, width_0, height, boardElement;
   if ($indexOf_1(this$static._screens, screen_0, 0) != -1) {
     throw new IllegalArgumentException_0('Cannot add screen to stack twice.');
   }
-  $add_1(this$static._screens, 0, screen_0);
+  $add_2(this$static._screens, 0, screen_0);
   try {
-    root = $createRoot(screen_0.iface, new BorderLayout, $create($add_11(newSheetBuilder(screen_0.plat.graphics), Ltripleplay_ui_Element_2_classLit, make(initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(($clinit_Style() , FONT), new Font(24))])))), screen_0.layer);
+    root = $createRoot(screen_0.iface, new BorderLayout, $create($add_12(newSheetBuilder(screen_0.plat.graphics), Ltripleplay_ui_Element_2_classLit, make(initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(($clinit_Style() , FONT), new Font(24))])))), screen_0.layer);
     width_0 = min_0(maxSize.width_0, screen_0.plat.graphics.viewSize.width_0);
     height = min_0(maxSize.height_0, screen_0.plat.graphics.viewSize.height_0);
     $setSize_5(root, width_0, height);
     $setLocation(root, (screen_0.plat.graphics.viewSize.width_0 - width_0) * 0.5, (screen_0.plat.graphics.viewSize.height_0 - height) * 0.5);
     boardElement = new ScaledElement(screen_0.boardLayer);
     $addStyles(boardElement, make(initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, $inset(new BlankBackground, 10))])));
-    $add_4(screen_0.boardLayer, $setDepth(new Layers$2(screen_0.dim.width_0, screen_0.dim.height_0), 0));
-    $add_8(root, initValues(getClassLiteralForArray(Ltripleplay_ui_Element_2_classLit, 1), $intern_1, 24, 0, [$setConstraint(boardElement, ($clinit_BorderLayout() , CENTER_3))]));
-    $add_8(root, initValues(getClassLiteralForArray(Ltripleplay_ui_Element_2_classLit, 1), $intern_1, 24, 0, [$setConstraint(new Label($map(screen_0.state.dustRemaining, new BoardScreen$1)), EAST)]));
+    $add_9(root, initValues(getClassLiteralForArray(Ltripleplay_ui_Element_2_classLit, 1), $intern_1, 23, 0, [$setConstraint(boardElement, ($clinit_BorderLayout() , CENTER_3))]));
+    $add_9(root, initValues(getClassLiteralForArray(Ltripleplay_ui_Element_2_classLit, 1), $intern_1, 23, 0, [$setConstraint($add_9(new Group(($clinit_AxisLayout() , new AxisLayout$Vertical)), initValues(getClassLiteralForArray(Ltripleplay_ui_Element_2_classLit, 1), $intern_1, 23, 0, [new Label($map(screen_0.state.dustRemaining, new BoardScreen$1)), new Label($map(screen_0.state.battery, new BoardScreen$2))])), EAST)]));
   }
    catch ($e0) {
     $e0 = wrap_0($e0);
     if (instanceOf($e0, 8)) {
       e = $e0;
-      $warning(($clinit_Log() , log_2), initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [e]));
+      $warning(($clinit_Log() , log_1), initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [e]));
     }
      else 
       throw unwrap($e0);
@@ -3494,13 +4641,13 @@ function $add_0(this$static, screen_0){
 }
 
 function $addAndShow(this$static, screen_0){
-  $add_0(this$static, screen_0);
+  $add_1(this$static, screen_0);
   $justShow(this$static, screen_0);
 }
 
 function $hide(this$static, screen_0){
   var e;
-  $remove_4(this$static._rootLayer, screen_0.layer);
+  $remove_8(this$static._rootLayer, screen_0.layer);
   try {
     $close_4(screen_0._closeOnHide);
     $clear_2(screen_0.iface.anim);
@@ -3509,7 +4656,7 @@ function $hide(this$static, screen_0){
     $e0 = wrap_0($e0);
     if (instanceOf($e0, 8)) {
       e = $e0;
-      $warning(($clinit_Log() , log_2), initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [e]));
+      $warning(($clinit_Log() , log_1), initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [e]));
     }
      else 
       throw unwrap($e0);
@@ -3518,7 +4665,7 @@ function $hide(this$static, screen_0){
 
 function $justShow(this$static, screen_0){
   var e;
-  $add_4(this$static._rootLayer, $setTranslation(screen_0.layer, this$static.originX, this$static.originY));
+  $add_5(this$static._rootLayer, $setTranslation(screen_0.layer, this$static.originX, this$static.originY));
   try {
     $closeOnHide(screen_0, $addConnection(screen_0.game_0.update, new Signal$1(screen_0.update)));
     $closeOnHide(screen_0, $addConnection(screen_0.game_0.paint, new Signal$1(screen_0.paint)));
@@ -3527,7 +4674,7 @@ function $justShow(this$static, screen_0){
     $e0 = wrap_0($e0);
     if (instanceOf($e0, 8)) {
       e = $e0;
-      $warning(($clinit_Log() , log_2), initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [e]));
+      $warning(($clinit_Log() , log_1), initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [e]));
     }
      else 
       throw unwrap($e0);
@@ -3541,7 +4688,7 @@ function $push_1(this$static, screen_0){
 function $push_2(this$static, screen_0, trans){
   var otop;
   if (this$static._screens.array.length == 0) {
-    $add_0(this$static, screen_0);
+    $add_1(this$static, screen_0);
     $justShow(this$static, screen_0);
   }
    else {
@@ -3556,11 +4703,11 @@ function $transition(this$static, transitor){
   $init_0(this$static._transitor);
 }
 
-defineClass(218, 1, {});
+defineClass(232, 1, {});
 _.originX = 0;
 _.originY = 0;
 var NOOP;
-var Ltripleplay_game_ScreenStack_2_classLit = createForClass('tripleplay.game', 'ScreenStack', 218, Ljava_lang_Object_2_classLit);
+var Ltripleplay_game_ScreenStack_2_classLit = createForClass('tripleplay.game', 'ScreenStack', 232, Ljava_lang_Object_2_classLit);
 function MainGame$1($anonymous0, $anonymous1){
   $clinit_ScreenStack();
   this._screens = new ArrayList;
@@ -3568,17 +4715,65 @@ function MainGame$1($anonymous0, $anonymous1){
   this._rootLayer = $anonymous1;
 }
 
-defineClass(219, 218, {}, MainGame$1);
-var Lde_cdietze_ld37_core_MainGame$1_2_classLit = createForClass('de.cdietze.ld37.core', 'MainGame/1', 219, Ltripleplay_game_ScreenStack_2_classLit);
-function neighbors_0(dim, index_0, result){
+defineClass(233, 232, {}, MainGame$1);
+var Lde_cdietze_ld37_core_MainGame$1_2_classLit = createForClass('de.cdietze.ld37.core', 'MainGame/1', 233, Ltripleplay_game_ScreenStack_2_classLit);
+function shuffle(list, random){
+  var index_0;
+  for (index_0 = 0; index_0 < list.array.length; index_0 += 1) {
+    $clinit_Collections();
+    swapImpl(list, index_0, index_0 + $nextInt(random, list.array.length - index_0));
+  }
+}
+
+function shuffledRange(size_0, random){
+  var i, list;
+  list = new ArrayList_0(size_0);
+  for (i = 0; i < size_0; ++i)
+    $add_3(list, valueOf(i));
+  shuffle(list, random);
+  return list;
+}
+
+function isNeighbor(dim, a, b){
+  var aX, aY, bX, bY, offX, offY;
+  aX = a % dim.width_0;
+  aY = ~~(a / dim.width_0);
+  bX = b % dim.width_0;
+  bY = ~~(b / dim.width_0);
+  offX = aX - bX < 0?-(aX - bX):aX - bX;
+  offY = aY - bY < 0?-(aY - bY):aY - bY;
+  return offX == 0 && offY == 1 || offX == 1 && offY == 0;
+}
+
+function neighbors(dim, index_0, result){
   var x_0, y_0;
   x_0 = index_0 % dim.width_0;
   y_0 = ~~(index_0 / dim.width_0);
-  x_0 > 0 && $set_1(result, x_0 - 1 + y_0 * dim.width_0);
-  y_0 > 0 && $set_1(result, x_0 + (y_0 - 1) * dim.width_0);
-  x_0 < dim.width_0 - 1 && $set_1(result, x_0 + 1 + y_0 * dim.width_0);
-  y_0 < dim.height_0 - 1 && $set_1(result, x_0 + (y_0 + 1) * dim.width_0);
+  x_0 > 0 && $set_3(result, x_0 - 1 + y_0 * dim.width_0);
+  y_0 > 0 && $set_3(result, x_0 + (y_0 - 1) * dim.width_0);
+  x_0 < dim.width_0 - 1 && $set_3(result, x_0 + 1 + y_0 * dim.width_0);
+  y_0 < dim.height_0 - 1 && $set_3(result, x_0 + (y_0 + 1) * dim.width_0);
   return result;
+}
+
+function neighborsList(dim, index_0){
+  var builder, x_0, y_0;
+  x_0 = index_0 % dim.width_0;
+  y_0 = ~~(index_0 / dim.width_0);
+  builder = ($clinit_ImmutableList() , new ImmutableList$Builder);
+  x_0 > 0 && $add_0(builder, valueOf(x_0 - 1 + y_0 * dim.width_0));
+  y_0 > 0 && $add_0(builder, valueOf(x_0 + (y_0 - 1) * dim.width_0));
+  x_0 < dim.width_0 - 1 && $add_0(builder, valueOf(x_0 + 1 + y_0 * dim.width_0));
+  y_0 < dim.height_0 - 1 && $add_0(builder, valueOf(x_0 + (y_0 + 1) * dim.width_0));
+  return copyFromCollection(builder.contents);
+}
+
+function orthogonalDistance(dim, a, b){
+  return abs_1(a % dim.width_0 - b % dim.width_0) + abs_1(~~(a / dim.width_0) - ~~(b / dim.width_0));
+}
+
+function toIndex_0(dim, y_0){
+  return y_0 * dim.width_0;
 }
 
 function toX(dim, index_0){
@@ -3593,21 +4788,21 @@ function UiUtils$1(val$layer){
   this.val$layer1 = val$layer;
 }
 
-defineClass(404, 478, {}, UiUtils$1);
+defineClass(103, 512, {}, UiUtils$1);
 _.onEmit = function onEmit_4(event_0){
   $setVisible(this.val$layer1, event_0.value_0);
 }
 ;
-var Lde_cdietze_ld37_core_UiUtils$1_2_classLit = createForClass('de.cdietze.ld37.core', 'UiUtils/1', 404, Lreact_Slot_2_classLit);
+var Lde_cdietze_ld37_core_UiUtils$1_2_classLit = createForClass('de.cdietze.ld37.core', 'UiUtils/1', 103, Lreact_Slot_2_classLit);
 function DialogKeeper(){
   new ArrayList;
 }
 
-defineClass(382, 1, {}, DialogKeeper);
-var Lde_cdietze_playn_1util_DialogKeeper_2_classLit = createForClass('de.cdietze.playn_util', 'DialogKeeper', 382, Ljava_lang_Object_2_classLit);
+defineClass(405, 1, {}, DialogKeeper);
+var Lde_cdietze_playn_1util_DialogKeeper_2_classLit = createForClass('de.cdietze.playn_util', 'DialogKeeper', 405, Ljava_lang_Object_2_classLit);
 function $addBinding(this$static, binding){
   this$static._bindings = binding;
-  !!(!this$static._parent?null:this$static._parent) && (binding._conn = $connectNotify($map(binding.val$textV3, ($clinit_Functions() , TO_STRING)), new Value$1(binding.this$01.text_0)));
+  !!(!this$static._parent?null:this$static._parent.root_0()) && (binding._conn = $connectNotify($map(binding.val$textV3, ($clinit_Functions() , TO_STRING)), new Value$1(binding.this$01.text_0)));
   return this$static;
 }
 
@@ -3641,7 +4836,7 @@ function $contains_0(this$static, x_0, y_0){
 function $invalidate(this$static){
   this$static._preferredSize = null;
   if ($isSet(this$static, ($clinit_Element$Flag() , VALID))) {
-    $set_0(this$static, VALID, false);
+    $set_1(this$static, VALID, false);
     !!this$static._parent && $invalidate(this$static._parent);
   }
 }
@@ -3661,7 +4856,7 @@ function $layout(this$static){
   bgok = !!bginst && bginst.this$01 == ldata.bg && $equals_4(bginst.size_0, this$static._size);
   bgok || $clear_3(this$static._bginst);
   if (width_0 > 0 && height > 0 && !bgok) {
-    bginst = $set_6(this$static._bginst, ldata.bg.instantiate(this$static._size));
+    bginst = $set_8(this$static._bginst, ldata.bg.instantiate(this$static._size));
     bginst.addTo(this$static.layer, 0, 0, 0);
   }
   insets = ldata.bg.insets;
@@ -3670,10 +4865,10 @@ function $layout(this$static){
 }
 
 function $root(this$static){
-  return !this$static._parent?null:this$static._parent;
+  return !this$static._parent?null:this$static._parent.root_0();
 }
 
-function $set_0(this$static, flag, on){
+function $set_1(this$static, flag, on){
   on?(this$static._flags |= flag.mask):(this$static._flags &= ~flag.mask);
 }
 
@@ -3690,7 +4885,7 @@ function $setLocation(this$static, x_0, y_0){
 function $validate(this$static){
   if (!$isSet(this$static, ($clinit_Element$Flag() , VALID))) {
     this$static.layout();
-    $set_0(this$static, VALID, true);
+    $set_1(this$static, VALID, true);
     this$static.wasValidated();
   }
 }
@@ -3698,7 +4893,7 @@ function $validate(this$static){
 function $wasAdded(this$static){
   var b;
   $invalidate(this$static);
-  $set_0(this$static, ($clinit_Element$Flag() , IS_ADDING), false);
+  $set_1(this$static, ($clinit_Element$Flag() , IS_ADDING), false);
   for (b = this$static._bindings; b != ($clinit_Element$Binding() , NONE); b = b.next)
     b._conn = b.connect();
 }
@@ -3706,7 +4901,7 @@ function $wasAdded(this$static){
 function $wasRemoved(this$static){
   var b;
   $clear_3(this$static._bginst);
-  $set_0(this$static, ($clinit_Element$Flag() , IS_REMOVING), false);
+  $set_1(this$static, ($clinit_Element$Flag() , IS_REMOVING), false);
   for (b = this$static._bindings; b != ($clinit_Element$Binding() , NONE); b = b.next)
     b._conn = ($clinit_Closeable$Util() , b._conn.close_0() , $clinit_Closeable$Util() , NOOP_0);
 }
@@ -3726,12 +4921,12 @@ function Element_0(){
   this._size = new Dimension;
   this._styles = ($clinit_Styles() , $clinit_Styles() , _noneSingleton);
   this._bindings = ($clinit_Element$Binding() , NONE);
-  this._bginst = (ref = new Ref$1 , $set_6(ref, null) , ref);
+  this._bginst = (ref = new Ref$1 , $set_8(ref, null) , ref);
   $setHitTester(this.layer, new Element$1(this));
-  $set_0(this, HIT_DESCEND, true);
+  $set_1(this, HIT_DESCEND, true);
 }
 
-defineClass(24, 1, $intern_19);
+defineClass(23, 1, $intern_21);
 _.computeSize = function computeSize(ldata, hintX, hintY){
   return ldata.computeSize_0(hintX, hintY);
 }
@@ -3750,6 +4945,10 @@ _.layout_0 = function layout_1(ldata, left, top_0, width_0, height){
 ;
 _.preferredSize = function preferredSize(hintX, hintY){
   return !this._preferredSize && (this._preferredSize = $computeSize(this, hintX, hintY)) , this._preferredSize;
+}
+;
+_.root_0 = function root_0(){
+  return $root(this);
 }
 ;
 _.setLocation = function setLocation(x_0, y_0){
@@ -3781,15 +4980,15 @@ _.wasValidated = function wasValidated(){
 }
 ;
 _._flags = 0;
-var Ltripleplay_ui_Element_2_classLit = createForClass('tripleplay.ui', 'Element', 24, Ljava_lang_Object_2_classLit);
+var Ltripleplay_ui_Element_2_classLit = createForClass('tripleplay.ui', 'Element', 23, Ljava_lang_Object_2_classLit);
 function ScaledElement(layer){
   Element_0.call(this);
   this.worldLayer = layer;
   checkArgument_0(layer.width_0 > 0 && layer.height_0 > 0, 'The layer must have a size.');
-  $add_4(this.layer, layer);
+  $add_5(this.layer, layer);
 }
 
-defineClass(402, 24, $intern_19, ScaledElement);
+defineClass(431, 23, $intern_21, ScaledElement);
 _.createLayoutData = function createLayoutData_0(hintX, hintY){
   return new ScaledElement$1(this, this);
 }
@@ -3798,13 +4997,13 @@ _.getStyleClass = function getStyleClass(){
   return Lde_cdietze_playn_1util_ScaledElement_2_classLit;
 }
 ;
-var Lde_cdietze_playn_1util_ScaledElement_2_classLit = createForClass('de.cdietze.playn_util', 'ScaledElement', 402, Ltripleplay_ui_Element_2_classLit);
+var Lde_cdietze_playn_1util_ScaledElement_2_classLit = createForClass('de.cdietze.playn_util', 'ScaledElement', 431, Ltripleplay_ui_Element_2_classLit);
 function Element$LayoutData(this$0){
   this.this$01_0 = this$0;
   this.bg = resolveStyle(this.this$01_0, ($clinit_Style() , BACKGROUND));
 }
 
-defineClass(148, 1, {}, Element$LayoutData);
+defineClass(155, 1, {}, Element$LayoutData);
 _.computeSize_0 = function computeSize_0(hintX, hintY){
   return new Dimension_0(0, 0);
 }
@@ -3812,13 +5011,13 @@ _.computeSize_0 = function computeSize_0(hintX, hintY){
 _.layout_1 = function layout_2(left, top_0, width_0, height){
 }
 ;
-var Ltripleplay_ui_Element$LayoutData_2_classLit = createForClass('tripleplay.ui', 'Element/LayoutData', 148, Ljava_lang_Object_2_classLit);
+var Ltripleplay_ui_Element$LayoutData_2_classLit = createForClass('tripleplay.ui', 'Element/LayoutData', 155, Ljava_lang_Object_2_classLit);
 function ScaledElement$1(this$0, this$0_1){
   this.this$01 = this$0;
   Element$LayoutData.call(this, this$0_1);
 }
 
-defineClass(403, 148, {}, ScaledElement$1);
+defineClass(432, 155, {}, ScaledElement$1);
 _.layout_1 = function layout_3(left, top_0, width_0, height){
   var ratio, scale, maxWidthIfHeightRestricted, maxWidth;
   ratio = this.this$01.worldLayer.width_0 / this.this$01.worldLayer.height_0;
@@ -3827,16 +5026,16 @@ _.layout_1 = function layout_3(left, top_0, width_0, height){
   $setScale(this.this$01.worldLayer, scale * width_0 / this.this$01.worldLayer.width_0);
 }
 ;
-var Lde_cdietze_playn_1util_ScaledElement$1_2_classLit = createForClass('de.cdietze.playn_util', 'ScaledElement/1', 403, Ltripleplay_ui_Element$LayoutData_2_classLit);
-defineClass(497, 1, {});
-var Ljava_io_OutputStream_2_classLit = createForClass('java.io', 'OutputStream', 497, Ljava_lang_Object_2_classLit);
-defineClass(498, 497, {});
-var Ljava_io_FilterOutputStream_2_classLit = createForClass('java.io', 'FilterOutputStream', 498, Ljava_io_OutputStream_2_classLit);
+var Lde_cdietze_playn_1util_ScaledElement$1_2_classLit = createForClass('de.cdietze.playn_util', 'ScaledElement/1', 432, Ltripleplay_ui_Element$LayoutData_2_classLit);
+defineClass(531, 1, {});
+var Ljava_io_OutputStream_2_classLit = createForClass('java.io', 'OutputStream', 531, Ljava_lang_Object_2_classLit);
+defineClass(532, 531, {});
+var Ljava_io_FilterOutputStream_2_classLit = createForClass('java.io', 'FilterOutputStream', 532, Ljava_io_OutputStream_2_classLit);
 function PrintStream(){
 }
 
-defineClass(370, 498, {}, PrintStream);
-var Ljava_io_PrintStream_2_classLit = createForClass('java.io', 'PrintStream', 370, Ljava_io_FilterOutputStream_2_classLit);
+defineClass(395, 532, {}, PrintStream);
+var Ljava_io_PrintStream_2_classLit = createForClass('java.io', 'PrintStream', 395, Ljava_io_FilterOutputStream_2_classLit);
 function $charAt(this$static, index_0){
   return $charAt_0(this$static.string, index_0);
 }
@@ -3844,25 +5043,31 @@ function $charAt(this$static, index_0){
 function $setLength(this$static, newLength){
   var oldLength;
   oldLength = this$static.string.length;
-  newLength < oldLength?(this$static.string = $substring_0(this$static.string, 0, newLength)):newLength > oldLength && (this$static.string += valueOf_1(initDim(C_classLit, {519:1, 3:1}, 0, newLength - oldLength, 7, 1)));
+  newLength < oldLength?(this$static.string = $substring_0(this$static.string, 0, newLength)):newLength > oldLength && (this$static.string += valueOf_2(initDim(C_classLit, {557:1, 3:1}, 0, newLength - oldLength, 7, 1)));
 }
 
 function AbstractStringBuilder(string){
   this.string = string;
 }
 
-defineClass(104, 1, {});
-_.toString$ = function toString_11(){
+defineClass(111, 1, {});
+_.toString$ = function toString_20(){
   return this.string;
 }
 ;
-var Ljava_lang_AbstractStringBuilder_2_classLit = createForClass('java.lang', 'AbstractStringBuilder', 104, Ljava_lang_Object_2_classLit);
+var Ljava_lang_AbstractStringBuilder_2_classLit = createForClass('java.lang', 'AbstractStringBuilder', 111, Ljava_lang_Object_2_classLit);
+function ArithmeticException(){
+  RuntimeException_0.call(this, 'divide by zero');
+}
+
+defineClass(221, 8, $intern_8, ArithmeticException);
+var Ljava_lang_ArithmeticException_2_classLit = createForClass('java.lang', 'ArithmeticException', 221, Ljava_lang_RuntimeException_2_classLit);
 function ArrayStoreException(message){
   RuntimeException_0.call(this, message);
 }
 
-defineClass(83, 8, $intern_4, ArrayStoreException);
-var Ljava_lang_ArrayStoreException_2_classLit = createForClass('java.lang', 'ArrayStoreException', 83, Ljava_lang_RuntimeException_2_classLit);
+defineClass(88, 8, $intern_8, ArrayStoreException);
+var Ljava_lang_ArrayStoreException_2_classLit = createForClass('java.lang', 'ArrayStoreException', 88, Ljava_lang_RuntimeException_2_classLit);
 function $clinit_Boolean(){
   $clinit_Boolean = emptyMethod;
   FALSE = new Boolean_0(false);
@@ -3877,28 +5082,28 @@ function compare(x_0, y_0){
   return x_0 == y_0?0:x_0?1:-1;
 }
 
-defineClass(103, 1, {3:1, 103:1, 7:1}, Boolean_0);
+defineClass(109, 1, {3:1, 109:1, 7:1}, Boolean_0);
 _.compareTo = function compareTo_0(b){
   return compare(this.value_0, b.value_0);
 }
 ;
-_.equals$ = function equals_8(o){
-  return instanceOf(o, 103) && o.value_0 == this.value_0;
+_.equals$ = function equals_11(o){
+  return instanceOf(o, 109) && o.value_0 == this.value_0;
 }
 ;
-_.hashCode$ = function hashCode_9(){
+_.hashCode$ = function hashCode_12(){
   return this.value_0?1231:1237;
 }
 ;
-_.toString$ = function toString_12(){
+_.toString$ = function toString_21(){
   return '' + this.value_0;
 }
 ;
 _.value_0 = false;
 var FALSE, TRUE;
-var Ljava_lang_Boolean_2_classLit = createForClass('java.lang', 'Boolean', 103, Ljava_lang_Object_2_classLit);
-defineClass(123, 1, {3:1, 123:1});
-var Ljava_lang_Number_2_classLit = createForClass('java.lang', 'Number', 123, Ljava_lang_Object_2_classLit);
+var Ljava_lang_Boolean_2_classLit = createForClass('java.lang', 'Boolean', 109, Ljava_lang_Object_2_classLit);
+defineClass(110, 1, {3:1, 110:1});
+var Ljava_lang_Number_2_classLit = createForClass('java.lang', 'Number', 110, Ljava_lang_Object_2_classLit);
 function compare_0(x_0, y_0){
   if (x_0 < y_0) {
     return -1;
@@ -3916,25 +5121,25 @@ function Float(value_0){
   this.value_0 = value_0;
 }
 
-defineClass(84, 123, {3:1, 7:1, 84:1, 123:1}, Float);
+defineClass(89, 110, {3:1, 7:1, 89:1, 110:1}, Float);
 _.compareTo = function compareTo_1(b){
   return compare_0(this.value_0, b.value_0);
 }
 ;
-_.equals$ = function equals_9(o){
-  return instanceOf(o, 84) && o.value_0 == this.value_0;
+_.equals$ = function equals_12(o){
+  return instanceOf(o, 89) && o.value_0 == this.value_0;
 }
 ;
-_.hashCode$ = function hashCode_10(){
+_.hashCode$ = function hashCode_13(){
   return round_int(this.value_0);
 }
 ;
-_.toString$ = function toString_14(){
+_.toString$ = function toString_23(){
   return '' + this.value_0;
 }
 ;
 _.value_0 = 0;
-var Ljava_lang_Float_2_classLit = createForClass('java.lang', 'Float', 84, Ljava_lang_Number_2_classLit);
+var Ljava_lang_Float_2_classLit = createForClass('java.lang', 'Float', 89, Ljava_lang_Number_2_classLit);
 function IllegalArgumentException(){
   RuntimeException.call(this);
 }
@@ -3943,14 +5148,18 @@ function IllegalArgumentException_0(message){
   RuntimeException_0.call(this, message);
 }
 
-defineClass(22, 8, $intern_4, IllegalArgumentException, IllegalArgumentException_0);
-var Ljava_lang_IllegalArgumentException_2_classLit = createForClass('java.lang', 'IllegalArgumentException', 22, Ljava_lang_RuntimeException_2_classLit);
-function IllegalStateException(s){
+defineClass(20, 8, $intern_8, IllegalArgumentException, IllegalArgumentException_0);
+var Ljava_lang_IllegalArgumentException_2_classLit = createForClass('java.lang', 'IllegalArgumentException', 20, Ljava_lang_RuntimeException_2_classLit);
+function IllegalStateException(){
+  RuntimeException.call(this);
+}
+
+function IllegalStateException_0(s){
   RuntimeException_0.call(this, s);
 }
 
-defineClass(32, 8, $intern_4, IllegalStateException);
-var Ljava_lang_IllegalStateException_2_classLit = createForClass('java.lang', 'IllegalStateException', 32, Ljava_lang_RuntimeException_2_classLit);
+defineClass(22, 8, $intern_8, IllegalStateException, IllegalStateException_0);
+var Ljava_lang_IllegalStateException_2_classLit = createForClass('java.lang', 'IllegalStateException', 22, Ljava_lang_RuntimeException_2_classLit);
 function IndexOutOfBoundsException(){
   RuntimeException.call(this);
 }
@@ -3959,14 +5168,45 @@ function IndexOutOfBoundsException_0(message){
   RuntimeException_0.call(this, message);
 }
 
-defineClass(63, 8, $intern_4, IndexOutOfBoundsException, IndexOutOfBoundsException_0);
-var Ljava_lang_IndexOutOfBoundsException_2_classLit = createForClass('java.lang', 'IndexOutOfBoundsException', 63, Ljava_lang_RuntimeException_2_classLit);
+defineClass(71, 8, $intern_8, IndexOutOfBoundsException, IndexOutOfBoundsException_0);
+var Ljava_lang_IndexOutOfBoundsException_2_classLit = createForClass('java.lang', 'IndexOutOfBoundsException', 71, Ljava_lang_RuntimeException_2_classLit);
 function Integer(value_0){
   this.value_0 = value_0;
 }
 
 function compare_1(x_0, y_0){
   return x_0 < y_0?-1:x_0 > y_0?1:0;
+}
+
+function numberOfLeadingZeros_0(i){
+  var m, n, y_0;
+  if (i < 0) {
+    return 0;
+  }
+   else if (i == 0) {
+    return 32;
+  }
+   else {
+    y_0 = -(i >> 16);
+    m = y_0 >> 16 & 16;
+    n = 16 - m;
+    i = i >> m;
+    y_0 = i - 256;
+    m = y_0 >> 16 & 8;
+    n += m;
+    i <<= m;
+    y_0 = i - 4096;
+    m = y_0 >> 16 & 4;
+    n += m;
+    i <<= m;
+    y_0 = i - 16384;
+    m = y_0 >> 16 & 2;
+    n += m;
+    i <<= m;
+    y_0 = i >> 14;
+    m = y_0 & ~(y_0 >> 1);
+    return n + 2 - m;
+  }
 }
 
 function numberOfTrailingZeros(i){
@@ -3998,33 +5238,81 @@ function valueOf(i){
   return new Integer(i);
 }
 
-defineClass(85, 123, {3:1, 7:1, 85:1, 123:1}, Integer);
+defineClass(90, 110, {3:1, 7:1, 90:1, 110:1}, Integer);
 _.compareTo = function compareTo_2(b){
   return compare_1(this.value_0, b.value_0);
 }
 ;
-_.equals$ = function equals_10(o){
-  return instanceOf(o, 85) && o.value_0 == this.value_0;
+_.equals$ = function equals_13(o){
+  return instanceOf(o, 90) && o.value_0 == this.value_0;
 }
 ;
-_.hashCode$ = function hashCode_11(){
+_.hashCode$ = function hashCode_14(){
   return this.value_0;
 }
 ;
-_.toString$ = function toString_15(){
+_.toString$ = function toString_24(){
   return '' + this.value_0;
 }
 ;
 _.value_0 = 0;
-var Ljava_lang_Integer_2_classLit = createForClass('java.lang', 'Integer', 85, Ljava_lang_Number_2_classLit);
+var Ljava_lang_Integer_2_classLit = createForClass('java.lang', 'Integer', 90, Ljava_lang_Number_2_classLit);
 function $clinit_Integer$BoxedValues(){
   $clinit_Integer$BoxedValues = emptyMethod;
-  boxedValues_0 = initDim(Ljava_lang_Integer_2_classLit, $intern_1, 85, 256, 0, 1);
+  boxedValues_0 = initDim(Ljava_lang_Integer_2_classLit, $intern_1, 90, 256, 0, 1);
 }
 
 var boxedValues_0;
+function Long(value_0){
+  this.value_0 = value_0;
+}
+
+function compare_2(x_0, y_0){
+  return lt(x_0, y_0)?-1:gt(x_0, y_0)?1:0;
+}
+
+function valueOf_0(i){
+  var rebase, result;
+  if (gt(i, {l:4194175, m:$intern_3, h:$intern_7}) && lt(i, {l:128, m:0, h:0})) {
+    rebase = toInt(i) + 128;
+    result = ($clinit_Long$BoxedValues() , boxedValues_1)[rebase];
+    !result && (result = boxedValues_1[rebase] = new Long(i));
+    return result;
+  }
+  return new Long(i);
+}
+
+defineClass(91, 110, {3:1, 7:1, 91:1, 110:1}, Long);
+_.compareTo = function compareTo_3(b){
+  return compare_2(this.value_0, b.value_0);
+}
+;
+_.equals$ = function equals_14(o){
+  return instanceOf(o, 91) && eq(o.value_0, this.value_0);
+}
+;
+_.hashCode$ = function hashCode_15(){
+  return toInt(this.value_0);
+}
+;
+_.toString$ = function toString_25(){
+  return '' + toString_16(this.value_0);
+}
+;
+_.value_0 = {l:0, m:0, h:0};
+var Ljava_lang_Long_2_classLit = createForClass('java.lang', 'Long', 91, Ljava_lang_Number_2_classLit);
+function $clinit_Long$BoxedValues(){
+  $clinit_Long$BoxedValues = emptyMethod;
+  boxedValues_1 = initDim(Ljava_lang_Long_2_classLit, $intern_1, 91, 256, 0, 1);
+}
+
+var boxedValues_1;
 function abs_0(x_0){
   return x_0 <= 0?0 - x_0:x_0;
+}
+
+function abs_1(x_0){
+  return x_0 < 0?-x_0:x_0;
 }
 
 function ceil_0(x_0){
@@ -4033,6 +5321,10 @@ function ceil_0(x_0){
 
 function cos_0(x_0){
   return Math.cos(x_0);
+}
+
+function floor_0(x_0){
+  return Math.floor(x_0);
 }
 
 function max_0(x_0, y_0){
@@ -4071,8 +5363,8 @@ function NullPointerException_0(message){
   RuntimeException_0.call(this, message);
 }
 
-defineClass(59, 8, $intern_4, NullPointerException, NullPointerException_0);
-var Ljava_lang_NullPointerException_2_classLit = createForClass('java.lang', 'NullPointerException', 59, Ljava_lang_RuntimeException_2_classLit);
+defineClass(40, 8, {3:1, 14:1, 40:1, 8:1, 10:1}, NullPointerException, NullPointerException_0);
+var Ljava_lang_NullPointerException_2_classLit = createForClass('java.lang', 'NullPointerException', 40, Ljava_lang_RuntimeException_2_classLit);
 function StackTraceElement(methodName, fileName, lineNumber){
   this.className = 'Unknown';
   this.methodName = methodName;
@@ -4080,26 +5372,26 @@ function StackTraceElement(methodName, fileName, lineNumber){
   this.lineNumber = lineNumber;
 }
 
-defineClass(58, 1, {3:1, 58:1}, StackTraceElement);
-_.equals$ = function equals_11(other){
+defineClass(67, 1, {3:1, 67:1}, StackTraceElement);
+_.equals$ = function equals_15(other){
   var st;
-  if (instanceOf(other, 58)) {
+  if (instanceOf(other, 67)) {
     st = other;
-    return this.lineNumber == st.lineNumber && equals_24(this.methodName, st.methodName) && equals_24(this.className, st.className) && equals_24(this.fileName, st.fileName);
+    return this.lineNumber == st.lineNumber && equals_28(this.methodName, st.methodName) && equals_28(this.className, st.className) && equals_28(this.fileName, st.fileName);
   }
   return false;
 }
 ;
-_.hashCode$ = function hashCode_12(){
-  return hashCode_19(initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [valueOf(this.lineNumber), this.className, this.methodName, this.fileName]));
+_.hashCode$ = function hashCode_16(){
+  return hashCode_23(initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [valueOf(this.lineNumber), this.className, this.methodName, this.fileName]));
 }
 ;
-_.toString$ = function toString_16(){
+_.toString$ = function toString_26(){
   return this.className + '.' + this.methodName + '(' + (this.fileName != null?this.fileName:'Unknown Source') + (this.lineNumber >= 0?':' + this.lineNumber:'') + ')';
 }
 ;
 _.lineNumber = 0;
-var Ljava_lang_StackTraceElement_2_classLit = createForClass('java.lang', 'StackTraceElement', 58, Ljava_lang_Object_2_classLit);
+var Ljava_lang_StackTraceElement_2_classLit = createForClass('java.lang', 'StackTraceElement', 67, Ljava_lang_Object_2_classLit);
 function $charAt_0(this$static, index_0){
   return this$static.charCodeAt(index_0);
 }
@@ -4228,7 +5520,7 @@ function __valueOf(x_0, start_0, end){
   return s;
 }
 
-function compareTo_3(thisStr, otherStr){
+function compareTo_4(thisStr, otherStr){
   if (thisStr == otherStr) {
     return 0;
   }
@@ -4238,20 +5530,20 @@ function compareTo_3(thisStr, otherStr){
 function fromCodePoint(codePoint){
   var hiSurrogate, loSurrogate;
   if (codePoint >= 65536) {
-    hiSurrogate = 55296 + (codePoint - 65536 >> 10 & 1023) & $intern_20;
-    loSurrogate = 56320 + (codePoint - 65536 & 1023) & $intern_20;
-    return valueOf_0(hiSurrogate) + valueOf_0(loSurrogate);
+    hiSurrogate = 55296 + (codePoint - 65536 >> 10 & 1023) & $intern_22;
+    loSurrogate = 56320 + (codePoint - 65536 & 1023) & $intern_22;
+    return valueOf_1(hiSurrogate) + valueOf_1(loSurrogate);
   }
    else {
-    return String.fromCharCode(codePoint & $intern_20);
+    return String.fromCharCode(codePoint & $intern_22);
   }
-}
-
-function valueOf_0(x_0){
-  return String.fromCharCode(x_0);
 }
 
 function valueOf_1(x_0){
+  return String.fromCharCode(x_0);
+}
+
+function valueOf_2(x_0){
   return __valueOf(x_0, 0, x_0.length);
 }
 
@@ -4317,8 +5609,8 @@ function StringBuffer(){
   AbstractStringBuilder.call(this, '');
 }
 
-defineClass(117, 104, {460:1}, StringBuffer);
-var Ljava_lang_StringBuffer_2_classLit = createForClass('java.lang', 'StringBuffer', 117, Ljava_lang_AbstractStringBuilder_2_classLit);
+defineClass(126, 111, {213:1}, StringBuffer);
+var Ljava_lang_StringBuffer_2_classLit = createForClass('java.lang', 'StringBuffer', 126, Ljava_lang_AbstractStringBuilder_2_classLit);
 function $append_1(this$static, x_0){
   this$static.string += String.fromCharCode(x_0);
   return this$static;
@@ -4340,8 +5632,7 @@ function $append_4(this$static, x_0){
 }
 
 function $append_5(this$static, x_0){
-  this$static.string += x_0;
-  return this$static;
+  return this$static.string += x_0 , this$static;
 }
 
 function $append_6(this$static, x_0){
@@ -4350,6 +5641,11 @@ function $append_6(this$static, x_0){
 }
 
 function $append_7(this$static, x_0){
+  this$static.string += x_0;
+  return this$static;
+}
+
+function $append_8(this$static, x_0){
   this$static.string += x_0;
   return this$static;
 }
@@ -4371,8 +5667,8 @@ function StringBuilder_1(s){
   AbstractStringBuilder.call(this, s);
 }
 
-defineClass(16, 104, {460:1}, StringBuilder, StringBuilder_0, StringBuilder_1);
-var Ljava_lang_StringBuilder_2_classLit = createForClass('java.lang', 'StringBuilder', 16, Ljava_lang_AbstractStringBuilder_2_classLit);
+defineClass(15, 111, {213:1}, StringBuilder, StringBuilder_0, StringBuilder_1);
+var Ljava_lang_StringBuilder_2_classLit = createForClass('java.lang', 'StringBuilder', 15, Ljava_lang_AbstractStringBuilder_2_classLit);
 function $clinit_System(){
   $clinit_System = emptyMethod;
   out_0 = new PrintStream;
@@ -4423,8 +5719,8 @@ function UnsupportedOperationException_0(message){
   RuntimeException_0.call(this, message);
 }
 
-defineClass(46, 8, $intern_4, UnsupportedOperationException, UnsupportedOperationException_0);
-var Ljava_lang_UnsupportedOperationException_2_classLit = createForClass('java.lang', 'UnsupportedOperationException', 46, Ljava_lang_RuntimeException_2_classLit);
+defineClass(24, 8, $intern_8, UnsupportedOperationException, UnsupportedOperationException_0);
+var Ljava_lang_UnsupportedOperationException_2_classLit = createForClass('java.lang', 'UnsupportedOperationException', 24, Ljava_lang_RuntimeException_2_classLit);
 function $clear(this$static){
   this$static.position_0 = 0;
   this$static.mark = -1;
@@ -4464,18 +5760,18 @@ function Buffer(capacity){
   this.capacity = this.limit = capacity;
 }
 
-defineClass(95, 1, {});
+defineClass(101, 1, {});
 _.capacity = 0;
 _.limit = 0;
 _.mark = -1;
 _.position_0 = 0;
-var Ljava_nio_Buffer_2_classLit = createForClass('java.nio', 'Buffer', 95, Ljava_lang_Object_2_classLit);
+var Ljava_nio_Buffer_2_classLit = createForClass('java.nio', 'Buffer', 101, Ljava_lang_Object_2_classLit);
 function BufferOverflowException(){
   RuntimeException.call(this);
 }
 
-defineClass(196, 8, $intern_4, BufferOverflowException);
-var Ljava_nio_BufferOverflowException_2_classLit = createForClass('java.nio', 'BufferOverflowException', 196, Ljava_lang_RuntimeException_2_classLit);
+defineClass(207, 8, $intern_8, BufferOverflowException);
+var Ljava_nio_BufferOverflowException_2_classLit = createForClass('java.nio', 'BufferOverflowException', 207, Ljava_lang_RuntimeException_2_classLit);
 function $$init(this$static){
   this$static.order = ($clinit_ByteOrder() , BIG_ENDIAN);
 }
@@ -4551,14 +5847,14 @@ function allocateDirect(capacity){
   return new ByteBuffer(capacity);
 }
 
-defineClass(96, 95, {7:1, 96:1, 158:1}, ByteBuffer, ByteBuffer_1);
-_.compareTo = function compareTo_4(otherBuffer){
+defineClass(102, 101, {7:1, 102:1, 165:1}, ByteBuffer, ByteBuffer_1);
+_.compareTo = function compareTo_5(otherBuffer){
   return $compareTo(this, otherBuffer);
 }
 ;
-_.equals$ = function equals_12(other){
+_.equals$ = function equals_16(other){
   var equalSoFar, myPosition, otherBuffer, otherPosition;
-  if (!instanceOf(other, 96)) {
+  if (!instanceOf(other, 102)) {
     return false;
   }
   otherBuffer = other;
@@ -4586,7 +5882,7 @@ _.getTypedArray = function getTypedArray(){
   return this.byteArray;
 }
 ;
-_.hashCode$ = function hashCode_13(){
+_.hashCode$ = function hashCode_17(){
   var hash, myPosition;
   myPosition = this.position_0;
   hash = 0;
@@ -4596,7 +5892,7 @@ _.hashCode$ = function hashCode_13(){
   return hash;
 }
 ;
-_.toString$ = function toString_17(){
+_.toString$ = function toString_27(){
   var buf;
   buf = new StringBuffer;
   $append_0(buf, ($ensureNamesAreInitialized(Ljava_nio_ByteBuffer_2_classLit) , Ljava_nio_ByteBuffer_2_classLit.typeName));
@@ -4609,7 +5905,7 @@ _.toString$ = function toString_17(){
   return buf.string;
 }
 ;
-var Ljava_nio_ByteBuffer_2_classLit = createForClass('java.nio', 'ByteBuffer', 96, Ljava_nio_Buffer_2_classLit);
+var Ljava_nio_ByteBuffer_2_classLit = createForClass('java.nio', 'ByteBuffer', 102, Ljava_nio_Buffer_2_classLit);
 function $clinit_ByteOrder(){
   $clinit_ByteOrder = emptyMethod;
   BIG_ENDIAN = new ByteOrder('BIG_ENDIAN');
@@ -4621,13 +5917,13 @@ function ByteOrder(name_0){
   this.name_0 = name_0;
 }
 
-defineClass(195, 1, {}, ByteOrder);
-_.toString$ = function toString_18(){
+defineClass(206, 1, {}, ByteOrder);
+_.toString$ = function toString_28(){
   return this.name_0;
 }
 ;
 var BIG_ENDIAN, LITTLE_ENDIAN, NATIVE_ORDER;
-var Ljava_nio_ByteOrder_2_classLit = createForClass('java.nio', 'ByteOrder', 195, Ljava_lang_Object_2_classLit);
+var Ljava_nio_ByteOrder_2_classLit = createForClass('java.nio', 'ByteOrder', 206, Ljava_lang_Object_2_classLit);
 function $compareTo_0(this$static, otherBuffer){
   var compareRemaining, otherFloat, otherPos, thisFloat, thisPos;
   compareRemaining = this$static.limit - this$static.position_0 < otherBuffer.limit - otherBuffer.position_0?this$static.limit - this$static.position_0:otherBuffer.limit - otherBuffer.position_0;
@@ -4669,17 +5965,17 @@ function FloatBuffer(byteBuffer){
   Buffer.call(this, byteBuffer.capacity >> 2);
   this.byteBuffer = byteBuffer;
   $clear(this.byteBuffer);
-  this.floatArray = create_0(byteBuffer.byteArray.buffer, byteBuffer.byteArray.byteOffset, this.capacity);
+  this.floatArray = create_1(byteBuffer.byteArray.buffer, byteBuffer.byteArray.byteOffset, this.capacity);
 }
 
-defineClass(111, 95, {7:1, 111:1, 158:1}, FloatBuffer);
-_.compareTo = function compareTo_5(otherBuffer){
+defineClass(121, 101, {7:1, 121:1, 165:1}, FloatBuffer);
+_.compareTo = function compareTo_6(otherBuffer){
   return $compareTo_0(this, otherBuffer);
 }
 ;
-_.equals$ = function equals_13(other){
+_.equals$ = function equals_17(other){
   var equalSoFar, myPosition, otherBuffer, otherPosition;
-  if (!instanceOf(other, 111)) {
+  if (!instanceOf(other, 121)) {
     return false;
   }
   otherBuffer = other;
@@ -4707,7 +6003,7 @@ _.getTypedArray = function getTypedArray_0(){
   return this.floatArray;
 }
 ;
-_.toString$ = function toString_19(){
+_.toString$ = function toString_29(){
   var buf;
   buf = new StringBuffer;
   $append_0(buf, ($ensureNamesAreInitialized(Ljava_nio_FloatBuffer_2_classLit) , Ljava_nio_FloatBuffer_2_classLit.typeName));
@@ -4720,7 +6016,7 @@ _.toString$ = function toString_19(){
   return buf.string;
 }
 ;
-var Ljava_nio_FloatBuffer_2_classLit = createForClass('java.nio', 'FloatBuffer', 111, Ljava_nio_Buffer_2_classLit);
+var Ljava_nio_FloatBuffer_2_classLit = createForClass('java.nio', 'FloatBuffer', 121, Ljava_nio_Buffer_2_classLit);
 function $compareTo_1(this$static, otherBuffer){
   var compareRemaining, otherInt, otherPos, thisInt, thisPos;
   compareRemaining = this$static.limit - this$static.position_0 < otherBuffer.limit - otherBuffer.position_0?this$static.limit - this$static.position_0:otherBuffer.limit - otherBuffer.position_0;
@@ -4744,12 +6040,12 @@ function $get_4(this$static, index_0){
 }
 
 function $put_1(this$static, c){
-  $set(this$static.intArray, this$static.position_0++, c);
+  $set_0(this$static.intArray, this$static.position_0++, c);
   return this$static;
 }
 
 function $put_2(this$static, index_0, c){
-  $set(this$static.intArray, index_0, c);
+  $set_0(this$static.intArray, index_0, c);
   return this$static;
 }
 
@@ -4757,17 +6053,17 @@ function IntBuffer(byteBuffer){
   Buffer.call(this, byteBuffer.capacity >> 2);
   this.byteBuffer = byteBuffer;
   $clear(this.byteBuffer);
-  this.intArray = create_2(byteBuffer.byteArray.buffer, byteBuffer.byteArray.byteOffset, this.capacity);
+  this.intArray = create_3(byteBuffer.byteArray.buffer, byteBuffer.byteArray.byteOffset, this.capacity);
 }
 
-defineClass(146, 95, {7:1, 146:1, 158:1}, IntBuffer);
-_.compareTo = function compareTo_6(otherBuffer){
+defineClass(154, 101, {7:1, 154:1, 165:1}, IntBuffer);
+_.compareTo = function compareTo_7(otherBuffer){
   return $compareTo_1(this, otherBuffer);
 }
 ;
-_.equals$ = function equals_14(other){
+_.equals$ = function equals_18(other){
   var equalSoFar, myPosition, otherBuffer, otherPosition;
-  if (!instanceOf(other, 146)) {
+  if (!instanceOf(other, 154)) {
     return false;
   }
   otherBuffer = other;
@@ -4795,7 +6091,7 @@ _.getTypedArray = function getTypedArray_1(){
   return this.intArray;
 }
 ;
-_.hashCode$ = function hashCode_14(){
+_.hashCode$ = function hashCode_18(){
   var hash, myPosition;
   myPosition = this.position_0;
   hash = 0;
@@ -4805,7 +6101,7 @@ _.hashCode$ = function hashCode_14(){
   return hash;
 }
 ;
-_.toString$ = function toString_20(){
+_.toString$ = function toString_30(){
   var buf;
   buf = new StringBuffer;
   $append_0(buf, ($ensureNamesAreInitialized(Ljava_nio_IntBuffer_2_classLit) , Ljava_nio_IntBuffer_2_classLit.typeName));
@@ -4818,7 +6114,7 @@ _.toString$ = function toString_20(){
   return buf.string;
 }
 ;
-var Ljava_nio_IntBuffer_2_classLit = createForClass('java.nio', 'IntBuffer', 146, Ljava_nio_Buffer_2_classLit);
+var Ljava_nio_IntBuffer_2_classLit = createForClass('java.nio', 'IntBuffer', 154, Ljava_nio_Buffer_2_classLit);
 function $compareTo_2(this$static, otherBuffer){
   var compareRemaining, otherByte, otherPos, thisByte, thisPos;
   compareRemaining = this$static.limit - this$static.position_0 < otherBuffer.limit - otherBuffer.position_0?this$static.limit - this$static.position_0:otherBuffer.limit - otherBuffer.position_0;
@@ -4860,17 +6156,17 @@ function ShortBuffer(byteBuffer){
   Buffer.call(this, byteBuffer.capacity >> 1);
   this.byteBuffer = byteBuffer;
   $clear(this.byteBuffer);
-  this.shortArray = create_1(byteBuffer.byteArray.buffer, byteBuffer.byteArray.byteOffset, this.capacity);
+  this.shortArray = create_2(byteBuffer.byteArray.buffer, byteBuffer.byteArray.byteOffset, this.capacity);
 }
 
-defineClass(141, 95, {7:1, 141:1, 158:1}, ShortBuffer);
-_.compareTo = function compareTo_7(otherBuffer){
+defineClass(149, 101, {7:1, 149:1, 165:1}, ShortBuffer);
+_.compareTo = function compareTo_8(otherBuffer){
   return $compareTo_2(this, otherBuffer);
 }
 ;
-_.equals$ = function equals_15(other){
+_.equals$ = function equals_19(other){
   var equalSoFar, myPosition, otherBuffer, otherPosition;
-  if (!instanceOf(other, 141)) {
+  if (!instanceOf(other, 149)) {
     return false;
   }
   otherBuffer = other;
@@ -4898,7 +6194,7 @@ _.getTypedArray = function getTypedArray_2(){
   return this.shortArray;
 }
 ;
-_.hashCode$ = function hashCode_15(){
+_.hashCode$ = function hashCode_19(){
   var hash, myPosition;
   myPosition = this.position_0;
   hash = 0;
@@ -4908,7 +6204,7 @@ _.hashCode$ = function hashCode_15(){
   return hash;
 }
 ;
-_.toString$ = function toString_21(){
+_.toString$ = function toString_31(){
   var buf;
   buf = new StringBuffer;
   $append_0(buf, ($ensureNamesAreInitialized(Ljava_nio_ShortBuffer_2_classLit) , Ljava_nio_ShortBuffer_2_classLit.typeName));
@@ -4921,7 +6217,7 @@ _.toString$ = function toString_21(){
   return buf.string;
 }
 ;
-var Ljava_nio_ShortBuffer_2_classLit = createForClass('java.nio', 'ShortBuffer', 141, Ljava_nio_Buffer_2_classLit);
+var Ljava_nio_ShortBuffer_2_classLit = createForClass('java.nio', 'ShortBuffer', 149, Ljava_nio_Buffer_2_classLit);
 function $containsKey(this$static, key){
   return isJavaString(key)?key == null?!!$getEntry(this$static.hashCodeMap, null):!(this$static.stringMap.get_3(key) === undefined):!!$getEntry(this$static.hashCodeMap, key);
 }
@@ -4945,11 +6241,11 @@ function $getStringValue(this$static, key){
 }
 
 function $put_4(this$static, key, value_0){
-  return isJavaString(key)?$putStringValue(this$static, key, value_0):$put_5(this$static.hashCodeMap, key, value_0);
+  return isJavaString(key)?key == null?$put_5(this$static.hashCodeMap, null, value_0):this$static.stringMap.put_0(key, value_0):$put_5(this$static.hashCodeMap, key, value_0);
 }
 
-function $putStringValue(this$static, key, value_0){
-  return key == null?$put_5(this$static.hashCodeMap, null, value_0):this$static.stringMap.put_0(key, value_0);
+function $remove_1(this$static, key){
+  return isJavaString(key)?key == null?$remove_5(this$static.hashCodeMap, null):this$static.stringMap.remove_2(key):$remove_5(this$static.hashCodeMap, key);
 }
 
 function $reset(this$static){
@@ -4962,7 +6258,7 @@ function $reset(this$static){
   structureChanged(this$static);
 }
 
-defineClass(124, 474, $intern_13);
+defineClass(132, 508, $intern_17);
 _.containsKey = function containsKey_1(key){
   return $containsKey(this, key);
 }
@@ -4976,17 +6272,21 @@ _.get_2 = function get_5(key){
 }
 ;
 _.put = function put_1(key, value_0){
-  return $putStringValue(this, key, value_0);
+  return $put_4(this, key, value_0);
 }
 ;
-_.size_1 = function size_6(){
+_.remove_0 = function remove_7(key){
+  return $remove_1(this, key);
+}
+;
+_.size_1 = function size_9(){
   return this.size_0;
 }
 ;
 _.size_0 = 0;
-var Ljava_util_AbstractHashMap_2_classLit = createForClass('java.util', 'AbstractHashMap', 124, Ljava_util_AbstractMap_2_classLit);
+var Ljava_util_AbstractHashMap_2_classLit = createForClass('java.util', 'AbstractHashMap', 132, Ljava_util_AbstractMap_2_classLit);
 function $contains_1(this$static, o){
-  if (instanceOf(o, 45)) {
+  if (instanceOf(o, 49)) {
     return $containsEntry(this$static.this$01, o);
   }
   return false;
@@ -4996,21 +6296,21 @@ function AbstractHashMap$EntrySet(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(125, 476, $intern_15, AbstractHashMap$EntrySet);
-_.contains = function contains_4(o){
+defineClass(133, 510, $intern_5, AbstractHashMap$EntrySet);
+_.contains = function contains_6(o){
   return $contains_1(this, o);
 }
 ;
-_.iterator = function iterator_6(){
+_.iterator = function iterator_10(){
   return new AbstractHashMap$EntrySetIterator(this.this$01);
 }
 ;
-_.size_1 = function size_7(){
+_.size_1 = function size_10(){
   return this.this$01.size_0;
 }
 ;
-var Ljava_util_AbstractHashMap$EntrySet_2_classLit = createForClass('java.util', 'AbstractHashMap/EntrySet', 125, Ljava_util_AbstractSet_2_classLit);
-function $hasNext(this$static){
+var Ljava_util_AbstractHashMap$EntrySet_2_classLit = createForClass('java.util', 'AbstractHashMap/EntrySet', 133, Ljava_util_AbstractSet_2_classLit);
+function $hasNext_0(this$static){
   if (this$static.current.hasNext()) {
     return true;
   }
@@ -5021,8 +6321,16 @@ function $hasNext(this$static){
   return this$static.current.hasNext();
 }
 
-function $next_0(this$static){
-  return checkStructuralChange(this$static.this$01, this$static) , checkCriticalElement($hasNext(this$static)) , this$static.current.next_0();
+function $next_1(this$static){
+  return checkStructuralChange(this$static.this$01, this$static) , checkCriticalElement($hasNext_0(this$static)) , this$static.last = this$static.current , this$static.current.next_0();
+}
+
+function $remove_2(this$static){
+  checkState_1(!!this$static.last);
+  checkStructuralChange(this$static.this$01, this$static);
+  this$static.last.remove();
+  this$static.last = null;
+  recordLastKnownStructure(this$static.this$01, this$static);
 }
 
 function AbstractHashMap$EntrySetIterator(this$0){
@@ -5032,22 +6340,26 @@ function AbstractHashMap$EntrySetIterator(this$0){
   setModCount(this, this$0._gwt_modCount);
 }
 
-defineClass(126, 1, {}, AbstractHashMap$EntrySetIterator);
-_.hasNext = function hasNext_2(){
-  return $hasNext(this);
+defineClass(134, 1, {}, AbstractHashMap$EntrySetIterator);
+_.hasNext = function hasNext_6(){
+  return $hasNext_0(this);
 }
 ;
-_.next_0 = function next_3(){
-  return $next_0(this);
+_.next_0 = function next_7(){
+  return $next_1(this);
 }
 ;
-var Ljava_util_AbstractHashMap$EntrySetIterator_2_classLit = createForClass('java.util', 'AbstractHashMap/EntrySetIterator', 126, Ljava_lang_Object_2_classLit);
+_.remove = function remove_8(){
+  $remove_2(this);
+}
+;
+var Ljava_util_AbstractHashMap$EntrySetIterator_2_classLit = createForClass('java.util', 'AbstractHashMap/EntrySetIterator', 134, Ljava_lang_Object_2_classLit);
 function $equals_0(this$static, o){
   var elem, elem$iterator, elemOther, iterOther, other;
   if (o === this$static) {
     return true;
   }
-  if (!instanceOf(o, 25)) {
+  if (!instanceOf(o, 28)) {
     return false;
   }
   other = o;
@@ -5068,60 +6380,72 @@ function $equals_0(this$static, o){
 function $indexOf_0(this$static, toFind){
   var i, n;
   for (i = 0 , n = this$static.array.length; i < n; ++i) {
-    if (equals_24(toFind, (checkElementIndex(i, this$static.array.length) , this$static.array[i]))) {
+    if (equals_28(toFind, (checkElementIndex(i, this$static.array.length) , this$static.array[i]))) {
       return i;
     }
   }
   return -1;
 }
 
-defineClass(483, 475, {25:1});
-_.add_1 = function add_1(index_0, element){
+defineClass(517, 509, {28:1});
+_.add_1 = function add_2(index_0, element){
   throw new UnsupportedOperationException_0('Add not supported on this list');
 }
 ;
-_.add_0 = function add_2(obj){
+_.add_0 = function add_3(obj){
   this.add_1(this.size_1(), obj);
   return true;
 }
 ;
-_.equals$ = function equals_16(o){
+_.equals$ = function equals_20(o){
   return $equals_0(this, o);
 }
 ;
-_.hashCode$ = function hashCode_16(){
-  return hashCode_22(this);
+_.hashCode$ = function hashCode_20(){
+  return hashCode_26(this);
 }
 ;
-_.iterator = function iterator_7(){
+_.iterator = function iterator_11(){
   return new AbstractList$IteratorImpl(this);
 }
 ;
-var Ljava_util_AbstractList_2_classLit = createForClass('java.util', 'AbstractList', 483, Ljava_util_AbstractCollection_2_classLit);
+_.remove_1 = function remove_9(index_0){
+  throw new UnsupportedOperationException_0('Remove not supported on this list');
+}
+;
+var Ljava_util_AbstractList_2_classLit = createForClass('java.util', 'AbstractList', 517, Ljava_util_AbstractCollection_2_classLit);
 function AbstractList$IteratorImpl(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(87, 1, {}, AbstractList$IteratorImpl);
-_.hasNext = function hasNext_3(){
+defineClass(50, 1, {}, AbstractList$IteratorImpl);
+_.hasNext = function hasNext_7(){
   return this.i < this.this$01.size_1();
 }
 ;
-_.next_0 = function next_4(){
-  return checkCriticalElement(this.i < this.this$01.size_1()) , this.this$01.get_1(this.i++);
+_.next_0 = function next_8(){
+  return checkCriticalElement(this.i < this.this$01.size_1()) , this.this$01.get_1(this.last = this.i++);
+}
+;
+_.remove = function remove_10(){
+  checkState_1(this.last != -1);
+  this.this$01.remove_1(this.last);
+  this.i = this.last;
+  this.last = -1;
 }
 ;
 _.i = 0;
-var Ljava_util_AbstractList$IteratorImpl_2_classLit = createForClass('java.util', 'AbstractList/IteratorImpl', 87, Ljava_lang_Object_2_classLit);
+_.last = -1;
+var Ljava_util_AbstractList$IteratorImpl_2_classLit = createForClass('java.util', 'AbstractList/IteratorImpl', 50, Ljava_lang_Object_2_classLit);
 function AbstractList$ListIteratorImpl(this$0){
   AbstractList$IteratorImpl.call(this, this$0);
   checkPositionIndex_0(0, this$0.array.length);
   this.i = 0;
 }
 
-defineClass(239, 87, {}, AbstractList$ListIteratorImpl);
-var Ljava_util_AbstractList$ListIteratorImpl_2_classLit = createForClass('java.util', 'AbstractList/ListIteratorImpl', 239, Ljava_util_AbstractList$IteratorImpl_2_classLit);
-function $iterator(this$static){
+defineClass(253, 50, {}, AbstractList$ListIteratorImpl);
+var Ljava_util_AbstractList$ListIteratorImpl_2_classLit = createForClass('java.util', 'AbstractList/ListIteratorImpl', 253, Ljava_util_AbstractList$IteratorImpl_2_classLit);
+function $iterator_0(this$static){
   var outerIter;
   outerIter = new AbstractHashMap$EntrySetIterator((new AbstractHashMap$EntrySet(this$static.this$01)).this$01);
   return new AbstractMap$1$1(outerIter);
@@ -5131,23 +6455,23 @@ function AbstractMap$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(105, 476, $intern_15, AbstractMap$1);
-_.contains = function contains_5(key){
+defineClass(112, 510, $intern_5, AbstractMap$1);
+_.contains = function contains_7(key){
   return $containsKey(this.this$01, key);
 }
 ;
-_.iterator = function iterator_8(){
-  return $iterator(this);
+_.iterator = function iterator_12(){
+  return $iterator_0(this);
 }
 ;
-_.size_1 = function size_8(){
+_.size_1 = function size_11(){
   return this.this$01.size_0;
 }
 ;
-var Ljava_util_AbstractMap$1_2_classLit = createForClass('java.util', 'AbstractMap/1', 105, Ljava_util_AbstractSet_2_classLit);
-function $next_1(this$static){
+var Ljava_util_AbstractMap$1_2_classLit = createForClass('java.util', 'AbstractMap/1', 112, Ljava_util_AbstractSet_2_classLit);
+function $next_2(this$static){
   var entry;
-  entry = $next_0(this$static.val$outerIter2);
+  entry = $next_1(this$static.val$outerIter2);
   return entry.getKey();
 }
 
@@ -5155,24 +6479,28 @@ function AbstractMap$1$1(val$outerIter){
   this.val$outerIter2 = val$outerIter;
 }
 
-defineClass(206, 1, {}, AbstractMap$1$1);
-_.hasNext = function hasNext_4(){
-  return $hasNext(this.val$outerIter2);
+defineClass(220, 1, {}, AbstractMap$1$1);
+_.hasNext = function hasNext_8(){
+  return $hasNext_0(this.val$outerIter2);
 }
 ;
-_.next_0 = function next_5(){
-  return $next_1(this);
+_.next_0 = function next_9(){
+  return $next_2(this);
 }
 ;
-var Ljava_util_AbstractMap$1$1_2_classLit = createForClass('java.util', 'AbstractMap/1/1', 206, Ljava_lang_Object_2_classLit);
-defineClass(204, 1, $intern_14);
-_.equals$ = function equals_17(other){
+_.remove = function remove_11(){
+  $remove_2(this.val$outerIter2);
+}
+;
+var Ljava_util_AbstractMap$1$1_2_classLit = createForClass('java.util', 'AbstractMap/1/1', 220, Ljava_lang_Object_2_classLit);
+defineClass(219, 1, $intern_18);
+_.equals$ = function equals_21(other){
   var entry;
-  if (!instanceOf(other, 45)) {
+  if (!instanceOf(other, 49)) {
     return false;
   }
   entry = other;
-  return equals_24(this.key_0, entry.getKey()) && equals_24(this.value_0, entry.getValue());
+  return equals_28(this.key_0, entry.getKey()) && equals_28(this.value_0, entry.getValue());
 }
 ;
 _.getKey = function getKey_0(){
@@ -5183,8 +6511,8 @@ _.getValue = function getValue_0(){
   return this.value_0;
 }
 ;
-_.hashCode$ = function hashCode_17(){
-  return hashCode_27(this.key_0) ^ hashCode_27(this.value_0);
+_.hashCode$ = function hashCode_21(){
+  return hashCode_31(this.key_0) ^ hashCode_31(this.value_0);
 }
 ;
 _.setValue = function setValue_0(value_0){
@@ -5194,43 +6522,47 @@ _.setValue = function setValue_0(value_0){
   return oldValue;
 }
 ;
-_.toString$ = function toString_22(){
+_.toString$ = function toString_32(){
   return this.key_0 + '=' + this.value_0;
 }
 ;
-var Ljava_util_AbstractMap$AbstractEntry_2_classLit = createForClass('java.util', 'AbstractMap/AbstractEntry', 204, Ljava_lang_Object_2_classLit);
+var Ljava_util_AbstractMap$AbstractEntry_2_classLit = createForClass('java.util', 'AbstractMap/AbstractEntry', 219, Ljava_lang_Object_2_classLit);
 function AbstractMap$SimpleEntry(key, value_0){
   this.key_0 = key;
   this.value_0 = value_0;
 }
 
-defineClass(205, 204, $intern_14, AbstractMap$SimpleEntry);
-var Ljava_util_AbstractMap$SimpleEntry_2_classLit = createForClass('java.util', 'AbstractMap/SimpleEntry', 205, Ljava_util_AbstractMap$AbstractEntry_2_classLit);
-defineClass(484, 1, $intern_14);
-_.equals$ = function equals_18(other){
+defineClass(168, 219, $intern_18, AbstractMap$SimpleEntry);
+var Ljava_util_AbstractMap$SimpleEntry_2_classLit = createForClass('java.util', 'AbstractMap/SimpleEntry', 168, Ljava_util_AbstractMap$AbstractEntry_2_classLit);
+defineClass(518, 1, $intern_18);
+_.equals$ = function equals_22(other){
   var entry;
-  if (!instanceOf(other, 45)) {
+  if (!instanceOf(other, 49)) {
     return false;
   }
   entry = other;
-  return equals_24(this.getKey(), entry.getKey()) && equals_24(this.getValue(), entry.getValue());
+  return equals_28(this.getKey(), entry.getKey()) && equals_28(this.getValue(), entry.getValue());
 }
 ;
-_.hashCode$ = function hashCode_18(){
-  return hashCode_27(this.getKey()) ^ hashCode_27(this.getValue());
+_.hashCode$ = function hashCode_22(){
+  return hashCode_31(this.getKey()) ^ hashCode_31(this.getValue());
 }
 ;
-_.toString$ = function toString_23(){
+_.toString$ = function toString_33(){
   return this.getKey() + '=' + this.getValue();
 }
 ;
-var Ljava_util_AbstractMapEntry_2_classLit = createForClass('java.util', 'AbstractMapEntry', 484, Ljava_lang_Object_2_classLit);
-function $add_1(this$static, index_0, o){
+var Ljava_util_AbstractMapEntry_2_classLit = createForClass('java.util', 'AbstractMapEntry', 518, Ljava_lang_Object_2_classLit);
+function $$init_0(this$static){
+  this$static.array = initDim(Ljava_lang_Object_2_classLit, $intern_1, 1, 0, 3, 1);
+}
+
+function $add_2(this$static, index_0, o){
   checkPositionIndex_0(index_0, this$static.array.length);
   splice_0(this$static.array, index_0, 0, o);
 }
 
-function $add_2(this$static, o){
+function $add_3(this$static, o){
   this$static.array[this$static.array.length] = o;
   return true;
 }
@@ -5253,7 +6585,7 @@ function $get_7(this$static, index_0){
 
 function $indexOf_1(this$static, o, index_0){
   for (; index_0 < this$static.array.length; ++index_0) {
-    if (equals_24(o, this$static.array[index_0])) {
+    if (equals_28(o, this$static.array[index_0])) {
       return index_0;
     }
   }
@@ -5264,21 +6596,28 @@ function $insertAt(this$static, index_0, values){
   nativeArraySplice(values, 0, this$static.array, index_0, values.length, false);
 }
 
-function $remove(this$static, index_0){
+function $remove_3(this$static, index_0){
   var previous;
   previous = (checkElementIndex(index_0, this$static.array.length) , this$static.array[index_0]);
   splice(this$static.array, index_0, 1);
   return previous;
 }
 
-function $remove_0(this$static, o){
+function $remove_4(this$static, o){
   var i;
   i = $indexOf_1(this$static, o, 0);
   if (i == -1) {
     return false;
   }
-  this$static.remove(i);
+  this$static.remove_1(i);
   return true;
+}
+
+function $set_2(this$static, index_0, o){
+  var previous;
+  previous = (checkElementIndex(index_0, this$static.array.length) , this$static.array[index_0]);
+  this$static.array[index_0] = o;
+  return previous;
 }
 
 function $toArray_1(this$static, out){
@@ -5293,7 +6632,12 @@ function $toArray_1(this$static, out){
 }
 
 function ArrayList(){
-  this.array = initDim(Ljava_lang_Object_2_classLit, $intern_1, 1, 0, 3, 1);
+  $$init_0(this);
+}
+
+function ArrayList_0(initialCapacity){
+  $$init_0(this);
+  checkCriticalArgument_0(initialCapacity >= 0, 'Initial capacity must not be negative');
 }
 
 function splice(array, index_0, deleteCount){
@@ -5304,16 +6648,16 @@ function splice_0(array, index_0, deleteCount, value_0){
   array.splice(index_0, deleteCount, value_0);
 }
 
-defineClass(17, 483, $intern_3, ArrayList);
-_.add_1 = function add_3(index_0, o){
-  $add_1(this, index_0, o);
+defineClass(16, 517, $intern_6, ArrayList, ArrayList_0);
+_.add_1 = function add_4(index_0, o){
+  $add_2(this, index_0, o);
 }
 ;
-_.add_0 = function add_4(o){
-  return $add_2(this, o);
+_.add_0 = function add_5(o){
+  return $add_3(this, o);
 }
 ;
-_.contains = function contains_6(o){
+_.contains = function contains_8(o){
   return $indexOf_1(this, o, 0) != -1;
 }
 ;
@@ -5321,11 +6665,11 @@ _.get_1 = function get_6(index_0){
   return $get_7(this, index_0);
 }
 ;
-_.remove = function remove(index_0){
-  return $remove(this, index_0);
+_.remove_1 = function remove_12(index_0){
+  return $remove_3(this, index_0);
 }
 ;
-_.size_1 = function size_9(){
+_.size_1 = function size_12(){
   return this.array.length;
 }
 ;
@@ -5337,7 +6681,7 @@ _.toArray_0 = function toArray_6(out){
   return $toArray_1(this, out);
 }
 ;
-var Ljava_util_ArrayList_2_classLit = createForClass('java.util', 'ArrayList', 17, Ljava_util_AbstractList_2_classLit);
+var Ljava_util_ArrayList_2_classLit = createForClass('java.util', 'ArrayList', 16, Ljava_util_AbstractList_2_classLit);
 function binarySearch(sortedArray, key, comparator){
   var compareResult, high, low, mid, midVal;
   !comparator && ($clinit_Comparators() , $clinit_Comparators() , NATURAL);
@@ -5368,7 +6712,7 @@ function deepToString(a, arraysIveSeen){
   if ($containsKey(arraysIveSeen.map_0, a)) {
     return '[...]';
   }
-  $add_3(arraysIveSeen, a);
+  $add_4(arraysIveSeen, a);
   b = new StringBuilder_1('[');
   for (i = 0; i < a.length; i++) {
     i != 0 && (b.string += ', ' , b);
@@ -5384,11 +6728,11 @@ function deepToString(a, arraysIveSeen){
          else {
           objArray = obj;
           tempSet = new HashSet_0(arraysIveSeen);
-          $append_6(b, deepToString(objArray, tempSet));
+          $append_7(b, deepToString(objArray, tempSet));
         }
       }
        else 
-        instanceOf(obj, 519)?$append_6(b, toString_24(obj)):instanceOf(obj, 159)?$append_6(b, toString_27(obj)):instanceOf(obj, 29)?$append_6(b, toString_26(obj)):instanceOf(obj, 82) && $append_6(b, toString_25(obj));
+        instanceOf(obj, 557)?$append_7(b, toString_34(obj)):instanceOf(obj, 166)?$append_7(b, toString_38(obj)):instanceOf(obj, 31)?$append_7(b, toString_37(obj)):instanceOf(obj, 87)?$append_7(b, toString_36(obj)):instanceOf(obj, 494) && $append_7(b, toString_35(obj));
     }
      else {
       b.string += '' + obj;
@@ -5398,7 +6742,7 @@ function deepToString(a, arraysIveSeen){
   return b.string;
 }
 
-function hashCode_19(a){
+function hashCode_23(a){
   var e, e$index, e$max, hashCode;
   hashCode = 1;
   for (e$index = 0 , e$max = a.length; e$index < e$max; ++e$index) {
@@ -5431,7 +6775,7 @@ function merge(src_0, srcLow, srcMid, srcHigh, dest, destLow, destHigh){
 function mergeSort(x_0, fromIndex, toIndex, comp){
   var temp, newLength, length_0, copy;
   !comp && ($clinit_Comparators() , $clinit_Comparators() , NATURAL);
-  temp = (newLength = (length_0 = toIndex - fromIndex , checkCriticalArgument_0(length_0 >= 0, initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [valueOf(fromIndex), valueOf(toIndex)])) , length_0) , copy = createFrom(x_0, newLength) , arraycopy(x_0, fromIndex, copy, 0, min_1(x_0.length - fromIndex, newLength)) , copy);
+  temp = (newLength = (length_0 = toIndex - fromIndex , checkCriticalArgument_1(length_0 >= 0, initValues(getClassLiteralForArray(Ljava_lang_Object_2_classLit, 1), $intern_1, 1, 3, [valueOf(fromIndex), valueOf(toIndex)])) , length_0) , copy = createFrom(x_0, newLength) , arraycopy(x_0, fromIndex, copy, 0, min_1(x_0.length - fromIndex, newLength)) , copy);
   mergeSort_0(temp, x_0, fromIndex, toIndex, -fromIndex);
 }
 
@@ -5456,7 +6800,7 @@ function mergeSort_0(temp, array, low, high, ofs){
   merge(temp, tempLow, tempMid, tempHigh, array, low, high);
 }
 
-function toString_24(a){
+function toString_34(a){
   var b, i;
   if (a == null) {
     return 'null';
@@ -5464,13 +6808,13 @@ function toString_24(a){
   b = new StringBuilder_1('[');
   for (i = 0; i < a.length; i++) {
     i != 0 && (b.string += ', ' , b);
-    $append_6(b, String.fromCharCode(a[i]));
+    $append_7(b, String.fromCharCode(a[i]));
   }
   b.string += ']';
   return b.string;
 }
 
-function toString_25(a){
+function toString_35(a){
   var b, i;
   if (a == null) {
     return 'null';
@@ -5478,13 +6822,13 @@ function toString_25(a){
   b = new StringBuilder_1('[');
   for (i = 0; i < a.length; i++) {
     i != 0 && (b.string += ', ' , b);
-    $append_6(b, '' + a[i]);
+    $append_7(b, '' + a[i]);
   }
   b.string += ']';
   return b.string;
 }
 
-function toString_26(a){
+function toString_36(a){
   var b, i;
   if (a == null) {
     return 'null';
@@ -5492,13 +6836,13 @@ function toString_26(a){
   b = new StringBuilder_1('[');
   for (i = 0; i < a.length; i++) {
     i != 0 && (b.string += ', ' , b);
-    $append_6(b, '' + a[i]);
+    $append_7(b, '' + a[i]);
   }
   b.string += ']';
   return b.string;
 }
 
-function toString_27(a){
+function toString_37(a){
   var b, i;
   if (a == null) {
     return 'null';
@@ -5506,7 +6850,21 @@ function toString_27(a){
   b = new StringBuilder_1('[');
   for (i = 0; i < a.length; i++) {
     i != 0 && (b.string += ', ' , b);
-    $append_6(b, '' + a[i]);
+    $append_7(b, '' + a[i]);
+  }
+  b.string += ']';
+  return b.string;
+}
+
+function toString_38(a){
+  var b, i;
+  if (a == null) {
+    return 'null';
+  }
+  b = new StringBuilder_1('[');
+  for (i = 0; i < a.length; i++) {
+    i != 0 && (b.string += ', ' , b);
+    $append_7(b, '' + a[i]);
   }
   b.string += ']';
   return b.string;
@@ -5516,8 +6874,8 @@ function Arrays$ArrayList(array){
   this.array = array;
 }
 
-defineClass(187, 483, $intern_3, Arrays$ArrayList);
-_.contains = function contains_7(o){
+defineClass(194, 517, $intern_6, Arrays$ArrayList);
+_.contains = function contains_9(o){
   return $indexOf_0(this, o) != -1;
 }
 ;
@@ -5525,7 +6883,7 @@ _.get_1 = function get_7(index_0){
   return checkElementIndex(index_0, this.array.length) , this.array[index_0];
 }
 ;
-_.size_1 = function size_10(){
+_.size_1 = function size_13(){
   return this.array.length;
 }
 ;
@@ -5544,15 +6902,15 @@ _.toArray_0 = function toArray_8(out){
   return out;
 }
 ;
-var Ljava_util_Arrays$ArrayList_2_classLit = createForClass('java.util', 'Arrays/ArrayList', 187, Ljava_util_AbstractList_2_classLit);
+var Ljava_util_Arrays$ArrayList_2_classLit = createForClass('java.util', 'Arrays/ArrayList', 194, Ljava_util_AbstractList_2_classLit);
 function $length(this$static){
   var bitMasks, i, last, offsets, position, word;
   last = trimToSize(this$static.array);
   if (last == -1) {
     return 0;
   }
-  offsets = initValues(getClassLiteralForArray(I_classLit, 1), $intern_21, 0, 7, [16, 8, 4, 2, 1]);
-  bitMasks = initValues(getClassLiteralForArray(I_classLit, 1), $intern_21, 0, 7, [-65536, 65280, 240, 12, 2]);
+  offsets = initValues(getClassLiteralForArray(I_classLit, 1), $intern_23, 0, 7, [16, 8, 4, 2, 1]);
+  bitMasks = initValues(getClassLiteralForArray(I_classLit, 1), $intern_23, 0, 7, [-65536, 65280, 240, 12, 2]);
   position = (last << 5) + 1;
   word = this$static.array[last] | 0;
   for (i = 0; i < offsets.length; i++) {
@@ -5585,9 +6943,21 @@ function $nextSetBit(this$static, fromIndex){
   return (index_0 << 5) + numberOfTrailingZeros(this$static.array[index_0]);
 }
 
-function $set_1(this$static, bitIndex){
+function $or(this$static, set_0){
+  var index_0;
+  if (this$static == set_0) {
+    return;
+  }
+  index_0 = 0;
+  while ((index_0 = nextSetWord(set_0.array, index_0)) != -1) {
+    setWord(this$static.array, index_0, this$static.array[index_0] | 0 | set_0.array[index_0]);
+    ++index_0;
+  }
+}
+
+function $set_3(this$static, bitIndex){
   checkIndex(bitIndex);
-  set_0(this$static.array, bitIndex);
+  set_1(this$static.array, bitIndex);
 }
 
 function BitSet(){
@@ -5619,10 +6989,14 @@ function nextSetWord(array, index_0){
   return localMinimum;
 }
 
-function set_0(array, bitIndex){
+function set_1(array, bitIndex){
   var index_0;
   index_0 = bitIndex >>> 5;
   array[index_0] = array[index_0] | 0 | 1 << (bitIndex & 31);
+}
+
+function setWord(array, index_0, value_0){
+  value_0 == 0?(delete array[index_0] , undefined):$set(array, index_0, value_0);
 }
 
 function trimToSize(array){
@@ -5649,11 +7023,11 @@ function trimToSize(array){
   return biggestSeen;
 }
 
-defineClass(152, 1, {152:1}, BitSet);
-_.equals$ = function equals_19(obj){
+defineClass(82, 1, {82:1}, BitSet);
+_.equals$ = function equals_23(obj){
   var index_0, last, other;
   if (this !== obj) {
-    if (!instanceOf(obj, 152)) {
+    if (!instanceOf(obj, 82)) {
       return false;
     }
     other = obj;
@@ -5672,21 +7046,21 @@ _.equals$ = function equals_19(obj){
   return true;
 }
 ;
-_.hashCode$ = function hashCode_20(){
+_.hashCode$ = function hashCode_24(){
   var hash, i, last, value_0;
   last = trimToSize(this.array);
   hash = -2128831035 ^ last;
   for (i = 0; i <= last; i++) {
     value_0 = this.array[i] | 0;
-    hash = hash * $intern_22 ^ value_0 & 255;
-    hash = hash * $intern_22 ^ value_0 >>> 8 & 255;
-    hash = hash * $intern_22 ^ value_0 >>> 16 & 255;
-    hash = hash * $intern_22 ^ value_0 >>> 24;
+    hash = hash * $intern_24 ^ value_0 & 255;
+    hash = hash * $intern_24 ^ value_0 >>> 8 & 255;
+    hash = hash * $intern_24 ^ value_0 >>> 16 & 255;
+    hash = hash * $intern_24 ^ value_0 >>> 24;
   }
   return hash;
 }
 ;
-_.toString$ = function toString_28(){
+_.toString$ = function toString_39(){
   var length_0, next, sb;
   length_0 = $length(this);
   if (length_0 == 0) {
@@ -5703,13 +7077,13 @@ _.toString$ = function toString_28(){
   return sb.string;
 }
 ;
-var Ljava_util_BitSet_2_classLit = createForClass('java.util', 'BitSet', 152, Ljava_lang_Object_2_classLit);
+var Ljava_util_BitSet_2_classLit = createForClass('java.util', 'BitSet', 82, Ljava_lang_Object_2_classLit);
 function $clinit_Collections(){
   $clinit_Collections = emptyMethod;
   EMPTY_LIST = new Collections$EmptyList;
 }
 
-function hashCode_21(collection){
+function hashCode_25(collection){
   $clinit_Collections();
   var e, e$iterator, hashCode;
   hashCode = 0;
@@ -5721,7 +7095,7 @@ function hashCode_21(collection){
   return hashCode;
 }
 
-function hashCode_22(list){
+function hashCode_26(list){
   $clinit_Collections();
   var e, e$iterator, hashCode;
   hashCode = 1;
@@ -5733,17 +7107,25 @@ function hashCode_22(list){
   return hashCode;
 }
 
+function swapImpl(list, i, j){
+  $clinit_Collections();
+  var t;
+  t = (checkElementIndex(i, list.array.length) , list.array[i]);
+  $set_2(list, i, (checkElementIndex(j, list.array.length) , list.array[j]));
+  $set_2(list, j, t);
+}
+
 function unmodifiableList(list){
   $clinit_Collections();
-  return instanceOf(list, 37)?new Collections$UnmodifiableRandomAccessList(list):new Collections$UnmodifiableList(list);
+  return instanceOf(list, 38)?new Collections$UnmodifiableRandomAccessList(list):new Collections$UnmodifiableList(list);
 }
 
 var EMPTY_LIST;
 function Collections$EmptyList(){
 }
 
-defineClass(231, 483, $intern_3, Collections$EmptyList);
-_.contains = function contains_8(object){
+defineClass(245, 517, $intern_6, Collections$EmptyList);
+_.contains = function contains_10(object){
   return false;
 }
 ;
@@ -5752,15 +7134,15 @@ _.get_1 = function get_8(location_0){
   return null;
 }
 ;
-_.iterator = function iterator_9(){
+_.iterator = function iterator_13(){
   return $clinit_Collections() , $clinit_Collections$EmptyListIterator() , INSTANCE_1;
 }
 ;
-_.size_1 = function size_11(){
+_.size_1 = function size_14(){
   return 0;
 }
 ;
-var Ljava_util_Collections$EmptyList_2_classLit = createForClass('java.util', 'Collections/EmptyList', 231, Ljava_util_AbstractList_2_classLit);
+var Ljava_util_Collections$EmptyList_2_classLit = createForClass('java.util', 'Collections/EmptyList', 245, Ljava_util_AbstractList_2_classLit);
 function $clinit_Collections$EmptyListIterator(){
   $clinit_Collections$EmptyListIterator = emptyMethod;
   INSTANCE_1 = new Collections$EmptyListIterator;
@@ -5769,24 +7151,28 @@ function $clinit_Collections$EmptyListIterator(){
 function Collections$EmptyListIterator(){
 }
 
-defineClass(232, 1, {}, Collections$EmptyListIterator);
-_.hasNext = function hasNext_5(){
+defineClass(246, 1, {}, Collections$EmptyListIterator);
+_.hasNext = function hasNext_9(){
   return false;
 }
 ;
-_.next_0 = function next_6(){
+_.next_0 = function next_10(){
   throw new NoSuchElementException;
 }
 ;
+_.remove = function remove_13(){
+  throw new IllegalStateException;
+}
+;
 var INSTANCE_1;
-var Ljava_util_Collections$EmptyListIterator_2_classLit = createForClass('java.util', 'Collections/EmptyListIterator', 232, Ljava_lang_Object_2_classLit);
+var Ljava_util_Collections$EmptyListIterator_2_classLit = createForClass('java.util', 'Collections/EmptyListIterator', 246, Ljava_lang_Object_2_classLit);
 function Collections$SingletonList(element){
   this.element = element;
 }
 
-defineClass(233, 483, {3:1, 25:1}, Collections$SingletonList);
-_.contains = function contains_9(item_0){
-  return equals_24(this.element, item_0);
+defineClass(247, 517, {3:1, 28:1}, Collections$SingletonList);
+_.contains = function contains_11(item_0){
+  return equals_28(this.element, item_0);
 }
 ;
 _.get_1 = function get_9(index_0){
@@ -5794,29 +7180,29 @@ _.get_1 = function get_9(index_0){
   return this.element;
 }
 ;
-_.size_1 = function size_12(){
+_.size_1 = function size_15(){
   return 1;
 }
 ;
-var Ljava_util_Collections$SingletonList_2_classLit = createForClass('java.util', 'Collections/SingletonList', 233, Ljava_util_AbstractList_2_classLit);
+var Ljava_util_Collections$SingletonList_2_classLit = createForClass('java.util', 'Collections/SingletonList', 247, Ljava_util_AbstractList_2_classLit);
 function Collections$UnmodifiableCollection(coll){
   this.coll = coll;
 }
 
-defineClass(161, 1, {});
-_.add_0 = function add_5(o){
+defineClass(169, 1, {});
+_.add_0 = function add_6(o){
   throw new UnsupportedOperationException;
 }
 ;
-_.contains = function contains_10(o){
+_.contains = function contains_12(o){
   return this.coll.contains(o);
 }
 ;
-_.iterator = function iterator_10(){
+_.iterator = function iterator_14(){
   return new Collections$UnmodifiableCollectionIterator(this.coll.iterator());
 }
 ;
-_.size_1 = function size_13(){
+_.size_1 = function size_16(){
   return this.coll.size_1();
 }
 ;
@@ -5824,32 +7210,36 @@ _.toArray_0 = function toArray_9(a){
   return this.coll.toArray_0(a);
 }
 ;
-_.toString$ = function toString_29(){
+_.toString$ = function toString_40(){
   return this.coll.toString$();
 }
 ;
-var Ljava_util_Collections$UnmodifiableCollection_2_classLit = createForClass('java.util', 'Collections/UnmodifiableCollection', 161, Ljava_lang_Object_2_classLit);
+var Ljava_util_Collections$UnmodifiableCollection_2_classLit = createForClass('java.util', 'Collections/UnmodifiableCollection', 169, Ljava_lang_Object_2_classLit);
 function Collections$UnmodifiableCollectionIterator(it){
   this.it = it;
 }
 
-defineClass(237, 1, {}, Collections$UnmodifiableCollectionIterator);
-_.hasNext = function hasNext_6(){
+defineClass(251, 1, {}, Collections$UnmodifiableCollectionIterator);
+_.hasNext = function hasNext_10(){
   return this.it.hasNext();
 }
 ;
-_.next_0 = function next_7(){
+_.next_0 = function next_11(){
   return this.it.next_0();
 }
 ;
-var Ljava_util_Collections$UnmodifiableCollectionIterator_2_classLit = createForClass('java.util', 'Collections/UnmodifiableCollectionIterator', 237, Ljava_lang_Object_2_classLit);
+_.remove = function remove_14(){
+  throw new UnsupportedOperationException;
+}
+;
+var Ljava_util_Collections$UnmodifiableCollectionIterator_2_classLit = createForClass('java.util', 'Collections/UnmodifiableCollectionIterator', 251, Ljava_lang_Object_2_classLit);
 function Collections$UnmodifiableList(list){
   Collections$UnmodifiableCollection.call(this, list);
   this.list = list;
 }
 
-defineClass(128, 161, {25:1}, Collections$UnmodifiableList);
-_.equals$ = function equals_20(o){
+defineClass(136, 169, {28:1}, Collections$UnmodifiableList);
+_.equals$ = function equals_24(o){
   return this.list.equals$(o);
 }
 ;
@@ -5857,22 +7247,22 @@ _.get_1 = function get_10(index_0){
   return this.list.get_1(index_0);
 }
 ;
-_.hashCode$ = function hashCode_23(){
+_.hashCode$ = function hashCode_27(){
   return this.list.hashCode$();
 }
 ;
-var Ljava_util_Collections$UnmodifiableList_2_classLit = createForClass('java.util', 'Collections/UnmodifiableList', 128, Ljava_util_Collections$UnmodifiableCollection_2_classLit);
+var Ljava_util_Collections$UnmodifiableList_2_classLit = createForClass('java.util', 'Collections/UnmodifiableList', 136, Ljava_util_Collections$UnmodifiableCollection_2_classLit);
 function Collections$UnmodifiableMap(map_0){
   this.map_0 = map_0;
 }
 
-defineClass(234, 1, $intern_13, Collections$UnmodifiableMap);
+defineClass(248, 1, $intern_17, Collections$UnmodifiableMap);
 _.entrySet_0 = function entrySet_1(){
   !this.entrySet && (this.entrySet = new Collections$UnmodifiableMap$UnmodifiableEntrySet(this.map_0.entrySet_0()));
   return this.entrySet;
 }
 ;
-_.equals$ = function equals_21(o){
+_.equals$ = function equals_25(o){
   return this.map_0.equals$(o);
 }
 ;
@@ -5880,7 +7270,7 @@ _.get_2 = function get_11(key){
   return this.map_0.get_2(key);
 }
 ;
-_.hashCode$ = function hashCode_24(){
+_.hashCode$ = function hashCode_28(){
   return this.map_0.hashCode$();
 }
 ;
@@ -5888,25 +7278,29 @@ _.put = function put_2(key, value_0){
   throw new UnsupportedOperationException;
 }
 ;
-_.size_1 = function size_14(){
+_.remove_0 = function remove_15(key){
+  throw new UnsupportedOperationException;
+}
+;
+_.size_1 = function size_17(){
   return this.map_0.size_1();
 }
 ;
-_.toString$ = function toString_30(){
+_.toString$ = function toString_41(){
   return this.map_0.toString$();
 }
 ;
-var Ljava_util_Collections$UnmodifiableMap_2_classLit = createForClass('java.util', 'Collections/UnmodifiableMap', 234, Ljava_lang_Object_2_classLit);
-defineClass(235, 161, $intern_15);
-_.equals$ = function equals_22(o){
+var Ljava_util_Collections$UnmodifiableMap_2_classLit = createForClass('java.util', 'Collections/UnmodifiableMap', 248, Ljava_lang_Object_2_classLit);
+defineClass(249, 169, $intern_5);
+_.equals$ = function equals_26(o){
   return this.coll.equals$(o);
 }
 ;
-_.hashCode$ = function hashCode_25(){
+_.hashCode$ = function hashCode_29(){
   return this.coll.hashCode$();
 }
 ;
-var Ljava_util_Collections$UnmodifiableSet_2_classLit = createForClass('java.util', 'Collections/UnmodifiableSet', 235, Ljava_util_Collections$UnmodifiableCollection_2_classLit);
+var Ljava_util_Collections$UnmodifiableSet_2_classLit = createForClass('java.util', 'Collections/UnmodifiableSet', 249, Ljava_util_Collections$UnmodifiableCollection_2_classLit);
 function $wrap(array, size_0){
   var i;
   for (i = 0; i < size_0; ++i) {
@@ -5918,12 +7312,12 @@ function Collections$UnmodifiableMap$UnmodifiableEntrySet(s){
   Collections$UnmodifiableCollection.call(this, s);
 }
 
-defineClass(236, 235, $intern_15, Collections$UnmodifiableMap$UnmodifiableEntrySet);
-_.contains = function contains_11(o){
+defineClass(250, 249, $intern_5, Collections$UnmodifiableMap$UnmodifiableEntrySet);
+_.contains = function contains_13(o){
   return this.coll.contains(o);
 }
 ;
-_.iterator = function iterator_11(){
+_.iterator = function iterator_15(){
   var it;
   it = this.coll.iterator();
   return new Collections$UnmodifiableMap$UnmodifiableEntrySet$1(it);
@@ -5936,27 +7330,31 @@ _.toArray_0 = function toArray_10(a){
   return result;
 }
 ;
-var Ljava_util_Collections$UnmodifiableMap$UnmodifiableEntrySet_2_classLit = createForClass('java.util', 'Collections/UnmodifiableMap/UnmodifiableEntrySet', 236, Ljava_util_Collections$UnmodifiableSet_2_classLit);
+var Ljava_util_Collections$UnmodifiableMap$UnmodifiableEntrySet_2_classLit = createForClass('java.util', 'Collections/UnmodifiableMap/UnmodifiableEntrySet', 250, Ljava_util_Collections$UnmodifiableSet_2_classLit);
 function Collections$UnmodifiableMap$UnmodifiableEntrySet$1(val$it){
   this.val$it2 = val$it;
 }
 
-defineClass(238, 1, {}, Collections$UnmodifiableMap$UnmodifiableEntrySet$1);
-_.hasNext = function hasNext_7(){
+defineClass(252, 1, {}, Collections$UnmodifiableMap$UnmodifiableEntrySet$1);
+_.hasNext = function hasNext_11(){
   return this.val$it2.hasNext();
 }
 ;
-_.next_0 = function next_8(){
+_.next_0 = function next_12(){
   return new Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry(this.val$it2.next_0());
 }
 ;
-var Ljava_util_Collections$UnmodifiableMap$UnmodifiableEntrySet$1_2_classLit = createForClass('java.util', 'Collections/UnmodifiableMap/UnmodifiableEntrySet/1', 238, Ljava_lang_Object_2_classLit);
+_.remove = function remove_16(){
+  throw new UnsupportedOperationException;
+}
+;
+var Ljava_util_Collections$UnmodifiableMap$UnmodifiableEntrySet$1_2_classLit = createForClass('java.util', 'Collections/UnmodifiableMap/UnmodifiableEntrySet/1', 252, Ljava_lang_Object_2_classLit);
 function Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry(entry){
   this.entry = entry;
 }
 
-defineClass(162, 1, $intern_14, Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry);
-_.equals$ = function equals_23(o){
+defineClass(170, 1, $intern_18, Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry);
+_.equals$ = function equals_27(o){
   return this.entry.equals$(o);
 }
 ;
@@ -5968,7 +7366,7 @@ _.getValue = function getValue_1(){
   return this.entry.getValue();
 }
 ;
-_.hashCode$ = function hashCode_26(){
+_.hashCode$ = function hashCode_30(){
   return this.entry.hashCode$();
 }
 ;
@@ -5976,17 +7374,17 @@ _.setValue = function setValue_1(value_0){
   throw new UnsupportedOperationException;
 }
 ;
-_.toString$ = function toString_31(){
+_.toString$ = function toString_42(){
   return this.entry.toString$();
 }
 ;
-var Ljava_util_Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry_2_classLit = createForClass('java.util', 'Collections/UnmodifiableMap/UnmodifiableEntrySet/UnmodifiableEntry', 162, Ljava_lang_Object_2_classLit);
+var Ljava_util_Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry_2_classLit = createForClass('java.util', 'Collections/UnmodifiableMap/UnmodifiableEntrySet/UnmodifiableEntry', 170, Ljava_lang_Object_2_classLit);
 function Collections$UnmodifiableRandomAccessList(list){
   Collections$UnmodifiableList.call(this, list);
 }
 
-defineClass(163, 128, {25:1, 37:1}, Collections$UnmodifiableRandomAccessList);
-var Ljava_util_Collections$UnmodifiableRandomAccessList_2_classLit = createForClass('java.util', 'Collections/UnmodifiableRandomAccessList', 163, Ljava_util_Collections$UnmodifiableList_2_classLit);
+defineClass(171, 136, {28:1, 38:1}, Collections$UnmodifiableRandomAccessList);
+var Ljava_util_Collections$UnmodifiableRandomAccessList_2_classLit = createForClass('java.util', 'Collections/UnmodifiableRandomAccessList', 171, Ljava_util_Collections$UnmodifiableList_2_classLit);
 function $clinit_Comparators(){
   $clinit_Comparators = emptyMethod;
   NATURAL = new Comparators$1;
@@ -5996,18 +7394,22 @@ var NATURAL;
 function $compare(o1, o2){
   checkNotNull_0(o1);
   checkNotNull_0(o2);
-  return isJavaString(o1)?compareTo_3(o1, o2):o1.compareTo(o2);
+  return isJavaString(o1)?compareTo_4(o1, o2):o1.compareTo(o2);
 }
 
 function Comparators$1(){
 }
 
-defineClass(450, 1, {}, Comparators$1);
-var Ljava_util_Comparators$1_2_classLit = createForClass('java.util', 'Comparators/1', 450, Ljava_lang_Object_2_classLit);
+defineClass(484, 1, {}, Comparators$1);
+var Ljava_util_Comparators$1_2_classLit = createForClass('java.util', 'Comparators/1', 484, Ljava_lang_Object_2_classLit);
 function checkStructuralChange(host, iterator){
   if (iterator._gwt_modCount != host._gwt_modCount) {
     throw new ConcurrentModificationException;
   }
+}
+
+function recordLastKnownStructure(host, iterator){
+  setModCount(iterator, host._gwt_modCount);
 }
 
 function setModCount(o, modCount){
@@ -6024,8 +7426,8 @@ function ConcurrentModificationException(){
   RuntimeException.call(this);
 }
 
-defineClass(435, 8, $intern_4, ConcurrentModificationException);
-var Ljava_util_ConcurrentModificationException_2_classLit = createForClass('java.util', 'ConcurrentModificationException', 435, Ljava_lang_RuntimeException_2_classLit);
+defineClass(205, 8, $intern_8, ConcurrentModificationException);
+var Ljava_util_ConcurrentModificationException_2_classLit = createForClass('java.util', 'ConcurrentModificationException', 205, Ljava_lang_RuntimeException_2_classLit);
 function $equals_1(value1, value2){
   return maskUndefined(value1) === maskUndefined(value2) || value1 != null && equals_Ljava_lang_Object__Z__devirtual$(value1, value2);
 }
@@ -6041,14 +7443,14 @@ function HashMap(){
 }
 
 function HashMap_0(ignored){
-  checkCriticalArgument(ignored >= 0, 'Negative initial capacity');
-  checkCriticalArgument(true, 'Non-positive load factor');
+  checkCriticalArgument_0(ignored >= 0, 'Negative initial capacity');
+  checkCriticalArgument_0(true, 'Non-positive load factor');
   $reset(this);
 }
 
-defineClass(26, 124, {3:1, 121:1}, HashMap, HashMap_0);
+defineClass(26, 132, {3:1, 130:1}, HashMap, HashMap_0);
 var Ljava_util_HashMap_2_classLit = createForClass('java.util', 'HashMap', 26, Ljava_util_AbstractHashMap_2_classLit);
-function $add_3(this$static, o){
+function $add_4(this$static, o){
   var old;
   old = $put_4(this$static.map_0, o, this$static);
   return old == null;
@@ -6063,24 +7465,24 @@ function HashSet_0(c){
   $addAll(this, c);
 }
 
-defineClass(112, 476, {3:1, 81:1}, HashSet, HashSet_0);
-_.contains = function contains_12(o){
+defineClass(122, 510, {3:1, 54:1}, HashSet, HashSet_0);
+_.contains = function contains_14(o){
   return $containsKey(this.map_0, o);
 }
 ;
-_.iterator = function iterator_12(){
-  return $iterator(new AbstractMap$1(this.map_0));
+_.iterator = function iterator_16(){
+  return $iterator_0(new AbstractMap$1(this.map_0));
 }
 ;
-_.size_1 = function size_15(){
+_.size_1 = function size_18(){
   return this.map_0.size_0;
 }
 ;
-_.toString$ = function toString_32(){
-  return $toString_1(new AbstractMap$1(this.map_0));
+_.toString$ = function toString_43(){
+  return $toString_2(new AbstractMap$1(this.map_0));
 }
 ;
-var Ljava_util_HashSet_2_classLit = createForClass('java.util', 'HashSet', 112, Ljava_util_AbstractSet_2_classLit);
+var Ljava_util_HashSet_2_classLit = createForClass('java.util', 'HashSet', 122, Ljava_util_AbstractSet_2_classLit);
 function $ensureChain(this$static, hashCode){
   var map_0 = this$static.backingMap;
   return map_0[hashCode] || (map_0[hashCode] = []);
@@ -6123,7 +7525,7 @@ function $put_5(this$static, key, value_0){
   return null;
 }
 
-function $remove_1(this$static, key){
+function $remove_5(this$static, key){
   var chain, entry, hashCode, i;
   hashCode = key == null?'0':'' + $getHashCode(key);
   chain = $getChainOrEmpty(this$static, hashCode);
@@ -6142,7 +7544,7 @@ function InternalJsHashCodeMap(){
   this.backingMap = this.createMap();
 }
 
-defineClass(169, 1, {}, InternalJsHashCodeMap);
+defineClass(179, 1, {}, InternalJsHashCodeMap);
 _.createMap = function createMap(){
   return Object.create(null);
 }
@@ -6151,8 +7553,8 @@ _.entries = function entries(){
   return new InternalJsHashCodeMap$1(this);
 }
 ;
-var Ljava_util_InternalJsHashCodeMap_2_classLit = createForClass('java.util', 'InternalJsHashCodeMap', 169, Ljava_lang_Object_2_classLit);
-function $hasNext_0(this$static){
+var Ljava_util_InternalJsHashCodeMap_2_classLit = createForClass('java.util', 'InternalJsHashCodeMap', 179, Ljava_lang_Object_2_classLit);
+function $hasNext_1(this$static){
   if (this$static.itemIndex < this$static.chain.length) {
     return true;
   }
@@ -6167,27 +7569,35 @@ function $hasNext_0(this$static){
 function InternalJsHashCodeMap$1(this$0){
   this.this$01 = this$0;
   this.keys_0 = $keys(this.this$01);
-  this.chain = initDim(Ljava_util_Map$Entry_2_classLit, $intern_1, 45, 0, 0, 1);
+  this.chain = initDim(Ljava_util_Map$Entry_2_classLit, $intern_1, 49, 0, 0, 1);
 }
 
-defineClass(314, 1, {}, InternalJsHashCodeMap$1);
-_.hasNext = function hasNext_8(){
-  return $hasNext_0(this);
+defineClass(332, 1, {}, InternalJsHashCodeMap$1);
+_.hasNext = function hasNext_12(){
+  return $hasNext_1(this);
 }
 ;
-_.next_0 = function next_9(){
-  return checkCriticalElement($hasNext_0(this)) , this.lastEntry = this.chain[this.itemIndex++] , this.lastEntry;
+_.next_0 = function next_13(){
+  return checkCriticalElement($hasNext_1(this)) , this.lastChain = this.chain , this.lastEntry = this.chain[this.itemIndex++] , this.lastEntry;
+}
+;
+_.remove = function remove_17(){
+  checkState_1(!!this.lastEntry);
+  $remove_5(this.this$01, this.lastEntry.getKey());
+  maskUndefined(this.chain) === maskUndefined(this.lastChain) && this.chain.length != 1 && --this.itemIndex;
+  this.lastEntry = null;
 }
 ;
 _.chainIndex = -1;
 _.itemIndex = 0;
+_.lastChain = null;
 _.lastEntry = null;
-var Ljava_util_InternalJsHashCodeMap$1_2_classLit = createForClass('java.util', 'InternalJsHashCodeMap/1', 314, Ljava_lang_Object_2_classLit);
+var Ljava_util_InternalJsHashCodeMap$1_2_classLit = createForClass('java.util', 'InternalJsHashCodeMap/1', 332, Ljava_lang_Object_2_classLit);
 function InternalJsHashCodeMap$InternalJsHashCodeMapLegacy(){
   InternalJsHashCodeMap.call(this);
 }
 
-defineClass(312, 169, {}, InternalJsHashCodeMap$InternalJsHashCodeMapLegacy);
+defineClass(330, 179, {}, InternalJsHashCodeMap$InternalJsHashCodeMapLegacy);
 _.createMap = function createMap_0(){
   return {};
 }
@@ -6210,23 +7620,23 @@ _.newEntryList = function newEntryList(){
   return new InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1(this);
 }
 ;
-var Ljava_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy_2_classLit = createForClass('java.util', 'InternalJsHashCodeMap/InternalJsHashCodeMapLegacy', 312, Ljava_util_InternalJsHashCodeMap_2_classLit);
+var Ljava_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy_2_classLit = createForClass('java.util', 'InternalJsHashCodeMap/InternalJsHashCodeMapLegacy', 330, Ljava_util_InternalJsHashCodeMap_2_classLit);
 function InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1(this$1){
   this.this$11 = this$1;
   ArrayList.call(this);
 }
 
-defineClass(313, 17, $intern_3, InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1);
-_.remove = function remove_0(index_0){
+defineClass(331, 16, $intern_6, InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1);
+_.remove_1 = function remove_18(index_0){
   var removed;
-  return removed = $remove(this, index_0) , $remove_1(this.this$11, removed.getKey()) , removed;
+  return removed = $remove_3(this, index_0) , $remove_5(this.this$11, removed.getKey()) , removed;
 }
 ;
-var Ljava_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_2_classLit = createForClass('java.util', 'InternalJsHashCodeMap/InternalJsHashCodeMapLegacy/1', 313, Ljava_util_ArrayList_2_classLit);
+var Ljava_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_2_classLit = createForClass('java.util', 'InternalJsHashCodeMap/InternalJsHashCodeMapLegacy/1', 331, Ljava_util_ArrayList_2_classLit);
 function InternalJsMapFactory(){
 }
 
-defineClass(309, 1, {}, InternalJsMapFactory);
+defineClass(327, 1, {}, InternalJsMapFactory);
 _.createJsHashCodeMap = function createJsHashCodeMap(){
   return new InternalJsHashCodeMap;
 }
@@ -6235,7 +7645,7 @@ _.createJsStringMap = function createJsStringMap(){
   return new InternalJsStringMap;
 }
 ;
-var Ljava_util_InternalJsMapFactory_2_classLit = createForClass('java.util', 'InternalJsMapFactory', 309, Ljava_lang_Object_2_classLit);
+var Ljava_util_InternalJsMapFactory_2_classLit = createForClass('java.util', 'InternalJsMapFactory', 327, Ljava_lang_Object_2_classLit);
 function $clinit_InternalJsMapFactory$BackwardCompatibleJsMapFactory(){
   $clinit_InternalJsMapFactory$BackwardCompatibleJsMapFactory = emptyMethod;
   delegate_0 = createFactory();
@@ -6270,16 +7680,16 @@ var delegate_0;
 function InternalJsMapFactory$KeysWorkaroundJsMapFactory(){
 }
 
-defineClass(311, 309, {}, InternalJsMapFactory$KeysWorkaroundJsMapFactory);
+defineClass(329, 327, {}, InternalJsMapFactory$KeysWorkaroundJsMapFactory);
 _.createJsStringMap = function createJsStringMap_0(){
   return new InternalJsStringMap$InternalJsStringMapWithKeysWorkaround;
 }
 ;
-var Ljava_util_InternalJsMapFactory$KeysWorkaroundJsMapFactory_2_classLit = createForClass('java.util', 'InternalJsMapFactory/KeysWorkaroundJsMapFactory', 311, Ljava_util_InternalJsMapFactory_2_classLit);
+var Ljava_util_InternalJsMapFactory$KeysWorkaroundJsMapFactory_2_classLit = createForClass('java.util', 'InternalJsMapFactory/KeysWorkaroundJsMapFactory', 329, Ljava_util_InternalJsMapFactory_2_classLit);
 function InternalJsMapFactory$LegacyInternalJsMapFactory(){
 }
 
-defineClass(310, 309, {}, InternalJsMapFactory$LegacyInternalJsMapFactory);
+defineClass(328, 327, {}, InternalJsMapFactory$LegacyInternalJsMapFactory);
 _.createJsHashCodeMap = function createJsHashCodeMap_0(){
   return new InternalJsHashCodeMap$InternalJsHashCodeMapLegacy;
 }
@@ -6288,7 +7698,7 @@ _.createJsStringMap = function createJsStringMap_1(){
   return new InternalJsStringMap$InternalJsStringMapLegacy;
 }
 ;
-var Ljava_util_InternalJsMapFactory$LegacyInternalJsMapFactory_2_classLit = createForClass('java.util', 'InternalJsMapFactory/LegacyInternalJsMapFactory', 310, Ljava_util_InternalJsMapFactory_2_classLit);
+var Ljava_util_InternalJsMapFactory$LegacyInternalJsMapFactory_2_classLit = createForClass('java.util', 'InternalJsMapFactory/LegacyInternalJsMapFactory', 328, Ljava_util_InternalJsMapFactory_2_classLit);
 function $keys_0(this$static){
   return Object.getOwnPropertyNames(this$static.backingMap);
 }
@@ -6297,11 +7707,11 @@ function $put_6(this$static, key, value_0){
   var oldValue;
   oldValue = this$static.backingMap[key];
   oldValue === undefined && $elementAdded(this$static.host);
-  $set_2(this$static, key, value_0 === undefined?null:value_0);
+  $set_4(this$static, key, value_0 === undefined?null:value_0);
   return oldValue;
 }
 
-function $remove_2(this$static, key){
+function $remove_6(this$static, key){
   var value_0;
   value_0 = this$static.backingMap[key];
   if (!(value_0 === undefined)) {
@@ -6311,7 +7721,7 @@ function $remove_2(this$static, key){
   return value_0;
 }
 
-function $set_2(this$static, key, value_0){
+function $set_4(this$static, key, value_0){
   this$static.backingMap[key] = value_0;
 }
 
@@ -6319,7 +7729,7 @@ function InternalJsStringMap(){
   this.backingMap = this.createMap_0();
 }
 
-defineClass(129, 1, {}, InternalJsStringMap);
+defineClass(137, 1, {}, InternalJsStringMap);
 _.createMap_0 = function createMap_1(){
   return Object.create(null);
 }
@@ -6346,29 +7756,40 @@ _.put_0 = function put_3(key, value_0){
   return $put_6(this, key, value_0);
 }
 ;
-var Ljava_util_InternalJsStringMap_2_classLit = createForClass('java.util', 'InternalJsStringMap', 129, Ljava_lang_Object_2_classLit);
+_.remove_2 = function remove_19(key){
+  return $remove_6(this, key);
+}
+;
+var Ljava_util_InternalJsStringMap_2_classLit = createForClass('java.util', 'InternalJsStringMap', 137, Ljava_lang_Object_2_classLit);
 function InternalJsStringMap$1(this$0, val$keys){
   this.this$01 = this$0;
   this.val$keys2 = val$keys;
 }
 
-defineClass(243, 1, {}, InternalJsStringMap$1);
-_.hasNext = function hasNext_9(){
+defineClass(257, 1, {}, InternalJsStringMap$1);
+_.hasNext = function hasNext_13(){
   return this.i < this.val$keys2.length;
 }
 ;
-_.next_0 = function next_10(){
-  return checkCriticalElement(this.i < this.val$keys2.length) , new InternalJsStringMap$2(this.this$01, this.val$keys2[this.i++]);
+_.next_0 = function next_14(){
+  return checkCriticalElement(this.i < this.val$keys2.length) , new InternalJsStringMap$2(this.this$01, this.val$keys2[this.last = this.i++]);
+}
+;
+_.remove = function remove_20(){
+  checkState_1(this.last != -1);
+  this.this$01.remove_2(this.val$keys2[this.last]);
+  this.last = -1;
 }
 ;
 _.i = 0;
-var Ljava_util_InternalJsStringMap$1_2_classLit = createForClass('java.util', 'InternalJsStringMap/1', 243, Ljava_lang_Object_2_classLit);
+_.last = -1;
+var Ljava_util_InternalJsStringMap$1_2_classLit = createForClass('java.util', 'InternalJsStringMap/1', 257, Ljava_lang_Object_2_classLit);
 function InternalJsStringMap$2(this$0, val$key){
   this.this$01 = this$0;
   this.val$key2 = val$key;
 }
 
-defineClass(164, 484, $intern_14, InternalJsStringMap$2);
+defineClass(172, 518, $intern_18, InternalJsStringMap$2);
 _.getKey = function getKey_2(){
   return this.val$key2;
 }
@@ -6381,12 +7802,12 @@ _.setValue = function setValue_2(object){
   return this.this$01.put_0(this.val$key2, object);
 }
 ;
-var Ljava_util_InternalJsStringMap$2_2_classLit = createForClass('java.util', 'InternalJsStringMap/2', 164, Ljava_util_AbstractMapEntry_2_classLit);
+var Ljava_util_InternalJsStringMap$2_2_classLit = createForClass('java.util', 'InternalJsStringMap/2', 172, Ljava_util_AbstractMapEntry_2_classLit);
 function InternalJsStringMap$InternalJsStringMapLegacy(){
   InternalJsStringMap.call(this);
 }
 
-defineClass(240, 129, {}, InternalJsStringMap$InternalJsStringMapLegacy);
+defineClass(254, 137, {}, InternalJsStringMap$InternalJsStringMapLegacy);
 _.createMap_0 = function createMap_2(){
   return {};
 }
@@ -6414,24 +7835,28 @@ _.put_0 = function put_4(key, value_0){
   return $put_6(this, ':' + key, value_0);
 }
 ;
-var Ljava_util_InternalJsStringMap$InternalJsStringMapLegacy_2_classLit = createForClass('java.util', 'InternalJsStringMap/InternalJsStringMapLegacy', 240, Ljava_util_InternalJsStringMap_2_classLit);
+_.remove_2 = function remove_21(key){
+  return $remove_6(this, ':' + key);
+}
+;
+var Ljava_util_InternalJsStringMap$InternalJsStringMapLegacy_2_classLit = createForClass('java.util', 'InternalJsStringMap/InternalJsStringMapLegacy', 254, Ljava_util_InternalJsStringMap_2_classLit);
 function InternalJsStringMap$InternalJsStringMapLegacy$1(this$1){
   this.this$11 = this$1;
   ArrayList.call(this);
 }
 
-defineClass(242, 17, $intern_3, InternalJsStringMap$InternalJsStringMapLegacy$1);
-_.remove = function remove_1(index_0){
+defineClass(256, 16, $intern_6, InternalJsStringMap$InternalJsStringMapLegacy$1);
+_.remove_1 = function remove_22(index_0){
   var removed;
-  return removed = $remove(this, index_0) , $remove_2(this.this$11, ':' + removed.getKey()) , removed;
+  return removed = $remove_3(this, index_0) , $remove_6(this.this$11, ':' + removed.getKey()) , removed;
 }
 ;
-var Ljava_util_InternalJsStringMap$InternalJsStringMapLegacy$1_2_classLit = createForClass('java.util', 'InternalJsStringMap/InternalJsStringMapLegacy/1', 242, Ljava_util_ArrayList_2_classLit);
+var Ljava_util_InternalJsStringMap$InternalJsStringMapLegacy$1_2_classLit = createForClass('java.util', 'InternalJsStringMap/InternalJsStringMapLegacy/1', 256, Ljava_util_ArrayList_2_classLit);
 function InternalJsStringMap$InternalJsStringMapWithKeysWorkaround(){
   InternalJsStringMap.call(this);
 }
 
-defineClass(241, 129, {}, InternalJsStringMap$InternalJsStringMapWithKeysWorkaround);
+defineClass(255, 137, {}, InternalJsStringMap$InternalJsStringMapWithKeysWorkaround);
 _.keys_1 = function keys_2(){
   var keys_0;
   keys_0 = $keys_0(this);
@@ -6439,26 +7864,89 @@ _.keys_1 = function keys_2(){
   return keys_0;
 }
 ;
-var Ljava_util_InternalJsStringMap$InternalJsStringMapWithKeysWorkaround_2_classLit = createForClass('java.util', 'InternalJsStringMap/InternalJsStringMapWithKeysWorkaround', 241, Ljava_util_InternalJsStringMap_2_classLit);
+var Ljava_util_InternalJsStringMap$InternalJsStringMapWithKeysWorkaround_2_classLit = createForClass('java.util', 'InternalJsStringMap/InternalJsStringMapWithKeysWorkaround', 255, Ljava_util_InternalJsStringMap_2_classLit);
 var Ljava_util_Map$Entry_2_classLit = createForInterface('java.util', 'Map/Entry');
 function NoSuchElementException(){
   RuntimeException.call(this);
 }
 
-defineClass(116, 8, $intern_4, NoSuchElementException);
-var Ljava_util_NoSuchElementException_2_classLit = createForClass('java.util', 'NoSuchElementException', 116, Ljava_lang_RuntimeException_2_classLit);
-function equals_24(a, b){
+defineClass(86, 8, $intern_8, NoSuchElementException);
+var Ljava_util_NoSuchElementException_2_classLit = createForClass('java.util', 'NoSuchElementException', 86, Ljava_lang_RuntimeException_2_classLit);
+function equals_28(a, b){
   return maskUndefined(a) === maskUndefined(b) || a != null && equals_Ljava_lang_Object__Z__devirtual$(a, b);
 }
 
-function hashCode_27(o){
+function hashCode_31(o){
   return o != null?hashCode__I__devirtual$(o):0;
 }
 
-defineClass(477, 1, {});
-var Lplayn_core_Assets_2_classLit = createForClass('playn.core', 'Assets', 477, Ljava_lang_Object_2_classLit);
-defineClass(486, 1, {});
-var Lplayn_core_Audio_2_classLit = createForClass('playn.core', 'Audio', 486, Ljava_lang_Object_2_classLit);
+function $clinit_Random(){
+  $clinit_Random = emptyMethod;
+  var i, i0, twoToTheXMinus24Tmp, twoToTheXMinus48Tmp;
+  twoToTheXMinus24 = initDim(D_classLit, $intern_25, 0, 25, 7, 1);
+  twoToTheXMinus48 = initDim(D_classLit, $intern_25, 0, 33, 7, 1);
+  twoToTheXMinus48Tmp = 1.52587890625E-5;
+  for (i0 = 32; i0 >= 0; i0--) {
+    twoToTheXMinus48[i0] = twoToTheXMinus48Tmp;
+    twoToTheXMinus48Tmp *= 0.5;
+  }
+  twoToTheXMinus24Tmp = 1;
+  for (i = 24; i >= 0; i--) {
+    twoToTheXMinus24[i] = twoToTheXMinus24Tmp;
+    twoToTheXMinus24Tmp *= 0.5;
+  }
+}
+
+function $nextInt(this$static, n){
+  var bits, val;
+  checkCriticalArgument(n > 0);
+  if ((n & -n) == n) {
+    return round_int(n * $nextInternal(this$static) * 4.6566128730773926E-10);
+  }
+  do {
+    bits = $nextInternal(this$static);
+    val = bits % n;
+  }
+   while (bits - val + (n - 1) < 0);
+  return round_int(val);
+}
+
+function $nextInternal(this$static){
+  var carry, dval, h, hi, l, lo;
+  hi = this$static.seedhi * $intern_26 + this$static.seedlo * 1502;
+  lo = this$static.seedlo * $intern_26 + 11;
+  carry = Math.floor(lo * $intern_27);
+  hi += carry;
+  lo -= carry * $intern_28;
+  hi %= $intern_28;
+  this$static.seedhi = hi;
+  this$static.seedlo = lo;
+  h = this$static.seedhi * 128;
+  l = floor_0(this$static.seedlo * twoToTheXMinus48[31]);
+  dval = h + l;
+  dval >= 2147483648 && (dval -= 4294967296);
+  return dval;
+}
+
+function Random(){
+  $clinit_Random();
+  var hi, lo, seed;
+  seed = uniqueSeed++ + now_1();
+  hi = round_int(Math.floor(seed * $intern_27)) & $intern_29;
+  lo = round_int(seed - hi * $intern_28);
+  this.seedhi = hi ^ 1502;
+  this.seedlo = lo ^ $intern_26;
+}
+
+defineClass(386, 1, {}, Random);
+_.seedhi = 0;
+_.seedlo = 0;
+var twoToTheXMinus24, twoToTheXMinus48, uniqueSeed = 0;
+var Ljava_util_Random_2_classLit = createForClass('java.util', 'Random', 386, Ljava_lang_Object_2_classLit);
+defineClass(511, 1, {});
+var Lplayn_core_Assets_2_classLit = createForClass('playn.core', 'Assets', 511, Ljava_lang_Object_2_classLit);
+defineClass(520, 1, {});
+var Lplayn_core_Audio_2_classLit = createForClass('playn.core', 'Audio', 520, Ljava_lang_Object_2_classLit);
 function $toTexture(this$static, config){
   return $createTexture_0(this$static.image, config);
 }
@@ -6471,13 +7959,13 @@ function Canvas_0(image){
     throw new IllegalArgumentException_0('Canvas must be > 0 in width and height: ' + this.width_0 + 'x' + this.height_0);
 }
 
-defineClass(271, 1, $intern_23);
+defineClass(285, 1, $intern_30);
 _.close_0 = function close_0(){
 }
 ;
 _.height_0 = 0;
 _.width_0 = 0;
-var Lplayn_core_Canvas_2_classLit = createForClass('playn.core', 'Canvas', 271, Ljava_lang_Object_2_classLit);
+var Lplayn_core_Canvas_2_classLit = createForClass('playn.core', 'Canvas', 285, Ljava_lang_Object_2_classLit);
 function $clinit_Canvas$LineCap(){
   $clinit_Canvas$LineCap = emptyMethod;
   BUTT_0 = new Canvas$LineCap('BUTT', 0);
@@ -6491,12 +7979,12 @@ function Canvas$LineCap(enum$name, enum$ordinal){
 
 function values_13(){
   $clinit_Canvas$LineCap();
-  return initValues(getClassLiteralForArray(Lplayn_core_Canvas$LineCap_2_classLit, 1), $intern_1, 88, 0, [BUTT_0, ROUND_1, SQUARE_0]);
+  return initValues(getClassLiteralForArray(Lplayn_core_Canvas$LineCap_2_classLit, 1), $intern_1, 93, 0, [BUTT_0, ROUND_1, SQUARE_0]);
 }
 
-defineClass(88, 6, {3:1, 7:1, 6:1, 88:1}, Canvas$LineCap);
+defineClass(93, 6, {3:1, 7:1, 6:1, 93:1}, Canvas$LineCap);
 var BUTT_0, ROUND_1, SQUARE_0;
-var Lplayn_core_Canvas$LineCap_2_classLit = createForEnum('playn.core', 'Canvas/LineCap', 88, Ljava_lang_Enum_2_classLit, values_13);
+var Lplayn_core_Canvas$LineCap_2_classLit = createForEnum('playn.core', 'Canvas/LineCap', 93, Ljava_lang_Enum_2_classLit, values_13);
 function $clinit_Canvas$LineJoin(){
   $clinit_Canvas$LineJoin = emptyMethod;
   BEVEL_0 = new Canvas$LineJoin('BEVEL', 0);
@@ -6510,21 +7998,21 @@ function Canvas$LineJoin(enum$name, enum$ordinal){
 
 function values_14(){
   $clinit_Canvas$LineJoin();
-  return initValues(getClassLiteralForArray(Lplayn_core_Canvas$LineJoin_2_classLit, 1), $intern_1, 89, 0, [BEVEL_0, MITER_0, ROUND_2]);
+  return initValues(getClassLiteralForArray(Lplayn_core_Canvas$LineJoin_2_classLit, 1), $intern_1, 94, 0, [BEVEL_0, MITER_0, ROUND_2]);
 }
 
-defineClass(89, 6, {3:1, 7:1, 6:1, 89:1}, Canvas$LineJoin);
+defineClass(94, 6, {3:1, 7:1, 6:1, 94:1}, Canvas$LineJoin);
 var BEVEL_0, MITER_0, ROUND_2;
-var Lplayn_core_Canvas$LineJoin_2_classLit = createForEnum('playn.core', 'Canvas/LineJoin', 89, Ljava_lang_Enum_2_classLit, values_14);
+var Lplayn_core_Canvas$LineJoin_2_classLit = createForEnum('playn.core', 'Canvas/LineJoin', 94, Ljava_lang_Enum_2_classLit, values_14);
 function Clock(){
 }
 
-defineClass(181, 1, {}, Clock);
+defineClass(189, 1, {}, Clock);
 _.dt = 0;
 _.tick = 0;
-var Lplayn_core_Clock_2_classLit = createForClass('playn.core', 'Clock', 181, Ljava_lang_Object_2_classLit);
-defineClass(30, 1, {30:1});
-var Lplayn_core_Event_2_classLit = createForClass('playn.core', 'Event', 30, Ljava_lang_Object_2_classLit);
+var Lplayn_core_Clock_2_classLit = createForClass('playn.core', 'Clock', 189, Ljava_lang_Object_2_classLit);
+defineClass(32, 1, {32:1});
+var Lplayn_core_Event_2_classLit = createForClass('playn.core', 'Event', 32, Ljava_lang_Object_2_classLit);
 function $setFlag(this$static, flag){
   this$static.flags |= flag;
 }
@@ -6544,16 +8032,16 @@ function modifierFlags(altP, ctrlP, metaP, shiftP){
   return flags;
 }
 
-defineClass(27, 30, $intern_24);
+defineClass(29, 32, $intern_31);
 _.addFields = function addFields(builder){
-  $append_4($append_6($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
+  $append_4($append_7($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
 }
 ;
 _.name_1 = function name_2(){
   return 'Input';
 }
 ;
-_.toString$ = function toString_33(){
+_.toString$ = function toString_44(){
   var builder;
   builder = $append_1(new StringBuilder_1(this.name_1()), 91);
   this.addFields(builder);
@@ -6562,17 +8050,17 @@ _.toString$ = function toString_33(){
 ;
 _.flags = 0;
 _.time = 0;
-var Lplayn_core_Event$Input_2_classLit = createForClass('playn.core', 'Event/Input', 27, Lplayn_core_Event_2_classLit);
+var Lplayn_core_Event$Input_2_classLit = createForClass('playn.core', 'Event/Input', 29, Lplayn_core_Event_2_classLit);
 function Event$XY(flags, time, x_0, y_0){
   Event$Input.call(this, flags, time);
   this.x_0 = x_0;
   this.y_0 = y_0;
 }
 
-defineClass(39, 27, $intern_25);
+defineClass(41, 29, $intern_32);
 _.addFields = function addFields_0(builder){
-  $append_4($append_6($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
-  $append_3($append_6($append_3((builder.string += ', x=' , builder), this.x_0), ', y='), this.y_0);
+  $append_4($append_7($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
+  $append_3($append_7($append_3((builder.string += ', x=' , builder), this.x_0), ', y='), this.y_0);
 }
 ;
 _.name_1 = function name_3(){
@@ -6589,9 +8077,9 @@ _.y_1 = function y_1(){
 ;
 _.x_0 = 0;
 _.y_0 = 0;
-var Lplayn_core_Event$XY_2_classLit = createForClass('playn.core', 'Event/XY', 39, Lplayn_core_Event$Input_2_classLit);
-defineClass(492, 1, {});
-var Lplayn_core_Exec_2_classLit = createForClass('playn.core', 'Exec', 492, Ljava_lang_Object_2_classLit);
+var Lplayn_core_Event$XY_2_classLit = createForClass('playn.core', 'Event/XY', 41, Lplayn_core_Event$Input_2_classLit);
+defineClass(526, 1, {});
+var Lplayn_core_Exec_2_classLit = createForClass('playn.core', 'Exec', 526, Ljava_lang_Object_2_classLit);
 function $dispatch(this$static){
   var action, e, ii, ll;
   $addAll_0(this$static.running, this$static.pending);
@@ -6621,25 +8109,25 @@ function Exec$Default(plat){
   $atPrio($addConnection(plat.frame_0, new Exec$Default$1(this)), 32767);
 }
 
-defineClass(316, 492, {}, Exec$Default);
-var Lplayn_core_Exec$Default_2_classLit = createForClass('playn.core', 'Exec/Default', 316, Lplayn_core_Exec_2_classLit);
+defineClass(334, 526, {}, Exec$Default);
+var Lplayn_core_Exec$Default_2_classLit = createForClass('playn.core', 'Exec/Default', 334, Lplayn_core_Exec_2_classLit);
 function Exec$Default$1(this$1){
   this.this$11 = this$1;
 }
 
-defineClass(317, 478, {}, Exec$Default$1);
+defineClass(335, 512, {}, Exec$Default$1);
 _.onEmit = function onEmit_5(unused){
   $dispatch(this.this$11);
 }
 ;
-var Lplayn_core_Exec$Default$1_2_classLit = createForClass('playn.core', 'Exec/Default/1', 317, Lreact_Slot_2_classLit);
+var Lplayn_core_Exec$Default$1_2_classLit = createForClass('playn.core', 'Exec/Default/1', 335, Lreact_Slot_2_classLit);
 function $derive(this$static, size_0){
   return new Font_0(this$static.name_0, this$static.style_0, size_0);
 }
 
 function $equals_2(this$static, other){
   var ofont;
-  if (!instanceOf(other, 65))
+  if (!instanceOf(other, 74))
     return false;
   ofont = other;
   return $equals(this$static.name_0, ofont.name_0) && this$static.style_0 == ofont.style_0 && this$static.size_0 == ofont.size_0;
@@ -6659,21 +8147,21 @@ function Font_0(name_0, style, size_0){
   this.size_0 = size_0;
 }
 
-defineClass(65, 1, {65:1}, Font, Font_0);
-_.equals$ = function equals_25(other){
+defineClass(74, 1, {74:1}, Font, Font_0);
+_.equals$ = function equals_29(other){
   return $equals_2(this, other);
 }
 ;
-_.hashCode$ = function hashCode_28(){
+_.hashCode$ = function hashCode_32(){
   return $hashCode_0(this);
 }
 ;
-_.toString$ = function toString_34(){
+_.toString$ = function toString_45(){
   return this.name_0 + ' ' + this.style_0 + ' ' + this.size_0 + 'pt';
 }
 ;
 _.size_0 = 0;
-var Lplayn_core_Font_2_classLit = createForClass('playn.core', 'Font', 65, Ljava_lang_Object_2_classLit);
+var Lplayn_core_Font_2_classLit = createForClass('playn.core', 'Font', 74, Ljava_lang_Object_2_classLit);
 function $clinit_Font$Style(){
   $clinit_Font$Style = emptyMethod;
   PLAIN = new Font$Style('PLAIN', 0);
@@ -6688,12 +8176,12 @@ function Font$Style(enum$name, enum$ordinal){
 
 function values_15(){
   $clinit_Font$Style();
-  return initValues(getClassLiteralForArray(Lplayn_core_Font$Style_2_classLit, 1), $intern_1, 80, 0, [PLAIN, BOLD_0, ITALIC_0, BOLD_ITALIC]);
+  return initValues(getClassLiteralForArray(Lplayn_core_Font$Style_2_classLit, 1), $intern_1, 85, 0, [PLAIN, BOLD_0, ITALIC_0, BOLD_ITALIC]);
 }
 
-defineClass(80, 6, {3:1, 7:1, 6:1, 80:1}, Font$Style);
+defineClass(85, 6, {3:1, 7:1, 6:1, 85:1}, Font$Style);
 var BOLD_0, BOLD_ITALIC, ITALIC_0, PLAIN;
-var Lplayn_core_Font$Style_2_classLit = createForEnum('playn.core', 'Font/Style', 80, Ljava_lang_Enum_2_classLit, values_15);
+var Lplayn_core_Font$Style_2_classLit = createForEnum('playn.core', 'Font/Style', 85, Ljava_lang_Enum_2_classLit, values_15);
 function $checkError(this$static){
   var reported;
   reported = 0;
@@ -6732,9 +8220,9 @@ function GL20(buffers, checkErrors){
   this.checkErrors = checkErrors;
 }
 
-defineClass(325, 1, {});
+defineClass(343, 1, {});
 _.checkErrors = false;
-var Lplayn_core_GL20_2_classLit = createForClass('playn.core', 'GL20', 325, Ljava_lang_Object_2_classLit);
+var Lplayn_core_GL20_2_classLit = createForClass('playn.core', 'GL20', 343, Ljava_lang_Object_2_classLit);
 function $newCap(cap, length_0){
   var newLength;
   newLength = cap << 1;
@@ -6775,22 +8263,22 @@ function $setShortBuffer(this$static, source, length_0){
   $rewind(this$static.shortBuffer);
 }
 
-defineClass(327, 1, {});
-var Lplayn_core_GL20$Buffers_2_classLit = createForClass('playn.core', 'GL20/Buffers', 327, Ljava_lang_Object_2_classLit);
+defineClass(345, 1, {});
+var Lplayn_core_GL20$Buffers_2_classLit = createForClass('playn.core', 'GL20/Buffers', 345, Ljava_lang_Object_2_classLit);
 function $begin(this$static){
   if (this$static.begun)
-    throw new IllegalStateException($getSimpleName(this$static.___clazz$) + ' mismatched begin()');
+    throw new IllegalStateException_0($getSimpleName(this$static.___clazz$) + ' mismatched begin()');
   this$static.begun = true;
 }
 
 function $close(this$static){
   if (this$static.begun)
-    throw new IllegalStateException($getSimpleName(this$static.___clazz$) + ' close() without end()');
+    throw new IllegalStateException_0($getSimpleName(this$static.___clazz$) + ' close() without end()');
 }
 
 function $end(this$static){
   if (!this$static.begun)
-    throw new IllegalStateException($getSimpleName(this$static.___clazz$) + ' mismatched end()');
+    throw new IllegalStateException_0($getSimpleName(this$static.___clazz$) + ' mismatched end()');
   try {
     this$static.flush();
   }
@@ -6801,10 +8289,10 @@ function $end(this$static){
 
 function $flush(this$static){
   if (!this$static.begun)
-    throw new IllegalStateException($getSimpleName(this$static.___clazz$) + ' flush() without begin()');
+    throw new IllegalStateException_0($getSimpleName(this$static.___clazz$) + ' flush() without begin()');
 }
 
-defineClass(495, 1, $intern_23);
+defineClass(529, 1, $intern_30);
 _.begin = function begin(fbufWidth, fbufHeight, flip){
   $begin(this);
 }
@@ -6818,7 +8306,7 @@ _.flush = function flush(){
 }
 ;
 _.begun = false;
-var Lplayn_core_GLBatch_2_classLit = createForClass('playn.core', 'GLBatch', 495, Ljava_lang_Object_2_classLit);
+var Lplayn_core_GLBatch_2_classLit = createForClass('playn.core', 'GLBatch', 529, Ljava_lang_Object_2_classLit);
 function $activate(this$static){
   $glUseProgram(this$static.gl, this$static.id_0);
 }
@@ -6836,7 +8324,7 @@ function $compileShader_0(this$static, type_0, shaderSource){
     throw new RuntimeException_0('Failed to create shader (' + type_0 + '): ' + this$static.gl.glc.getError());
   $glShaderSource(this$static.gl, shader, shaderSource);
   $glCompileShader(this$static.gl, shader);
-  compiled = initDim(I_classLit, $intern_21, 0, 1, 7, 1);
+  compiled = initDim(I_classLit, $intern_23, 0, 1, 7, 1);
   $glGetShaderiv(this$static.gl, shader, compiled);
   if (compiled[0] == 0) {
     log_0 = $glGetShaderInfoLog(this$static.gl, shader);
@@ -6876,7 +8364,7 @@ function GLProgram(gl, vertexSource, fragmentSource){
     $attachShader(gl.glc, gl.webGLObjects[id_0], gl.webGLObjects[fragmentShader]);
     $checkError(gl);
     $linkProgram(gl.glc, gl.webGLObjects[id_0]);
-    linkStatus = initDim(I_classLit, $intern_21, 0, 1, 7, 1);
+    linkStatus = initDim(I_classLit, $intern_23, 0, 1, 7, 1);
     linkStatus[0] = $getProgramParameterb(gl.glc, gl.webGLObjects[id_0], 35714)?1:0;
     if (linkStatus[0] == 0) {
       log_0 = $getProgramInfoLog(gl.glc, gl.webGLObjects[id_0]);
@@ -6895,7 +8383,7 @@ function GLProgram(gl, vertexSource, fragmentSource){
   }
 }
 
-defineClass(183, 1, $intern_23, GLProgram);
+defineClass(193, 1, $intern_30, GLProgram);
 _.close_0 = function close_2(){
   $close_0(this);
 }
@@ -6903,7 +8391,7 @@ _.close_0 = function close_2(){
 _.fragmentShader = 0;
 _.id_0 = 0;
 _.vertexShader = 0;
-var Lplayn_core_GLProgram_2_classLit = createForClass('playn.core', 'GLProgram', 183, Ljava_lang_Object_2_classLit);
+var Lplayn_core_GLProgram_2_classLit = createForClass('playn.core', 'GLProgram', 193, Ljava_lang_Object_2_classLit);
 function $onEmit_0(this$static){
   $onFrame(this$static.this$01);
 }
@@ -6912,16 +8400,16 @@ function Game$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(221, 478, {}, Game$1);
+defineClass(235, 512, {}, Game$1);
 _.onEmit = function onEmit_6(plat){
   $onEmit_0(this, plat);
 }
 ;
-var Lplayn_core_Game$1_2_classLit = createForClass('playn.core', 'Game/1', 221, Lreact_Slot_2_classLit);
-defineClass(518, 1, {});
-var Lplayn_core_Gradient_2_classLit = createForClass('playn.core', 'Gradient', 518, Ljava_lang_Object_2_classLit);
-defineClass(457, 1, {});
-var Lplayn_core_Gradient$Config_2_classLit = createForClass('playn.core', 'Gradient/Config', 457, Ljava_lang_Object_2_classLit);
+var Lplayn_core_Game$1_2_classLit = createForClass('playn.core', 'Game/1', 235, Lreact_Slot_2_classLit);
+defineClass(556, 1, {});
+var Lplayn_core_Gradient_2_classLit = createForClass('playn.core', 'Gradient', 556, Ljava_lang_Object_2_classLit);
+defineClass(491, 1, {});
+var Lplayn_core_Gradient$Config_2_classLit = createForClass('playn.core', 'Gradient/Config', 491, Ljava_lang_Object_2_classLit);
 function Gradient$Linear(y1, colors, positions){
   this.colors = colors;
   this.positions = positions;
@@ -6931,12 +8419,12 @@ function Gradient$Linear(y1, colors, positions){
   this.y1 = y1;
 }
 
-defineClass(458, 457, {}, Gradient$Linear);
+defineClass(492, 491, {}, Gradient$Linear);
 _.x0 = 0;
 _.x1 = 0;
 _.y0 = 0;
 _.y1 = 0;
-var Lplayn_core_Gradient$Linear_2_classLit = createForClass('playn.core', 'Gradient/Linear', 458, Lplayn_core_Gradient$Config_2_classLit);
+var Lplayn_core_Gradient$Linear_2_classLit = createForClass('playn.core', 'Gradient/Linear', 492, Lplayn_core_Gradient$Config_2_classLit);
 function $colorTex(this$static){
   var canvas;
   if (!this$static.colorTex) {
@@ -6996,16 +8484,16 @@ function mipmapify(filter, mipmaps){
   }
 }
 
-defineClass(246, 1, {});
+defineClass(260, 1, {});
 _.viewPixelHeight = 0;
 _.viewPixelWidth = 0;
-var Lplayn_core_Graphics_2_classLit = createForClass('playn.core', 'Graphics', 246, Ljava_lang_Object_2_classLit);
+var Lplayn_core_Graphics_2_classLit = createForClass('playn.core', 'Graphics', 260, Ljava_lang_Object_2_classLit);
 function $bind(this$static){
   $glBindFramebuffer(this$static.gfx.gl);
   $glViewport(this$static.gfx.gl, this$static.this$01.viewPixelWidth, this$static.this$01.viewPixelHeight);
 }
 
-defineClass(248, 1, $intern_23);
+defineClass(262, 1, $intern_30);
 _.close_0 = function close_3(){
   if (!this.disposed) {
     this.disposed = true;
@@ -7013,32 +8501,32 @@ _.close_0 = function close_3(){
   }
 }
 ;
-_.toString$ = function toString_35(){
+_.toString$ = function toString_46(){
   return '[id=0, size=' + this.this$01.viewPixelWidth + 'x' + this.this$01.viewPixelHeight + ' @ ' + this.this$01.scale_0.factor + 'x' + this.this$01.scale_0.factor + ', flip=' + true + ']';
 }
 ;
 _.disposed = false;
-var Lplayn_core_RenderTarget_2_classLit = createForClass('playn.core', 'RenderTarget', 248, Ljava_lang_Object_2_classLit);
+var Lplayn_core_RenderTarget_2_classLit = createForClass('playn.core', 'RenderTarget', 262, Ljava_lang_Object_2_classLit);
 function Graphics$1(this$0, $anonymous0){
   this.this$01 = this$0;
   this.gfx = $anonymous0;
 }
 
-defineClass(249, 248, $intern_23, Graphics$1);
+defineClass(263, 262, $intern_30, Graphics$1);
 _.close_0 = function close_4(){
 }
 ;
-var Lplayn_core_Graphics$1_2_classLit = createForClass('playn.core', 'Graphics/1', 249, Lplayn_core_RenderTarget_2_classLit);
-defineClass(487, 1, {});
-var Lplayn_core_TileSource_2_classLit = createForClass('playn.core', 'TileSource', 487, Ljava_lang_Object_2_classLit);
-function $$init_0(this$static){
+var Lplayn_core_Graphics$1_2_classLit = createForClass('playn.core', 'Graphics/1', 263, Lplayn_core_RenderTarget_2_classLit);
+defineClass(521, 1, {});
+var Lplayn_core_TileSource_2_classLit = createForClass('playn.core', 'TileSource', 521, Ljava_lang_Object_2_classLit);
+function $$init_1(this$static){
   this$static.texconf = ($clinit_Texture$Config() , DEFAULT);
 }
 
 function $createTexture_0(this$static, config){
   var tex, texHeight, texWidth;
   if (this$static.state._result_0.get_0() == null)
-    throw new IllegalStateException('Cannot create texture from unready image: ' + this$static);
+    throw new IllegalStateException_0('Cannot create texture from unready image: ' + this$static);
   texWidth = $toTexWidth(config, this$static.pixelWidth);
   texHeight = $toTexHeight(config, this$static.pixelHeight);
   if (texWidth <= 0 || texHeight <= 0)
@@ -7053,7 +8541,7 @@ function $texture(this$static){
   return this$static.texture;
 }
 
-defineClass(166, 487, {});
+defineClass(174, 521, {});
 _.isLoaded = function isLoaded(){
   return this.state._result_0.get_0() != null;
 }
@@ -7066,8 +8554,8 @@ _.tileAsync = function tileAsync(){
   return $map_0(this.state, new Image$3(this));
 }
 ;
-var Lplayn_core_Image_2_classLit = createForClass('playn.core', 'Image', 166, Lplayn_core_TileSource_2_classLit);
-function $apply(this$static){
+var Lplayn_core_Image_2_classLit = createForClass('playn.core', 'Image', 174, Lplayn_core_TileSource_2_classLit);
+function $apply_0(this$static){
   return $texture(this$static.this$01);
 }
 
@@ -7075,14 +8563,14 @@ function Image$3(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(270, 1, {}, Image$3);
-_.apply_0 = function apply_2(image){
-  return $apply(this, image);
+defineClass(284, 1, {}, Image$3);
+_.apply_0 = function apply_3(image){
+  return $apply_0(this, image);
 }
 ;
-var Lplayn_core_Image$3_2_classLit = createForClass('playn.core', 'Image/3', 270, Ljava_lang_Object_2_classLit);
+var Lplayn_core_Image$3_2_classLit = createForClass('playn.core', 'Image/3', 284, Ljava_lang_Object_2_classLit);
 function ImageImpl(gfx, scale, pixelWidth, pixelHeight, bitmap){
-  $$init_0(this);
+  $$init_1(this);
   this.gfx = gfx;
   this.state = result_0(new Try$Success(this));
   if (pixelWidth == 0 || pixelHeight == 0)
@@ -7095,7 +8583,7 @@ function ImageImpl(gfx, scale, pixelWidth, pixelHeight, bitmap){
 }
 
 function ImageImpl_0(gfx, state, preScale, preWidth, preHeight, source){
-  $$init_0(this);
+  $$init_1(this);
   this.gfx = gfx;
   this.state = state;
   this.source = source;
@@ -7104,12 +8592,12 @@ function ImageImpl_0(gfx, state, preScale, preWidth, preHeight, source){
   this.pixelHeight = preHeight;
 }
 
-defineClass(173, 166, {});
+defineClass(183, 174, {});
 _.pixelHeight = 0;
 _.pixelWidth = 0;
-var Lplayn_core_ImageImpl_2_classLit = createForClass('playn.core', 'ImageImpl', 173, Lplayn_core_Image_2_classLit);
-defineClass(254, 1, {});
-var Lplayn_core_Input_2_classLit = createForClass('playn.core', 'Input', 254, Ljava_lang_Object_2_classLit);
+var Lplayn_core_ImageImpl_2_classLit = createForClass('playn.core', 'ImageImpl', 183, Lplayn_core_Image_2_classLit);
+defineClass(268, 1, {});
+var Lplayn_core_Input_2_classLit = createForClass('playn.core', 'Input', 268, Ljava_lang_Object_2_classLit);
 function $clinit_Key(){
   $clinit_Key = emptyMethod;
   A = new Key('A', 0);
@@ -7356,18 +8844,18 @@ function Keyboard$Event(time){
   Event$Input.call(this, 0, time);
 }
 
-defineClass(185, 27, $intern_24);
-var Lplayn_core_Keyboard$Event_2_classLit = createForClass('playn.core', 'Keyboard/Event', 185, Lplayn_core_Event$Input_2_classLit);
+defineClass(195, 29, $intern_31);
+var Lplayn_core_Keyboard$Event_2_classLit = createForClass('playn.core', 'Keyboard/Event', 195, Lplayn_core_Event$Input_2_classLit);
 function Keyboard$KeyEvent(time, key, down){
   Keyboard$Event.call(this, time);
   this.key_0 = key;
   this.down = down;
 }
 
-defineClass(186, 185, $intern_24, Keyboard$KeyEvent);
+defineClass(196, 195, $intern_31, Keyboard$KeyEvent);
 _.addFields = function addFields_1(builder){
-  $append_4($append_6($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
-  $append_7($append_6($append_5((builder.string += ', key=' , builder), this.key_0), ', down='), this.down);
+  $append_4($append_7($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
+  $append_8($append_7($append_6((builder.string += ', key=' , builder), this.key_0), ', down='), this.down);
 }
 ;
 _.name_1 = function name_4(){
@@ -7375,15 +8863,15 @@ _.name_1 = function name_4(){
 }
 ;
 _.down = false;
-var Lplayn_core_Keyboard$KeyEvent_2_classLit = createForClass('playn.core', 'Keyboard/KeyEvent', 186, Lplayn_core_Keyboard$Event_2_classLit);
+var Lplayn_core_Keyboard$KeyEvent_2_classLit = createForClass('playn.core', 'Keyboard/KeyEvent', 196, Lplayn_core_Keyboard$Event_2_classLit);
 function Keyboard$TypedEvent(time, typedChar){
   Keyboard$Event.call(this, time);
   this.typedChar = typedChar;
 }
 
-defineClass(393, 185, $intern_24, Keyboard$TypedEvent);
+defineClass(420, 195, $intern_31, Keyboard$TypedEvent);
 _.addFields = function addFields_2(builder){
-  $append_4($append_6($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
+  $append_4($append_7($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
   $append_1((builder.string += ', typedChar=' , builder), this.typedChar);
 }
 ;
@@ -7392,7 +8880,7 @@ _.name_1 = function name_5(){
 }
 ;
 _.typedChar = 0;
-var Lplayn_core_Keyboard$TypedEvent_2_classLit = createForClass('playn.core', 'Keyboard/TypedEvent', 393, Lplayn_core_Keyboard$Event_2_classLit);
+var Lplayn_core_Keyboard$TypedEvent_2_classLit = createForClass('playn.core', 'Keyboard/TypedEvent', 420, Lplayn_core_Keyboard$Event_2_classLit);
 function $debug(this$static, msg){
   $log(this$static, ($clinit_Log$Level() , DEBUG), msg, null);
 }
@@ -7405,8 +8893,13 @@ function $info(this$static, msg){
   $log(this$static, ($clinit_Log$Level() , INFO_0), msg, null);
 }
 
-function $info_0(this$static, msg){
-  $log(this$static, ($clinit_Log$Level() , INFO_0), msg, null);
+function $info_0(this$static, msg, e){
+  $log(this$static, ($clinit_Log$Level() , INFO_0), msg, e);
+}
+
+function $info_1(this$static, args){
+  var acount;
+  $info_0(this$static, $append_7(format_2($append_7($append_7(new StringBuilder, 'Generated level'), ' ['), args), ']').string, (acount = args.length , acount % 2 == 1 && instanceOf(args[acount - 1], 10)?args[acount - 1]:null));
 }
 
 function $log(this$static, level, msg, e){
@@ -7418,8 +8911,17 @@ function $warn(this$static, msg, e){
   $log(this$static, ($clinit_Log$Level() , WARN), msg, e);
 }
 
-defineClass(244, 1, {});
-var Lplayn_core_Log_2_classLit = createForClass('playn.core', 'Log', 244, Ljava_lang_Object_2_classLit);
+function format_2(into, args){
+  var ii, ll;
+  for (ii = 0 , ll = ~~(args.length / 2); ii < ll; ii++) {
+    ii > 0 && (into.string += ', ' , into);
+    $append_6($append_7($append_6(into, args[2 * ii]), '='), args[2 * ii + 1]);
+  }
+  return into;
+}
+
+defineClass(258, 1, {});
+var Lplayn_core_Log_2_classLit = createForClass('playn.core', 'Log', 258, Ljava_lang_Object_2_classLit);
 function $clinit_Log$Level(){
   $clinit_Log$Level = emptyMethod;
   DEBUG = new Log$Level('DEBUG', 0);
@@ -7434,29 +8936,29 @@ function Log$Level(enum$name, enum$ordinal){
 
 function values_17(){
   $clinit_Log$Level();
-  return initValues(getClassLiteralForArray(Lplayn_core_Log$Level_2_classLit, 1), $intern_1, 69, 0, [DEBUG, INFO_0, WARN, ERROR]);
+  return initValues(getClassLiteralForArray(Lplayn_core_Log$Level_2_classLit, 1), $intern_1, 77, 0, [DEBUG, INFO_0, WARN, ERROR]);
 }
 
-defineClass(69, 6, {3:1, 7:1, 6:1, 69:1}, Log$Level);
+defineClass(77, 6, {3:1, 7:1, 6:1, 77:1}, Log$Level);
 var DEBUG, ERROR, INFO_0, WARN;
-var Lplayn_core_Log$Level_2_classLit = createForEnum('playn.core', 'Log/Level', 69, Ljava_lang_Enum_2_classLit, values_17);
+var Lplayn_core_Log$Level_2_classLit = createForEnum('playn.core', 'Log/Level', 77, Ljava_lang_Enum_2_classLit, values_17);
 function Mouse$Event(time, x_0, y_0){
   Event$XY.call(this, 0, time, x_0, y_0);
 }
 
-defineClass(144, 39, $intern_25);
-var Lplayn_core_Mouse$Event_2_classLit = createForClass('playn.core', 'Mouse/Event', 144, Lplayn_core_Event$XY_2_classLit);
+defineClass(151, 41, $intern_32);
+var Lplayn_core_Mouse$Event_2_classLit = createForClass('playn.core', 'Mouse/Event', 151, Lplayn_core_Event$XY_2_classLit);
 function Mouse$ButtonEvent(time, x_0, y_0, button, down){
   Mouse$Event.call(this, time, x_0, y_0);
   this.button_0 = button;
   this.down = down;
 }
 
-defineClass(110, 144, {30:1, 27:1, 39:1, 110:1, 38:1}, Mouse$ButtonEvent);
+defineClass(119, 151, {32:1, 29:1, 41:1, 119:1, 39:1}, Mouse$ButtonEvent);
 _.addFields = function addFields_3(builder){
-  $append_4($append_6($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
-  $append_3($append_6($append_3((builder.string += ', x=' , builder), this.x_0), ', y='), this.y_0);
-  $append_7($append_6($append_5((builder.string += ', id=' , builder), this.button_0), ', down='), this.down);
+  $append_4($append_7($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
+  $append_3($append_7($append_3((builder.string += ', x=' , builder), this.x_0), ', y='), this.y_0);
+  $append_8($append_7($append_6((builder.string += ', id=' , builder), this.button_0), ', down='), this.down);
 }
 ;
 _.name_1 = function name_6(){
@@ -7464,7 +8966,7 @@ _.name_1 = function name_6(){
 }
 ;
 _.down = false;
-var Lplayn_core_Mouse$ButtonEvent_2_classLit = createForClass('playn.core', 'Mouse/ButtonEvent', 110, Lplayn_core_Mouse$Event_2_classLit);
+var Lplayn_core_Mouse$ButtonEvent_2_classLit = createForClass('playn.core', 'Mouse/ButtonEvent', 119, Lplayn_core_Mouse$Event_2_classLit);
 function $clinit_Mouse$ButtonEvent$Id(){
   $clinit_Mouse$ButtonEvent$Id = emptyMethod;
   LEFT_1 = new Mouse$ButtonEvent$Id('LEFT', 0);
@@ -7480,23 +8982,23 @@ function Mouse$ButtonEvent$Id(enum$name, enum$ordinal){
 
 function values_18(){
   $clinit_Mouse$ButtonEvent$Id();
-  return initValues(getClassLiteralForArray(Lplayn_core_Mouse$ButtonEvent$Id_2_classLit, 1), $intern_1, 64, 0, [LEFT_1, RIGHT_1, MIDDLE_0, X1, X2]);
+  return initValues(getClassLiteralForArray(Lplayn_core_Mouse$ButtonEvent$Id_2_classLit, 1), $intern_1, 72, 0, [LEFT_1, RIGHT_1, MIDDLE_0, X1, X2]);
 }
 
-defineClass(64, 6, {3:1, 7:1, 6:1, 64:1}, Mouse$ButtonEvent$Id);
+defineClass(72, 6, {3:1, 7:1, 6:1, 72:1}, Mouse$ButtonEvent$Id);
 var LEFT_1, MIDDLE_0, RIGHT_1, X1, X2;
-var Lplayn_core_Mouse$ButtonEvent$Id_2_classLit = createForEnum('playn.core', 'Mouse/ButtonEvent/Id', 64, Ljava_lang_Enum_2_classLit, values_18);
+var Lplayn_core_Mouse$ButtonEvent$Id_2_classLit = createForEnum('playn.core', 'Mouse/ButtonEvent/Id', 72, Ljava_lang_Enum_2_classLit, values_18);
 function Mouse$MotionEvent(time, x_0, y_0, dx, dy){
   Mouse$Event.call(this, time, x_0, y_0);
   this.dx = dx;
   this.dy = dy;
 }
 
-defineClass(145, 144, {30:1, 27:1, 39:1, 145:1, 38:1}, Mouse$MotionEvent);
+defineClass(152, 151, {32:1, 29:1, 41:1, 152:1, 39:1}, Mouse$MotionEvent);
 _.addFields = function addFields_4(builder){
-  $append_4($append_6($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
-  $append_3($append_6($append_3((builder.string += ', x=' , builder), this.x_0), ', y='), this.y_0);
-  $append_3($append_6($append_3((builder.string += ', dx=' , builder), this.dx), ', dy='), this.dy);
+  $append_4($append_7($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
+  $append_3($append_7($append_3((builder.string += ', x=' , builder), this.x_0), ', y='), this.y_0);
+  $append_3($append_7($append_3((builder.string += ', dx=' , builder), this.dx), ', dy='), this.dy);
 }
 ;
 _.name_1 = function name_7(){
@@ -7505,16 +9007,16 @@ _.name_1 = function name_7(){
 ;
 _.dx = 0;
 _.dy = 0;
-var Lplayn_core_Mouse$MotionEvent_2_classLit = createForClass('playn.core', 'Mouse/MotionEvent', 145, Lplayn_core_Mouse$Event_2_classLit);
+var Lplayn_core_Mouse$MotionEvent_2_classLit = createForClass('playn.core', 'Mouse/MotionEvent', 152, Lplayn_core_Mouse$Event_2_classLit);
 function Mouse$WheelEvent(time, x_0, y_0, velocity){
   Mouse$Event.call(this, time, x_0, y_0);
   this.velocity = velocity;
 }
 
-defineClass(391, 144, $intern_25, Mouse$WheelEvent);
+defineClass(411, 151, $intern_32, Mouse$WheelEvent);
 _.addFields = function addFields_5(builder){
-  $append_4($append_6($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
-  $append_3($append_6($append_3((builder.string += ', x=' , builder), this.x_0), ', y='), this.y_0);
+  $append_4($append_7($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
+  $append_3($append_7($append_3((builder.string += ', x=' , builder), this.x_0), ', y='), this.y_0);
   $append_3((builder.string += ', velocity=' , builder), this.velocity);
 }
 ;
@@ -7523,7 +9025,7 @@ _.name_1 = function name_8(){
 }
 ;
 _.velocity = 0;
-var Lplayn_core_Mouse$WheelEvent_2_classLit = createForClass('playn.core', 'Mouse/WheelEvent', 391, Lplayn_core_Mouse$Event_2_classLit);
+var Lplayn_core_Mouse$WheelEvent_2_classLit = createForClass('playn.core', 'Mouse/WheelEvent', 411, Lplayn_core_Mouse$Event_2_classLit);
 function $dispatchEvent(this$static, signal, event_0){
   var cause;
   try {
@@ -7563,13 +9065,13 @@ function $reportError(this$static, message, cause){
   $warn(this$static.log_0, message, cause);
 }
 
-defineClass(208, 1, {});
-var Lplayn_core_Platform_2_classLit = createForClass('playn.core', 'Platform', 208, Ljava_lang_Object_2_classLit);
+defineClass(222, 1, {});
+var Lplayn_core_Platform_2_classLit = createForClass('playn.core', 'Platform', 222, Ljava_lang_Object_2_classLit);
 function Platform$Error(){
 }
 
-defineClass(127, 1, {}, Platform$Error);
-var Lplayn_core_Platform$Error_2_classLit = createForClass('playn.core', 'Platform/Error', 127, Ljava_lang_Object_2_classLit);
+defineClass(135, 1, {}, Platform$Error);
+var Lplayn_core_Platform$Error_2_classLit = createForClass('playn.core', 'Platform/Error', 135, Ljava_lang_Object_2_classLit);
 function $clinit_Platform$Lifecycle(){
   $clinit_Platform$Lifecycle = emptyMethod;
   PAUSE_0 = new Platform$Lifecycle('PAUSE', 0);
@@ -7583,12 +9085,12 @@ function Platform$Lifecycle(enum$name, enum$ordinal){
 
 function values_19(){
   $clinit_Platform$Lifecycle();
-  return initValues(getClassLiteralForArray(Lplayn_core_Platform$Lifecycle_2_classLit, 1), $intern_1, 86, 0, [PAUSE_0, RESUME, EXIT]);
+  return initValues(getClassLiteralForArray(Lplayn_core_Platform$Lifecycle_2_classLit, 1), $intern_1, 92, 0, [PAUSE_0, RESUME, EXIT]);
 }
 
-defineClass(86, 6, {3:1, 7:1, 6:1, 86:1}, Platform$Lifecycle);
+defineClass(92, 6, {3:1, 7:1, 6:1, 92:1}, Platform$Lifecycle);
 var EXIT, PAUSE_0, RESUME;
-var Lplayn_core_Platform$Lifecycle_2_classLit = createForEnum('playn.core', 'Platform/Lifecycle', 86, Ljava_lang_Enum_2_classLit, values_19);
+var Lplayn_core_Platform$Lifecycle_2_classLit = createForEnum('playn.core', 'Platform/Lifecycle', 92, Ljava_lang_Enum_2_classLit, values_19);
 function $forward(this$static, kind, isTouch, source){
   var event_0;
   if (!this$static.enabled || !this$static.events._listeners)
@@ -7597,15 +9099,15 @@ function $forward(this$static, kind, isTouch, source){
   $dispatchEvent(this$static.plat, this$static.events, event_0);
 }
 
-defineClass(289, 1, {});
+defineClass(305, 1, {});
 _.enabled = true;
-var Lplayn_core_Pointer_2_classLit = createForClass('playn.core', 'Pointer', 289, Ljava_lang_Object_2_classLit);
+var Lplayn_core_Pointer_2_classLit = createForClass('playn.core', 'Pointer', 305, Ljava_lang_Object_2_classLit);
 function $onEmit_1(this$static, event_0){
   var bevent;
-  if (instanceOf(event_0, 145)) {
+  if (instanceOf(event_0, 152)) {
     this$static.dragging && $forward(this$static.this$01, ($clinit_Pointer$Event$Kind() , DRAG), false, event_0);
   }
-   else if (instanceOf(event_0, 110)) {
+   else if (instanceOf(event_0, 119)) {
     bevent = event_0;
     if (bevent.button_0 == ($clinit_Mouse$ButtonEvent$Id() , LEFT_1)) {
       this$static.dragging = bevent.down;
@@ -7618,20 +9120,20 @@ function Pointer$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(294, 478, {}, Pointer$1);
+defineClass(310, 512, {}, Pointer$1);
 _.onEmit = function onEmit_7(event_0){
   $onEmit_1(this, event_0);
 }
 ;
 _.dragging = false;
-var Lplayn_core_Pointer$1_2_classLit = createForClass('playn.core', 'Pointer/1', 294, Lreact_Slot_2_classLit);
+var Lplayn_core_Pointer$1_2_classLit = createForClass('playn.core', 'Pointer/1', 310, Lreact_Slot_2_classLit);
 function $onEmit_2(this$static, events){
   var event_0, event$index, event$max;
   for (event$index = 0 , event$max = events.length; event$index < event$max; ++event$index) {
     event_0 = events[event$index];
     this$static.active == -1 && event_0.kind.isStart && (this$static.active = event_0.id_0);
     if (event_0.id_0 == this$static.active) {
-      $forward(this$static.this$01, ($clinit_Pointer$Event$Kind() , initValues(getClassLiteralForArray(Lplayn_core_Pointer$Event$Kind_2_classLit, 1), $intern_1, 61, 0, [START, DRAG, END_0, CANCEL]))[event_0.kind.ordinal], true, event_0);
+      $forward(this$static.this$01, ($clinit_Pointer$Event$Kind() , initValues(getClassLiteralForArray(Lplayn_core_Pointer$Event$Kind_2_classLit, 1), $intern_1, 69, 0, [START, DRAG, END_0, CANCEL]))[event_0.kind.ordinal], true, event_0);
       event_0.kind.isEnd && (this$static.active = -1);
     }
   }
@@ -7641,25 +9143,25 @@ function Pointer$2(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(295, 478, {}, Pointer$2);
+defineClass(311, 512, {}, Pointer$2);
 _.onEmit = function onEmit_8(events){
   $onEmit_2(this, events);
 }
 ;
 _.active = -1;
-var Lplayn_core_Pointer$2_2_classLit = createForClass('playn.core', 'Pointer/2', 295, Lreact_Slot_2_classLit);
+var Lplayn_core_Pointer$2_2_classLit = createForClass('playn.core', 'Pointer/2', 311, Lreact_Slot_2_classLit);
 function Pointer$Event(flags, time, x_0, y_0, kind, isTouch){
   Event$XY.call(this, flags, time, x_0, y_0);
   this.kind = kind;
   this.isTouch = isTouch;
 }
 
-defineClass(293, 39, $intern_25, Pointer$Event);
+defineClass(309, 41, $intern_32, Pointer$Event);
 _.addFields = function addFields_6(builder){
-  $append_4($append_6($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
-  $append_3($append_6($append_3((builder.string += ', x=' , builder), this.x_0), ', y='), this.y_0);
-  $append_5((builder.string += ', kind=' , builder), this.kind);
-  $append_7((builder.string += ', touch=' , builder), this.isTouch);
+  $append_4($append_7($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
+  $append_3($append_7($append_3((builder.string += ', x=' , builder), this.x_0), ', y='), this.y_0);
+  $append_6((builder.string += ', kind=' , builder), this.kind);
+  $append_8((builder.string += ', touch=' , builder), this.isTouch);
 }
 ;
 _.name_1 = function name_9(){
@@ -7667,7 +9169,7 @@ _.name_1 = function name_9(){
 }
 ;
 _.isTouch = false;
-var Lplayn_core_Pointer$Event_2_classLit = createForClass('playn.core', 'Pointer/Event', 293, Lplayn_core_Event$XY_2_classLit);
+var Lplayn_core_Pointer$Event_2_classLit = createForClass('playn.core', 'Pointer/Event', 309, Lplayn_core_Event$XY_2_classLit);
 function $clinit_Pointer$Event$Kind(){
   $clinit_Pointer$Event$Kind = emptyMethod;
   START = new Pointer$Event$Kind('START', 0, true, false);
@@ -7684,22 +9186,22 @@ function Pointer$Event$Kind(enum$name, enum$ordinal, isStart, isEnd){
 
 function values_20(){
   $clinit_Pointer$Event$Kind();
-  return initValues(getClassLiteralForArray(Lplayn_core_Pointer$Event$Kind_2_classLit, 1), $intern_1, 61, 0, [START, DRAG, END_0, CANCEL]);
+  return initValues(getClassLiteralForArray(Lplayn_core_Pointer$Event$Kind_2_classLit, 1), $intern_1, 69, 0, [START, DRAG, END_0, CANCEL]);
 }
 
-defineClass(61, 6, {3:1, 7:1, 6:1, 61:1}, Pointer$Event$Kind);
+defineClass(69, 6, {3:1, 7:1, 6:1, 69:1}, Pointer$Event$Kind);
 _.isEnd = false;
 _.isStart = false;
 var CANCEL, DRAG, END_0, START;
-var Lplayn_core_Pointer$Event$Kind_2_classLit = createForEnum('playn.core', 'Pointer/Event/Kind', 61, Ljava_lang_Enum_2_classLit, values_20);
-defineClass(366, 495, $intern_23);
+var Lplayn_core_Pointer$Event$Kind_2_classLit = createForEnum('playn.core', 'Pointer/Event/Kind', 69, Ljava_lang_Enum_2_classLit, values_20);
+defineClass(384, 529, $intern_30);
 _.end = function end_0(){
   $end(this);
   this.curTexId = 0;
 }
 ;
 _.curTexId = 0;
-var Lplayn_core_TexturedBatch_2_classLit = createForClass('playn.core', 'TexturedBatch', 366, Lplayn_core_GLBatch_2_classLit);
+var Lplayn_core_TexturedBatch_2_classLit = createForClass('playn.core', 'TexturedBatch', 384, Lplayn_core_GLBatch_2_classLit);
 function $addQuad(this$static, tint, m00, m01, m10, m11, tx, ty, left, top_0, right, bottom, sr, sb){
   this$static.addQuad(tint, m00, m01, m10, m11, tx, ty, left, top_0, 0, 0, right, top_0, sr, 0, left, bottom, 0, sb, right, bottom, sr, sb);
 }
@@ -7717,11 +9219,11 @@ function QuadBatch(gl){
   this.gl = gl;
 }
 
-defineClass(172, 366, $intern_23);
-var Lplayn_core_QuadBatch_2_classLit = createForClass('playn.core', 'QuadBatch', 172, Lplayn_core_TexturedBatch_2_classLit);
+defineClass(182, 384, $intern_30);
+var Lplayn_core_QuadBatch_2_classLit = createForClass('playn.core', 'QuadBatch', 182, Lplayn_core_TexturedBatch_2_classLit);
 function $clinit_Scale(){
   $clinit_Scale = emptyMethod;
-  ONE = new Scale(1);
+  ONE_0 = new Scale(1);
 }
 
 function $computePath(path, scale){
@@ -7737,11 +9239,11 @@ function $computePath(path, scale){
 function $getScaledResources(this$static, path){
   var rscale, rsrcs;
   rsrcs = new ArrayList;
-  $add_2(rsrcs, new Scale$ScaledResource(this$static, $computePath(path, this$static.factor)));
+  $add_3(rsrcs, new Scale$ScaledResource(this$static, $computePath(path, this$static.factor)));
   for (rscale = ifloor(this$static.factor); rscale > 1; rscale -= 1) {
-    rscale != this$static.factor && $add_2(rsrcs, new Scale$ScaledResource(new Scale(rscale), $computePath(path, rscale)));
+    rscale != this$static.factor && $add_3(rsrcs, new Scale$ScaledResource(new Scale(rscale), $computePath(path, rscale)));
   }
-  $add_2(rsrcs, new Scale$ScaledResource(ONE, path));
+  $add_3(rsrcs, new Scale$ScaledResource(ONE_0, path));
   return rsrcs;
 }
 
@@ -7758,25 +9260,25 @@ function Scale(factor){
   this.factor = factor;
 }
 
-defineClass(108, 1, {}, Scale);
-_.toString$ = function toString_36(){
+defineClass(115, 1, {}, Scale);
+_.toString$ = function toString_47(){
   return 'x' + this.factor;
 }
 ;
 _.factor = 0;
-var ONE;
-var Lplayn_core_Scale_2_classLit = createForClass('playn.core', 'Scale', 108, Ljava_lang_Object_2_classLit);
+var ONE_0;
+var Lplayn_core_Scale_2_classLit = createForClass('playn.core', 'Scale', 115, Ljava_lang_Object_2_classLit);
 function Scale$ScaledResource(scale, path){
   this.scale_0 = scale;
   this.path = path;
 }
 
-defineClass(133, 1, {}, Scale$ScaledResource);
-_.toString$ = function toString_37(){
+defineClass(142, 1, {}, Scale$ScaledResource);
+_.toString$ = function toString_48(){
   return this.scale_0 + ': ' + this.path;
 }
 ;
-var Lplayn_core_Scale$ScaledResource_2_classLit = createForClass('playn.core', 'Scale/ScaledResource', 133, Ljava_lang_Object_2_classLit);
+var Lplayn_core_Scale$ScaledResource_2_classLit = createForClass('playn.core', 'Scale/ScaledResource', 142, Ljava_lang_Object_2_classLit);
 function $begin_0(this$static){
   $bind(this$static.target);
   $beginBatch(this$static, this$static.batch);
@@ -7849,7 +9351,7 @@ function $fillRect_0(this$static, x_0, y_0, width_0, height){
 
 function $pushScissorState(this$static, x_0, y_0, width_0, height){
   var pr, r;
-  this$static.scissorDepth == this$static.scissors.array.length && $add_2(this$static.scissors, new Rectangle_1);
+  this$static.scissorDepth == this$static.scissors.array.length && $add_3(this$static.scissors, new Rectangle_1);
   r = $get_7(this$static.scissors, this$static.scissorDepth);
   if (this$static.scissorDepth == 0) {
     r.x_0 = x_0;
@@ -7869,13 +9371,13 @@ function $pushScissorState(this$static, x_0, y_0, width_0, height){
 function $restoreTx(this$static){
   var tsSize;
   tsSize = this$static.transformStack.array.length;
-  this$static.transformStack.remove(--tsSize);
+  this$static.transformStack.remove_1(--tsSize);
   this$static.lastTrans = this$static.transformStack.array.length == 0?null:$get_7(this$static.transformStack, tsSize - 1);
   return this$static;
 }
 
 function $saveTx(this$static){
-  $add_2(this$static.transformStack, this$static.lastTrans = $copy(this$static.lastTrans));
+  $add_3(this$static.transformStack, this$static.lastTrans = $copy(this$static.lastTrans));
   return this$static;
 }
 
@@ -7904,19 +9406,19 @@ function Surface(gfx, target, defaultBatch){
   this.scissors = new ArrayList;
   this.target = target;
   this.batch = defaultBatch;
-  $add_2(this.transformStack, this.lastTrans = new AffineTransform);
+  $add_3(this.transformStack, this.lastTrans = new AffineTransform);
   this.colorTex = $colorTex(gfx);
   $scale_0(this, target.this$01.scale_0.factor, target.this$01.scale_0.factor);
 }
 
-defineClass(367, 1, $intern_23, Surface);
+defineClass(385, 1, $intern_30, Surface);
 _.close_0 = function close_5(){
 }
 ;
 _.fillColor = 0;
 _.scissorDepth = 0;
 _.tint = -1;
-var Lplayn_core_Surface_2_classLit = createForClass('playn.core', 'Surface', 367, Ljava_lang_Object_2_classLit);
+var Lplayn_core_Surface_2_classLit = createForClass('playn.core', 'Surface', 385, Ljava_lang_Object_2_classLit);
 function getBounds(lines, into){
   var bounds, layout, layout$index, layout$max, theight, twidth, xAdjust;
   xAdjust = 0;
@@ -7927,8 +9429,8 @@ function getBounds(lines, into){
     bounds = layout.bounds;
     xAdjust = max_0(xAdjust, -min_0(0, bounds.x_0));
     twidth = max_0(twidth, layout.size_0.width_0);
-    layout != lines[0] && (theight += $intern_26 * layout.metrics.height_0);
-    theight += $intern_27 * layout.metrics.height_0 + $descent(layout.metrics);
+    layout != lines[0] && (theight += $intern_33 * layout.metrics.height_0);
+    theight += $intern_34 * layout.metrics.height_0 + $descent(layout.metrics);
   }
   $setBounds(into, xAdjust, 0, xAdjust + twidth, theight);
   return into;
@@ -7947,45 +9449,45 @@ function TextBlock$Align(enum$name, enum$ordinal){
 
 function values_21(){
   $clinit_TextBlock$Align();
-  return initValues(getClassLiteralForArray(Lplayn_core_TextBlock$Align_2_classLit, 1), $intern_1, 56, 0, [LEFT_2, CENTER, RIGHT_2]);
+  return initValues(getClassLiteralForArray(Lplayn_core_TextBlock$Align_2_classLit, 1), $intern_1, 65, 0, [LEFT_2, CENTER, RIGHT_2]);
 }
 
-defineClass(56, 6, $intern_28);
+defineClass(65, 6, $intern_35);
 var CENTER, LEFT_2, RIGHT_2;
-var Lplayn_core_TextBlock$Align_2_classLit = createForEnum('playn.core', 'TextBlock/Align', 56, Ljava_lang_Enum_2_classLit, values_21);
+var Lplayn_core_TextBlock$Align_2_classLit = createForEnum('playn.core', 'TextBlock/Align', 65, Ljava_lang_Enum_2_classLit, values_21);
 function TextBlock$Align$1(){
   TextBlock$Align.call(this, 'LEFT', 0);
 }
 
-defineClass(452, 56, $intern_28, TextBlock$Align$1);
+defineClass(486, 65, $intern_35, TextBlock$Align$1);
 _.getX = function getX(lineWidth, blockWidth){
   return 0;
 }
 ;
-var Lplayn_core_TextBlock$Align$1_2_classLit = createForEnum('playn.core', 'TextBlock/Align/1', 452, Lplayn_core_TextBlock$Align_2_classLit, null);
+var Lplayn_core_TextBlock$Align$1_2_classLit = createForEnum('playn.core', 'TextBlock/Align/1', 486, Lplayn_core_TextBlock$Align_2_classLit, null);
 function TextBlock$Align$2(){
   TextBlock$Align.call(this, 'CENTER', 1);
 }
 
-defineClass(453, 56, $intern_28, TextBlock$Align$2);
+defineClass(487, 65, $intern_35, TextBlock$Align$2);
 _.getX = function getX_0(lineWidth, blockWidth){
   return (blockWidth - lineWidth) / 2;
 }
 ;
-var Lplayn_core_TextBlock$Align$2_2_classLit = createForEnum('playn.core', 'TextBlock/Align/2', 453, Lplayn_core_TextBlock$Align_2_classLit, null);
+var Lplayn_core_TextBlock$Align$2_2_classLit = createForEnum('playn.core', 'TextBlock/Align/2', 487, Lplayn_core_TextBlock$Align_2_classLit, null);
 function TextBlock$Align$3(){
   TextBlock$Align.call(this, 'RIGHT', 2);
 }
 
-defineClass(454, 56, $intern_28, TextBlock$Align$3);
+defineClass(488, 65, $intern_35, TextBlock$Align$3);
 _.getX = function getX_1(lineWidth, blockWidth){
   return blockWidth - lineWidth;
 }
 ;
-var Lplayn_core_TextBlock$Align$3_2_classLit = createForEnum('playn.core', 'TextBlock/Align/3', 454, Lplayn_core_TextBlock$Align_2_classLit, null);
+var Lplayn_core_TextBlock$Align$3_2_classLit = createForEnum('playn.core', 'TextBlock/Align/3', 488, Lplayn_core_TextBlock$Align_2_classLit, null);
 function $equals_3(this$static, other){
   var ofmt;
-  if (instanceOf(other, 118)) {
+  if (instanceOf(other, 127)) {
     ofmt = other;
     return (this$static.font_0 == ofmt.font_0 || !!this$static.font_0 && $equals_2(this$static.font_0, ofmt.font_0)) && this$static.antialias_0 == ofmt.antialias_0;
   }
@@ -8001,21 +9503,21 @@ function $hashCode_1(this$static){
   return hash;
 }
 
-defineClass(118, 1, {118:1});
-_.equals$ = function equals_26(other){
+defineClass(127, 1, {127:1});
+_.equals$ = function equals_30(other){
   return $equals_3(this, other);
 }
 ;
-_.hashCode$ = function hashCode_29(){
+_.hashCode$ = function hashCode_33(){
   return $hashCode_1(this);
 }
 ;
-_.toString$ = function toString_38(){
+_.toString$ = function toString_49(){
   return '[font=' + this.font_0 + ', antialias=' + this.antialias_0 + ']';
 }
 ;
 _.antialias_0 = false;
-var Lplayn_core_TextFormat_2_classLit = createForClass('playn.core', 'TextFormat', 118, Ljava_lang_Object_2_classLit);
+var Lplayn_core_TextFormat_2_classLit = createForClass('playn.core', 'TextFormat', 127, Ljava_lang_Object_2_classLit);
 function TextLayout(text_0, format, bounds, height){
   this.text_0 = text_0;
   this.format = format;
@@ -8023,11 +9525,11 @@ function TextLayout(text_0, format, bounds, height){
   this.size_0 = new Dimension_0(max_0(bounds.x_0, 0) + bounds.width_0, height);
 }
 
-defineClass(120, 1, {120:1});
-var Lplayn_core_TextLayout_2_classLit = createForClass('playn.core', 'TextLayout', 120, Ljava_lang_Object_2_classLit);
+defineClass(129, 1, {129:1});
+var Lplayn_core_TextLayout_2_classLit = createForClass('playn.core', 'TextLayout', 129, Ljava_lang_Object_2_classLit);
 function $clinit_TextWrap(){
   $clinit_TextWrap = emptyMethod;
-  new TextWrap($intern_29);
+  new TextWrap($intern_36);
 }
 
 function $hashCode_2(this$static){
@@ -8040,10 +9542,10 @@ function TextWrap(width_0){
   this.indent = 0;
 }
 
-defineClass(102, 1, {102:1}, TextWrap);
-_.equals$ = function equals_27(other){
+defineClass(108, 1, {108:1}, TextWrap);
+_.equals$ = function equals_31(other){
   var ow;
-  if (instanceOf(other, 102)) {
+  if (instanceOf(other, 108)) {
     ow = other;
     return this.width_0 == ow.width_0 && this.indent == ow.indent;
   }
@@ -8052,14 +9554,14 @@ _.equals$ = function equals_27(other){
   }
 }
 ;
-_.hashCode$ = function hashCode_30(){
+_.hashCode$ = function hashCode_34(){
   return $hashCode_2(this);
 }
 ;
 _.indent = 0;
 _.width_0 = 0;
-var Lplayn_core_TextWrap_2_classLit = createForClass('playn.core', 'TextWrap', 102, Ljava_lang_Object_2_classLit);
-defineClass(500, 487, {});
+var Lplayn_core_TextWrap_2_classLit = createForClass('playn.core', 'TextWrap', 108, Ljava_lang_Object_2_classLit);
+defineClass(534, 521, {});
 _.isLoaded = function isLoaded_0(){
   return true;
 }
@@ -8072,11 +9574,11 @@ _.tileAsync = function tileAsync_0(){
   return new RFuture(($clinit_AbstractValue() , new Value(new Try$Success(this))));
 }
 ;
-_.toString$ = function toString_39(){
-  return 'Tile[' + this.displayWidth + 'x' + this.displayHeight + '/' + ($clinit_Points() , toString_54(0, TO_STRING_DECIMAL_PLACES) + toString_54(0, TO_STRING_DECIMAL_PLACES)) + '/' + (toString_54(1, TO_STRING_DECIMAL_PLACES) + toString_54(1, TO_STRING_DECIMAL_PLACES)) + '] <- ' + this;
+_.toString$ = function toString_50(){
+  return 'Tile[' + this.displayWidth + 'x' + this.displayHeight + '/' + ($clinit_Points() , toString_65(0, TO_STRING_DECIMAL_PLACES) + toString_65(0, TO_STRING_DECIMAL_PLACES)) + '/' + (toString_65(1, TO_STRING_DECIMAL_PLACES) + toString_65(1, TO_STRING_DECIMAL_PLACES)) + '] <- ' + this;
 }
 ;
-var Lplayn_core_Tile_2_classLit = createForClass('playn.core', 'Tile', 500, Lplayn_core_TileSource_2_classLit);
+var Lplayn_core_Tile_2_classLit = createForClass('playn.core', 'Tile', 534, Lplayn_core_TileSource_2_classLit);
 function $addToBatch(this$static, batch, tint, tx, width_0, height){
   $addQuad_0(batch, this$static, tint, tx, 0, 0, width_0, height);
 }
@@ -8100,7 +9602,7 @@ function $update_0(this$static, image){
     potWidth = $toTexWidth(this$static.config, pixWidth);
     potHeight = $toTexWidth(this$static.config, pixHeight);
     if (potWidth != pixWidth || potHeight != pixHeight) {
-      scaled = $createCanvasImpl(this$static.gfx, ($clinit_Scale() , ONE), potWidth, potHeight);
+      scaled = $createCanvasImpl(this$static.gfx, ($clinit_Scale() , ONE_0), potWidth, potHeight);
       $draw_0(image, scaled.ctx, potWidth, potHeight);
       $upload(scaled.image, this$static.gfx, this$static);
     }
@@ -8137,12 +9639,12 @@ function nextPOT(value_0){
   return count > 1?1 << highest + 1:value_0;
 }
 
-defineClass(373, 500, $intern_23, Texture);
+defineClass(398, 534, $intern_30, Texture);
 _.close_0 = function close_6(){
   $close_1(this);
 }
 ;
-_.toString$ = function toString_40(){
+_.toString$ = function toString_51(){
   return 'Texture[id=' + this.id_0 + ', psize=' + this.pixelWidth + 'x' + this.pixelHeight + ', dsize=' + this.displayWidth + 'x' + this.displayHeight + ' @ ' + this.scale_0 + ', config=' + this.config + ']';
 }
 ;
@@ -8153,7 +9655,7 @@ _.id_0 = 0;
 _.pixelHeight = 0;
 _.pixelWidth = 0;
 _.refs = 0;
-var Lplayn_core_Texture_2_classLit = createForClass('playn.core', 'Texture', 373, Lplayn_core_Tile_2_classLit);
+var Lplayn_core_Texture_2_classLit = createForClass('playn.core', 'Texture', 398, Lplayn_core_Tile_2_classLit);
 function $clinit_Texture$Config(){
   $clinit_Texture$Config = emptyMethod;
   DEFAULT = new Texture$Config(true);
@@ -8177,8 +9679,8 @@ function Texture$Config(managed){
   this.mipmaps = false;
 }
 
-defineClass(177, 1, {}, Texture$Config);
-_.toString$ = function toString_41(){
+defineClass(187, 1, {}, Texture$Config);
+_.toString$ = function toString_52(){
   var repstr;
   repstr = (this.repeatX?'x':'') + (this.repeatY?'y':'');
   return '[managed=' + this.managed + ', repeat=' + repstr + ', filter=' + this.minFilter + '/' + this.magFilter + ', mipmaps=' + this.mipmaps + ']';
@@ -8191,7 +9693,7 @@ _.mipmaps = false;
 _.repeatX = false;
 _.repeatY = false;
 var DEFAULT, UNMANAGED;
-var Lplayn_core_Texture$Config_2_classLit = createForClass('playn.core', 'Texture/Config', 177, Ljava_lang_Object_2_classLit);
+var Lplayn_core_Texture$Config_2_classLit = createForClass('playn.core', 'Texture/Config', 187, Ljava_lang_Object_2_classLit);
 function $fragment(){
   var str;
   str = new StringBuilder_1('#ifdef GL_ES\nprecision lowp float;\n#else\n#define lowp\n#define mediump\n#define highp\n#endif\n');
@@ -8208,8 +9710,8 @@ function $fragment(){
 function combine(curTint, tint){
   var newA, newB, newG, newR;
   newA = ((curTint >> 24 & 255) * ((tint >> 24 & 255) + 1) & 65280) << 16;
-  if ((tint & $intern_17) == $intern_17) {
-    return newA | curTint & $intern_17;
+  if ((tint & $intern_29) == $intern_29) {
+    return newA | curTint & $intern_29;
   }
   newR = ((curTint >> 16 & 255) * ((tint >> 16 & 255) + 1) & 65280) << 8;
   newG = (curTint >> 8 & 255) * ((tint >> 8 & 255) + 1) & 65280;
@@ -8225,11 +9727,11 @@ function Touch$Event(time, x_0, y_0, kind, id_0){
   this.size_0 = -1;
 }
 
-defineClass(106, 39, {30:1, 27:1, 39:1, 106:1, 38:1}, Touch$Event);
+defineClass(113, 41, {32:1, 29:1, 41:1, 113:1, 39:1}, Touch$Event);
 _.addFields = function addFields_7(builder){
-  $append_4($append_6($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
-  $append_3($append_6($append_3((builder.string += ', x=' , builder), this.x_0), ', y='), this.y_0);
-  $append_3($append_6($append_3($append_6($append_4($append_6($append_5((builder.string += ', kind=' , builder), this.kind), ', id='), this.id_0), ', pressure='), this.pressure), ', size='), this.size_0);
+  $append_4($append_7($append_2((builder.string += 'time=' , builder), this.time), ', flags='), this.flags);
+  $append_3($append_7($append_3((builder.string += ', x=' , builder), this.x_0), ', y='), this.y_0);
+  $append_3($append_7($append_3($append_7($append_4($append_7($append_6((builder.string += ', kind=' , builder), this.kind), ', id='), this.id_0), ', pressure='), this.pressure), ', size='), this.size_0);
 }
 ;
 _.name_1 = function name_10(){
@@ -8239,7 +9741,7 @@ _.name_1 = function name_10(){
 _.id_0 = 0;
 _.pressure = 0;
 _.size_0 = 0;
-var Lplayn_core_Touch$Event_2_classLit = createForClass('playn.core', 'Touch/Event', 106, Lplayn_core_Event$XY_2_classLit);
+var Lplayn_core_Touch$Event_2_classLit = createForClass('playn.core', 'Touch/Event', 113, Lplayn_core_Event$XY_2_classLit);
 function $clinit_Touch$Event$Kind(){
   $clinit_Touch$Event$Kind = emptyMethod;
   START_0 = new Touch$Event$Kind('START', 0, true, false);
@@ -8256,17 +9758,17 @@ function Touch$Event$Kind(enum$name, enum$ordinal, isStart, isEnd){
 
 function values_22(){
   $clinit_Touch$Event$Kind();
-  return initValues(getClassLiteralForArray(Lplayn_core_Touch$Event$Kind_2_classLit, 1), $intern_1, 77, 0, [START_0, MOVE, END_1, CANCEL_0]);
+  return initValues(getClassLiteralForArray(Lplayn_core_Touch$Event$Kind_2_classLit, 1), $intern_1, 83, 0, [START_0, MOVE, END_1, CANCEL_0]);
 }
 
-defineClass(77, 6, {3:1, 7:1, 6:1, 77:1}, Touch$Event$Kind);
+defineClass(83, 6, {3:1, 7:1, 6:1, 83:1}, Touch$Event$Kind);
 _.isEnd = false;
 _.isStart = false;
 var CANCEL_0, END_1, MOVE, START_0;
-var Lplayn_core_Touch$Event$Kind_2_classLit = createForEnum('playn.core', 'Touch/Event/Kind', 77, Ljava_lang_Enum_2_classLit, values_22);
+var Lplayn_core_Touch$Event$Kind_2_classLit = createForEnum('playn.core', 'Touch/Event/Kind', 83, Ljava_lang_Enum_2_classLit, values_22);
 function $clinit_TriangleBatch(){
   $clinit_TriangleBatch = emptyMethod;
-  QUAD_INDICES = initValues(getClassLiteralForArray(I_classLit, 1), $intern_21, 0, 7, [0, 1, 2, 1, 3, 2]);
+  QUAD_INDICES = initValues(getClassLiteralForArray(I_classLit, 1), $intern_23, 0, 7, [0, 1, 2, 1, 3, 2]);
 }
 
 function $addElems(this$static, vertIdx, indices, indicesLen){
@@ -8299,7 +9801,7 @@ function $expandElems(this$static, elemCount){
   newElems = this$static.elements.length;
   while (newElems < elemCount)
     newElems += 96;
-  this$static.elements = initDim(S_classLit, $intern_30, 0, newElems, 7, 1);
+  this$static.elements = initDim(S_classLit, $intern_37, 0, newElems, 7, 1);
 }
 
 function $expandVerts(this$static, vertCount){
@@ -8307,7 +9809,7 @@ function $expandVerts(this$static, vertCount){
   newVerts = ~~(this$static.vertices.length / 12);
   while (newVerts < vertCount)
     newVerts += 64;
-  this$static.vertices = initDim(F_classLit, $intern_31, 0, newVerts * 12, 7, 1);
+  this$static.vertices = initDim(F_classLit, $intern_38, 0, newVerts * 12, 7, 1);
 }
 
 function $flush_0(this$static){
@@ -8316,21 +9818,21 @@ function $flush_0(this$static){
     $glBindTexture(this$static.gl, this$static.curTexId);
     $checkError(this$static.gl);
     if (this$static.delayedBinding) {
-      $glBindBuffer(this$static.gl, $intern_32, this$static.verticesId);
+      $glBindBuffer(this$static.gl, $intern_39, this$static.verticesId);
       $glBindVertAttrib(this$static, this$static.aMatrix, 4, 0);
       $glBindVertAttrib(this$static, this$static.aTranslation, 2, 16);
       $glBindVertAttrib(this$static, this$static.aColor, 2, 24);
       $glBindVertAttrib(this$static, this$static.aPosition, 2, 32);
       $glBindVertAttrib(this$static, this$static.aTexCoord, 2, 40);
-      $glBindBuffer(this$static.gl, $intern_33, this$static.elementsId);
+      $glBindBuffer(this$static.gl, $intern_40, this$static.elementsId);
       $activeTexture(this$static.gl.glc, 33984);
       $glUniform1i(this$static.gl, this$static.uTexture);
       $checkError(this$static.gl);
     }
     $setFloatBuffer(this$static.gl.bufs, this$static.vertices, this$static.vertPos);
-    $glBufferData(this$static.gl, $intern_32, this$static.vertPos * 4, this$static.gl.bufs.floatBuffer, 35040);
+    $glBufferData(this$static.gl, $intern_39, this$static.vertPos * 4, this$static.gl.bufs.floatBuffer, 35040);
     $setShortBuffer(this$static.gl.bufs, this$static.elements, this$static.elemPos);
-    $glBufferData(this$static.gl, $intern_33, this$static.elemPos * 2, this$static.gl.bufs.shortBuffer, 35040);
+    $glBufferData(this$static.gl, $intern_40, this$static.elemPos * 2, this$static.gl.bufs.shortBuffer, 35040);
     $checkError(this$static.gl);
     $glDrawElements(this$static.gl, this$static.elemPos);
     $checkError(this$static.gl);
@@ -8358,17 +9860,17 @@ function TriangleBatch(gl){
   this.aColor = $getAttribLocation_0(this.program, 'a_Color');
   this.aPosition = $getAttribLocation_0(this.program, 'a_Position');
   this.aTexCoord = $getAttribLocation_0(this.program, 'a_TexCoord');
-  this.stableAttrs = initDim(F_classLit, $intern_31, 0, 8, 7, 1);
-  this.vertices = initDim(F_classLit, $intern_31, 0, 768, 7, 1);
-  this.elements = initDim(S_classLit, $intern_30, 0, 96, 7, 1);
-  ids = initDim(I_classLit, $intern_21, 0, 2, 7, 1);
+  this.stableAttrs = initDim(F_classLit, $intern_38, 0, 8, 7, 1);
+  this.vertices = initDim(F_classLit, $intern_38, 0, 768, 7, 1);
+  this.elements = initDim(S_classLit, $intern_37, 0, 96, 7, 1);
+  ids = initDim(I_classLit, $intern_23, 0, 2, 7, 1);
   $genObjects_0(gl, ids, ($clinit_HtmlGL20$WebGLObjectType() , BUFFER));
   this.verticesId = ids[0];
   this.elementsId = ids[1];
   $checkError(gl);
 }
 
-function add_6(into, offset, x_0, y_0, sx, sy){
+function add_7(into, offset, x_0, y_0, sx, sy){
   into[offset++] = x_0;
   into[offset++] = y_0;
   into[offset++] = sx;
@@ -8376,7 +9878,7 @@ function add_6(into, offset, x_0, y_0, sx, sy){
   return offset;
 }
 
-defineClass(176, 172, $intern_23, TriangleBatch);
+defineClass(186, 182, $intern_30, TriangleBatch);
 _.addQuad = function addQuad(tint, m00, m01, m10, m11, tx, ty, x1, y1, sx1, sy1, x2, y2, sx2, sy2, x3, y3, sx3, sy3, x4, y4, sx4, sy4){
   var offset, stables, vertIdx, verts, stables_0;
   stables_0 = this.stableAttrs;
@@ -8386,16 +9888,16 @@ _.addQuad = function addQuad(tint, m00, m01, m10, m11, tx, ty, x1, y1, sx1, sy1,
   stables_0[3] = m11;
   stables_0[4] = tx;
   stables_0[5] = ty;
-  stables_0[6] = tint >> 16 & $intern_20;
-  stables_0[7] = tint & $intern_20;
+  stables_0[6] = tint >> 16 & $intern_22;
+  stables_0[7] = tint & $intern_22;
   vertIdx = $beginPrimitive(this);
   offset = this.vertPos;
   verts = this.vertices;
   stables = this.stableAttrs;
-  offset = add_6(verts, (arraycopy(stables, 0, verts, offset, stables.length) , offset + stables.length), x1, y1, sx1, sy1);
-  offset = add_6(verts, (arraycopy(stables, 0, verts, offset, stables.length) , offset + stables.length), x2, y2, sx2, sy2);
-  offset = add_6(verts, (arraycopy(stables, 0, verts, offset, stables.length) , offset + stables.length), x3, y3, sx3, sy3);
-  offset = add_6(verts, (arraycopy(stables, 0, verts, offset, stables.length) , offset + stables.length), x4, y4, sx4, sy4);
+  offset = add_7(verts, (arraycopy(stables, 0, verts, offset, stables.length) , offset + stables.length), x1, y1, sx1, sy1);
+  offset = add_7(verts, (arraycopy(stables, 0, verts, offset, stables.length) , offset + stables.length), x2, y2, sx2, sy2);
+  offset = add_7(verts, (arraycopy(stables, 0, verts, offset, stables.length) , offset + stables.length), x3, y3, sx3, sy3);
+  offset = add_7(verts, (arraycopy(stables, 0, verts, offset, stables.length) , offset + stables.length), x4, y4, sx4, sy4);
   this.vertPos = offset;
   $addElems(this, vertIdx, QUAD_INDICES, QUAD_INDICES.length);
 }
@@ -8405,14 +9907,14 @@ _.begin = function begin_0(fbufWidth, fbufHeight, flip){
   $activate(this.program);
   $glUniform2f(this.gl, this.uHScreenSize, fbufWidth / 2, fbufHeight / 2);
   $glUniform1f(this.gl, this.uFlip, flip?-1:1);
-  this.delayedBinding || ($glBindBuffer(this.gl, $intern_32, this.verticesId) , $glBindVertAttrib(this, this.aMatrix, 4, 0) , $glBindVertAttrib(this, this.aTranslation, 2, 16) , $glBindVertAttrib(this, this.aColor, 2, 24) , $glBindVertAttrib(this, this.aPosition, 2, 32) , $glBindVertAttrib(this, this.aTexCoord, 2, 40) , $glBindBuffer(this.gl, $intern_33, this.elementsId) , $activeTexture(this.gl.glc, 33984) , $glUniform1i(this.gl, this.uTexture));
+  this.delayedBinding || ($glBindBuffer(this.gl, $intern_39, this.verticesId) , $glBindVertAttrib(this, this.aMatrix, 4, 0) , $glBindVertAttrib(this, this.aTranslation, 2, 16) , $glBindVertAttrib(this, this.aColor, 2, 24) , $glBindVertAttrib(this, this.aPosition, 2, 32) , $glBindVertAttrib(this, this.aTexCoord, 2, 40) , $glBindBuffer(this.gl, $intern_40, this.elementsId) , $activeTexture(this.gl.glc, 33984) , $glUniform1i(this.gl, this.uTexture));
   $checkError(this.gl);
 }
 ;
 _.close_0 = function close_7(){
   $close(this);
   $close_0(this.program);
-  $deleteObjects_0(this.gl, initValues(getClassLiteralForArray(I_classLit, 1), $intern_21, 0, 7, [this.verticesId, this.elementsId]), ($clinit_HtmlGL20$WebGLObjectType() , BUFFER));
+  $deleteObjects_0(this.gl, initValues(getClassLiteralForArray(I_classLit, 1), $intern_23, 0, 7, [this.verticesId, this.elementsId]), ($clinit_HtmlGL20$WebGLObjectType() , BUFFER));
   $checkError(this.gl);
 }
 ;
@@ -8431,7 +9933,7 @@ _.flush = function flush_0(){
   $flush_0(this);
 }
 ;
-_.toString$ = function toString_42(){
+_.toString$ = function toString_53(){
   return 'tris/' + ~~(this.elements.length / QUAD_INDICES.length);
 }
 ;
@@ -8449,7 +9951,7 @@ _.uTexture = 0;
 _.vertPos = 0;
 _.verticesId = 0;
 var QUAD_INDICES;
-var Lplayn_core_TriangleBatch_2_classLit = createForClass('playn.core', 'TriangleBatch', 176, Lplayn_core_QuadBatch_2_classLit);
+var Lplayn_core_TriangleBatch_2_classLit = createForClass('playn.core', 'TriangleBatch', 186, Lplayn_core_QuadBatch_2_classLit);
 function $flush_1(this$static){
   $flush(this$static);
   if (this$static.quadCounter > 0) {
@@ -8479,8 +9981,8 @@ function UniformQuadBatch_0(gl){
   this.uFlip = $getUniformLocation_0(this.program, 'u_Flip');
   this.uData = $getUniformLocation_0(this.program, 'u_Data');
   this.aVertex = $getAttribLocation_0(this.program, 'a_Vertex');
-  verts = initDim(S_classLit, $intern_30, 0, this.maxQuads * 4 * 3, 7, 1);
-  elems = initDim(S_classLit, $intern_30, 0, this.maxQuads * 6, 7, 1);
+  verts = initDim(S_classLit, $intern_37, 0, this.maxQuads * 4 * 3, 7, 1);
+  elems = initDim(S_classLit, $intern_37, 0, this.maxQuads * 6, 7, 1);
   vv = 0;
   ee = 0;
   for (ii = 0; ii < this.maxQuads; ii++) {
@@ -8508,17 +10010,17 @@ function UniformQuadBatch_0(gl){
     elems[ee++] = base3;
     elems[ee++] = base2;
   }
-  this.data_0 = initDim(F_classLit, $intern_31, 0, this.maxQuads * 3 * 4, 7, 1);
-  ids = initDim(I_classLit, $intern_21, 0, 2, 7, 1);
+  this.data_0 = initDim(F_classLit, $intern_38, 0, this.maxQuads * 3 * 4, 7, 1);
+  ids = initDim(I_classLit, $intern_23, 0, 2, 7, 1);
   $genObjects_0(gl, ids, ($clinit_HtmlGL20$WebGLObjectType() , BUFFER));
   this.verticesId = ids[0];
   this.elementsId = ids[1];
-  $glBindBuffer(gl, $intern_32, this.verticesId);
+  $glBindBuffer(gl, $intern_39, this.verticesId);
   $setShortBuffer(gl.bufs, verts, verts.length);
-  $glBufferData(gl, $intern_32, verts.length * 2, gl.bufs.shortBuffer, 35044);
-  $glBindBuffer(gl, $intern_33, this.elementsId);
+  $glBufferData(gl, $intern_39, verts.length * 2, gl.bufs.shortBuffer, 35044);
+  $glBindBuffer(gl, $intern_40, this.elementsId);
   $setShortBuffer(gl.bufs, elems, elems.length);
-  $glBufferData(gl, $intern_33, elems.length * 2, gl.bufs.shortBuffer, 35044);
+  $glBufferData(gl, $intern_40, elems.length * 2, gl.bufs.shortBuffer, 35044);
   $checkError(gl);
 }
 
@@ -8531,7 +10033,7 @@ function usableMaxUniformVectors(gl){
   return maxVecs;
 }
 
-defineClass(175, 172, $intern_23, UniformQuadBatch);
+defineClass(185, 182, $intern_30, UniformQuadBatch);
 _.addQuad = function addQuad_0(tint, m00, m01, m10, m11, tx, ty, x1, y1, sx1, sy1, x2, y2, sx2, sy2, x3, y3, sx3, sy3, x4, y4, sx4, sy4){
   var dh, dw, pos;
   pos = this.quadCounter * 3 * 4;
@@ -8547,8 +10049,8 @@ _.addQuad = function addQuad_0(tint, m00, m01, m10, m11, tx, ty, x1, y1, sx1, sy
   this.data_0[pos++] = sy1;
   this.data_0[pos++] = sx2 - sx1;
   this.data_0[pos++] = sy3 - sy1;
-  this.data_0[pos++] = tint >> 16 & $intern_20;
-  this.data_0[pos++] = tint & $intern_20;
+  this.data_0[pos++] = tint >> 16 & $intern_22;
+  this.data_0[pos++] = tint & $intern_22;
   ++this.quadCounter;
   this.quadCounter >= this.maxQuads && $flush_1(this);
 }
@@ -8558,10 +10060,10 @@ _.begin = function begin_1(fbufWidth, fbufHeight, flip){
   $activate(this.program);
   $glUniform2f(this.gl, this.uHScreenSize, fbufWidth / 2, fbufHeight / 2);
   $glUniform1f(this.gl, this.uFlip, flip?-1:1);
-  $glBindBuffer(this.gl, $intern_32, this.verticesId);
+  $glBindBuffer(this.gl, $intern_39, this.verticesId);
   $glEnableVertexAttribArray(this.gl, this.aVertex);
   $glVertexAttribPointer(this.gl, this.aVertex, 3, 5122, 0, 0);
-  $glBindBuffer(this.gl, $intern_33, this.elementsId);
+  $glBindBuffer(this.gl, $intern_40, this.elementsId);
   $activeTexture(this.gl.glc, 33984);
   $glUniform1i(this.gl, this.uTexture);
   $checkError(this.gl);
@@ -8570,7 +10072,7 @@ _.begin = function begin_1(fbufWidth, fbufHeight, flip){
 _.close_0 = function close_8(){
   $close(this);
   $close_0(this.program);
-  $deleteObjects_0(this.gl, initValues(getClassLiteralForArray(I_classLit, 1), $intern_21, 0, 7, [this.verticesId, this.elementsId]), ($clinit_HtmlGL20$WebGLObjectType() , BUFFER));
+  $deleteObjects_0(this.gl, initValues(getClassLiteralForArray(I_classLit, 1), $intern_23, 0, 7, [this.verticesId, this.elementsId]), ($clinit_HtmlGL20$WebGLObjectType() , BUFFER));
   $checkError(this.gl);
 }
 ;
@@ -8585,7 +10087,7 @@ _.flush = function flush_1(){
   $flush_1(this);
 }
 ;
-_.toString$ = function toString_43(){
+_.toString$ = function toString_54(){
   return 'uquad/' + this.maxQuads;
 }
 ;
@@ -8598,12 +10100,12 @@ _.uFlip = 0;
 _.uHScreenSize = 0;
 _.uTexture = 0;
 _.verticesId = 0;
-var Lplayn_core_UniformQuadBatch_2_classLit = createForClass('playn.core', 'UniformQuadBatch', 175, Lplayn_core_QuadBatch_2_classLit);
+var Lplayn_core_UniformQuadBatch_2_classLit = createForClass('playn.core', 'UniformQuadBatch', 185, Lplayn_core_QuadBatch_2_classLit);
 function $getBundle(this$static, collection){
   var clientBundle, entry, entry$iterator, regExp;
   clientBundle = null;
-  for (entry$iterator = new AbstractHashMap$EntrySetIterator((new AbstractHashMap$EntrySet(this$static.clientBundles)).this$01); $hasNext(entry$iterator);) {
-    entry = (checkStructuralChange(entry$iterator.this$01, entry$iterator) , checkCriticalElement($hasNext(entry$iterator)) , entry$iterator.current.next_0());
+  for (entry$iterator = new AbstractHashMap$EntrySetIterator((new AbstractHashMap$EntrySet(this$static.clientBundles)).this$01); $hasNext_0(entry$iterator);) {
+    entry = (checkStructuralChange(entry$iterator.this$01, entry$iterator) , checkCriticalElement($hasNext_0(entry$iterator)) , entry$iterator.last = entry$iterator.current , entry$iterator.current.next_0());
     regExp = entry.getKey();
     !!$exec(new RegExp(regExp), collection) && (clientBundle = entry.getValue());
   }
@@ -8612,7 +10114,7 @@ function $getBundle(this$static, collection){
 
 function $getImage(this$static, path){
   var assetScale, rsrcs;
-  assetScale = ($clinit_Scale() , ONE);
+  assetScale = ($clinit_Scale() , ONE_0);
   rsrcs = $getScaledResources(assetScale, path);
   return $getImage_0(this$static, (checkElementIndex(0, rsrcs.array.length) , rsrcs.array[0]).path, (checkElementIndex(0, rsrcs.array.length) , rsrcs.array[0]).scale_0);
 }
@@ -8630,8 +10132,8 @@ function HtmlAssets(plat){
   this.plat = plat;
 }
 
-defineClass(214, 477, {}, HtmlAssets);
-var Lplayn_html_HtmlAssets_2_classLit = createForClass('playn.html', 'HtmlAssets', 214, Lplayn_core_Assets_2_classLit);
+defineClass(228, 511, {}, HtmlAssets);
+var Lplayn_html_HtmlAssets_2_classLit = createForClass('playn.html', 'HtmlAssets', 228, Lplayn_core_Assets_2_classLit);
 function HtmlAudio(plat){
   var types;
   this.soundController = new SoundController;
@@ -8654,8 +10156,8 @@ function maybeCreateAudioContext(){
   return null;
 }
 
-defineClass(268, 486, {}, HtmlAudio);
-var Lplayn_html_HtmlAudio_2_classLit = createForClass('playn.html', 'HtmlAudio', 268, Lplayn_core_Audio_2_classLit);
+defineClass(282, 520, {}, HtmlAudio);
+var Lplayn_html_HtmlAudio_2_classLit = createForClass('playn.html', 'HtmlAudio', 282, Lplayn_core_Audio_2_classLit);
 function $clear_1(this$static){
   return $clearRect_0(this$static, this$static.width_0, this$static.height_0);
 }
@@ -8763,8 +10265,8 @@ function HtmlCanvas(image){
   $scale(this.ctx, scale, scale);
 }
 
-defineClass(394, 271, $intern_23, HtmlCanvas);
-var Lplayn_html_HtmlCanvas_2_classLit = createForClass('playn.html', 'HtmlCanvas', 394, Lplayn_core_Canvas_2_classLit);
+defineClass(421, 285, $intern_30, HtmlCanvas);
+var Lplayn_html_HtmlCanvas_2_classLit = createForClass('playn.html', 'HtmlCanvas', 421, Lplayn_core_Canvas_2_classLit);
 function $clinit_HtmlFont(){
   $clinit_HtmlFont = emptyMethod;
   DEFAULT_0 = new Font_0('sans-serif', ($clinit_Font$Style() , PLAIN), 12);
@@ -8801,7 +10303,7 @@ function $adjustWidth(this$static, width_0){
 }
 
 function $descent(this$static){
-  return this$static.height_0 - $intern_27 * this$static.height_0;
+  return this$static.height_0 - $intern_34 * this$static.height_0;
 }
 
 function HtmlFontMetrics(font, height, emwidth){
@@ -8810,10 +10312,10 @@ function HtmlFontMetrics(font, height, emwidth){
   this.emwidth = emwidth;
 }
 
-defineClass(456, 1, {}, HtmlFontMetrics);
+defineClass(490, 1, {}, HtmlFontMetrics);
 _.emwidth = 0;
 _.height_0 = 0;
-var Lplayn_html_HtmlFontMetrics_2_classLit = createForClass('playn.html', 'HtmlFontMetrics', 456, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlFontMetrics_2_classLit = createForClass('playn.html', 'HtmlFontMetrics', 490, Ljava_lang_Object_2_classLit);
 function $createObject(this$static, object, type_0){
   $push(this$static.webGLObjects, object);
   $push_0(this$static.webGLObjectTypes, type_0.ordinal);
@@ -8824,7 +10326,7 @@ function $deleteObject(this$static, index_0, type_0){
   var object;
   object = this$static.webGLObjects[index_0];
   this$static.webGLObjects[index_0] = null;
-  this$static.webGLObjectTypes[index_0] = 0;
+  $set(this$static.webGLObjectTypes, index_0, 0);
   switch (type_0.ordinal) {
     case 1:
       $deleteBuffer(this$static.glc, object);
@@ -8895,7 +10397,7 @@ function $genObjects_0(this$static, names, type_0){
 
 function $getTypedArray(buffer, type_0, byteSize){
   var arrayHolder, bufferElementSize, byteOffset, webGLArray;
-  if (!instanceOf(buffer, 158)) {
+  if (!instanceOf(buffer, 165)) {
     throw new RuntimeException_0('Native buffer required ' + buffer);
   }
   arrayHolder = buffer;
@@ -8908,17 +10410,17 @@ function $getTypedArray(buffer, type_0, byteSize){
   byteOffset = webGLArray.byteOffset + buffer.position_0 * bufferElementSize;
   switch (type_0) {
     case 5126:
-      return create_0(webGLArray.buffer, byteOffset, ~~(byteSize / 4));
+      return create_1(webGLArray.buffer, byteOffset, ~~(byteSize / 4));
     case 5121:
-      return create_5(webGLArray.buffer, byteOffset, byteSize);
+      return create_6(webGLArray.buffer, byteOffset, byteSize);
     case 5123:
-      return create_4(webGLArray.buffer, byteOffset, ~~(byteSize / 2));
+      return create_5(webGLArray.buffer, byteOffset, ~~(byteSize / 2));
     case 5124:
-      return create_2(webGLArray.buffer, byteOffset, ~~(byteSize / 4));
+      return create_3(webGLArray.buffer, byteOffset, ~~(byteSize / 4));
     case 5122:
-      return create_1(webGLArray.buffer, byteOffset, ~~(byteSize / 2));
+      return create_2(webGLArray.buffer, byteOffset, ~~(byteSize / 2));
     case 5120:
-      return create_3(webGLArray.buffer, byteOffset, byteSize);
+      return create_4(webGLArray.buffer, byteOffset, byteSize);
     default:throw new IllegalArgumentException_0('Type: ' + type_0);
   }
 }
@@ -8926,7 +10428,7 @@ function $getTypedArray(buffer, type_0, byteSize){
 function $glBindBuffer(this$static, target, buffer){
   var webGlBuf;
   webGlBuf = this$static.webGLObjects[buffer];
-  target == $intern_32?(this$static.requestedArrayBuffer = webGlBuf):target == $intern_33?(this$static.requestedElementArrayBuffer = webGlBuf):$bindBuffer(this$static.glc, target, webGlBuf);
+  target == $intern_39?(this$static.requestedArrayBuffer = webGlBuf):target == $intern_40?(this$static.requestedElementArrayBuffer = webGlBuf):$bindBuffer(this$static.glc, target, webGlBuf);
 }
 
 function $glBindFramebuffer(this$static){
@@ -8938,15 +10440,15 @@ function $glBindTexture(this$static, textureId){
 }
 
 function $glBufferData(this$static, target, byteSize, data_0, usage){
-  if (target == $intern_32) {
+  if (target == $intern_39) {
     if (this$static.requestedArrayBuffer != this$static.boundArrayBuffer) {
-      $bindBuffer(this$static.glc, $intern_32, this$static.requestedArrayBuffer);
+      $bindBuffer(this$static.glc, $intern_39, this$static.requestedArrayBuffer);
       this$static.boundArrayBuffer = this$static.requestedArrayBuffer;
     }
   }
-   else if (target == $intern_33) {
+   else if (target == $intern_40) {
     if (this$static.requestedElementArrayBuffer != this$static.boundElementArrayBuffer) {
-      $bindBuffer(this$static.glc, $intern_33, this$static.requestedElementArrayBuffer);
+      $bindBuffer(this$static.glc, $intern_40, this$static.requestedElementArrayBuffer);
       this$static.boundElementArrayBuffer = this$static.requestedElementArrayBuffer;
     }
   }
@@ -8972,7 +10474,7 @@ function $glDisableVertexAttribArray(this$static, index_0){
 function $glDrawElements(this$static, count){
   $prepareDraw(this$static);
   if (this$static.requestedElementArrayBuffer != this$static.boundElementArrayBuffer) {
-    $bindBuffer(this$static.glc, $intern_33, this$static.requestedElementArrayBuffer);
+    $bindBuffer(this$static.glc, $intern_40, this$static.requestedElementArrayBuffer);
     this$static.boundElementArrayBuffer = this$static.requestedElementArrayBuffer;
   }
   $drawElements(this$static.glc, 4, count, 5123, 0);
@@ -9038,7 +10540,7 @@ function $glUseProgram(this$static, program){
 function $glVertexAttribPointer(this$static, indx, size_0, type_0, stride, ptr){
   this$static.useNioBuffer &= ~(1 << indx);
   if (this$static.boundArrayBuffer != this$static.requestedArrayBuffer) {
-    $bindBuffer(this$static.glc, $intern_32, this$static.requestedArrayBuffer);
+    $bindBuffer(this$static.glc, $intern_39, this$static.requestedArrayBuffer);
     this$static.boundArrayBuffer = this$static.requestedArrayBuffer;
   }
   $vertexAttribPointer(this$static.glc, indx, size_0, type_0, false, stride, ptr);
@@ -9077,28 +10579,28 @@ function $prepareDraw(this$static){
       data_0 = this$static.vertexAttribArrayState[i];
       if (!!previousNio && previousNio.nioBufferLimit >= data_0.nioBufferLimit) {
         if (this$static.boundArrayBuffer != previousNio.webGlBuffer) {
-          $bindBuffer(this$static.glc, $intern_32, previousNio.webGlBuffer);
+          $bindBuffer(this$static.glc, $intern_39, previousNio.webGlBuffer);
           this$static.boundArrayBuffer = data_0.webGlBuffer;
         }
         $vertexAttribPointer(this$static.glc, i, data_0.size_0, data_0.type_0, data_0.normalize, data_0.stride, data_0.nioBufferPosition * previousElementSize);
       }
        else {
         if (this$static.boundArrayBuffer != data_0.webGlBuffer) {
-          $bindBuffer(this$static.glc, $intern_32, data_0.webGlBuffer);
+          $bindBuffer(this$static.glc, $intern_39, data_0.webGlBuffer);
           this$static.boundArrayBuffer = data_0.webGlBuffer;
         }
         elementSize = getElementSize_3();
         null.nullMethod();
         if (data_0.nioBufferPosition * elementSize < data_0.stride) {
           null.nullMethod();
-          $bufferData(this$static.glc, $intern_32, $getTypedArray(data_0.nioBuffer, data_0.type_0, data_0.nioBufferLimit * elementSize), 35040);
+          $bufferData(this$static.glc, $intern_39, $getTypedArray(data_0.nioBuffer, data_0.type_0, data_0.nioBufferLimit * elementSize), 35040);
           $vertexAttribPointer(this$static.glc, i, data_0.size_0, data_0.type_0, data_0.normalize, data_0.stride, data_0.nioBufferPosition * elementSize);
           previousNio = data_0;
           previousElementSize = elementSize;
         }
          else {
           null.nullMethod();
-          $bufferData(this$static.glc, $intern_32, $getTypedArray(data_0.nioBuffer, data_0.type_0, (data_0.nioBufferLimit - data_0.nioBufferPosition) * elementSize), 35040);
+          $bufferData(this$static.glc, $intern_39, $getTypedArray(data_0.nioBuffer, data_0.type_0, (data_0.nioBufferLimit - data_0.nioBufferPosition) * elementSize), 35040);
           $vertexAttribPointer(this$static.glc, i, data_0.size_0, data_0.type_0, data_0.normalize, data_0.stride, 0);
         }
         null.nullMethod();
@@ -9110,7 +10612,7 @@ function $prepareDraw(this$static){
 
 function HtmlGL20(){
   GL20.call(this, new HtmlGL20$1, ($clinit_HtmlUrlParameters() , checkGLErrors));
-  this.vertexAttribArrayState = initDim(Lplayn_html_HtmlGL20$VertexAttribArrayState_2_classLit, $intern_1, 132, 5, 0, 1);
+  this.vertexAttribArrayState = initDim(Lplayn_html_HtmlGL20$VertexAttribArrayState_2_classLit, $intern_1, 141, 5, 0, 1);
   this.webGLObjects = [];
   this.webGLObjectTypes = [];
 }
@@ -9119,11 +10621,11 @@ function getElementSize_3(){
   throw new RuntimeException_0('Unrecognized buffer type: ' + null.nullMethod());
 }
 
-defineClass(326, 325, {}, HtmlGL20);
+defineClass(344, 343, {}, HtmlGL20);
 _.enabledArrays = 0;
 _.previouslyEnabledArrays = 0;
 _.useNioBuffer = 0;
-var Lplayn_html_HtmlGL20_2_classLit = createForClass('playn.html', 'HtmlGL20', 326, Lplayn_core_GL20_2_classLit);
+var Lplayn_html_HtmlGL20_2_classLit = createForClass('playn.html', 'HtmlGL20', 344, Lplayn_core_GL20_2_classLit);
 function $createByteBuffer(size_0){
   var buffer;
   buffer = allocateDirect(size_0);
@@ -9138,19 +10640,19 @@ function HtmlGL20$1(){
   $createByteBuffer(256);
 }
 
-defineClass(328, 327, {}, HtmlGL20$1);
-var Lplayn_html_HtmlGL20$1_2_classLit = createForClass('playn.html', 'HtmlGL20/1', 328, Lplayn_core_GL20$Buffers_2_classLit);
+defineClass(346, 345, {}, HtmlGL20$1);
+var Lplayn_html_HtmlGL20$1_2_classLit = createForClass('playn.html', 'HtmlGL20/1', 346, Lplayn_core_GL20$Buffers_2_classLit);
 function HtmlGL20$VertexAttribArrayState(){
 }
 
-defineClass(132, 1, {132:1}, HtmlGL20$VertexAttribArrayState);
+defineClass(141, 1, {141:1}, HtmlGL20$VertexAttribArrayState);
 _.nioBufferLimit = 0;
 _.nioBufferPosition = 0;
 _.normalize = false;
 _.size_0 = 0;
 _.stride = 0;
 _.type_0 = 0;
-var Lplayn_html_HtmlGL20$VertexAttribArrayState_2_classLit = createForClass('playn.html', 'HtmlGL20/VertexAttribArrayState', 132, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlGL20$VertexAttribArrayState_2_classLit = createForClass('playn.html', 'HtmlGL20/VertexAttribArrayState', 141, Ljava_lang_Object_2_classLit);
 function $clinit_HtmlGL20$WebGLObjectType(){
   $clinit_HtmlGL20$WebGLObjectType = emptyMethod;
   NULL = new HtmlGL20$WebGLObjectType('NULL', 0);
@@ -9169,12 +10671,12 @@ function HtmlGL20$WebGLObjectType(enum$name, enum$ordinal){
 
 function values_23(){
   $clinit_HtmlGL20$WebGLObjectType();
-  return initValues(getClassLiteralForArray(Lplayn_html_HtmlGL20$WebGLObjectType_2_classLit, 1), $intern_1, 40, 0, [NULL, BUFFER, FRAME_BUFFER, PROGRAM, RENDER_BUFFER, SHADER, TEXTURE, UNIFORM_LOCATION]);
+  return initValues(getClassLiteralForArray(Lplayn_html_HtmlGL20$WebGLObjectType_2_classLit, 1), $intern_1, 43, 0, [NULL, BUFFER, FRAME_BUFFER, PROGRAM, RENDER_BUFFER, SHADER, TEXTURE, UNIFORM_LOCATION]);
 }
 
-defineClass(40, 6, {3:1, 7:1, 6:1, 40:1}, HtmlGL20$WebGLObjectType);
+defineClass(43, 6, {3:1, 7:1, 6:1, 43:1}, HtmlGL20$WebGLObjectType);
 var BUFFER, FRAME_BUFFER, NULL, PROGRAM, RENDER_BUFFER, SHADER, TEXTURE, UNIFORM_LOCATION;
-var Lplayn_html_HtmlGL20$WebGLObjectType_2_classLit = createForEnum('playn.html', 'HtmlGL20/WebGLObjectType', 40, Ljava_lang_Enum_2_classLit, values_23);
+var Lplayn_html_HtmlGL20$WebGLObjectType_2_classLit = createForEnum('playn.html', 'HtmlGL20/WebGLObjectType', 43, Ljava_lang_Enum_2_classLit, values_23);
 function HtmlGradient(ctx, config){
   var ii;
   this.gradient = $createLinearGradient(ctx, config.x0, config.y0, config.x1, config.y1);
@@ -9183,8 +10685,8 @@ function HtmlGradient(ctx, config){
   }
 }
 
-defineClass(459, 518, {}, HtmlGradient);
-var Lplayn_html_HtmlGradient_2_classLit = createForClass('playn.html', 'HtmlGradient', 459, Lplayn_core_Gradient_2_classLit);
+defineClass(493, 556, {}, HtmlGradient);
+var Lplayn_html_HtmlGradient_2_classLit = createForClass('playn.html', 'HtmlGradient', 493, Lplayn_core_Gradient_2_classLit);
 function $createCanvasImpl(this$static, scale, pixelWidth, pixelHeight){
   var elem;
   elem = $doc.createElement('canvas');
@@ -9235,7 +10737,7 @@ function $setSize(this$static, width_0, height){
 }
 
 function $transformMouse(this$static, x_0, y_0){
-  return $set_4(this$static.mousePoint, x_0 / this$static.mouseScale, y_0 / this$static.mouseScale);
+  return $set_6(this$static.mousePoint, x_0 / this$static.mouseScale, y_0 / this$static.mouseScale);
 }
 
 function $updateTexture(this$static, tex, img){
@@ -9292,11 +10794,11 @@ function cssColorString(color_0){
   return 'rgba(' + r + ',' + g + ',' + b + ',' + a + ')';
 }
 
-defineClass(247, 246, {}, HtmlGraphics);
+defineClass(261, 260, {}, HtmlGraphics);
 _.frameBufferPixelRatio = 0;
 _.mouseScale = 0;
 var experimentalScale = 1;
-var Lplayn_html_HtmlGraphics_2_classLit = createForClass('playn.html', 'HtmlGraphics', 247, Lplayn_core_Graphics_2_classLit);
+var Lplayn_html_HtmlGraphics_2_classLit = createForClass('playn.html', 'HtmlGraphics', 261, Lplayn_core_Graphics_2_classLit);
 function $draw_0(this$static, ctx, width_0, height){
   $drawImage(ctx, this$static.img, 0, 0, width_0, height);
 }
@@ -9323,36 +10825,36 @@ function HtmlImage_0(gfx, scale, elem, source){
   }
 }
 
-defineClass(174, 173, {}, HtmlImage, HtmlImage_0);
-_.toString$ = function toString_44(){
+defineClass(184, 183, {}, HtmlImage, HtmlImage_0);
+_.toString$ = function toString_55(){
   return 'Image[src=' + this.source + ', scale=' + this.scale_0 + ', size=' + $invScaled(this.scale_0, this.pixelWidth) + 'x' + $invScaled(this.scale_0, this.pixelHeight) + ', psize=' + this.pixelWidth + 'x' + this.pixelHeight + ', img=' + this.img + ', canvas=' + this.canvas + ']';
 }
 ;
-var Lplayn_html_HtmlImage_2_classLit = createForClass('playn.html', 'HtmlImage', 174, Lplayn_core_ImageImpl_2_classLit);
+var Lplayn_html_HtmlImage_2_classLit = createForClass('playn.html', 'HtmlImage', 184, Lplayn_core_ImageImpl_2_classLit);
 function HtmlImage$1(this$0, val$pstate){
   this.this$01 = this$0;
   this.val$pstate2 = val$pstate;
 }
 
-defineClass(371, 1, {}, HtmlImage$1);
+defineClass(396, 1, {}, HtmlImage$1);
 _.handleEvent = function handleEvent(evt){
   this.this$01.pixelWidth = this.this$01.img.width;
   this.this$01.pixelHeight = this.this$01.img.height;
   $succeed(this.val$pstate2, this.this$01);
 }
 ;
-var Lplayn_html_HtmlImage$1_2_classLit = createForClass('playn.html', 'HtmlImage/1', 371, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlImage$1_2_classLit = createForClass('playn.html', 'HtmlImage/1', 396, Ljava_lang_Object_2_classLit);
 function HtmlImage$2(this$0, val$pstate){
   this.this$01 = this$0;
   this.val$pstate2 = val$pstate;
 }
 
-defineClass(372, 1, {}, HtmlImage$2);
+defineClass(397, 1, {}, HtmlImage$2);
 _.handleEvent = function handleEvent_0(evt){
   $fail(this.val$pstate2, new RuntimeException_0('Error loading image ' + this.this$01.img.src));
 }
 ;
-var Lplayn_html_HtmlImage$2_2_classLit = createForClass('playn.html', 'HtmlImage/2', 372, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlImage$2_2_classLit = createForClass('playn.html', 'HtmlImage/2', 397, Ljava_lang_Object_2_classLit);
 function $dispatch_0(this$static, event_0, nevent){
   try {
     $setFlag(event_0, modifierFlags($eventGetAltKey(nevent), $eventGetCtrlKey(nevent), $eventGetMetaKey(nevent), $eventGetShiftKey(nevent)));
@@ -9403,7 +10905,7 @@ function $toTouchEvents(this$static, kind, nevent){
   var id_0, nativeTouches, nativeTouchesLen, t, time, touch, touches, x_0, xy, y_0;
   nativeTouches = nevent.changedTouches;
   nativeTouchesLen = nativeTouches.length;
-  touches = initDim(Lplayn_core_Touch$Event_2_classLit, $intern_1, 106, nativeTouchesLen, 0, 1);
+  touches = initDim(Lplayn_core_Touch$Event_2_classLit, $intern_1, 113, nativeTouchesLen, 0, 1);
   time = now_2();
   for (t = 0; t < nativeTouchesLen; t++) {
     touch = nativeTouches[t];
@@ -9687,49 +11189,49 @@ function keyForCode(keyCode){
   }
 }
 
-defineClass(255, 254, {}, HtmlInput);
+defineClass(269, 268, {}, HtmlInput);
 _.inDragSequence = false;
 _.inTouchSequence = false;
 _.isRequestingMouseLock = false;
-var Lplayn_html_HtmlInput_2_classLit = createForClass('playn.html', 'HtmlInput', 255, Lplayn_core_Input_2_classLit);
+var Lplayn_html_HtmlInput_2_classLit = createForClass('playn.html', 'HtmlInput', 269, Lplayn_core_Input_2_classLit);
 function HtmlInput$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(256, 1, {}, HtmlInput$1);
+defineClass(270, 1, {}, HtmlInput$1);
 _.handleEvent = function handleEvent_1(nevent){
   var key;
   key = keyForCode($eventGetKeyCode(nevent));
   $dispatch_0(this.this$01, new Keyboard$KeyEvent(now_2(), key, true), nevent);
 }
 ;
-var Lplayn_html_HtmlInput$1_2_classLit = createForClass('playn.html', 'HtmlInput/1', 256, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlInput$1_2_classLit = createForClass('playn.html', 'HtmlInput/1', 270, Ljava_lang_Object_2_classLit);
 function HtmlInput$10(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(265, 1, {}, HtmlInput$10);
+defineClass(279, 1, {}, HtmlInput$10);
 _.handleEvent = function handleEvent_2(nevent){
   this.this$01.inTouchSequence = true;
   $dispatch_2(this.this$01, $toTouchEvents(this.this$01, ($clinit_Touch$Event$Kind() , START_0), nevent), nevent);
 }
 ;
-var Lplayn_html_HtmlInput$10_2_classLit = createForClass('playn.html', 'HtmlInput/10', 265, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlInput$10_2_classLit = createForClass('playn.html', 'HtmlInput/10', 279, Ljava_lang_Object_2_classLit);
 function HtmlInput$11(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(266, 1, {}, HtmlInput$11);
+defineClass(280, 1, {}, HtmlInput$11);
 _.handleEvent = function handleEvent_3(nevent){
   this.this$01.inTouchSequence && $dispatch_2(this.this$01, $toTouchEvents(this.this$01, ($clinit_Touch$Event$Kind() , MOVE), nevent), nevent);
 }
 ;
-var Lplayn_html_HtmlInput$11_2_classLit = createForClass('playn.html', 'HtmlInput/11', 266, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlInput$11_2_classLit = createForClass('playn.html', 'HtmlInput/11', 280, Ljava_lang_Object_2_classLit);
 function HtmlInput$12(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(267, 1, {}, HtmlInput$12);
+defineClass(281, 1, {}, HtmlInput$12);
 _.handleEvent = function handleEvent_4(nevent){
   if (this.this$01.inTouchSequence) {
     $dispatch_2(this.this$01, $toTouchEvents(this.this$01, ($clinit_Touch$Event$Kind() , END_1), nevent), nevent);
@@ -9737,25 +11239,25 @@ _.handleEvent = function handleEvent_4(nevent){
   }
 }
 ;
-var Lplayn_html_HtmlInput$12_2_classLit = createForClass('playn.html', 'HtmlInput/12', 267, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlInput$12_2_classLit = createForClass('playn.html', 'HtmlInput/12', 281, Ljava_lang_Object_2_classLit);
 function HtmlInput$1XYEventHandler(this$0){
   this.this$01_0 = this$0;
 }
 
-defineClass(130, 1, {});
+defineClass(138, 1, {});
 _.handleEvent = function handleEvent_5(ev){
   var xy;
   xy = $transformMouse(this.this$01_0.plat.graphics, getRelativeX(ev, this.this$01_0.rootElement), getRelativeY(ev, this.this$01_0.rootElement));
   this.handleEvent_0(ev, xy.x_0, xy.y_0);
 }
 ;
-var Lplayn_html_HtmlInput$1XYEventHandler_2_classLit = createForClass('playn.html', 'HtmlInput/1XYEventHandler', 130, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlInput$1XYEventHandler_2_classLit = createForClass('playn.html', 'HtmlInput/1XYEventHandler', 138, Ljava_lang_Object_2_classLit);
 function HtmlInput$1MoveEventHandler(this$0){
   this.this$01 = this$0;
   HtmlInput$1XYEventHandler.call(this, this$0);
 }
 
-defineClass(165, 130, {});
+defineClass(173, 138, {});
 _.handleEvent_0 = function handleEvent_6(ev, x_0, y_0){
   var dx, dy;
   if (this.lastX == -1) {
@@ -9775,50 +11277,50 @@ _.handleEvent_0 = function handleEvent_6(ev, x_0, y_0){
   }
   this.lastX = x_0;
   this.lastY = y_0;
-  $set_4(this.this$01.lastMousePt, x_0, y_0);
+  $set_6(this.this$01.lastMousePt, x_0, y_0);
 }
 ;
 _.lastX = -1;
 _.lastY = -1;
-var Lplayn_html_HtmlInput$1MoveEventHandler_2_classLit = createForClass('playn.html', 'HtmlInput/1MoveEventHandler', 165, Lplayn_html_HtmlInput$1XYEventHandler_2_classLit);
+var Lplayn_html_HtmlInput$1MoveEventHandler_2_classLit = createForClass('playn.html', 'HtmlInput/1MoveEventHandler', 173, Lplayn_html_HtmlInput$1XYEventHandler_2_classLit);
 function HtmlInput$2(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(257, 1, {}, HtmlInput$2);
+defineClass(271, 1, {}, HtmlInput$2);
 _.handleEvent = function handleEvent_7(nevent){
-  $dispatch_0(this.this$01, new Keyboard$TypedEvent(now_2(), (nevent.charCode || 0) & $intern_20), nevent);
+  $dispatch_0(this.this$01, new Keyboard$TypedEvent(now_2(), (nevent.charCode || 0) & $intern_22), nevent);
 }
 ;
-var Lplayn_html_HtmlInput$2_2_classLit = createForClass('playn.html', 'HtmlInput/2', 257, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlInput$2_2_classLit = createForClass('playn.html', 'HtmlInput/2', 271, Ljava_lang_Object_2_classLit);
 function HtmlInput$3(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(258, 1, {}, HtmlInput$3);
+defineClass(272, 1, {}, HtmlInput$3);
 _.handleEvent = function handleEvent_8(nevent){
   var key;
   key = keyForCode($eventGetKeyCode(nevent));
   $dispatch_0(this.this$01, new Keyboard$KeyEvent(now_2(), key, false), nevent);
 }
 ;
-var Lplayn_html_HtmlInput$3_2_classLit = createForClass('playn.html', 'HtmlInput/3', 258, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlInput$3_2_classLit = createForClass('playn.html', 'HtmlInput/3', 272, Ljava_lang_Object_2_classLit);
 function HtmlInput$4(){
 }
 
-defineClass(259, 1, {}, HtmlInput$4);
+defineClass(273, 1, {}, HtmlInput$4);
 _.handleEvent = function handleEvent_9(evt){
   $eventPreventDefault(evt);
   evt.stopPropagation();
 }
 ;
-var Lplayn_html_HtmlInput$4_2_classLit = createForClass('playn.html', 'HtmlInput/4', 259, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlInput$4_2_classLit = createForClass('playn.html', 'HtmlInput/4', 273, Ljava_lang_Object_2_classLit);
 function HtmlInput$5(this$0, this$0_1){
   this.this$02 = this$0_1;
   HtmlInput$1XYEventHandler.call(this, this$0);
 }
 
-defineClass(260, 130, {}, HtmlInput$5);
+defineClass(274, 138, {}, HtmlInput$5);
 _.handleEvent_0 = function handleEvent_10(ev, x_0, y_0){
   var btn;
   this.this$02.inDragSequence = true;
@@ -9826,13 +11328,13 @@ _.handleEvent_0 = function handleEvent_10(ev, x_0, y_0){
   !!btn && $dispatch_1(this.this$02, new Mouse$ButtonEvent(now_2(), x_0, y_0, btn, true), ev);
 }
 ;
-var Lplayn_html_HtmlInput$5_2_classLit = createForClass('playn.html', 'HtmlInput/5', 260, Lplayn_html_HtmlInput$1XYEventHandler_2_classLit);
+var Lplayn_html_HtmlInput$5_2_classLit = createForClass('playn.html', 'HtmlInput/5', 274, Lplayn_html_HtmlInput$1XYEventHandler_2_classLit);
 function HtmlInput$6(this$0, this$0_1){
   this.this$02 = this$0_1;
   HtmlInput$1XYEventHandler.call(this, this$0);
 }
 
-defineClass(261, 130, {}, HtmlInput$6);
+defineClass(275, 138, {}, HtmlInput$6);
 _.handleEvent_0 = function handleEvent_11(ev, x_0, y_0){
   var btn;
   if (this.this$02.inDragSequence) {
@@ -9843,39 +11345,39 @@ _.handleEvent_0 = function handleEvent_11(ev, x_0, y_0){
   $handleRequestsInUserEventContext(this.this$02);
 }
 ;
-var Lplayn_html_HtmlInput$6_2_classLit = createForClass('playn.html', 'HtmlInput/6', 261, Lplayn_html_HtmlInput$1XYEventHandler_2_classLit);
+var Lplayn_html_HtmlInput$6_2_classLit = createForClass('playn.html', 'HtmlInput/6', 275, Lplayn_html_HtmlInput$1XYEventHandler_2_classLit);
 function HtmlInput$7(this$0){
   HtmlInput$1MoveEventHandler.call(this, this$0);
 }
 
-defineClass(262, 165, {}, HtmlInput$7);
+defineClass(276, 173, {}, HtmlInput$7);
 _.wantDragSequence = function wantDragSequence(){
   return true;
 }
 ;
-var Lplayn_html_HtmlInput$7_2_classLit = createForClass('playn.html', 'HtmlInput/7', 262, Lplayn_html_HtmlInput$1MoveEventHandler_2_classLit);
+var Lplayn_html_HtmlInput$7_2_classLit = createForClass('playn.html', 'HtmlInput/7', 276, Lplayn_html_HtmlInput$1MoveEventHandler_2_classLit);
 function HtmlInput$8(this$0){
   HtmlInput$1MoveEventHandler.call(this, this$0);
 }
 
-defineClass(263, 165, {}, HtmlInput$8);
+defineClass(277, 173, {}, HtmlInput$8);
 _.wantDragSequence = function wantDragSequence_0(){
   return false;
 }
 ;
-var Lplayn_html_HtmlInput$8_2_classLit = createForClass('playn.html', 'HtmlInput/8', 263, Lplayn_html_HtmlInput$1MoveEventHandler_2_classLit);
+var Lplayn_html_HtmlInput$8_2_classLit = createForClass('playn.html', 'HtmlInput/8', 277, Lplayn_html_HtmlInput$1MoveEventHandler_2_classLit);
 function HtmlInput$9(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(264, 1, {}, HtmlInput$9);
+defineClass(278, 1, {}, HtmlInput$9);
 _.handleEvent = function handleEvent_12(ev){
   var vel;
   vel = getMouseWheelVelocity(ev);
   $dispatch_1(this.this$01, new Mouse$WheelEvent(now_2(), this.this$01.lastMousePt.x_0, this.this$01.lastMousePt.y_0, vel), ev);
 }
 ;
-var Lplayn_html_HtmlInput$9_2_classLit = createForClass('playn.html', 'HtmlInput/9', 264, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlInput$9_2_classLit = createForClass('playn.html', 'HtmlInput/9', 278, Ljava_lang_Object_2_classLit);
 function $addEventListener(closeHandler, target, name_0, handler, capture){
   var listener = function(e){
     handler.handleEvent(e);
@@ -9889,19 +11391,19 @@ function HtmlInput$EventCloseHandler(target, name_0, eventHandler, capture){
   $addEventListener(this, target, name_0, eventHandler, capture);
 }
 
-defineClass(49, 1, {}, HtmlInput$EventCloseHandler);
+defineClass(56, 1, {}, HtmlInput$EventCloseHandler);
 _.setListener = function setListener(listener){
 }
 ;
-var Lplayn_html_HtmlInput$EventCloseHandler_2_classLit = createForClass('playn.html', 'HtmlInput/EventCloseHandler', 49, Ljava_lang_Object_2_classLit);
-defineClass(245, 244, {});
-var Lplayn_html_HtmlLog_2_classLit = createForClass('playn.html', 'HtmlLog', 245, Lplayn_core_Log_2_classLit);
+var Lplayn_html_HtmlInput$EventCloseHandler_2_classLit = createForClass('playn.html', 'HtmlInput/EventCloseHandler', 56, Ljava_lang_Object_2_classLit);
+defineClass(259, 258, {});
+var Lplayn_html_HtmlLog_2_classLit = createForClass('playn.html', 'HtmlLog', 259, Lplayn_core_Log_2_classLit);
 function HtmlLogSimple(){
   this.minLevel = ($clinit_Log$Level() , DEBUG);
 }
 
-defineClass(315, 245, {}, HtmlLogSimple);
-var Lplayn_html_HtmlLogSimple_2_classLit = createForClass('playn.html', 'HtmlLogSimple', 315, Lplayn_html_HtmlLog_2_classLit);
+defineClass(333, 259, {}, HtmlLogSimple);
+var Lplayn_html_HtmlLogSimple_2_classLit = createForClass('playn.html', 'HtmlLogSimple', 333, Lplayn_html_HtmlLog_2_classLit);
 function $clinit_HtmlPlatform(){
   var userAgent;
   $clinit_HtmlPlatform = emptyMethod;
@@ -9944,7 +11446,7 @@ function HtmlPlatform(config){
   this.log_0 = new HtmlLogSimple;
   new Exec$Default(this);
   setUncaughtExceptionHandler(new HtmlPlatform$1(this));
-  $info_0(this.log_0, 'DPR ' + devicePixelRatio_0() + ' BSPR ' + ($wnd.webkitBackingStorePixelRatio || 1));
+  $info_0(this.log_0, 'DPR ' + devicePixelRatio_0() + ' BSPR ' + ($wnd.webkitBackingStorePixelRatio || 1), null);
   try {
     this.backgroundFrameMillis = 0;
     this.graphics = new HtmlGraphics(this, config);
@@ -9985,7 +11487,7 @@ function now_2(){
   return Date.now();
 }
 
-defineClass(209, 208, {}, HtmlPlatform);
+defineClass(223, 222, {}, HtmlPlatform);
 _.visibilityChanged = function visibilityChanged(){
   var isHidden;
   isHidden = $doc.hidden;
@@ -9996,29 +11498,29 @@ _.visibilityChanged = function visibilityChanged(){
 _.backgroundFrameMillis = 0;
 _.start_0 = 0;
 var agentInfo_0;
-var Lplayn_html_HtmlPlatform_2_classLit = createForClass('playn.html', 'HtmlPlatform', 209, Lplayn_core_Platform_2_classLit);
+var Lplayn_html_HtmlPlatform_2_classLit = createForClass('playn.html', 'HtmlPlatform', 223, Lplayn_core_Platform_2_classLit);
 function HtmlPlatform$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(211, 1, {}, HtmlPlatform$1);
-var Lplayn_html_HtmlPlatform$1_2_classLit = createForClass('playn.html', 'HtmlPlatform/1', 211, Ljava_lang_Object_2_classLit);
+defineClass(225, 1, {}, HtmlPlatform$1);
+var Lplayn_html_HtmlPlatform$1_2_classLit = createForClass('playn.html', 'HtmlPlatform/1', 225, Ljava_lang_Object_2_classLit);
 function HtmlPlatform$2(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(212, 1, {}, HtmlPlatform$2);
+defineClass(226, 1, {}, HtmlPlatform$2);
 _.run = function run_1(){
   $requestAnimationFrame(this);
   $emitFrame(this.this$01);
 }
 ;
-var Lplayn_html_HtmlPlatform$2_2_classLit = createForClass('playn.html', 'HtmlPlatform/2', 212, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlPlatform$2_2_classLit = createForClass('playn.html', 'HtmlPlatform/2', 226, Ljava_lang_Object_2_classLit);
 function HtmlPlatform$3(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(213, 1, {}, HtmlPlatform$3);
+defineClass(227, 1, {}, HtmlPlatform$3);
 _.run = function run_2(){
   if ($doc.hidden) {
     $scheduleBackgroundFrame(this.this$01.backgroundFrameMillis, this);
@@ -10026,27 +11528,27 @@ _.run = function run_2(){
   }
 }
 ;
-var Lplayn_html_HtmlPlatform$3_2_classLit = createForClass('playn.html', 'HtmlPlatform/3', 213, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlPlatform$3_2_classLit = createForClass('playn.html', 'HtmlPlatform/3', 227, Ljava_lang_Object_2_classLit);
 function HtmlPlatform$Config(){
   requestedMode();
   this.scaleFactor = devicePixelRatio_0();
   this.frameBufferPixelRatio = devicePixelRatio_0();
 }
 
-defineClass(210, 1, {}, HtmlPlatform$Config);
+defineClass(224, 1, {}, HtmlPlatform$Config);
 _.antiAliasing = true;
 _.frameBufferPixelRatio = 0;
 _.rootId = 'playn-root';
 _.scaleFactor = 0;
-var Lplayn_html_HtmlPlatform$Config_2_classLit = createForClass('playn.html', 'HtmlPlatform/Config', 210, Ljava_lang_Object_2_classLit);
+var Lplayn_html_HtmlPlatform$Config_2_classLit = createForClass('playn.html', 'HtmlPlatform/Config', 224, Ljava_lang_Object_2_classLit);
 function HtmlStorage(){
   var storage;
   storage = (!localStorage_0 && ($clinit_Storage$StorageSupportDetector() , localStorageSupported) && (localStorage_0 = new Storage_0) , localStorage_0);
   storage?new StorageMap(storage):new HashMap;
 }
 
-defineClass(269, 1, {}, HtmlStorage);
-var Lplayn_html_HtmlStorage_2_classLit = createForClass('playn.html', 'HtmlStorage', 269, Ljava_lang_Object_2_classLit);
+defineClass(283, 1, {}, HtmlStorage);
+var Lplayn_html_HtmlStorage_2_classLit = createForClass('playn.html', 'HtmlStorage', 283, Ljava_lang_Object_2_classLit);
 function $fill(this$static, ctx, x_0, y_0){
   configContext(ctx, this$static.format);
   $fillText(ctx, this$static.text_0, x_0, y_0);
@@ -10058,7 +11560,7 @@ function $stroke(this$static, ctx, x_0, y_0){
 }
 
 function HtmlTextLayout(text_0, format, metrics, width_0){
-  TextLayout.call(this, text_0, format, new Rectangle_0(0, 0, $adjustWidth(metrics, width_0), metrics.height_0), $intern_27 * metrics.height_0 + (metrics.height_0 - $intern_27 * metrics.height_0));
+  TextLayout.call(this, text_0, format, new Rectangle_0(0, 0, $adjustWidth(metrics, width_0), metrics.height_0), $intern_34 * metrics.height_0 + (metrics.height_0 - $intern_34 * metrics.height_0));
   this.metrics = metrics;
 }
 
@@ -10090,7 +11592,7 @@ function layoutText_0(gfx, ctx, text_0, format, wrap){
       idx = measureLine(ctx, format, wrap, metrics, words, idx, layouts);
     }
   }
-  return $toArray_1(layouts, initDim(Lplayn_core_TextLayout_2_classLit, $intern_1, 120, layouts.array.length, 0, 1));
+  return $toArray_1(layouts, initDim(Lplayn_core_TextLayout_2_classLit, $intern_1, 129, layouts.array.length, 0, 1));
 }
 
 function measureLine(ctx, format, wrap, metrics, words, idx, layouts){
@@ -10122,18 +11624,18 @@ function measureLine(ctx, format, wrap, metrics, words, idx, layouts){
     remainder = new StringBuilder;
     while (lineWidth > wrap.width_0 && line.length > 1) {
       lastIdx = line.length - 1;
-      $insert(remainder, valueOf_0(line.charCodeAt(lastIdx)));
+      $insert(remainder, valueOf_1(line.charCodeAt(lastIdx)));
       line = line.substr(0, lastIdx);
       lineWidth = ctx.measureText(line).width;
     }
     words[--idx] = remainder.string;
   }
-  $add_2(layouts, new HtmlTextLayout(line, format, metrics, lineWidth));
+  $add_3(layouts, new HtmlTextLayout(line, format, metrics, lineWidth));
   return idx;
 }
 
-defineClass(200, 120, {120:1}, HtmlTextLayout);
-var Lplayn_html_HtmlTextLayout_2_classLit = createForClass('playn.html', 'HtmlTextLayout', 200, Lplayn_core_TextLayout_2_classLit);
+defineClass(212, 129, {129:1}, HtmlTextLayout);
+var Lplayn_html_HtmlTextLayout_2_classLit = createForClass('playn.html', 'HtmlTextLayout', 212, Lplayn_core_TextLayout_2_classLit);
 function $clinit_HtmlUrlParameters(){
   $clinit_HtmlUrlParameters = emptyMethod;
   checkGLErrors = $equals('check', getParameter('glerrors'));
@@ -10159,7 +11661,7 @@ function $isSet_0(this$static, flag){
 
 function $onAdd_0(this$static){
   if (maskUndefined(this$static.state._value) === maskUndefined(($clinit_Layer$State() , DISPOSED)))
-    throw new IllegalStateException('Illegal to use disposed layer: ' + this$static);
+    throw new IllegalStateException_0('Illegal to use disposed layer: ' + this$static);
   $setState(this$static, ADDED);
 }
 
@@ -10300,9 +11802,9 @@ function Layer(){
   $setFlag_0(this, ($clinit_Layer$Flag() , VISIBLE_1), true);
 }
 
-defineClass(18, 1, $intern_34);
+defineClass(19, 1, $intern_41);
 _.close_0 = function close_9(){
-  !!this.parent_0 && $remove_4(this.parent_0, this);
+  !!this.parent_0 && $remove_8(this.parent_0, this);
   $setState(this, ($clinit_Layer$State() , DISPOSED));
 }
 ;
@@ -10330,21 +11832,21 @@ _.onAdd_0 = function onAdd_1(){
   $onAdd_0(this);
 }
 ;
-_.onRemove = function onRemove(){
+_.onRemove_0 = function onRemove_1(){
   $setState(this, ($clinit_Layer$State() , REMOVED));
 }
 ;
-_.toString$ = function toString_45(){
+_.toString$ = function toString_56(){
   var buf;
   buf = new StringBuilder_1(this.name_1());
-  $append_6($append_4((buf.string += ' @ ' , buf), getHashCode(this)), ' [');
-  this.toString_0(buf);
+  $append_7($append_4((buf.string += ' @ ' , buf), getHashCode(this)), ' [');
+  this.toString_1(buf);
   return (buf.string += ']' , buf).string;
 }
 ;
-_.toString_0 = function toString_46(buf){
-  $append_5((buf.string += 'tx=' , buf), $transform(this));
-  !!this.hitTester && $append_5((buf.string += ', hitTester=' , buf), this.hitTester);
+_.toString_1 = function toString_57(buf){
+  $append_6((buf.string += 'tx=' , buf), $transform(this));
+  !!this.hitTester && $append_6((buf.string += ', hitTester=' , buf), this.hitTester);
 }
 ;
 _.width_1 = function width_1(){
@@ -10359,8 +11861,8 @@ _.rotation = 0;
 _.scaleX = 1;
 _.scaleY = 1;
 _.tint = -1;
-var Lplayn_scene_Layer_2_classLit = createForClass('playn.scene', 'Layer', 18, Ljava_lang_Object_2_classLit);
-function $$init_1(this$static){
+var Lplayn_scene_Layer_2_classLit = createForClass('playn.scene', 'Layer', 19, Ljava_lang_Object_2_classLit);
+function $$init_2(this$static){
   this$static.forceWidth = -1;
   this$static.forceHeight = -1;
 }
@@ -10388,19 +11890,19 @@ function $setTile(this$static, tile){
 
 function ImageLayer(tile){
   Layer.call(this);
-  $$init_1(this);
+  $$init_2(this);
   this.setTile(tile);
 }
 
 function ImageLayer_0(source){
   Layer.call(this);
-  $$init_1(this);
+  $$init_2(this);
   source.isLoaded()?this.setTile(source.tile_0()):$onSuccess(source.tileAsync(), new ImageLayer$1(this));
 }
 
-defineClass(70, 18, $intern_34, ImageLayer, ImageLayer_0);
+defineClass(42, 19, $intern_41, ImageLayer, ImageLayer_0);
 _.close_0 = function close_10(){
-  !!this.parent_0 && $remove_4(this.parent_0, this);
+  !!this.parent_0 && $remove_8(this.parent_0, this);
   $setState(this, ($clinit_Layer$State() , DISPOSED));
   this.setTile(null);
 }
@@ -10432,9 +11934,9 @@ _.width_1 = function width_2(){
 ;
 _.forceHeight = 0;
 _.forceWidth = 0;
-var Lplayn_scene_ImageLayer_2_classLit = createForClass('playn.scene', 'ImageLayer', 70, Lplayn_scene_Layer_2_classLit);
+var Lplayn_scene_ImageLayer_2_classLit = createForClass('playn.scene', 'ImageLayer', 42, Lplayn_scene_Layer_2_classLit);
 function $close_2(this$static){
-  !!this$static.parent_0 && $remove_4(this$static.parent_0, this$static);
+  !!this$static.parent_0 && $remove_8(this$static.parent_0, this$static);
   $setState(this$static, ($clinit_Layer$State() , DISPOSED));
   $setTile_0(this$static, null);
   !!this$static.canvas && (this$static.canvas = null);
@@ -10456,12 +11958,12 @@ function $setTile_0(this$static, tile){
 
 function CanvasLayer(gfx, width_0, height){
   Layer.call(this);
-  $$init_1(this);
+  $$init_2(this);
   this.gfx = gfx;
   this.canvas = $createCanvas(this.gfx, width_0, height);
 }
 
-defineClass(455, 70, $intern_34, CanvasLayer);
+defineClass(489, 42, $intern_41, CanvasLayer);
 _.close_0 = function close_11(){
   $close_2(this);
 }
@@ -10478,7 +11980,7 @@ _.width_1 = function width_3(){
   return this.forceWidth < 0?this.canvas.width_0:this.forceWidth;
 }
 ;
-var Lplayn_scene_CanvasLayer_2_classLit = createForClass('playn.scene', 'CanvasLayer', 455, Lplayn_scene_ImageLayer_2_classLit);
+var Lplayn_scene_CanvasLayer_2_classLit = createForClass('playn.scene', 'CanvasLayer', 489, Lplayn_scene_ImageLayer_2_classLit);
 function $setSize_2(this$static, width_0, height){
   this$static.width_0 = width_0;
   this$static.height_0 = height;
@@ -10486,7 +11988,7 @@ function $setSize_2(this$static, width_0, height){
   return this$static;
 }
 
-defineClass(287, 18, $intern_34);
+defineClass(303, 19, $intern_41);
 _.disableClip_0 = function disableClip(){
   return false;
 }
@@ -10505,8 +12007,8 @@ _.paintImpl = function paintImpl_0(surf){
     originY = $originY(this);
     tx.tx += tx.m00 * originX + tx.m10 * originY;
     tx.ty += tx.m11 * originY + tx.m01 * originX;
-    $transform_0(tx, $set_4(this.pos, -originX, -originY), this.pos);
-    $transform_1(tx, $set_5(this.size_0, this.width_0, this.height_0), this.size_0);
+    $transform_0(tx, $set_6(this.pos, -originX, -originY), this.pos);
+    $transform_1(tx, $set_7(this.size_0, this.width_0, this.height_0), this.size_0);
     tx.tx += tx.m00 * -originX + tx.m10 * -originY;
     tx.ty += tx.m11 * -originY + tx.m01 * -originX;
     nonEmpty = $startClipped(surf, round_int(this.pos.x_0), round_int(this.pos.y_0), round_0(abs_0(this.size_0.x_0)), round_0(abs_0(this.size_0.y_0)));
@@ -10528,27 +12030,27 @@ _.width_1 = function width_4(){
 ;
 _.height_0 = 0;
 _.width_0 = 0;
-var Lplayn_scene_ClippedLayer_2_classLit = createForClass('playn.scene', 'ClippedLayer', 287, Lplayn_scene_Layer_2_classLit);
-function $add_4(this$static, child){
+var Lplayn_scene_ClippedLayer_2_classLit = createForClass('playn.scene', 'ClippedLayer', 303, Lplayn_scene_Layer_2_classLit);
+function $add_5(this$static, child){
   var count, index_0, parent_0;
   parent_0 = child.parent_0;
   if (parent_0 == this$static)
     return;
   count = this$static.children.array.length;
   count == 0 || $get_7(this$static.children, count - 1).depth <= child.depth?(index_0 = count):(index_0 = $findInsertion(this$static, child.depth));
-  !!parent_0 && $remove_4(parent_0, child);
-  $add_1(this$static.children, index_0, child);
+  !!parent_0 && $remove_8(parent_0, child);
+  $add_2(this$static.children, index_0, child);
   child.parent_0 = this$static;
   maskUndefined(this$static.state._value) === maskUndefined(($clinit_Layer$State() , ADDED)) && child.onAdd_0();
   $isSet_0(child, ($clinit_Layer$Flag() , INTERACTIVE)) && $setInteractive(this$static, true);
 }
 
 function $addAt(this$static, child){
-  $add_4(this$static, ($setTranslation_0(child.transform, 0.5, 0.5) , child));
+  $add_5(this$static, ($setTranslation_0(child.transform, 0.5, 0.5) , child));
 }
 
 function $close_3(this$static){
-  !!this$static.parent_0 && $remove_4(this$static.parent_0, this$static);
+  !!this$static.parent_0 && $remove_8(this$static.parent_0, this$static);
   $setState(this$static, ($clinit_Layer$State() , DISPOSED));
   $disposeAll(this$static);
 }
@@ -10562,15 +12064,15 @@ function $depthChanged(this$static, child, oldDepth){
   if (leftCorrect && rightCorrect) {
     return oldIndex;
   }
-  this$static.children.remove(oldIndex);
+  this$static.children.remove_1(oldIndex);
   newIndex = $findInsertion(this$static, newDepth);
-  $add_1(this$static.children, newIndex, child);
+  $add_2(this$static.children, newIndex, child);
   return newIndex;
 }
 
 function $disposeAll(this$static){
   var child, child$index, child$max, toDispose;
-  toDispose = $toArray_1(this$static.children, initDim(Lplayn_scene_Layer_2_classLit, $intern_1, 18, this$static.children.array.length, 0, 1));
+  toDispose = $toArray_1(this$static.children, initDim(Lplayn_scene_Layer_2_classLit, $intern_1, 19, this$static.children.array.length, 0, 1));
   $removeAll(this$static);
   for (child$index = 0 , child$max = toDispose.length; child$index < child$max; ++child$index) {
     child = toDispose[child$index];
@@ -10635,7 +12137,7 @@ function $hitTestDefault(this$static, point){
     if (!$isSet_0(child, VISIBLE_1))
       continue;
     try {
-      $inverseTransform($transform(child), $set_4(point, x_0, y_0), point);
+      $inverseTransform($transform(child), $set_6(point, x_0, y_0), point);
       point.x_0 += $originX(child);
       point.y_0 += $originY(child);
       l = !child.hitTester?child.hitTestDefault(point):$hitTest(child.hitTester, child, point);
@@ -10644,7 +12146,7 @@ function $hitTestDefault(this$static, point){
     }
      catch ($e0) {
       $e0 = wrap_0($e0);
-      if (instanceOf($e0, 151)) {
+      if (instanceOf($e0, 159)) {
         continue;
       }
        else 
@@ -10655,25 +12157,25 @@ function $hitTestDefault(this$static, point){
   return point.x_0 >= 0 && point.y_0 >= 0 && point.x_0 < this$static.width_0 && point.y_0 < this$static.height_0?this$static:null;
 }
 
-function $remove_3(this$static, index_0){
+function $remove_7(this$static, index_0){
   var child;
-  child = this$static.children.remove(index_0);
-  child.onRemove();
+  child = this$static.children.remove_1(index_0);
+  child.onRemove_0();
   child.parent_0 = null;
 }
 
-function $remove_4(this$static, child){
+function $remove_8(this$static, child){
   var index_0;
   index_0 = $findChild(this$static, child, child.depth);
   if (index_0 < 0) {
     throw new UnsupportedOperationException_0('Could not remove Layer because it is not a child of the GroupLayer [group=' + this$static + ', layer=' + child + ']');
   }
-  $remove_3(this$static, index_0);
+  $remove_7(this$static, index_0);
 }
 
 function $removeAll(this$static){
   while (this$static.children.array.length != 0)
-    $remove_3(this$static, this$static.children.array.length - 1);
+    $remove_7(this$static, this$static.children.array.length - 1);
 }
 
 function GroupLayer(){
@@ -10687,7 +12189,7 @@ function GroupLayer(){
   this.disableClip = true;
 }
 
-defineClass(60, 287, $intern_34, GroupLayer);
+defineClass(68, 303, $intern_41, GroupLayer);
 _.close_0 = function close_12(){
   $close_3(this);
 }
@@ -10704,7 +12206,7 @@ _.hitTestDefault = function hitTestDefault_0(point){
   return $hitTestDefault(this, point);
 }
 ;
-_.iterator = function iterator_13(){
+_.iterator = function iterator_17(){
   return new AbstractList$IteratorImpl(this.children);
 }
 ;
@@ -10715,31 +12217,31 @@ _.onAdd_0 = function onAdd_2(){
     $get_7(this.children, ii).onAdd_0();
 }
 ;
-_.onRemove = function onRemove_0(){
+_.onRemove_0 = function onRemove_2(){
   var ii, ll;
   $setState(this, ($clinit_Layer$State() , REMOVED));
   for (ii = 0 , ll = this.children.array.length; ii < ll; ii++)
-    $get_7(this.children, ii).onRemove();
+    $get_7(this.children, ii).onRemove_0();
 }
 ;
 _.paintClipped = function paintClipped(surf){
   var children, ii, ll;
-  $set_3(this.paintTx, surf.lastTrans);
+  $set_5(this.paintTx, surf.lastTrans);
   children = this.children;
   for (ii = 0 , ll = children.array.length; ii < ll; ii++) {
-    $set_3(surf.lastTrans, this.paintTx);
+    $set_5(surf.lastTrans, this.paintTx);
     $paint((checkElementIndex(ii, children.array.length) , children.array[ii]), surf);
   }
 }
 ;
-_.toString_0 = function toString_47(buf){
-  $append_5((buf.string += 'tx=' , buf), $transform(this));
-  !!this.hitTester && $append_5((buf.string += ', hitTester=' , buf), this.hitTester);
+_.toString_1 = function toString_58(buf){
+  $append_6((buf.string += 'tx=' , buf), $transform(this));
+  !!this.hitTester && $append_6((buf.string += ', hitTester=' , buf), this.hitTester);
   $append_4((buf.string += ', children=' , buf), this.children.array.length);
 }
 ;
 _.disableClip = false;
-var Lplayn_scene_GroupLayer_2_classLit = createForClass('playn.scene', 'GroupLayer', 60, Lplayn_scene_ClippedLayer_2_classLit);
+var Lplayn_scene_GroupLayer_2_classLit = createForClass('playn.scene', 'GroupLayer', 68, Lplayn_scene_ClippedLayer_2_classLit);
 function $onEmit_3(this$static, tile){
   this$static.this$01.setTile(tile);
 }
@@ -10748,17 +12250,17 @@ function ImageLayer$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(272, 478, {}, ImageLayer$1);
+defineClass(286, 512, {}, ImageLayer$1);
 _.onEmit = function onEmit_9(tile){
   $onEmit_3(this, tile);
 }
 ;
-var Lplayn_scene_ImageLayer$1_2_classLit = createForClass('playn.scene', 'ImageLayer/1', 272, Lreact_Slot_2_classLit);
+var Lplayn_scene_ImageLayer$1_2_classLit = createForClass('playn.scene', 'ImageLayer/1', 286, Lreact_Slot_2_classLit);
 function $dispatch_3(this$static, event_0){
   var depth, target;
   if (this$static.canceled)
     return;
-  screenToLayer(this$static.hitLayer, $set_4(this$static.local, event_0.x_0, event_0.y_0), this$static.local);
+  screenToLayer(this$static.hitLayer, $set_6(this$static.local, event_0.x_0, event_0.y_0), this$static.local);
   this$static.event_0 = event_0;
   try {
     if (this$static.bubble) {
@@ -10776,7 +12278,7 @@ function $dispatch_3(this$static, event_0){
    finally {
     this$static.event_0 = null;
   }
-  $set_4(this$static.local, 0, 0);
+  $set_6(this$static.local, 0, 0);
 }
 
 function $dispatch_4(this$static, layer){
@@ -10793,8 +12295,8 @@ function $dispatch_4(this$static, layer){
   }
 }
 
-defineClass(291, 1, {38:1});
-_.toString$ = function toString_48(){
+defineClass(307, 1, {39:1});
+_.toString$ = function toString_59(){
   return 'Interaction[bubble=' + this.bubble + ', canceled=' + this.canceled + ', capmode=' + this.captureMode + ']' + '\n event=' + this.event_0 + '\n hit=' + this.hitLayer;
 }
 ;
@@ -10808,7 +12310,7 @@ _.y_1 = function y_2(){
 ;
 _.bubble = false;
 _.canceled = false;
-var Lplayn_scene_Interaction_2_classLit = createForClass('playn.scene', 'Interaction', 291, Ljava_lang_Object_2_classLit);
+var Lplayn_scene_Interaction_2_classLit = createForClass('playn.scene', 'Interaction', 307, Ljava_lang_Object_2_classLit);
 function $clinit_Interaction$Depth(){
   $clinit_Interaction$Depth = emptyMethod;
   BELOW = new Interaction$Depth('BELOW', 0);
@@ -10822,12 +12324,12 @@ function Interaction$Depth(enum$name, enum$ordinal){
 
 function values_24(){
   $clinit_Interaction$Depth();
-  return initValues(getClassLiteralForArray(Lplayn_scene_Interaction$Depth_2_classLit, 1), $intern_1, 91, 0, [BELOW, AT_0, ABOVE]);
+  return initValues(getClassLiteralForArray(Lplayn_scene_Interaction$Depth_2_classLit, 1), $intern_1, 96, 0, [BELOW, AT_0, ABOVE]);
 }
 
-defineClass(91, 6, {3:1, 7:1, 6:1, 91:1}, Interaction$Depth);
+defineClass(96, 6, {3:1, 7:1, 6:1, 96:1}, Interaction$Depth);
 var ABOVE, AT_0, BELOW;
-var Lplayn_scene_Interaction$Depth_2_classLit = createForEnum('playn.scene', 'Interaction/Depth', 91, Ljava_lang_Enum_2_classLit, values_24);
+var Lplayn_scene_Interaction$Depth_2_classLit = createForEnum('playn.scene', 'Interaction/Depth', 96, Ljava_lang_Enum_2_classLit, values_24);
 function $clinit_Reactor(){
   $clinit_Reactor = emptyMethod;
   DISPATCHING = new Cons(null, null);
@@ -10853,7 +12355,7 @@ function $disconnect(this$static, cons){
     this$static._pendingRuns = append(this$static._pendingRuns, new Reactor$2(this$static, cons));
   }
    else {
-    this$static._listeners = remove_2(this$static._listeners, cons);
+    this$static._listeners = remove_23(this$static._listeners, cons);
     this$static.connectionRemoved();
   }
 }
@@ -10913,7 +12415,7 @@ function append(head, action){
   return head;
 }
 
-defineClass(479, 1, {});
+defineClass(513, 1, {});
 _.connectionAdded = function connectionAdded(){
 }
 ;
@@ -10925,7 +12427,7 @@ _.notify = function notify(notifier, a1, a2, a3){
 }
 ;
 var DISPATCHING;
-var Lreact_Reactor_2_classLit = createForClass('react', 'Reactor', 479, Ljava_lang_Object_2_classLit);
+var Lreact_Reactor_2_classLit = createForClass('react', 'Reactor', 513, Ljava_lang_Object_2_classLit);
 function $clinit_AbstractSignal(){
   $clinit_AbstractSignal = emptyMethod;
   $clinit_Reactor();
@@ -10936,13 +12438,13 @@ function $notifyEmit(this$static, event_0){
   $notify(this$static, EMIT, event_0, null, null);
 }
 
-defineClass(488, 479, {});
+defineClass(522, 513, {});
 _.placeholderListener = function placeholderListener(){
   return $clinit_Slots() , NOOP_2;
 }
 ;
 var EMIT;
-var Lreact_AbstractSignal_2_classLit = createForClass('react', 'AbstractSignal', 488, Lreact_Reactor_2_classLit);
+var Lreact_AbstractSignal_2_classLit = createForClass('react', 'AbstractSignal', 522, Lreact_Reactor_2_classLit);
 function $emit(this$static, event_0){
   $notify(this$static, EMIT, event_0, null, null);
 }
@@ -10951,14 +12453,14 @@ function Signal(){
   $clinit_AbstractSignal();
 }
 
-defineClass(23, 488, {}, Signal);
-var Lreact_Signal_2_classLit = createForClass('react', 'Signal', 23, Lreact_AbstractSignal_2_classLit);
+defineClass(27, 522, {}, Signal);
+var Lreact_Signal_2_classLit = createForClass('react', 'Signal', 27, Lreact_AbstractSignal_2_classLit);
 function Layer$1(this$0){
   $clinit_AbstractSignal();
   this.this$01 = this$0;
 }
 
-defineClass(167, 23, {}, Layer$1);
+defineClass(175, 27, {}, Layer$1);
 _.connectionAdded = function connectionAdded_0(){
   $setInteractive(this.this$01, true);
 }
@@ -10967,7 +12469,7 @@ _.connectionRemoved = function connectionRemoved_0(){
   !this._listeners && this.this$01.deactivateOnNoListeners() && $setInteractive(this.this$01, false);
 }
 ;
-var Lplayn_scene_Layer$1_2_classLit = createForClass('playn.scene', 'Layer/1', 167, Lreact_Signal_2_classLit);
+var Lplayn_scene_Layer$1_2_classLit = createForClass('playn.scene', 'Layer/1', 175, Lreact_Signal_2_classLit);
 function $clinit_Layer$Flag(){
   $clinit_Layer$Flag = emptyMethod;
   VISIBLE_1 = new Layer$Flag('VISIBLE', 0, 1);
@@ -10983,13 +12485,13 @@ function Layer$Flag(enum$name, enum$ordinal, bitmask){
 
 function values_25(){
   $clinit_Layer$Flag();
-  return initValues(getClassLiteralForArray(Lplayn_scene_Layer$Flag_2_classLit, 1), $intern_1, 71, 0, [VISIBLE_1, INTERACTIVE, XFDIRTY, ODIRTY]);
+  return initValues(getClassLiteralForArray(Lplayn_scene_Layer$Flag_2_classLit, 1), $intern_1, 78, 0, [VISIBLE_1, INTERACTIVE, XFDIRTY, ODIRTY]);
 }
 
-defineClass(71, 6, {3:1, 7:1, 6:1, 71:1}, Layer$Flag);
+defineClass(78, 6, {3:1, 7:1, 6:1, 78:1}, Layer$Flag);
 _.bitmask = 0;
 var INTERACTIVE, ODIRTY, VISIBLE_1, XFDIRTY;
-var Lplayn_scene_Layer$Flag_2_classLit = createForEnum('playn.scene', 'Layer/Flag', 71, Ljava_lang_Enum_2_classLit, values_25);
+var Lplayn_scene_Layer$Flag_2_classLit = createForEnum('playn.scene', 'Layer/Flag', 78, Ljava_lang_Enum_2_classLit, values_25);
 function $clinit_Layer$Origin(){
   $clinit_Layer$Origin = emptyMethod;
   FIXED_0 = new Layer$Origin$1;
@@ -11010,17 +12512,17 @@ function Layer$Origin(enum$name, enum$ordinal){
 
 function values_26(){
   $clinit_Layer$Origin();
-  return initValues(getClassLiteralForArray(Lplayn_scene_Layer$Origin_2_classLit, 1), $intern_1, 15, 0, [FIXED_0, CENTER_0, UL, UR, LL, LR, TC, BC, LC, RC]);
+  return initValues(getClassLiteralForArray(Lplayn_scene_Layer$Origin_2_classLit, 1), $intern_1, 17, 0, [FIXED_0, CENTER_0, UL, UR, LL, LR, TC, BC, LC, RC]);
 }
 
-defineClass(15, 6, $intern_35);
+defineClass(17, 6, $intern_42);
 var BC, CENTER_0, FIXED_0, LC, LL, LR, RC, TC, UL, UR;
-var Lplayn_scene_Layer$Origin_2_classLit = createForEnum('playn.scene', 'Layer/Origin', 15, Ljava_lang_Enum_2_classLit, values_26);
+var Lplayn_scene_Layer$Origin_2_classLit = createForEnum('playn.scene', 'Layer/Origin', 17, Ljava_lang_Enum_2_classLit, values_26);
 function Layer$Origin$1(){
   Layer$Origin.call(this, 'FIXED', 0);
 }
 
-defineClass(273, 15, $intern_35, Layer$Origin$1);
+defineClass(287, 17, $intern_42, Layer$Origin$1);
 _.ox = function ox_0(width_0){
   return 0;
 }
@@ -11029,12 +12531,12 @@ _.oy = function oy_0(height){
   return 0;
 }
 ;
-var Lplayn_scene_Layer$Origin$1_2_classLit = createForEnum('playn.scene', 'Layer/Origin/1', 273, Lplayn_scene_Layer$Origin_2_classLit, null);
+var Lplayn_scene_Layer$Origin$1_2_classLit = createForEnum('playn.scene', 'Layer/Origin/1', 287, Lplayn_scene_Layer$Origin_2_classLit, null);
 function Layer$Origin$10(){
   Layer$Origin.call(this, 'RC', 9);
 }
 
-defineClass(282, 15, $intern_35, Layer$Origin$10);
+defineClass(296, 17, $intern_42, Layer$Origin$10);
 _.ox = function ox_1(width_0){
   return width_0;
 }
@@ -11043,12 +12545,12 @@ _.oy = function oy_1(height){
   return height / 2;
 }
 ;
-var Lplayn_scene_Layer$Origin$10_2_classLit = createForEnum('playn.scene', 'Layer/Origin/10', 282, Lplayn_scene_Layer$Origin_2_classLit, null);
+var Lplayn_scene_Layer$Origin$10_2_classLit = createForEnum('playn.scene', 'Layer/Origin/10', 296, Lplayn_scene_Layer$Origin_2_classLit, null);
 function Layer$Origin$2(){
   Layer$Origin.call(this, 'CENTER', 1);
 }
 
-defineClass(274, 15, $intern_35, Layer$Origin$2);
+defineClass(288, 17, $intern_42, Layer$Origin$2);
 _.ox = function ox_2(width_0){
   return width_0 / 2;
 }
@@ -11057,12 +12559,12 @@ _.oy = function oy_2(height){
   return height / 2;
 }
 ;
-var Lplayn_scene_Layer$Origin$2_2_classLit = createForEnum('playn.scene', 'Layer/Origin/2', 274, Lplayn_scene_Layer$Origin_2_classLit, null);
+var Lplayn_scene_Layer$Origin$2_2_classLit = createForEnum('playn.scene', 'Layer/Origin/2', 288, Lplayn_scene_Layer$Origin_2_classLit, null);
 function Layer$Origin$3(){
   Layer$Origin.call(this, 'UL', 2);
 }
 
-defineClass(275, 15, $intern_35, Layer$Origin$3);
+defineClass(289, 17, $intern_42, Layer$Origin$3);
 _.ox = function ox_3(width_0){
   return 0;
 }
@@ -11071,12 +12573,12 @@ _.oy = function oy_3(height){
   return 0;
 }
 ;
-var Lplayn_scene_Layer$Origin$3_2_classLit = createForEnum('playn.scene', 'Layer/Origin/3', 275, Lplayn_scene_Layer$Origin_2_classLit, null);
+var Lplayn_scene_Layer$Origin$3_2_classLit = createForEnum('playn.scene', 'Layer/Origin/3', 289, Lplayn_scene_Layer$Origin_2_classLit, null);
 function Layer$Origin$4(){
   Layer$Origin.call(this, 'UR', 3);
 }
 
-defineClass(276, 15, $intern_35, Layer$Origin$4);
+defineClass(290, 17, $intern_42, Layer$Origin$4);
 _.ox = function ox_4(width_0){
   return width_0;
 }
@@ -11085,12 +12587,12 @@ _.oy = function oy_4(height){
   return 0;
 }
 ;
-var Lplayn_scene_Layer$Origin$4_2_classLit = createForEnum('playn.scene', 'Layer/Origin/4', 276, Lplayn_scene_Layer$Origin_2_classLit, null);
+var Lplayn_scene_Layer$Origin$4_2_classLit = createForEnum('playn.scene', 'Layer/Origin/4', 290, Lplayn_scene_Layer$Origin_2_classLit, null);
 function Layer$Origin$5(){
   Layer$Origin.call(this, 'LL', 4);
 }
 
-defineClass(277, 15, $intern_35, Layer$Origin$5);
+defineClass(291, 17, $intern_42, Layer$Origin$5);
 _.ox = function ox_5(width_0){
   return 0;
 }
@@ -11099,12 +12601,12 @@ _.oy = function oy_5(height){
   return height;
 }
 ;
-var Lplayn_scene_Layer$Origin$5_2_classLit = createForEnum('playn.scene', 'Layer/Origin/5', 277, Lplayn_scene_Layer$Origin_2_classLit, null);
+var Lplayn_scene_Layer$Origin$5_2_classLit = createForEnum('playn.scene', 'Layer/Origin/5', 291, Lplayn_scene_Layer$Origin_2_classLit, null);
 function Layer$Origin$6(){
   Layer$Origin.call(this, 'LR', 5);
 }
 
-defineClass(278, 15, $intern_35, Layer$Origin$6);
+defineClass(292, 17, $intern_42, Layer$Origin$6);
 _.ox = function ox_6(width_0){
   return width_0;
 }
@@ -11113,12 +12615,12 @@ _.oy = function oy_6(height){
   return height;
 }
 ;
-var Lplayn_scene_Layer$Origin$6_2_classLit = createForEnum('playn.scene', 'Layer/Origin/6', 278, Lplayn_scene_Layer$Origin_2_classLit, null);
+var Lplayn_scene_Layer$Origin$6_2_classLit = createForEnum('playn.scene', 'Layer/Origin/6', 292, Lplayn_scene_Layer$Origin_2_classLit, null);
 function Layer$Origin$7(){
   Layer$Origin.call(this, 'TC', 6);
 }
 
-defineClass(279, 15, $intern_35, Layer$Origin$7);
+defineClass(293, 17, $intern_42, Layer$Origin$7);
 _.ox = function ox_7(width_0){
   return width_0 / 2;
 }
@@ -11127,12 +12629,12 @@ _.oy = function oy_7(height){
   return 0;
 }
 ;
-var Lplayn_scene_Layer$Origin$7_2_classLit = createForEnum('playn.scene', 'Layer/Origin/7', 279, Lplayn_scene_Layer$Origin_2_classLit, null);
+var Lplayn_scene_Layer$Origin$7_2_classLit = createForEnum('playn.scene', 'Layer/Origin/7', 293, Lplayn_scene_Layer$Origin_2_classLit, null);
 function Layer$Origin$8(){
   Layer$Origin.call(this, 'BC', 7);
 }
 
-defineClass(280, 15, $intern_35, Layer$Origin$8);
+defineClass(294, 17, $intern_42, Layer$Origin$8);
 _.ox = function ox_8(width_0){
   return width_0 / 2;
 }
@@ -11141,12 +12643,12 @@ _.oy = function oy_8(height){
   return height;
 }
 ;
-var Lplayn_scene_Layer$Origin$8_2_classLit = createForEnum('playn.scene', 'Layer/Origin/8', 280, Lplayn_scene_Layer$Origin_2_classLit, null);
+var Lplayn_scene_Layer$Origin$8_2_classLit = createForEnum('playn.scene', 'Layer/Origin/8', 294, Lplayn_scene_Layer$Origin_2_classLit, null);
 function Layer$Origin$9(){
   Layer$Origin.call(this, 'LC', 8);
 }
 
-defineClass(281, 15, $intern_35, Layer$Origin$9);
+defineClass(295, 17, $intern_42, Layer$Origin$9);
 _.ox = function ox_9(width_0){
   return 0;
 }
@@ -11155,7 +12657,7 @@ _.oy = function oy_9(height){
   return height / 2;
 }
 ;
-var Lplayn_scene_Layer$Origin$9_2_classLit = createForEnum('playn.scene', 'Layer/Origin/9', 281, Lplayn_scene_Layer$Origin_2_classLit, null);
+var Lplayn_scene_Layer$Origin$9_2_classLit = createForEnum('playn.scene', 'Layer/Origin/9', 295, Lplayn_scene_Layer$Origin_2_classLit, null);
 function $clinit_Layer$State(){
   $clinit_Layer$State = emptyMethod;
   REMOVED = new Layer$State('REMOVED', 0);
@@ -11169,12 +12671,12 @@ function Layer$State(enum$name, enum$ordinal){
 
 function values_27(){
   $clinit_Layer$State();
-  return initValues(getClassLiteralForArray(Lplayn_scene_Layer$State_2_classLit, 1), $intern_1, 90, 0, [REMOVED, ADDED, DISPOSED]);
+  return initValues(getClassLiteralForArray(Lplayn_scene_Layer$State_2_classLit, 1), $intern_1, 95, 0, [REMOVED, ADDED, DISPOSED]);
 }
 
-defineClass(90, 6, {3:1, 7:1, 6:1, 90:1}, Layer$State);
+defineClass(95, 6, {3:1, 7:1, 6:1, 95:1}, Layer$State);
 var ADDED, DISPOSED, REMOVED;
-var Lplayn_scene_Layer$State_2_classLit = createForEnum('playn.scene', 'Layer/State', 90, Ljava_lang_Enum_2_classLit, values_27);
+var Lplayn_scene_Layer$State_2_classLit = createForEnum('playn.scene', 'Layer/State', 95, Ljava_lang_Enum_2_classLit, values_27);
 function getHitLayer(root, p){
   $inverseTransform($transform(root), p, p);
   p.x_0 += $originX(root);
@@ -11186,7 +12688,7 @@ function screenToLayer(layer, point, into){
   var cur, parent_0;
   parent_0 = layer.parent_0;
   cur = !parent_0?point:screenToLayer(parent_0, point, into);
-  return $inverseTransform($transform(layer), $set_4(into, cur.x_1(), cur.y_1()), into) , into.x_0 += $originX(layer) , into.y_0 += $originY(layer) , into;
+  return $inverseTransform($transform(layer), $set_6(into, cur.x_1(), cur.y_1()), into) , into.x_0 += $originX(layer) , into.y_0 += $originY(layer) , into;
 }
 
 function Pointer(plat, root){
@@ -11197,12 +12699,12 @@ function Pointer(plat, root){
   $addConnection(this.events, new Pointer$Dispatcher(root));
 }
 
-defineClass(290, 289, {}, Pointer);
-var Lplayn_scene_Pointer_2_classLit = createForClass('playn.scene', 'Pointer', 290, Lplayn_core_Pointer_2_classLit);
+defineClass(306, 305, {}, Pointer);
+var Lplayn_scene_Pointer_2_classLit = createForClass('playn.scene', 'Pointer', 306, Lplayn_core_Pointer_2_classLit);
 function $onEmit_4(this$static, event_0){
   var hitLayer;
   if (!this$static.currentIact && event_0.kind.isStart) {
-    hitLayer = getHitLayer(this$static.root, $set_4(this$static.scratch, event_0.x_0, event_0.y_0));
+    hitLayer = getHitLayer(this$static.root, $set_6(this$static.scratch, event_0.x_0, event_0.y_0));
     !!hitLayer && (this$static.currentIact = new Pointer$Interaction(hitLayer, this$static.bubble));
   }
   !!this$static.currentIact && $dispatch_3(this$static.currentIact, event_0);
@@ -11215,28 +12717,28 @@ function Pointer$Dispatcher(root){
   this.bubble = true;
 }
 
-defineClass(292, 478, {}, Pointer$Dispatcher);
+defineClass(308, 512, {}, Pointer$Dispatcher);
 _.onEmit = function onEmit_10(event_0){
   $onEmit_4(this, event_0);
 }
 ;
 _.bubble = false;
-var Lplayn_scene_Pointer$Dispatcher_2_classLit = createForClass('playn.scene', 'Pointer/Dispatcher', 292, Lreact_Slot_2_classLit);
+var Lplayn_scene_Pointer$Dispatcher_2_classLit = createForClass('playn.scene', 'Pointer/Dispatcher', 308, Lreact_Slot_2_classLit);
 function Pointer$Interaction(hitLayer, bubble){
   this.local = new Point;
   this.hitLayer = hitLayer;
   this.bubble = bubble;
 }
 
-defineClass(131, 291, {131:1, 38:1}, Pointer$Interaction);
-var Lplayn_scene_Pointer$Interaction_2_classLit = createForClass('playn.scene', 'Pointer/Interaction', 131, Lplayn_scene_Interaction_2_classLit);
+defineClass(139, 307, {139:1, 39:1}, Pointer$Interaction);
+var Lplayn_scene_Pointer$Interaction_2_classLit = createForClass('playn.scene', 'Pointer/Interaction', 139, Lplayn_scene_Interaction_2_classLit);
 function RootLayer(){
   GroupLayer.call(this);
   $setState(this, ($clinit_Layer$State() , ADDED));
 }
 
-defineClass(288, 60, $intern_34, RootLayer);
-var Lplayn_scene_RootLayer_2_classLit = createForClass('playn.scene', 'RootLayer', 288, Lplayn_scene_GroupLayer_2_classLit);
+defineClass(304, 68, $intern_41, RootLayer);
+var Lplayn_scene_RootLayer_2_classLit = createForClass('playn.scene', 'RootLayer', 304, Lplayn_scene_GroupLayer_2_classLit);
 function $onEmit_5(this$static){
   $paintScene(this$static.this$01);
 }
@@ -11245,108 +12747,108 @@ function SceneGame$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(220, 478, {}, SceneGame$1);
+defineClass(234, 512, {}, SceneGame$1);
 _.onEmit = function onEmit_11(clock){
   $onEmit_5(this, clock);
 }
 ;
-var Lplayn_scene_SceneGame$1_2_classLit = createForClass('playn.scene', 'SceneGame/1', 220, Lreact_Slot_2_classLit);
+var Lplayn_scene_SceneGame$1_2_classLit = createForClass('playn.scene', 'SceneGame/1', 234, Lreact_Slot_2_classLit);
 function $equals_4(this$static, obj){
   var d;
   if (obj === this$static) {
     return true;
   }
-  if (instanceOf(obj, 136)) {
+  if (instanceOf(obj, 144)) {
     d = obj;
     return d.width_0 == this$static.width_0 && d.height_0 == this$static.height_0;
   }
   return false;
 }
 
-defineClass(136, 1, {136:1});
-_.equals$ = function equals_28(obj){
+defineClass(144, 1, {144:1});
+_.equals$ = function equals_32(obj){
   return $equals_4(this, obj);
 }
 ;
-_.hashCode$ = function hashCode_31(){
+_.hashCode$ = function hashCode_35(){
   return round_int(this.width_0) ^ round_int(this.height_0);
 }
 ;
-_.toString$ = function toString_49(){
+_.toString$ = function toString_60(){
   return $clinit_Dimensions() , this.width_0 + 'x' + this.height_0;
 }
 ;
-var Lpythagoras_f_AbstractDimension_2_classLit = createForClass('pythagoras.f', 'AbstractDimension', 136, Ljava_lang_Object_2_classLit);
-defineClass(135, 1, {135:1, 38:1});
-_.equals$ = function equals_29(obj){
+var Lpythagoras_f_AbstractDimension_2_classLit = createForClass('pythagoras.f', 'AbstractDimension', 144, Ljava_lang_Object_2_classLit);
+defineClass(143, 1, {143:1, 39:1});
+_.equals$ = function equals_33(obj){
   var p;
   if (obj === this) {
     return true;
   }
-  if (instanceOf(obj, 135)) {
+  if (instanceOf(obj, 143)) {
     p = obj;
     return this.x_1() == p.x_0 && this.y_1() == p.y_0;
   }
   return false;
 }
 ;
-_.hashCode$ = function hashCode_32(){
+_.hashCode$ = function hashCode_36(){
   return round_int(this.x_1()) ^ round_int(this.y_1());
 }
 ;
-_.toString$ = function toString_50(){
+_.toString$ = function toString_61(){
   return pointToString(this.x_1(), this.y_1());
 }
 ;
-var Lpythagoras_f_AbstractPoint_2_classLit = createForClass('pythagoras.f', 'AbstractPoint', 135, Ljava_lang_Object_2_classLit);
-defineClass(502, 1, {});
-var Lpythagoras_f_RectangularShape_2_classLit = createForClass('pythagoras.f', 'RectangularShape', 502, Ljava_lang_Object_2_classLit);
-defineClass(137, 502, {137:1});
-_.equals$ = function equals_30(obj){
+var Lpythagoras_f_AbstractPoint_2_classLit = createForClass('pythagoras.f', 'AbstractPoint', 143, Ljava_lang_Object_2_classLit);
+defineClass(536, 1, {});
+var Lpythagoras_f_RectangularShape_2_classLit = createForClass('pythagoras.f', 'RectangularShape', 536, Ljava_lang_Object_2_classLit);
+defineClass(145, 536, {145:1});
+_.equals$ = function equals_34(obj){
   var r;
   if (obj === this) {
     return true;
   }
-  if (instanceOf(obj, 137)) {
+  if (instanceOf(obj, 145)) {
     r = obj;
     return r.x_0 == this.x_0 && r.y_0 == this.y_0 && r.width_0 == this.width_0 && r.height_0 == this.height_0;
   }
   return false;
 }
 ;
-_.hashCode$ = function hashCode_33(){
+_.hashCode$ = function hashCode_37(){
   return round_int(this.x_0) ^ round_int(this.y_0) ^ round_int(this.width_0) ^ round_int(this.height_0);
 }
 ;
-_.toString$ = function toString_51(){
+_.toString$ = function toString_62(){
   return $clinit_Dimensions() , this.width_0 + 'x' + this.height_0 + pointToString(this.x_0, this.y_0);
 }
 ;
-var Lpythagoras_f_AbstractRectangle_2_classLit = createForClass('pythagoras.f', 'AbstractRectangle', 137, Lpythagoras_f_RectangularShape_2_classLit);
-defineClass(499, 1, {});
-var Lpythagoras_f_AbstractTransform_2_classLit = createForClass('pythagoras.f', 'AbstractTransform', 499, Ljava_lang_Object_2_classLit);
-defineClass(142, 1, $intern_36);
-_.equals$ = function equals_31(obj){
+var Lpythagoras_f_AbstractRectangle_2_classLit = createForClass('pythagoras.f', 'AbstractRectangle', 145, Lpythagoras_f_RectangularShape_2_classLit);
+defineClass(533, 1, {});
+var Lpythagoras_f_AbstractTransform_2_classLit = createForClass('pythagoras.f', 'AbstractTransform', 533, Ljava_lang_Object_2_classLit);
+defineClass(150, 1, $intern_43);
+_.equals$ = function equals_35(obj){
   var p;
   if (obj === this) {
     return true;
   }
-  if (instanceOf(obj, 142)) {
+  if (instanceOf(obj, 150)) {
     p = obj;
     return this.x_1() == p.x_0 && this.y_1() == p.y_0;
   }
   return false;
 }
 ;
-_.hashCode$ = function hashCode_34(){
+_.hashCode$ = function hashCode_38(){
   return round_int(this.x_1()) ^ round_int(this.y_1());
 }
 ;
-_.toString$ = function toString_52(){
+_.toString$ = function toString_63(){
   return vectorToString(this.x_1(), this.y_1());
 }
 ;
-var Lpythagoras_f_AbstractVector_2_classLit = createForClass('pythagoras.f', 'AbstractVector', 142, Ljava_lang_Object_2_classLit);
+var Lpythagoras_f_AbstractVector_2_classLit = createForClass('pythagoras.f', 'AbstractVector', 150, Ljava_lang_Object_2_classLit);
 function $copy(this$static){
   return new AffineTransform_0(this$static.m00, this$static.m01, this$static.m10, this$static.m11, this$static.tx, this$static.ty);
 }
@@ -11357,10 +12859,10 @@ function $inverseTransform(this$static, p, into){
   y_0 = p.y_0 - this$static.ty;
   det = this$static.m00 * this$static.m11 - this$static.m01 * this$static.m10;
   if (abs_0(det) == 0) {
-    throw new NoninvertibleTransformException('affine [' + toString_54(this$static.m00, TO_STRING_DECIMAL_PLACES) + ' ' + toString_54(this$static.m01, TO_STRING_DECIMAL_PLACES) + ' ' + toString_54(this$static.m10, TO_STRING_DECIMAL_PLACES) + ' ' + toString_54(this$static.m11, TO_STRING_DECIMAL_PLACES) + ' ' + new Vector_0(this$static.tx, this$static.ty) + ']');
+    throw new NoninvertibleTransformException('affine [' + toString_65(this$static.m00, TO_STRING_DECIMAL_PLACES) + ' ' + toString_65(this$static.m01, TO_STRING_DECIMAL_PLACES) + ' ' + toString_65(this$static.m10, TO_STRING_DECIMAL_PLACES) + ' ' + toString_65(this$static.m11, TO_STRING_DECIMAL_PLACES) + ' ' + new Vector_0(this$static.tx, this$static.ty) + ']');
   }
   rdet = 1 / det;
-  return $set_4(into, (x_0 * this$static.m11 - y_0 * this$static.m10) * rdet, (y_0 * this$static.m00 - x_0 * this$static.m01) * rdet);
+  return $set_6(into, (x_0 * this$static.m11 - y_0 * this$static.m10) * rdet, (y_0 * this$static.m00 - x_0 * this$static.m01) * rdet);
 }
 
 function $scale_1(this$static, scaleX, scaleY){
@@ -11371,7 +12873,7 @@ function $scale_1(this$static, scaleX, scaleY){
   return this$static;
 }
 
-function $set_3(this$static, other){
+function $set_5(this$static, other){
   return $setTransform(this$static, other.m00, other.m01, other.m10, other.m11, other.tx, other.ty);
 }
 
@@ -11408,14 +12910,14 @@ function $transform_0(this$static, p, into){
   var x_0, y_0;
   x_0 = p.x_0;
   y_0 = p.y_0;
-  return $set_4(into, this$static.m00 * x_0 + this$static.m10 * y_0 + this$static.tx, this$static.m01 * x_0 + this$static.m11 * y_0 + this$static.ty);
+  return $set_6(into, this$static.m00 * x_0 + this$static.m10 * y_0 + this$static.tx, this$static.m01 * x_0 + this$static.m11 * y_0 + this$static.ty);
 }
 
 function $transform_1(this$static, v, into){
   var x_0, y_0;
   x_0 = v.x_0;
   y_0 = v.y_0;
-  return $set_5(into, this$static.m00 * x_0 + this$static.m10 * y_0, this$static.m01 * x_0 + this$static.m11 * y_0);
+  return $set_7(into, this$static.m00 * x_0 + this$static.m10 * y_0, this$static.m01 * x_0 + this$static.m11 * y_0);
 }
 
 function $translate(this$static, tx, ty){
@@ -11437,9 +12939,9 @@ function AffineTransform_0(m00, m01, m10, m11, tx, ty){
   this.ty = ty;
 }
 
-defineClass(74, 499, {}, AffineTransform, AffineTransform_0);
-_.toString$ = function toString_53(){
-  return 'affine [' + toString_54(this.m00, TO_STRING_DECIMAL_PLACES) + ' ' + toString_54(this.m01, TO_STRING_DECIMAL_PLACES) + ' ' + toString_54(this.m10, TO_STRING_DECIMAL_PLACES) + ' ' + toString_54(this.m11, TO_STRING_DECIMAL_PLACES) + ' ' + new Vector_0(this.tx, this.ty) + ']';
+defineClass(81, 533, {}, AffineTransform, AffineTransform_0);
+_.toString$ = function toString_64(){
+  return 'affine [' + toString_65(this.m00, TO_STRING_DECIMAL_PLACES) + ' ' + toString_65(this.m01, TO_STRING_DECIMAL_PLACES) + ' ' + toString_65(this.m10, TO_STRING_DECIMAL_PLACES) + ' ' + toString_65(this.m11, TO_STRING_DECIMAL_PLACES) + ' ' + new Vector_0(this.tx, this.ty) + ']';
 }
 ;
 _.m00 = 0;
@@ -11448,7 +12950,7 @@ _.m10 = 0;
 _.m11 = 0;
 _.tx = 0;
 _.ty = 0;
-var Lpythagoras_f_AffineTransform_2_classLit = createForClass('pythagoras.f', 'AffineTransform', 74, Lpythagoras_f_AbstractTransform_2_classLit);
+var Lpythagoras_f_AffineTransform_2_classLit = createForClass('pythagoras.f', 'AffineTransform', 81, Lpythagoras_f_AbstractTransform_2_classLit);
 function $setSize_3(this$static, width_0, height){
   this$static.width_0 = width_0;
   this$static.height_0 = height;
@@ -11467,10 +12969,10 @@ function Dimension_1(d){
   Dimension_0.call(this, d.width_0, d.height_0);
 }
 
-defineClass(20, 136, {3:1, 136:1}, Dimension, Dimension_0, Dimension_1);
+defineClass(21, 144, {3:1, 144:1}, Dimension, Dimension_0, Dimension_1);
 _.height_0 = 0;
 _.width_0 = 0;
-var Lpythagoras_f_Dimension_2_classLit = createForClass('pythagoras.f', 'Dimension', 20, Lpythagoras_f_AbstractDimension_2_classLit);
+var Lpythagoras_f_Dimension_2_classLit = createForClass('pythagoras.f', 'Dimension', 21, Lpythagoras_f_AbstractDimension_2_classLit);
 function $clinit_Dimensions(){
   $clinit_Dimensions = emptyMethod;
   new Dimension_0(0, 0);
@@ -11488,7 +12990,7 @@ function ifloor(v){
   return v >= 0 || iv == v || iv == -2147483648?iv:iv - 1;
 }
 
-function toString_54(value_0, decimalPlaces){
+function toString_65(value_0, decimalPlaces){
   var buf, ii, ii0, ivalue;
   if (isNaN(value_0))
     return 'NaN';
@@ -11516,7 +13018,7 @@ function toString_54(value_0, decimalPlaces){
 }
 
 var TO_STRING_DECIMAL_PLACES = 3;
-function $set_4(this$static, x_0, y_0){
+function $set_6(this$static, x_0, y_0){
   this$static.x_0 = x_0;
   this$static.y_0 = y_0;
   return this$static;
@@ -11526,10 +13028,10 @@ function Point(){
 }
 
 function Point_0(){
-  $set_4(this, 0, 0);
+  $set_6(this, 0, 0);
 }
 
-defineClass(73, 135, {3:1, 135:1, 38:1}, Point, Point_0);
+defineClass(80, 143, {3:1, 143:1, 39:1}, Point, Point_0);
 _.x_1 = function x_3(){
   return this.x_0;
 }
@@ -11540,7 +13042,7 @@ _.y_1 = function y_3(){
 ;
 _.x_0 = 0;
 _.y_0 = 0;
-var Lpythagoras_f_Point_2_classLit = createForClass('pythagoras.f', 'Point', 73, Lpythagoras_f_AbstractPoint_2_classLit);
+var Lpythagoras_f_Point_2_classLit = createForClass('pythagoras.f', 'Point', 80, Lpythagoras_f_AbstractPoint_2_classLit);
 function $clinit_Points(){
   $clinit_Points = emptyMethod;
   new Point_0;
@@ -11548,7 +13050,7 @@ function $clinit_Points(){
 
 function pointToString(x_0, y_0){
   $clinit_Points();
-  return toString_54(x_0, TO_STRING_DECIMAL_PLACES) + toString_54(y_0, TO_STRING_DECIMAL_PLACES);
+  return toString_65(x_0, TO_STRING_DECIMAL_PLACES) + toString_65(y_0, TO_STRING_DECIMAL_PLACES);
 }
 
 function $setBounds(this$static, x_0, y_0, width_0, height){
@@ -11565,12 +13067,12 @@ function Rectangle_0(x_0, y_0, width_0, height){
   $setBounds(this, x_0, y_0, width_0, height);
 }
 
-defineClass(138, 137, {3:1, 137:1}, Rectangle, Rectangle_0);
+defineClass(146, 145, {3:1, 145:1}, Rectangle, Rectangle_0);
 _.height_0 = 0;
 _.width_0 = 0;
 _.x_0 = 0;
 _.y_0 = 0;
-var Lpythagoras_f_Rectangle_2_classLit = createForClass('pythagoras.f', 'Rectangle', 138, Lpythagoras_f_AbstractRectangle_2_classLit);
+var Lpythagoras_f_Rectangle_2_classLit = createForClass('pythagoras.f', 'Rectangle', 146, Lpythagoras_f_AbstractRectangle_2_classLit);
 function multiply(am00, am01, am10, am11, atx, aty, bm00, bm01, bm10, bm11, btx, bty, into){
   $setTransform(into, am00 * bm00 + am10 * bm01, am01 * bm00 + am11 * bm01, am00 * bm10 + am10 * bm11, am01 * bm10 + am11 * bm11, am00 * btx + am10 * bty + atx, am01 * btx + am11 * bty + aty);
   return into;
@@ -11584,7 +13086,7 @@ function multiply_1(a, b, into){
   return multiply(a.m00, a.m01, a.m10, a.m11, a.tx, a.ty, b.m00, b.m01, b.m10, b.m11, b.tx, b.ty, into);
 }
 
-function $set_5(this$static, x_0, y_0){
+function $set_7(this$static, x_0, y_0){
   this$static.x_0 = x_0;
   this$static.y_0 = y_0;
   return this$static;
@@ -11594,10 +13096,10 @@ function Vector(){
 }
 
 function Vector_0(x_0, y_0){
-  $set_5(this, x_0, y_0);
+  $set_7(this, x_0, y_0);
 }
 
-defineClass(52, 142, $intern_36, Vector, Vector_0);
+defineClass(61, 150, $intern_43, Vector, Vector_0);
 _.x_1 = function x_4(){
   return this.x_0;
 }
@@ -11608,105 +13110,105 @@ _.y_1 = function y_4(){
 ;
 _.x_0 = 0;
 _.y_0 = 0;
-var Lpythagoras_f_Vector_2_classLit = createForClass('pythagoras.f', 'Vector', 52, Lpythagoras_f_AbstractVector_2_classLit);
+var Lpythagoras_f_Vector_2_classLit = createForClass('pythagoras.f', 'Vector', 61, Lpythagoras_f_AbstractVector_2_classLit);
 function $clinit_Vectors(){
   $clinit_Vectors = emptyMethod;
   new Vector_0(1, 0);
   new Vector_0(0, 1);
   new Vector_0(0, 0);
-  new Vector_0($intern_37, $intern_37);
-  new Vector_0($intern_29, $intern_29);
+  new Vector_0($intern_44, $intern_44);
+  new Vector_0($intern_36, $intern_36);
 }
 
 function vectorToString(x_0, y_0){
   $clinit_Vectors();
-  return toString_54(x_0, TO_STRING_DECIMAL_PLACES) + toString_54(y_0, TO_STRING_DECIMAL_PLACES);
+  return toString_65(x_0, TO_STRING_DECIMAL_PLACES) + toString_65(y_0, TO_STRING_DECIMAL_PLACES);
 }
 
-defineClass(134, 1, {134:1});
-_.equals$ = function equals_32(obj){
+defineClass(140, 1, {140:1});
+_.equals$ = function equals_36(obj){
   var d;
   if (obj === this) {
     return true;
   }
-  if (instanceOf(obj, 134)) {
+  if (instanceOf(obj, 140)) {
     d = obj;
     return d.width_0 == this.width_0 && d.height_0 == this.height_0;
   }
   return false;
 }
 ;
-_.hashCode$ = function hashCode_35(){
+_.hashCode$ = function hashCode_39(){
   return this.width_0 ^ this.height_0;
 }
 ;
-_.toString$ = function toString_55(){
+_.toString$ = function toString_66(){
   return this.width_0 + 'x' + this.height_0;
 }
 ;
-var Lpythagoras_i_AbstractDimension_2_classLit = createForClass('pythagoras.i', 'AbstractDimension', 134, Ljava_lang_Object_2_classLit);
-defineClass(147, 1, {147:1});
-_.equals$ = function equals_33(obj){
+var Lpythagoras_i_AbstractDimension_2_classLit = createForClass('pythagoras.i', 'AbstractDimension', 140, Ljava_lang_Object_2_classLit);
+defineClass(153, 1, {153:1});
+_.equals$ = function equals_37(obj){
   var p;
   if (obj === this) {
     return true;
   }
-  if (instanceOf(obj, 147)) {
+  if (instanceOf(obj, 153)) {
     p = obj;
     return this.x_0 == p.x_0 && this.y_0 == p.y_0;
   }
   return false;
 }
 ;
-_.hashCode$ = function hashCode_36(){
+_.hashCode$ = function hashCode_40(){
   return this.x_0 ^ this.y_0;
 }
 ;
-_.toString$ = function toString_56(){
+_.toString$ = function toString_67(){
   return pointToString_0(this.x_0, this.y_0);
 }
 ;
-var Lpythagoras_i_AbstractPoint_2_classLit = createForClass('pythagoras.i', 'AbstractPoint', 147, Ljava_lang_Object_2_classLit);
-defineClass(157, 1, {157:1});
-_.equals$ = function equals_34(obj){
+var Lpythagoras_i_AbstractPoint_2_classLit = createForClass('pythagoras.i', 'AbstractPoint', 153, Ljava_lang_Object_2_classLit);
+defineClass(164, 1, {164:1});
+_.equals$ = function equals_38(obj){
   var r;
   if (obj === this) {
     return true;
   }
-  if (instanceOf(obj, 157)) {
+  if (instanceOf(obj, 164)) {
     r = obj;
     return r.x_0 == this.x_0 && r.y_0 == this.y_0 && r.width_0 == this.width_0 && r.height_0 == this.height_0;
   }
   return false;
 }
 ;
-_.hashCode$ = function hashCode_37(){
+_.hashCode$ = function hashCode_41(){
   return this.x_0 ^ this.y_0 ^ this.width_0 ^ this.height_0;
 }
 ;
-_.toString$ = function toString_57(){
+_.toString$ = function toString_68(){
   return this.width_0 + 'x' + this.height_0 + pointToString_0(this.x_0, this.y_0);
 }
 ;
-var Lpythagoras_i_AbstractRectangle_2_classLit = createForClass('pythagoras.i', 'AbstractRectangle', 157, Ljava_lang_Object_2_classLit);
+var Lpythagoras_i_AbstractRectangle_2_classLit = createForClass('pythagoras.i', 'AbstractRectangle', 164, Ljava_lang_Object_2_classLit);
 function Dimension_2(){
   this.width_0 = 8;
   this.height_0 = 8;
 }
 
-defineClass(368, 134, {3:1, 134:1}, Dimension_2);
+defineClass(312, 140, {3:1, 140:1}, Dimension_2);
 _.height_0 = 0;
 _.width_0 = 0;
-var Lpythagoras_i_Dimension_2_classLit = createForClass('pythagoras.i', 'Dimension', 368, Lpythagoras_i_AbstractDimension_2_classLit);
+var Lpythagoras_i_Dimension_2_classLit = createForClass('pythagoras.i', 'Dimension', 312, Lpythagoras_i_AbstractDimension_2_classLit);
 function Point_1(x_0, y_0){
   this.x_0 = x_0;
   this.y_0 = y_0;
 }
 
-defineClass(113, 147, {3:1, 147:1}, Point_1);
+defineClass(120, 153, {3:1, 153:1}, Point_1);
 _.x_0 = 0;
 _.y_0 = 0;
-var Lpythagoras_i_Point_2_classLit = createForClass('pythagoras.i', 'Point', 113, Lpythagoras_i_AbstractPoint_2_classLit);
+var Lpythagoras_i_Point_2_classLit = createForClass('pythagoras.i', 'Point', 120, Lpythagoras_i_AbstractPoint_2_classLit);
 function pointToString_0(x_0, y_0){
   var buf;
   buf = new StringBuilder;
@@ -11730,29 +13232,29 @@ function $setSize_4(this$static, width_0, height){
 function Rectangle_1(){
 }
 
-defineClass(447, 157, {3:1, 157:1}, Rectangle_1);
+defineClass(481, 164, {3:1, 164:1}, Rectangle_1);
 _.height_0 = 0;
 _.width_0 = 0;
 _.x_0 = 0;
 _.y_0 = 0;
-var Lpythagoras_i_Rectangle_2_classLit = createForClass('pythagoras.i', 'Rectangle', 447, Lpythagoras_i_AbstractRectangle_2_classLit);
+var Lpythagoras_i_Rectangle_2_classLit = createForClass('pythagoras.i', 'Rectangle', 481, Lpythagoras_i_AbstractRectangle_2_classLit);
 function NoninvertibleTransformException(s){
   RuntimeException_0.call(this, s);
 }
 
-defineClass(151, 8, {3:1, 14:1, 8:1, 10:1, 151:1}, NoninvertibleTransformException);
-var Lpythagoras_util_NoninvertibleTransformException_2_classLit = createForClass('pythagoras.util', 'NoninvertibleTransformException', 151, Ljava_lang_RuntimeException_2_classLit);
-defineClass(481, 1, {});
-var Lreact_Reactor$Notifier_2_classLit = createForClass('react', 'Reactor/Notifier', 481, Ljava_lang_Object_2_classLit);
+defineClass(159, 8, {3:1, 14:1, 8:1, 10:1, 159:1}, NoninvertibleTransformException);
+var Lpythagoras_util_NoninvertibleTransformException_2_classLit = createForClass('pythagoras.util', 'NoninvertibleTransformException', 159, Ljava_lang_RuntimeException_2_classLit);
+defineClass(515, 1, {});
+var Lreact_Reactor$Notifier_2_classLit = createForClass('react', 'Reactor/Notifier', 515, Ljava_lang_Object_2_classLit);
 function AbstractSignal$1(){
 }
 
-defineClass(283, 481, {}, AbstractSignal$1);
+defineClass(297, 515, {}, AbstractSignal$1);
 _.notify_0 = function notify_0(slot, event_0, _1, _2){
   slot.onEmit(event_0);
 }
 ;
-var Lreact_AbstractSignal$1_2_classLit = createForClass('react', 'AbstractSignal/1', 283, Lreact_Reactor$Notifier_2_classLit);
+var Lreact_AbstractSignal$1_2_classLit = createForClass('react', 'AbstractSignal/1', 297, Lreact_Reactor$Notifier_2_classLit);
 function $clinit_AbstractValue(){
   $clinit_AbstractValue = emptyMethod;
   $clinit_Reactor();
@@ -11773,7 +13275,7 @@ function $connectNotify(this$static, listener){
       $close_6(conn);
       throw unwrap(re);
     }
-     else if (instanceOf($e0, 57)) {
+     else if (instanceOf($e0, 66)) {
       e = $e0;
       $close_6(conn);
       throw e;
@@ -11798,8 +13300,8 @@ function $updateAndNotify(this$static, value_0, force){
   return ovalue;
 }
 
-defineClass(493, 479, {});
-_.equals$ = function equals_35(other){
+defineClass(527, 513, {});
+_.equals$ = function equals_39(other){
   var ovalue, value_0;
   if (other == null)
     return false;
@@ -11810,7 +13312,7 @@ _.equals$ = function equals_35(other){
   return $clinit_Reactor() , maskUndefined(value_0) === maskUndefined(ovalue) || value_0 != null && equals_Ljava_lang_Object__Z__devirtual$(value_0, ovalue);
 }
 ;
-_.hashCode$ = function hashCode_38(){
+_.hashCode$ = function hashCode_42(){
   var value_0;
   value_0 = this.get_0();
   return value_0 == null?0:hashCode__I__devirtual$(value_0);
@@ -11820,7 +13322,7 @@ _.placeholderListener = function placeholderListener_0(){
   return $clinit_Slots() , NOOP_2;
 }
 ;
-_.toString$ = function toString_58(){
+_.toString$ = function toString_69(){
   var cname;
   cname = $getName(this.___clazz$);
   return $substring(cname, cname.lastIndexOf('.') + 1) + '(' + this.get_0() + ')';
@@ -11835,16 +13337,16 @@ _.updateLocal = function updateLocal(value_0){
 }
 ;
 var CHANGE;
-var Lreact_AbstractValue_2_classLit = createForClass('react', 'AbstractValue', 493, Lreact_Reactor_2_classLit);
+var Lreact_AbstractValue_2_classLit = createForClass('react', 'AbstractValue', 527, Lreact_Reactor_2_classLit);
 function AbstractValue$1(){
 }
 
-defineClass(321, 481, {}, AbstractValue$1);
+defineClass(339, 515, {}, AbstractValue$1);
 _.notify_0 = function notify_1(lner, value_0, oldValue, ignored){
   lner.onChange(value_0, oldValue);
 }
 ;
-var Lreact_AbstractValue$1_2_classLit = createForClass('react', 'AbstractValue/1', 321, Lreact_Reactor$Notifier_2_classLit);
+var Lreact_AbstractValue$1_2_classLit = createForClass('react', 'AbstractValue/1', 339, Lreact_Reactor$Notifier_2_classLit);
 function $disconnect_0(this$static){
   if (this$static._conn) {
     $close_6(this$static._conn);
@@ -11852,7 +13354,7 @@ function $disconnect_0(this$static){
   }
 }
 
-defineClass(494, 493, {});
+defineClass(528, 527, {});
 _.connectionAdded = function connectionAdded_1(){
   !this._conn && (this._conn = $addConnection(this.val$outer3, new AbstractValue$2$1(this, this.val$func2)));
 }
@@ -11861,47 +13363,47 @@ _.connectionRemoved = function connectionRemoved_1(){
   !!this._listeners || $disconnect_0(this);
 }
 ;
-var Lreact_MappedValue_2_classLit = createForClass('react', 'MappedValue', 494, Lreact_AbstractValue_2_classLit);
+var Lreact_MappedValue_2_classLit = createForClass('react', 'MappedValue', 528, Lreact_AbstractValue_2_classLit);
 function AbstractValue$2(val$func, val$outer){
   this.val$func2 = val$func;
   this.val$outer3 = val$outer;
 }
 
-defineClass(322, 494, {}, AbstractValue$2);
+defineClass(340, 528, {}, AbstractValue$2);
 _.get_0 = function get_14(){
   return this.val$func2.apply_0(this.val$outer3.get_0());
 }
 ;
-_.toString$ = function toString_59(){
+_.toString$ = function toString_70(){
   return this.val$outer3 + '.map(' + this.val$func2 + ')';
 }
 ;
-var Lreact_AbstractValue$2_2_classLit = createForClass('react', 'AbstractValue/2', 322, Lreact_MappedValue_2_classLit);
+var Lreact_AbstractValue$2_2_classLit = createForClass('react', 'AbstractValue/2', 340, Lreact_MappedValue_2_classLit);
 function AbstractValue$2$1(this$1, val$func){
   this.this$11 = this$1;
   this.val$func2 = val$func;
 }
 
-defineClass(323, 1, {}, AbstractValue$2$1);
+defineClass(341, 1, {}, AbstractValue$2$1);
 _.onChange = function onChange_1(value_0, ovalue){
   $notifyChange(this.this$11, this.val$func2.apply_0(value_0), this.val$func2.apply_0(ovalue));
 }
 ;
-var Lreact_AbstractValue$2$1_2_classLit = createForClass('react', 'AbstractValue/2/1', 323, Ljava_lang_Object_2_classLit);
+var Lreact_AbstractValue$2$1_2_classLit = createForClass('react', 'AbstractValue/2/1', 341, Ljava_lang_Object_2_classLit);
 function AbstractValue$4(val$listener){
   this.val$listener1 = val$listener;
 }
 
-defineClass(324, 1, {}, AbstractValue$4);
+defineClass(342, 1, {}, AbstractValue$4);
 _.onChange = function onChange_2(newValue, oldValue){
   $onEmit_6(this.val$listener1, newValue);
 }
 ;
-var Lreact_AbstractValue$4_2_classLit = createForClass('react', 'AbstractValue/4', 324, Ljava_lang_Object_2_classLit);
+var Lreact_AbstractValue$4_2_classLit = createForClass('react', 'AbstractValue/4', 342, Ljava_lang_Object_2_classLit);
 var Lreact_Closeable_2_classLit = createForInterface('react', 'Closeable');
-function $add_5(this$static, c){
+function $add_6(this$static, c){
   !this$static._set && (this$static._set = new HashSet);
-  $add_3(this$static._set, c);
+  $add_4(this$static._set, c);
   return c;
 }
 
@@ -11909,8 +13411,8 @@ function $close_4(this$static){
   var c, c$iterator, e, error;
   if (this$static._set) {
     error = null;
-    for (c$iterator = $iterator(new AbstractMap$1(this$static._set.map_0)); $hasNext(c$iterator.val$outerIter2);) {
-      c = $next_1(c$iterator);
+    for (c$iterator = $iterator_0(new AbstractMap$1(this$static._set.map_0)); $hasNext_0(c$iterator.val$outerIter2);) {
+      c = $next_2(c$iterator);
       try {
         c.close_0();
       }
@@ -11934,12 +13436,12 @@ function $close_4(this$static){
 function Closeable$Set(){
 }
 
-defineClass(251, 1, $intern_23, Closeable$Set);
+defineClass(265, 1, $intern_30, Closeable$Set);
 _.close_0 = function close_13(){
   $close_4(this);
 }
 ;
-var Lreact_Closeable$Set_2_classLit = createForClass('react', 'Closeable/Set', 251, Ljava_lang_Object_2_classLit);
+var Lreact_Closeable$Set_2_classLit = createForClass('react', 'Closeable/Set', 265, Ljava_lang_Object_2_classLit);
 function $clinit_Closeable$Util(){
   $clinit_Closeable$Util = emptyMethod;
   NOOP_0 = new Closeable$Util$1;
@@ -11949,11 +13451,11 @@ var NOOP_0;
 function Closeable$Util$1(){
 }
 
-defineClass(252, 1, $intern_23, Closeable$Util$1);
+defineClass(266, 1, $intern_30, Closeable$Util$1);
 _.close_0 = function close_14(){
 }
 ;
-var Lreact_Closeable$Util$1_2_classLit = createForClass('react', 'Closeable/Util/1', 252, Ljava_lang_Object_2_classLit);
+var Lreact_Closeable$Util$1_2_classLit = createForClass('react', 'Closeable/Util/1', 266, Ljava_lang_Object_2_classLit);
 function $close_5(this$static){
   var ii;
   for (ii = 0; ii < this$static.val$cons1.length; ii++) {
@@ -11968,17 +13470,17 @@ function Closeable$Util$2(val$cons){
   this.val$cons1 = val$cons;
 }
 
-defineClass(253, 1, $intern_23, Closeable$Util$2);
+defineClass(267, 1, $intern_30, Closeable$Util$2);
 _.close_0 = function close_15(){
   $close_5(this);
 }
 ;
-var Lreact_Closeable$Util$2_2_classLit = createForClass('react', 'Closeable/Util/2', 253, Ljava_lang_Object_2_classLit);
-defineClass(496, 1, $intern_23);
-var Lreact_Connection_2_classLit = createForClass('react', 'Connection', 496, Ljava_lang_Object_2_classLit);
+var Lreact_Closeable$Util$2_2_classLit = createForClass('react', 'Closeable/Util/2', 267, Ljava_lang_Object_2_classLit);
+defineClass(530, 1, $intern_30);
+var Lreact_Connection_2_classLit = createForClass('react', 'Connection', 530, Ljava_lang_Object_2_classLit);
 function $atPrio(this$static, priority){
   if (!this$static._owner)
-    throw new IllegalStateException('Cannot change priority of disconnected connection.');
+    throw new IllegalStateException_0('Cannot change priority of disconnected connection.');
   $disconnect(this$static._owner, this$static);
   this$static.next = null;
   this$static._priority = priority;
@@ -12013,29 +13515,29 @@ function insert(head, cons){
   }
 }
 
-function remove_2(head, cons){
+function remove_23(head, cons){
   if (!head)
     return null;
   if (head == cons)
     return head.next;
-  head.next = remove_2(head.next, cons);
+  head.next = remove_23(head.next, cons);
   return head;
 }
 
-defineClass(109, 496, $intern_23, Cons);
+defineClass(117, 530, $intern_30, Cons);
 _.close_0 = function close_16(){
   $close_6(this);
 }
 ;
-_.toString$ = function toString_60(){
+_.toString$ = function toString_71(){
   return '[owner=' + this._owner + ', pri=' + this._priority + ', lner=' + this._ref._lner + ', hasNext=' + !!this.next + ', oneShot=' + this._oneShot + ']';
 }
 ;
 _._oneShot = false;
 _._priority = 0;
-var Lreact_Cons_2_classLit = createForClass('react', 'Cons', 109, Lreact_Connection_2_classLit);
-defineClass(501, 1, {});
-var Lreact_Cons$ListenerRef_2_classLit = createForClass('react', 'Cons/ListenerRef', 501, Ljava_lang_Object_2_classLit);
+var Lreact_Cons_2_classLit = createForClass('react', 'Cons', 117, Lreact_Connection_2_classLit);
+defineClass(535, 1, {});
+var Lreact_Cons$ListenerRef_2_classLit = createForClass('react', 'Cons/ListenerRef', 535, Ljava_lang_Object_2_classLit);
 function $defang(this$static, noop){
   this$static._lner = noop;
 }
@@ -12044,8 +13546,8 @@ function Cons$StrongRef(lner){
   this._lner = lner;
 }
 
-defineClass(374, 501, {}, Cons$StrongRef);
-var Lreact_Cons$StrongRef_2_classLit = createForClass('react', 'Cons/StrongRef', 374, Lreact_Cons$ListenerRef_2_classLit);
+defineClass(399, 535, {}, Cons$StrongRef);
+var Lreact_Cons$StrongRef_2_classLit = createForClass('react', 'Cons/StrongRef', 399, Lreact_Cons$ListenerRef_2_classLit);
 function $clinit_Functions(){
   $clinit_Functions = emptyMethod;
   TO_STRING = new Functions$2;
@@ -12055,18 +13557,18 @@ var TO_STRING;
 function Functions$2(){
 }
 
-defineClass(449, 1, {}, Functions$2);
-_.apply_0 = function apply_3(value_0){
+defineClass(483, 1, {}, Functions$2);
+_.apply_0 = function apply_4(value_0){
   return '' + value_0;
 }
 ;
-var Lreact_Functions$2_2_classLit = createForClass('react', 'Functions/2', 449, Ljava_lang_Object_2_classLit);
+var Lreact_Functions$2_2_classLit = createForClass('react', 'Functions/2', 483, Ljava_lang_Object_2_classLit);
 function Value(value_0){
   $clinit_AbstractValue();
   this._value = value_0;
 }
 
-defineClass(47, 493, {}, Value);
+defineClass(51, 527, {}, Value);
 _.get_0 = function get_15(){
   return this._value;
 }
@@ -12078,7 +13580,7 @@ _.updateLocal = function updateLocal_0(value_0){
   return oldValue;
 }
 ;
-var Lreact_Value_2_classLit = createForClass('react', 'Value', 47, Lreact_AbstractValue_2_classLit);
+var Lreact_Value_2_classLit = createForClass('react', 'Value', 51, Lreact_AbstractValue_2_classLit);
 function $decrementClamp(this$static){
   return $updateInt(this$static, max_1(this$static._value.value_0 - 1, 0));
 }
@@ -12097,14 +13599,14 @@ function IntValue(value_0){
   Value.call(this, valueOf(value_0));
 }
 
-defineClass(139, 47, {}, IntValue);
-var Lreact_IntValue_2_classLit = createForClass('react', 'IntValue', 139, Lreact_Value_2_classLit);
+defineClass(116, 51, {}, IntValue);
+var Lreact_IntValue_2_classLit = createForClass('react', 'IntValue', 116, Lreact_Value_2_classLit);
 function MultiFailureException(){
   RuntimeException.call(this);
   this._failures = new ArrayList;
 }
 
-defineClass(441, 8, $intern_4, MultiFailureException);
+defineClass(475, 8, $intern_8, MultiFailureException);
 _.fillInStackTrace = function fillInStackTrace_0(){
   return this;
 }
@@ -12113,9 +13615,9 @@ _.getMessage = function getMessage_1(){
   var buf, failure, failure$iterator;
   buf = new StringBuilder;
   for (failure$iterator = new AbstractList$IteratorImpl(this._failures); failure$iterator.i < failure$iterator.this$01.size_1();) {
-    failure = (checkCriticalElement(failure$iterator.i < failure$iterator.this$01.size_1()) , failure$iterator.this$01.get_1(failure$iterator.i++));
+    failure = (checkCriticalElement(failure$iterator.i < failure$iterator.this$01.size_1()) , failure$iterator.this$01.get_1(failure$iterator.last = failure$iterator.i++));
     buf.string.length > 0 && (buf.string += ', ' , buf);
-    $append_6($append_6($append_6(buf, $getName(failure.___clazz$)), ': '), failure.getMessage());
+    $append_7($append_7($append_7(buf, $getName(failure.___clazz$)), ': '), failure.getMessage());
   }
   return this._failures.array.length + ' failures: ' + buf;
 }
@@ -12123,18 +13625,18 @@ _.getMessage = function getMessage_1(){
 _.printStackTrace = function printStackTrace_0(s){
   var failure, failure$iterator;
   for (failure$iterator = new AbstractList$IteratorImpl(this._failures); failure$iterator.i < failure$iterator.this$01.size_1();) {
-    failure = (checkCriticalElement(failure$iterator.i < failure$iterator.this$01.size_1()) , failure$iterator.this$01.get_1(failure$iterator.i++));
+    failure = (checkCriticalElement(failure$iterator.i < failure$iterator.this$01.size_1()) , failure$iterator.this$01.get_1(failure$iterator.last = failure$iterator.i++));
     failure.printStackTrace(s);
   }
 }
 ;
-var Lreact_MultiFailureException_2_classLit = createForClass('react', 'MultiFailureException', 441, Ljava_lang_RuntimeException_2_classLit);
-defineClass(491, 479, {});
+var Lreact_MultiFailureException_2_classLit = createForClass('react', 'MultiFailureException', 475, Ljava_lang_RuntimeException_2_classLit);
+defineClass(525, 513, {});
 _.notify = function notify_2(notifier, a1, a2, a3){
   $notify(this, notifier, a1, a2, a3);
 }
 ;
-var Lreact_RCollection_2_classLit = createForClass('react', 'RCollection', 491, Lreact_Reactor_2_classLit);
+var Lreact_RCollection_2_classLit = createForClass('react', 'RCollection', 525, Lreact_Reactor_2_classLit);
 function $map_0(this$static, func){
   return new RFuture($map(this$static._result_0, new RFuture$7(func)));
 }
@@ -12154,8 +13656,8 @@ function result_0(result){
   return new RFuture(($clinit_AbstractValue() , new Value(result)));
 }
 
-defineClass(107, 1, {}, RFuture);
-var Lreact_RFuture_2_classLit = createForClass('react', 'RFuture', 107, Ljava_lang_Object_2_classLit);
+defineClass(114, 1, {}, RFuture);
+var Lreact_RFuture_2_classLit = createForClass('react', 'RFuture', 114, Ljava_lang_Object_2_classLit);
 function $onEmit_6(this$static, result){
   result.isSuccess() && $onEmit_3(this$static.val$slot2, result.get_0());
 }
@@ -12164,37 +13666,51 @@ function RFuture$5(val$slot){
   this.val$slot2 = val$slot;
 }
 
-defineClass(319, 1, {}, RFuture$5);
+defineClass(337, 1, {}, RFuture$5);
 _.onEmit = function onEmit_12(result){
   $onEmit_6(this, result);
 }
 ;
-var Lreact_RFuture$5_2_classLit = createForClass('react', 'RFuture/5', 319, Ljava_lang_Object_2_classLit);
+var Lreact_RFuture$5_2_classLit = createForClass('react', 'RFuture/5', 337, Ljava_lang_Object_2_classLit);
 function RFuture$7(val$func){
   this.val$func2 = val$func;
 }
 
-defineClass(320, 1, {}, RFuture$7);
-_.apply_0 = function apply_4(result){
+defineClass(338, 1, {}, RFuture$7);
+_.apply_0 = function apply_5(result){
   return !result?null:result.map_1(this.val$func2);
 }
 ;
-var Lreact_RFuture$7_2_classLit = createForClass('react', 'RFuture/7', 320, Ljava_lang_Object_2_classLit);
+var Lreact_RFuture$7_2_classLit = createForClass('react', 'RFuture/7', 338, Ljava_lang_Object_2_classLit);
 function $clinit_RList(){
   $clinit_RList = emptyMethod;
   $clinit_Reactor();
   NOOP_1 = new RList$1;
   ADD = new RList$2;
+  REMOVE = new RList$4;
 }
 
-function $add_6(this$static, index_0, element){
-  $add_1(this$static._impl, index_0, element);
+function $add_7(this$static, index_0, element){
+  $add_2(this$static._impl, index_0, element);
   $notify(this$static, ADD, valueOf(index_0), element, null);
 }
 
-function $add_7(this$static, element){
-  $add_6(this$static, this$static._impl.array.length, element);
+function $add_8(this$static, element){
+  $add_7(this$static, this$static._impl.array.length, element);
   return true;
+}
+
+function $addAll_1(this$static, index_0, elements){
+  var elem, elem$iterator;
+  for (elem$iterator = unmodifiableIterator(elements.delegateList().iterator()); elem$iterator.hasNext();) {
+    elem = elem$iterator.next_0();
+    $add_7(this$static, index_0++, elem);
+  }
+  return true;
+}
+
+function $addAll_2(this$static, collection){
+  return $addAll_1(this$static, this$static._impl.array.length, collection);
 }
 
 function $connectNotify_0(this$static, listener){
@@ -12204,10 +13720,24 @@ function $connectNotify_0(this$static, listener){
   return $addCons(this$static, new Cons(this$static, listener));
 }
 
+function $emitRemove(this$static, index_0, elem){
+  $notify(this$static, REMOVE, valueOf(index_0), elem, null);
+}
+
 function $listIterator(this$static){
   var iiter;
   iiter = new AbstractList$ListIteratorImpl(this$static._impl);
-  return new RList$5(iiter);
+  return new RList$5(this$static, iiter);
+}
+
+function $remove_9(this$static, object){
+  var index_0;
+  index_0 = $indexOf_1(this$static._impl, object, 0);
+  if (index_0 < 0)
+    return false;
+  this$static._impl.remove_1(index_0);
+  $notify(this$static, REMOVE, valueOf(index_0), object, null);
+  return true;
 }
 
 function RList(impl){
@@ -12215,16 +13745,16 @@ function RList(impl){
   this._impl = impl;
 }
 
-defineClass(305, 491, {25:1}, RList);
-_.add_0 = function add_7(element){
-  return $add_7(this, element);
+defineClass(322, 525, {28:1}, RList);
+_.add_0 = function add_8(element){
+  return $add_8(this, element);
 }
 ;
-_.contains = function contains_13(object){
+_.contains = function contains_15(object){
   return $indexOf_1(this._impl, object, 0) != -1;
 }
 ;
-_.equals$ = function equals_36(other){
+_.equals$ = function equals_40(other){
   return other === this || $equals_0(this._impl, other);
 }
 ;
@@ -12232,11 +13762,11 @@ _.get_1 = function get_16(index_0){
   return $get_7(this._impl, index_0);
 }
 ;
-_.hashCode$ = function hashCode_39(){
-  return hashCode_22(this._impl);
+_.hashCode$ = function hashCode_43(){
+  return hashCode_26(this._impl);
 }
 ;
-_.iterator = function iterator_14(){
+_.iterator = function iterator_18(){
   return $listIterator(this);
 }
 ;
@@ -12244,7 +13774,7 @@ _.placeholderListener = function placeholderListener_1(){
   return NOOP_1;
 }
 ;
-_.size_1 = function size_16(){
+_.size_1 = function size_19(){
   return this._impl.array.length;
 }
 ;
@@ -12252,40 +13782,61 @@ _.toArray_0 = function toArray_11(array){
   return $toArray_1(this._impl, array);
 }
 ;
-_.toString$ = function toString_61(){
+_.toString$ = function toString_72(){
   return 'RList(' + this._impl + ')';
 }
 ;
-var ADD, NOOP_1;
-var Lreact_RList_2_classLit = createForClass('react', 'RList', 305, Lreact_RCollection_2_classLit);
+var ADD, NOOP_1, REMOVE;
+var Lreact_RList_2_classLit = createForClass('react', 'RList', 322, Lreact_RCollection_2_classLit);
 function RList$1(){
 }
 
-defineClass(306, 490, {}, RList$1);
-var Lreact_RList$1_2_classLit = createForClass('react', 'RList/1', 306, Lreact_RList$Listener_2_classLit);
+defineClass(323, 524, {}, RList$1);
+var Lreact_RList$1_2_classLit = createForClass('react', 'RList/1', 323, Lreact_RList$Listener_2_classLit);
 function RList$2(){
 }
 
-defineClass(307, 481, {}, RList$2);
+defineClass(324, 515, {}, RList$2);
 _.notify_0 = function notify_3(lner, index_0, elem, ignored){
   lner.onAdd(elem);
 }
 ;
-var Lreact_RList$2_2_classLit = createForClass('react', 'RList/2', 307, Lreact_Reactor$Notifier_2_classLit);
-function RList$5(val$iiter){
+var Lreact_RList$2_2_classLit = createForClass('react', 'RList/2', 324, Lreact_Reactor$Notifier_2_classLit);
+function RList$4(){
+}
+
+defineClass(325, 515, {}, RList$4);
+_.notify_0 = function notify_4(lner, index_0, elem, ignored){
+  lner.onRemove(elem);
+}
+;
+var Lreact_RList$4_2_classLit = createForClass('react', 'RList/4', 325, Lreact_Reactor$Notifier_2_classLit);
+function $next_3(this$static){
+  return this$static._current = this$static.val$iiter2.next_0();
+}
+
+function RList$5(this$0, val$iiter){
+  this.this$01 = this$0;
   this.val$iiter2 = val$iiter;
 }
 
-defineClass(308, 1, {}, RList$5);
-_.hasNext = function hasNext_10(){
+defineClass(326, 1, {}, RList$5);
+_.hasNext = function hasNext_14(){
   return this.val$iiter2.hasNext();
 }
 ;
-_.next_0 = function next_11(){
-  return this.val$iiter2.next_0();
+_.next_0 = function next_15(){
+  return $next_3(this);
 }
 ;
-var Lreact_RList$5_2_classLit = createForClass('react', 'RList/5', 308, Ljava_lang_Object_2_classLit);
+_.remove = function remove_24(){
+  var index_0;
+  index_0 = this.val$iiter2.i - 1;
+  this.val$iiter2.remove();
+  $emitRemove(this.this$01, index_0, this._current);
+}
+;
+var Lreact_RList$5_2_classLit = createForClass('react', 'RList/5', 326, Ljava_lang_Object_2_classLit);
 function $fail(this$static, cause){
   $updateAndNotify_0(this$static._result, new Try$Failure(cause), false);
 }
@@ -12303,15 +13854,15 @@ function RPromise_0(result){
   this._result = result;
 }
 
-defineClass(170, 107, {}, RPromise);
-var Lreact_RPromise_2_classLit = createForClass('react', 'RPromise', 170, Lreact_RFuture_2_classLit);
+defineClass(180, 114, {}, RPromise);
+var Lreact_RPromise_2_classLit = createForClass('react', 'RPromise', 180, Lreact_RFuture_2_classLit);
 function $updateAndNotify_0(this$static, value_0, force){
   return $updateAndNotify_1(this$static, value_0, force);
 }
 
 function $updateAndNotify_1(this$static, value_0, force){
   if (this$static._value != null)
-    throw new IllegalStateException('Already completed');
+    throw new IllegalStateException_0('Already completed');
   try {
     return $updateAndNotify(this$static, value_0, force);
   }
@@ -12325,38 +13876,38 @@ function RPromise$3(){
   Value.call(this, null);
 }
 
-defineClass(318, 47, {}, RPromise$3);
+defineClass(336, 51, {}, RPromise$3);
 _.updateAndNotify = function updateAndNotify_0(value_0, force){
   return $updateAndNotify_0(this, value_0, force);
 }
 ;
-var Lreact_RPromise$3_2_classLit = createForClass('react', 'RPromise/3', 318, Lreact_Value_2_classLit);
-defineClass(480, 1, {});
-var Lreact_Reactor$Runs_2_classLit = createForClass('react', 'Reactor/Runs', 480, Ljava_lang_Object_2_classLit);
+var Lreact_RPromise$3_2_classLit = createForClass('react', 'RPromise/3', 336, Lreact_Value_2_classLit);
+defineClass(514, 1, {});
+var Lreact_Reactor$Runs_2_classLit = createForClass('react', 'Reactor/Runs', 514, Ljava_lang_Object_2_classLit);
 function Reactor$1(this$0, val$cons){
   this.this$01 = this$0;
   this.val$cons2 = val$cons;
 }
 
-defineClass(222, 480, {}, Reactor$1);
+defineClass(236, 514, {}, Reactor$1);
 _.run = function run_3(){
   this.this$01._listeners = insert(this.this$01._listeners, this.val$cons2);
   this.this$01.connectionAdded();
 }
 ;
-var Lreact_Reactor$1_2_classLit = createForClass('react', 'Reactor/1', 222, Lreact_Reactor$Runs_2_classLit);
+var Lreact_Reactor$1_2_classLit = createForClass('react', 'Reactor/1', 236, Lreact_Reactor$Runs_2_classLit);
 function Reactor$2(this$0, val$cons){
   this.this$01 = this$0;
   this.val$cons2 = val$cons;
 }
 
-defineClass(223, 480, {}, Reactor$2);
+defineClass(237, 514, {}, Reactor$2);
 _.run = function run_4(){
-  this.this$01._listeners = remove_2(this.this$01._listeners, this.val$cons2);
+  this.this$01._listeners = remove_23(this.this$01._listeners, this.val$cons2);
   this.this$01.connectionRemoved();
 }
 ;
-var Lreact_Reactor$2_2_classLit = createForClass('react', 'Reactor/2', 223, Lreact_Reactor$Runs_2_classLit);
+var Lreact_Reactor$2_2_classLit = createForClass('react', 'Reactor/2', 237, Lreact_Reactor$Runs_2_classLit);
 function Reactor$4(this$0, val$notifier, val$a1, val$a2, val$a3){
   this.this$01 = this$0;
   this.val$notifier2 = val$notifier;
@@ -12365,29 +13916,29 @@ function Reactor$4(this$0, val$notifier, val$a1, val$a2, val$a3){
   this.val$a35 = val$a3;
 }
 
-defineClass(224, 480, {}, Reactor$4);
+defineClass(238, 514, {}, Reactor$4);
 _.run = function run_5(){
   this.this$01.notify(this.val$notifier2, this.val$a13, this.val$a24, this.val$a35);
 }
 ;
-var Lreact_Reactor$4_2_classLit = createForClass('react', 'Reactor/4', 224, Lreact_Reactor$Runs_2_classLit);
+var Lreact_Reactor$4_2_classLit = createForClass('react', 'Reactor/4', 238, Lreact_Reactor$Runs_2_classLit);
 function Signal$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(168, 478, {}, Signal$1);
+defineClass(176, 512, {}, Signal$1);
 _.onEmit = function onEmit_13(value_0){
   $emit(this.this$01, value_0);
 }
 ;
-var Lreact_Signal$1_2_classLit = createForClass('react', 'Signal/1', 168, Lreact_Slot_2_classLit);
+var Lreact_Signal$1_2_classLit = createForClass('react', 'Signal/1', 176, Lreact_Slot_2_classLit);
 function $clinit_Slots(){
   $clinit_Slots = emptyMethod;
   NOOP_2 = new Slots$1;
 }
 
 var NOOP_2;
-defineClass(485, 478, {});
+defineClass(519, 512, {});
 _.onEmit = function onEmit_14(event_0){
   this.onEmit_0();
 }
@@ -12396,27 +13947,27 @@ _.run = function run_6(){
   this.onEmit_0();
 }
 ;
-var Lreact_UnitSlot_2_classLit = createForClass('react', 'UnitSlot', 485, Lreact_Slot_2_classLit);
+var Lreact_UnitSlot_2_classLit = createForClass('react', 'UnitSlot', 519, Lreact_Slot_2_classLit);
 function Slots$1(){
 }
 
-defineClass(439, 485, {}, Slots$1);
+defineClass(472, 519, {}, Slots$1);
 _.onEmit_0 = function onEmit_15(){
 }
 ;
-var Lreact_Slots$1_2_classLit = createForClass('react', 'Slots/1', 439, Lreact_UnitSlot_2_classLit);
-defineClass(510, 1, {});
-var Lreact_Try_2_classLit = createForClass('react', 'Try', 510, Ljava_lang_Object_2_classLit);
+var Lreact_Slots$1_2_classLit = createForClass('react', 'Slots/1', 472, Lreact_UnitSlot_2_classLit);
+defineClass(544, 1, {});
+var Lreact_Try_2_classLit = createForClass('react', 'Try', 544, Ljava_lang_Object_2_classLit);
 function Try$Failure(cause){
   this.cause = cause;
 }
 
-defineClass(182, 510, {}, Try$Failure);
+defineClass(190, 544, {}, Try$Failure);
 _.get_0 = function get_17(){
   if (instanceOf(this.cause, 8)) {
     throw unwrap(this.cause);
   }
-   else if (instanceOf(this.cause, 57)) {
+   else if (instanceOf(this.cause, 66)) {
     throw this.cause;
   }
    else {
@@ -12432,16 +13983,16 @@ _.map_1 = function map_1(func){
   return this;
 }
 ;
-_.toString$ = function toString_62(){
+_.toString$ = function toString_73(){
   return 'Failure(' + this.cause + ')';
 }
 ;
-var Lreact_Try$Failure_2_classLit = createForClass('react', 'Try/Failure', 182, Lreact_Try_2_classLit);
+var Lreact_Try$Failure_2_classLit = createForClass('react', 'Try/Failure', 190, Lreact_Try_2_classLit);
 function Try$Success(value_0){
   this.value_0 = value_0;
 }
 
-defineClass(94, 510, {}, Try$Success);
+defineClass(100, 544, {}, Try$Success);
 _.get_0 = function get_18(){
   return this.value_0;
 }
@@ -12453,7 +14004,7 @@ _.isSuccess = function isSuccess_0(){
 _.map_1 = function map_2(func){
   var t;
   try {
-    return new Try$Success($apply(func, this.value_0));
+    return new Try$Success($apply_0(func, this.value_0));
   }
    catch ($e0) {
     $e0 = wrap_0($e0);
@@ -12466,23 +14017,23 @@ _.map_1 = function map_2(func){
   }
 }
 ;
-_.toString$ = function toString_63(){
+_.toString$ = function toString_74(){
   return 'Success(' + this.value_0 + ')';
 }
 ;
-var Lreact_Try$Success_2_classLit = createForClass('react', 'Try/Success', 94, Lreact_Try_2_classLit);
+var Lreact_Try$Success_2_classLit = createForClass('react', 'Try/Success', 100, Lreact_Try_2_classLit);
 function Value$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(171, 478, {}, Value$1);
+defineClass(181, 512, {}, Value$1);
 _.onEmit = function onEmit_16(value_0){
   this.this$01.updateAndNotify(value_0, false);
 }
 ;
-var Lreact_Value$1_2_classLit = createForClass('react', 'Value/1', 171, Lreact_Slot_2_classLit);
-defineClass(503, 1, {});
-var Ltripleplay_anim_AnimBuilder_2_classLit = createForClass('tripleplay.anim', 'AnimBuilder', 503, Ljava_lang_Object_2_classLit);
+var Lreact_Value$1_2_classLit = createForClass('react', 'Value/1', 181, Lreact_Slot_2_classLit);
+defineClass(541, 1, {});
+var Ltripleplay_anim_AnimBuilder_2_classLit = createForClass('tripleplay.anim', 'AnimBuilder', 541, Ljava_lang_Object_2_classLit);
 function $clear_2(this$static){
   this$static._anims.array = initDim(Ljava_lang_Object_2_classLit, $intern_1, 1, 0, 3, 1);
   this$static._nanims.array = initDim(Ljava_lang_Object_2_classLit, $intern_1, 1, 0, 3, 1);
@@ -12500,12 +14051,12 @@ function $onPaint(this$static){
   }
   for (ii = 0 , ll = this$static._anims.array.length; ii < ll; ii++) {
     if ($get_7(this$static._anims, ii).nullMethod() <= 0) {
-      this$static._anims.remove(ii--);
+      this$static._anims.remove_1(ii--);
       ll -= 1;
     }
   }
   if (this$static._barriers.array.length != 0 && this$static._anims.array.length == 0 && this$static._nanims.array.length == 0 && $get_7(this$static._barriers, 0).nullMethod()) {
-    this$static._barriers.remove(0);
+    this$static._barriers.remove_1(0);
     $addAll_0(this$static._nanims, null.nullField);
   }
 }
@@ -12517,8 +14068,8 @@ function Animator(){
   this._barriers = new ArrayList;
 }
 
-defineClass(180, 503, {}, Animator);
-var Ltripleplay_anim_Animator_2_classLit = createForClass('tripleplay.anim', 'Animator', 180, Ltripleplay_anim_AnimBuilder_2_classLit);
+defineClass(188, 541, {}, Animator);
+var Ltripleplay_anim_Animator_2_classLit = createForClass('tripleplay.anim', 'Animator', 188, Ltripleplay_anim_AnimBuilder_2_classLit);
 function $onEmit_7(this$static){
   $onPaint(this$static.this$01);
 }
@@ -12527,25 +14078,25 @@ function Animator$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(383, 478, {}, Animator$1);
+defineClass(406, 512, {}, Animator$1);
 _.onEmit = function onEmit_17(clock){
   $onEmit_7(this, clock);
 }
 ;
-var Ltripleplay_anim_Animator$1_2_classLit = createForClass('tripleplay.anim', 'Animator/1', 383, Lreact_Slot_2_classLit);
+var Ltripleplay_anim_Animator$1_2_classLit = createForClass('tripleplay.anim', 'Animator/1', 406, Lreact_Slot_2_classLit);
 function $clinit_Log(){
   $clinit_Log = emptyMethod;
-  log_2 = new Logger('tpgame');
+  log_1 = new Logger('tpgame');
 }
 
-var log_2;
-defineClass(482, 1, {});
-var Ltripleplay_game_ScreenStack$Transition_2_classLit = createForClass('tripleplay.game', 'ScreenStack/Transition', 482, Ljava_lang_Object_2_classLit);
+var log_1;
+defineClass(516, 1, {});
+var Ltripleplay_game_ScreenStack$Transition_2_classLit = createForClass('tripleplay.game', 'ScreenStack/Transition', 516, Ljava_lang_Object_2_classLit);
 function ScreenStack$1(){
 }
 
-defineClass(229, 482, {}, ScreenStack$1);
-var Ltripleplay_game_ScreenStack$1_2_classLit = createForClass('tripleplay.game', 'ScreenStack/1', 229, Ltripleplay_game_ScreenStack$Transition_2_classLit);
+defineClass(243, 516, {}, ScreenStack$1);
+var Ltripleplay_game_ScreenStack$1_2_classLit = createForClass('tripleplay.game', 'ScreenStack/1', 243, Ltripleplay_game_ScreenStack$Transition_2_classLit);
 function $complete(this$static){
   this$static.this$01._transitor = null;
   this$static._onPaint.close_0();
@@ -12569,10 +14120,10 @@ function $paint_0(this$static, clock){
   }
 }
 
-defineClass(227, 1, {});
+defineClass(241, 1, {});
 _._elapsed = 0;
 _._skipFrames = 0;
-var Ltripleplay_game_ScreenStack$Transitor_2_classLit = createForClass('tripleplay.game', 'ScreenStack/Transitor', 227, Ljava_lang_Object_2_classLit);
+var Ltripleplay_game_ScreenStack$Transitor_2_classLit = createForClass('tripleplay.game', 'ScreenStack/Transitor', 241, Ljava_lang_Object_2_classLit);
 function ScreenStack$2(this$0, this$0_1, $anonymous0, $anonymous1, $anonymous2, val$otop){
   this.this$02 = this$0_1;
   this.val$otop6 = val$otop;
@@ -12583,22 +14134,22 @@ function ScreenStack$2(this$0, this$0_1, $anonymous0, $anonymous1, $anonymous2, 
   this._trans = $anonymous2;
 }
 
-defineClass(230, 227, {}, ScreenStack$2);
-var Ltripleplay_game_ScreenStack$2_2_classLit = createForClass('tripleplay.game', 'ScreenStack/2', 230, Ltripleplay_game_ScreenStack$Transitor_2_classLit);
+defineClass(244, 241, {}, ScreenStack$2);
+var Ltripleplay_game_ScreenStack$2_2_classLit = createForClass('tripleplay.game', 'ScreenStack/2', 244, Ltripleplay_game_ScreenStack$Transitor_2_classLit);
 function ScreenStack$Transitor$1(this$1){
   this.this$11 = this$1;
 }
 
-defineClass(228, 478, {}, ScreenStack$Transitor$1);
+defineClass(242, 512, {}, ScreenStack$Transitor$1);
 _.onEmit = function onEmit_18(clock){
   $paint_0(this.this$11, clock);
 }
 ;
-var Ltripleplay_game_ScreenStack$Transitor$1_2_classLit = createForClass('tripleplay.game', 'ScreenStack/Transitor/1', 228, Lreact_Slot_2_classLit);
-defineClass(504, 482, {});
-var Ltripleplay_game_trans_AbstractTransition_2_classLit = createForClass('tripleplay.game.trans', 'AbstractTransition', 504, Ltripleplay_game_ScreenStack$Transition_2_classLit);
-defineClass(505, 504, {});
-var Ltripleplay_game_trans_InterpedTransition_2_classLit = createForClass('tripleplay.game.trans', 'InterpedTransition', 505, Ltripleplay_game_trans_AbstractTransition_2_classLit);
+var Ltripleplay_game_ScreenStack$Transitor$1_2_classLit = createForClass('tripleplay.game', 'ScreenStack/Transitor/1', 242, Lreact_Slot_2_classLit);
+defineClass(542, 516, {});
+var Ltripleplay_game_trans_AbstractTransition_2_classLit = createForClass('tripleplay.game.trans', 'AbstractTransition', 542, Ltripleplay_game_ScreenStack$Transition_2_classLit);
+defineClass(543, 542, {});
+var Ltripleplay_game_trans_InterpedTransition_2_classLit = createForClass('tripleplay.game.trans', 'InterpedTransition', 543, Ltripleplay_game_trans_AbstractTransition_2_classLit);
 function $complete_0(this$static, oscreen){
   $setTranslation(oscreen.layer, this$static._osx, this$static._osy);
 }
@@ -12655,7 +14206,7 @@ function SlideTransition(stack_0){
   this._originY = stack_0.originY;
 }
 
-defineClass(384, 505, {}, SlideTransition);
+defineClass(407, 543, {}, SlideTransition);
 _._dir = 2;
 _._nsx = 0;
 _._nsy = 0;
@@ -12665,7 +14216,7 @@ _._originX = 0;
 _._originY = 0;
 _._osx = 0;
 _._osy = 0;
-var Ltripleplay_game_trans_SlideTransition_2_classLit = createForClass('tripleplay.game.trans', 'SlideTransition', 384, Ltripleplay_game_trans_InterpedTransition_2_classLit);
+var Ltripleplay_game_trans_SlideTransition_2_classLit = createForClass('tripleplay.game.trans', 'SlideTransition', 407, Ltripleplay_game_trans_InterpedTransition_2_classLit);
 function $inset(this$static, uniformInset){
   this$static.insets = ($clinit_Insets() , new Insets(uniformInset, uniformInset, uniformInset, uniformInset));
   return this$static;
@@ -12680,41 +14231,41 @@ function Background(){
   this.insets = ($clinit_Insets() , ZERO_0);
 }
 
-defineClass(97, 1, {});
-var Ltripleplay_ui_Background_2_classLit = createForClass('tripleplay.ui', 'Background', 97, Ljava_lang_Object_2_classLit);
+defineClass(104, 1, {});
+var Ltripleplay_ui_Background_2_classLit = createForClass('tripleplay.ui', 'Background', 104, Ljava_lang_Object_2_classLit);
 function Background$1(val$color){
   this.val$color1 = val$color;
   Background.call(this);
 }
 
-defineClass(192, 97, {}, Background$1);
+defineClass(202, 104, {}, Background$1);
 _.instantiate = function instantiate(size_0){
   return new Background$LayerInstance(this, size_0, new Background$1$1(this.val$color1, size_0));
 }
 ;
 _.val$color1 = 0;
-var Ltripleplay_ui_Background$1_2_classLit = createForClass('tripleplay.ui', 'Background/1', 192, Ltripleplay_ui_Background_2_classLit);
+var Ltripleplay_ui_Background$1_2_classLit = createForClass('tripleplay.ui', 'Background/1', 202, Ltripleplay_ui_Background_2_classLit);
 function Background$1$1(val$color, val$size){
   this.val$color2 = val$color;
   this.val$size3 = val$size;
   Layer.call(this);
 }
 
-defineClass(425, 18, $intern_34, Background$1$1);
+defineClass(453, 19, $intern_41, Background$1$1);
 _.paintImpl = function paintImpl_1(surf){
   $fillRect_0($setFillColor(surf, this.val$color2), 0, 0, this.val$size3.width_0, this.val$size3.height_0);
 }
 ;
 _.val$color2 = 0;
-var Ltripleplay_ui_Background$1$1_2_classLit = createForClass('tripleplay.ui', 'Background/1/1', 425, Lplayn_scene_Layer_2_classLit);
+var Ltripleplay_ui_Background$1$1_2_classLit = createForClass('tripleplay.ui', 'Background/1/1', 453, Lplayn_scene_Layer_2_classLit);
 function Background$2(val$bgColor){
   this.val$bgColor1 = val$bgColor;
-  this.val$ulColor2 = $intern_38;
-  this.val$brColor3 = $intern_39;
+  this.val$ulColor2 = $intern_45;
+  this.val$brColor3 = $intern_46;
   Background.call(this);
 }
 
-defineClass(193, 97, {}, Background$2);
+defineClass(203, 104, {}, Background$2);
 _.instantiate = function instantiate_0(size_0){
   return new Background$LayerInstance(this, size_0, new Background$2$1(size_0, this.val$bgColor1, this.val$ulColor2, this.val$brColor3));
 }
@@ -12722,7 +14273,7 @@ _.instantiate = function instantiate_0(size_0){
 _.val$bgColor1 = 0;
 _.val$brColor3 = 0;
 _.val$ulColor2 = 0;
-var Ltripleplay_ui_Background$2_2_classLit = createForClass('tripleplay.ui', 'Background/2', 193, Ltripleplay_ui_Background_2_classLit);
+var Ltripleplay_ui_Background$2_2_classLit = createForClass('tripleplay.ui', 'Background/2', 203, Ltripleplay_ui_Background_2_classLit);
 function Background$2$1(val$size, val$bgColor, val$ulColor, val$brColor){
   this.val$size2 = val$size;
   this.val$bgColor3 = val$bgColor;
@@ -12731,7 +14282,7 @@ function Background$2$1(val$size, val$bgColor, val$ulColor, val$brColor){
   Layer.call(this);
 }
 
-defineClass(426, 18, $intern_34, Background$2$1);
+defineClass(454, 19, $intern_41, Background$2$1);
 _.paintImpl = function paintImpl_2(surf){
   var height, width_0;
   width_0 = this.val$size2.width_0;
@@ -12744,7 +14295,7 @@ _.paintImpl = function paintImpl_2(surf){
 _.val$bgColor3 = 0;
 _.val$brColor5 = 0;
 _.val$ulColor4 = 0;
-var Ltripleplay_ui_Background$2$1_2_classLit = createForClass('tripleplay.ui', 'Background/2/1', 426, Lplayn_scene_Layer_2_classLit);
+var Ltripleplay_ui_Background$2$1_2_classLit = createForClass('tripleplay.ui', 'Background/2/1', 454, Lplayn_scene_Layer_2_classLit);
 function Background$3(){
   this.val$bgColor1 = -1;
   this.val$color2 = 0;
@@ -12752,7 +14303,7 @@ function Background$3(){
   Background.call(this);
 }
 
-defineClass(427, 97, {}, Background$3);
+defineClass(455, 104, {}, Background$3);
 _.instantiate = function instantiate_1(size_0){
   return new Background$LayerInstance(this, size_0, new Background$3$1(size_0, this.val$bgColor1, this.val$color2, this.val$thickness3));
 }
@@ -12760,7 +14311,7 @@ _.instantiate = function instantiate_1(size_0){
 _.val$bgColor1 = 0;
 _.val$color2 = 0;
 _.val$thickness3 = 0;
-var Ltripleplay_ui_Background$3_2_classLit = createForClass('tripleplay.ui', 'Background/3', 427, Ltripleplay_ui_Background_2_classLit);
+var Ltripleplay_ui_Background$3_2_classLit = createForClass('tripleplay.ui', 'Background/3', 455, Ltripleplay_ui_Background_2_classLit);
 function Background$3$1(val$size, val$bgColor, val$color, val$thickness){
   this.val$size2 = val$size;
   this.val$bgColor3 = val$bgColor;
@@ -12769,7 +14320,7 @@ function Background$3$1(val$size, val$bgColor, val$color, val$thickness){
   Layer.call(this);
 }
 
-defineClass(428, 18, $intern_34, Background$3$1);
+defineClass(456, 19, $intern_41, Background$3$1);
 _.paintImpl = function paintImpl_3(surf){
   var height, width_0;
   width_0 = this.val$size2.width_0;
@@ -12781,37 +14332,48 @@ _.paintImpl = function paintImpl_3(surf){
 _.val$bgColor3 = 0;
 _.val$color4 = 0;
 _.val$thickness5 = 0;
-var Ltripleplay_ui_Background$3$1_2_classLit = createForClass('tripleplay.ui', 'Background/3/1', 428, Lplayn_scene_Layer_2_classLit);
+var Ltripleplay_ui_Background$3$1_2_classLit = createForClass('tripleplay.ui', 'Background/3/1', 456, Lplayn_scene_Layer_2_classLit);
 function Background$Instance(this$0, size_0){
   this.this$01 = this$0;
   this.size_0 = new Dimension_1(size_0);
 }
 
-defineClass(191, 1, $intern_23);
-var Ltripleplay_ui_Background$Instance_2_classLit = createForClass('tripleplay.ui', 'Background/Instance', 191, Ljava_lang_Object_2_classLit);
+defineClass(201, 1, $intern_30);
+var Ltripleplay_ui_Background$Instance_2_classLit = createForClass('tripleplay.ui', 'Background/Instance', 201, Ljava_lang_Object_2_classLit);
 function Background$LayerInstance(this$0, size_0, layer){
   Background$Instance.call(this, this$0, size_0);
   this._layer = layer;
 }
 
-defineClass(115, 191, $intern_23, Background$LayerInstance);
+defineClass(124, 201, $intern_30, Background$LayerInstance);
 _.addTo = function addTo(parent_0, x_0, y_0, depthAdjust){
   $setDepth(this._layer, -10 + depthAdjust);
   $translate($transform(this._layer), x_0, y_0);
-  $add_4(parent_0, this._layer);
+  $add_5(parent_0, this._layer);
 }
 ;
 _.close_0 = function close_17(){
   this._layer.close_0();
 }
 ;
-var Ltripleplay_ui_Background$LayerInstance_2_classLit = createForClass('tripleplay.ui', 'Background/LayerInstance', 115, Ltripleplay_ui_Background$Instance_2_classLit);
+var Ltripleplay_ui_Background$LayerInstance_2_classLit = createForClass('tripleplay.ui', 'Background/LayerInstance', 124, Ltripleplay_ui_Background$Instance_2_classLit);
 function $didAdd(this$static, child){
-  $add_4(this$static.layer, child.layer);
+  $add_5(this$static.layer, child.layer);
   child._parent = this$static;
-  if (!$willAdd(child)) {
-    $set_0(child, ($clinit_Element$Flag() , IS_ADDING), true);
+  if (!!this$static.root_0() && !$willAdd(child)) {
+    $set_1(child, ($clinit_Element$Flag() , IS_ADDING), true);
     child.wasAdded();
+  }
+}
+
+function $didRemove(this$static, child){
+  var needsRemove;
+  $remove_8(this$static.layer, child.layer);
+  needsRemove = $willRemove(child);
+  child._parent = null;
+  if (!!this$static.root_0() || needsRemove) {
+    $set_1(child, ($clinit_Element$Flag() , IS_REMOVING), true);
+    child.wasRemoved();
   }
 }
 
@@ -12819,10 +14381,10 @@ function $wasRemoved_0(this$static){
   var child, count, ii, willDispose;
   $wasRemoved(this$static);
   willDispose = $isSet(this$static, ($clinit_Element$Flag() , WILL_DISPOSE));
-  for (ii = 0 , count = this$static._children.array.length; ii < count; ii++) {
-    child = $get_7(this$static._children, ii);
-    willDispose && $set_0(child, WILL_DISPOSE, true);
-    $set_0(child, IS_REMOVING, true);
+  for (ii = 0 , count = this$static.childCount(); ii < count; ii++) {
+    child = this$static.childAt(ii);
+    willDispose && $set_1(child, WILL_DISPOSE, true);
+    $set_1(child, IS_REMOVING, true);
     child.wasRemoved();
   }
 }
@@ -12832,28 +14394,28 @@ function removeFromParent(element){
   if (!element._parent)
     return false;
   parent_0 = element._parent;
-  $remove_5(parent_0, element);
+  $remove_10(parent_0, element);
   return true;
 }
 
-defineClass(78, 24, $intern_40);
+defineClass(73, 23, $intern_47);
 _.computeSize = function computeSize_1(ldata, hintX, hintY){
-  return $computeSize_0(this._layout, this, hintX, hintY);
+  return this.getLayout().computeSize_1(this, hintX, hintY);
 }
 ;
 _.layout_0 = function layout_4(ldata, left, top_0, width_0, height){
   var ii, nn;
-  $layout_0(this._layout, this, left, top_0, width_0, height);
-  for (ii = 0 , nn = this._children.array.length; ii < nn; ii++)
-    $get_7(this._children, ii).validate();
+  this.getLayout().layout_2(this, left, top_0, width_0, height);
+  for (ii = 0 , nn = this.childCount(); ii < nn; ii++)
+    this.childAt(ii).validate();
 }
 ;
 _.wasAdded = function wasAdded_0(){
   var child, count, ii;
   $wasAdded(this);
-  for (ii = 0 , count = this._children.array.length; ii < count; ii++) {
-    child = $get_7(this._children, ii);
-    $set_0(child, ($clinit_Element$Flag() , IS_ADDING), true);
+  for (ii = 0 , count = this.childCount(); ii < count; ii++) {
+    child = this.childAt(ii);
+    $set_1(child, ($clinit_Element$Flag() , IS_ADDING), true);
     child.wasAdded();
   }
 }
@@ -12862,10 +14424,10 @@ _.wasRemoved = function wasRemoved_0(){
   $wasRemoved_0(this);
 }
 ;
-var Ltripleplay_ui_Container_2_classLit = createForClass('tripleplay.ui', 'Container', 78, Ltripleplay_ui_Element_2_classLit);
+var Ltripleplay_ui_Container_2_classLit = createForClass('tripleplay.ui', 'Container', 73, Ltripleplay_ui_Element_2_classLit);
 var Ltripleplay_ui_Composite_2_classLit = createForClass('tripleplay.ui', 'Composite', null, Ltripleplay_ui_Container_2_classLit);
-defineClass(395, 78, $intern_40);
-var Ltripleplay_ui_Container$Mutable_2_classLit = createForClass('tripleplay.ui', 'Container/Mutable', 395, Ltripleplay_ui_Container_2_classLit);
+defineClass(425, 73, $intern_47);
+var Ltripleplay_ui_Container$Mutable_2_classLit = createForClass('tripleplay.ui', 'Container/Mutable', 425, Ltripleplay_ui_Container_2_classLit);
 function $hitTest(this$static, layer, p){
   var hit;
   hit = null;
@@ -12880,36 +14442,36 @@ function Element$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(399, 1, {}, Element$1);
-_.toString$ = function toString_64(){
+defineClass(428, 1, {}, Element$1);
+_.toString$ = function toString_75(){
   return '<' + this.this$01._size + '>';
 }
 ;
-var Ltripleplay_ui_Element$1_2_classLit = createForClass('tripleplay.ui', 'Element/1', 399, Ljava_lang_Object_2_classLit);
+var Ltripleplay_ui_Element$1_2_classLit = createForClass('tripleplay.ui', 'Element/1', 428, Ljava_lang_Object_2_classLit);
 function Element$6(this$0){
   this.this$01 = this$0;
   this.val$styles2 = true;
 }
 
-defineClass(400, 485, {}, Element$6);
+defineClass(429, 519, {}, Element$6);
 _.onEmit_0 = function onEmit_19(){
   $invalidate(this.this$01);
   this.val$styles2 && (this.this$01._ldata = null);
 }
 ;
 _.val$styles2 = false;
-var Ltripleplay_ui_Element$6_2_classLit = createForClass('tripleplay.ui', 'Element/6', 400, Lreact_UnitSlot_2_classLit);
+var Ltripleplay_ui_Element$6_2_classLit = createForClass('tripleplay.ui', 'Element/6', 429, Lreact_UnitSlot_2_classLit);
 function Element$7(this$0){
   this.this$01 = this$0;
   GroupLayer.call(this);
 }
 
-defineClass(401, 60, $intern_34, Element$7);
+defineClass(430, 68, $intern_41, Element$7);
 _.name_1 = function name_12(){
   return this.this$01 + ' layer';
 }
 ;
-var Ltripleplay_ui_Element$7_2_classLit = createForClass('tripleplay.ui', 'Element/7', 401, Lplayn_scene_GroupLayer_2_classLit);
+var Ltripleplay_ui_Element$7_2_classLit = createForClass('tripleplay.ui', 'Element/7', 430, Lplayn_scene_GroupLayer_2_classLit);
 function $clinit_Element$Binding(){
   $clinit_Element$Binding = emptyMethod;
   NONE = new Element$Binding$1;
@@ -12920,19 +14482,19 @@ function Element$Binding(next){
   this.next = next;
 }
 
-defineClass(188, 1, {});
+defineClass(198, 1, {});
 var NONE;
-var Ltripleplay_ui_Element$Binding_2_classLit = createForClass('tripleplay.ui', 'Element/Binding', 188, Ljava_lang_Object_2_classLit);
+var Ltripleplay_ui_Element$Binding_2_classLit = createForClass('tripleplay.ui', 'Element/Binding', 198, Ljava_lang_Object_2_classLit);
 function Element$Binding$1(){
   Element$Binding.call(this, null);
 }
 
-defineClass(398, 188, {}, Element$Binding$1);
+defineClass(427, 198, {}, Element$Binding$1);
 _.connect = function connect(){
   return $clinit_Closeable$Util() , NOOP_0;
 }
 ;
-var Ltripleplay_ui_Element$Binding$1_2_classLit = createForClass('tripleplay.ui', 'Element/Binding/1', 398, Ltripleplay_ui_Element$Binding_2_classLit);
+var Ltripleplay_ui_Element$Binding$1_2_classLit = createForClass('tripleplay.ui', 'Element/Binding/1', 427, Ltripleplay_ui_Element$Binding_2_classLit);
 function $clinit_Element$Flag(){
   $clinit_Element$Flag = emptyMethod;
   VALID = new Element$Flag('VALID', 0, 1);
@@ -12953,14 +14515,14 @@ function Element$Flag(enum$name, enum$ordinal, mask){
 
 function values_28(){
   $clinit_Element$Flag();
-  return initValues(getClassLiteralForArray(Ltripleplay_ui_Element$Flag_2_classLit, 1), $intern_1, 35, 0, [VALID, ENABLED, VISIBLE_2, SELECTED, WILL_DISPOSE, HIT_DESCEND, HIT_ABSORB, IS_REMOVING, IS_ADDING]);
+  return initValues(getClassLiteralForArray(Ltripleplay_ui_Element$Flag_2_classLit, 1), $intern_1, 36, 0, [VALID, ENABLED, VISIBLE_2, SELECTED, WILL_DISPOSE, HIT_DESCEND, HIT_ABSORB, IS_REMOVING, IS_ADDING]);
 }
 
-defineClass(35, 6, {3:1, 7:1, 6:1, 35:1}, Element$Flag);
+defineClass(36, 6, {3:1, 7:1, 6:1, 36:1}, Element$Flag);
 _.mask = 0;
 var ENABLED, HIT_ABSORB, HIT_DESCEND, IS_ADDING, IS_REMOVING, SELECTED, VALID, VISIBLE_2, WILL_DISPOSE;
-var Ltripleplay_ui_Element$Flag_2_classLit = createForEnum('tripleplay.ui', 'Element/Flag', 35, Ljava_lang_Enum_2_classLit, values_28);
-function $add_8(this$static, children){
+var Ltripleplay_ui_Element$Flag_2_classLit = createForEnum('tripleplay.ui', 'Element/Flag', 36, Ljava_lang_Enum_2_classLit, values_28);
+function $add_9(this$static, children){
   var child, child$index, child$index0, child$max, child$max0;
   for (child$index0 = 0 , child$max0 = children.length; child$index0 < child$max0; ++child$index0) {
     child = children[child$index0];
@@ -12976,53 +14538,84 @@ function $add_8(this$static, children){
   return this$static;
 }
 
-function $remove_5(this$static, child){
-  if ($remove_0(this$static._children, child)) {
-    $remove_4(this$static.layer, child.layer);
-    $willRemove(child);
-    child._parent = null;
-    $set_0(child, ($clinit_Element$Flag() , IS_REMOVING), true);
-    child.wasRemoved();
+function $remove_10(this$static, child){
+  if ($remove_4(this$static._children, child)) {
+    $didRemove(this$static, child);
     $emit(this$static._childRemoved, child);
     $invalidate(this$static);
   }
 }
 
-defineClass(396, 395, $intern_40);
-_.iterator = function iterator_15(){
+function Elements(layout){
+  Element_0.call(this);
+  this._children = new ArrayList;
+  this._childAdded = ($clinit_AbstractSignal() , new Signal);
+  this._childRemoved = new Signal;
+  this._layout = layout;
+  $set_1(this, ($clinit_Element$Flag() , HIT_DESCEND), true);
+}
+
+defineClass(197, 425, $intern_47);
+_.childAt = function childAt(index_0){
+  return $get_7(this._children, index_0);
+}
+;
+_.childCount = function childCount(){
+  return this._children.array.length;
+}
+;
+_.getLayout = function getLayout(){
+  return this._layout;
+}
+;
+_.iterator = function iterator_19(){
   return unmodifiableList(this._children).iterator();
 }
 ;
-var Ltripleplay_ui_Elements_2_classLit = createForClass('tripleplay.ui', 'Elements', 396, Ltripleplay_ui_Container$Mutable_2_classLit);
+_.stylesheet = function stylesheet(){
+  return this._sheet;
+}
+;
+var Ltripleplay_ui_Elements_2_classLit = createForClass('tripleplay.ui', 'Elements', 197, Ltripleplay_ui_Container$Mutable_2_classLit);
+function Group(layout){
+  Elements.call(this, layout);
+}
+
+defineClass(457, 197, $intern_47, Group);
+_.getStyleClass = function getStyleClass_0(){
+  return Ltripleplay_ui_Group_2_classLit;
+}
+;
+var Ltripleplay_ui_Group_2_classLit = createForClass('tripleplay.ui', 'Group', 457, Ltripleplay_ui_Elements_2_classLit);
 function $clinit_IconEffect(){
   $clinit_IconEffect = emptyMethod;
   NONE_0 = new IconEffect$1;
 }
 
-defineClass(515, 1, {});
+defineClass(553, 1, {});
 var NONE_0;
-var Ltripleplay_ui_IconEffect_2_classLit = createForClass('tripleplay.ui', 'IconEffect', 515, Ljava_lang_Object_2_classLit);
+var Ltripleplay_ui_IconEffect_2_classLit = createForClass('tripleplay.ui', 'IconEffect', 553, Ljava_lang_Object_2_classLit);
 function IconEffect$1(){
 }
 
-defineClass(437, 515, {}, IconEffect$1);
-var Ltripleplay_ui_IconEffect$1_2_classLit = createForClass('tripleplay.ui', 'IconEffect/1', 437, Ltripleplay_ui_IconEffect_2_classLit);
+defineClass(470, 553, {}, IconEffect$1);
+var Ltripleplay_ui_IconEffect$1_2_classLit = createForClass('tripleplay.ui', 'IconEffect/1', 470, Ltripleplay_ui_IconEffect_2_classLit);
 function $addRoot(this$static, root){
-  $add_2(this$static._roots, root);
+  $add_3(this$static._roots, root);
   return root;
 }
 
 function $createRoot(this$static, layout, sheet_0, parent_0){
   var root;
   root = $addRoot(this$static, new Root(this$static, layout, sheet_0));
-  $add_4(parent_0, root.layer);
+  $add_5(parent_0, root.layer);
   return root;
 }
 
 function $disposeRoot(this$static, root){
-  if (!$remove_0(this$static._roots, root))
+  if (!$remove_4(this$static._roots, root))
     return false;
-  $set_0(root, ($clinit_Element$Flag() , WILL_DISPOSE), true);
+  $set_1(root, ($clinit_Element$Flag() , WILL_DISPOSE), true);
   $wasRemoved_0(root);
   $close_3(root.layer);
   return true;
@@ -13041,12 +14634,12 @@ function Interface(plat, frame_0){
   this._onFrame = ($clinit_Closeable$Util() , new Closeable$Util$2(initValues(getClassLiteralForArray(Lreact_Closeable_2_classLit, 1), $intern_1, 11, 0, [$addConnection(frame_0, new Interface$1(this)), $addConnection(frame_0, this.anim.onPaint)])));
 }
 
-defineClass(388, 1, $intern_23, Interface);
+defineClass(409, 1, $intern_30, Interface);
 _.close_0 = function close_18(){
   $close_5(this._onFrame);
 }
 ;
-var Ltripleplay_ui_Interface_2_classLit = createForClass('tripleplay.ui', 'Interface', 388, Ljava_lang_Object_2_classLit);
+var Ltripleplay_ui_Interface_2_classLit = createForClass('tripleplay.ui', 'Interface', 409, Ljava_lang_Object_2_classLit);
 function $onEmit_8(this$static){
   $paint_1(this$static.this$01);
 }
@@ -13055,19 +14648,19 @@ function Interface$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(389, 478, {}, Interface$1);
+defineClass(410, 512, {}, Interface$1);
 _.onEmit = function onEmit_20(clock){
   $onEmit_8(this, clock);
 }
 ;
-var Ltripleplay_ui_Interface$1_2_classLit = createForClass('tripleplay.ui', 'Interface/1', 389, Lreact_Slot_2_classLit);
-defineClass(430, 24, $intern_19);
+var Ltripleplay_ui_Interface$1_2_classLit = createForClass('tripleplay.ui', 'Interface/1', 410, Lreact_Slot_2_classLit);
+defineClass(465, 23, $intern_21);
 _.layout = function layout_5(){
   $layout(this);
 }
 ;
-var Ltripleplay_ui_Widget_2_classLit = createForClass('tripleplay.ui', 'Widget', 430, Ltripleplay_ui_Element_2_classLit);
-defineClass(431, 430, $intern_19);
+var Ltripleplay_ui_Widget_2_classLit = createForClass('tripleplay.ui', 'Widget', 465, Ltripleplay_ui_Element_2_classLit);
+defineClass(466, 465, $intern_21);
 _.createLayoutData = function createLayoutData_1(hintX, hintY){
   return new TextWidget$TextLayoutData(this, hintX, hintY);
 }
@@ -13077,7 +14670,7 @@ _.wasRemoved = function wasRemoved_1(){
   $close_7(this._tglyph);
 }
 ;
-var Ltripleplay_ui_TextWidget_2_classLit = createForClass('tripleplay.ui', 'TextWidget', 431, Ltripleplay_ui_Widget_2_classLit);
+var Ltripleplay_ui_TextWidget_2_classLit = createForClass('tripleplay.ui', 'TextWidget', 466, Ltripleplay_ui_Widget_2_classLit);
 function Label(text_0){
   Element_0.call(this);
   this._tglyph = new Glyph(this.layer);
@@ -13090,16 +14683,16 @@ function Label(text_0){
   $addBinding(this, new Label$1(this, this._bindings, text_0));
 }
 
-defineClass(194, 431, $intern_19, Label);
-_.getStyleClass = function getStyleClass_0(){
+defineClass(157, 466, $intern_21, Label);
+_.getStyleClass = function getStyleClass_1(){
   return Ltripleplay_ui_Label_2_classLit;
 }
 ;
-_.toString$ = function toString_65(){
+_.toString$ = function toString_76(){
   return 'Label(' + this.text_0._value + ')';
 }
 ;
-var Ltripleplay_ui_Label_2_classLit = createForClass('tripleplay.ui', 'Label', 194, Ltripleplay_ui_TextWidget_2_classLit);
+var Ltripleplay_ui_Label_2_classLit = createForClass('tripleplay.ui', 'Label', 157, Ltripleplay_ui_TextWidget_2_classLit);
 function Label$1(this$0, $anonymous0, val$textV){
   $clinit_Element$Binding();
   this.this$01 = this$0;
@@ -13107,25 +14700,25 @@ function Label$1(this$0, $anonymous0, val$textV){
   Element$Binding.call(this, $anonymous0);
 }
 
-defineClass(432, 188, {}, Label$1);
+defineClass(467, 198, {}, Label$1);
 _.connect = function connect_0(){
   return $connectNotify($map(this.val$textV3, ($clinit_Functions() , TO_STRING)), new Value$1(this.this$01.text_0));
 }
 ;
-_.toString$ = function toString_66(){
+_.toString$ = function toString_77(){
   return this.this$01 + '.bindText';
 }
 ;
-var Ltripleplay_ui_Label$1_2_classLit = createForClass('tripleplay.ui', 'Label/1', 432, Ltripleplay_ui_Element$Binding_2_classLit);
+var Ltripleplay_ui_Label$1_2_classLit = createForClass('tripleplay.ui', 'Label/1', 467, Ltripleplay_ui_Element$Binding_2_classLit);
 function $setBounds_0(elem, x_0, y_0, width_0, height){
   elem.setLocation(x_0, y_0);
   elem.setSize(width_0, height);
 }
 
-defineClass(512, 1, {});
-var Ltripleplay_ui_Layout_2_classLit = createForClass('tripleplay.ui', 'Layout', 512, Ljava_lang_Object_2_classLit);
-defineClass(513, 1, {});
-var Ltripleplay_ui_Layout$Constraint_2_classLit = createForClass('tripleplay.ui', 'Layout/Constraint', 513, Ljava_lang_Object_2_classLit);
+defineClass(550, 1, {});
+var Ltripleplay_ui_Layout_2_classLit = createForClass('tripleplay.ui', 'Layout', 550, Ljava_lang_Object_2_classLit);
+defineClass(551, 1, {});
+var Ltripleplay_ui_Layout$Constraint_2_classLit = createForClass('tripleplay.ui', 'Layout/Constraint', 551, Ljava_lang_Object_2_classLit);
 function $setSize_5(this$static, width_0, height){
   $setSize_3(this$static._size, width_0, height);
   $invalidate(this$static);
@@ -13133,29 +14726,28 @@ function $setSize_5(this$static, width_0, height){
 }
 
 function Root(iface, layout, sheet_0){
-  Element_0.call(this);
-  this._children = new ArrayList;
-  this._childAdded = ($clinit_AbstractSignal() , new Signal);
-  this._childRemoved = new Signal;
-  this._layout = layout;
-  $set_0(this, ($clinit_Element$Flag() , HIT_DESCEND), true);
-  this.validated = new Signal;
+  Elements.call(this, layout);
+  this.validated = ($clinit_AbstractSignal() , new Signal);
   this.iface = iface;
   this._sheet = sheet_0;
-  $set_0(this, HIT_ABSORB, true);
+  $set_1(this, ($clinit_Element$Flag() , HIT_ABSORB), true);
 }
 
-defineClass(397, 396, {12:1, 11:1, 78:1, 24:1}, Root);
+defineClass(426, 197, {12:1, 11:1, 73:1, 23:1}, Root);
 _.close_0 = function close_19(){
   $disposeRoot(this.iface, this);
 }
 ;
-_.getStyleClass = function getStyleClass_1(){
+_.getStyleClass = function getStyleClass_2(){
   return Ltripleplay_ui_Root_2_classLit;
 }
 ;
 _.preferredSize = function preferredSize_0(hintX, hintY){
   return !this._preferredSize && (this._preferredSize = $computeSize(this, hintX, hintY)) , this._preferredSize;
+}
+;
+_.root_0 = function root_1(){
+  return this;
 }
 ;
 _.setLocation = function setLocation_0(x_0, y_0){
@@ -13174,12 +14766,12 @@ _.wasValidated = function wasValidated_0(){
   $emit(this.validated, this);
 }
 ;
-var Ltripleplay_ui_Root_2_classLit = createForClass('tripleplay.ui', 'Root', 397, Ltripleplay_ui_Elements_2_classLit);
+var Ltripleplay_ui_Root_2_classLit = createForClass('tripleplay.ui', 'Root', 426, Ltripleplay_ui_Elements_2_classLit);
 function newSheetBuilder(gfx){
   var butBg, butSelBg;
-  butBg = $inset_0(new RoundRectBackground(gfx, $intern_39), 5, 6, 2, 6);
-  butSelBg = $inset_0(new RoundRectBackground(gfx, $intern_38), 6, 5, 1, 7);
-  return $add_12($add_10($add_12($add_12($add_10($add_12($add_10($add_12($add_10($add_12($add_10($add_12(new Stylesheet$Builder, Ltripleplay_ui_Button_2_classLit, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(($clinit_Style() , BACKGROUND), butBg)])), Ltripleplay_ui_Button_2_classLit, 2, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, butSelBg)])), Ltripleplay_ui_ToggleButton_2_classLit, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, butBg)])), Ltripleplay_ui_ToggleButton_2_classLit, 2, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, butSelBg)])), Ltripleplay_ui_CheckBox_2_classLit, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, $inset_0(new RoundRectBackground(gfx, $intern_39), 3, 2, 0, 3))])), Ltripleplay_ui_CheckBox_2_classLit, 2, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, $inset_0(new RoundRectBackground(gfx, $intern_38), 3, 2, 0, 3))])), Ltripleplay_ui_Field_2_classLit, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, $inset(new Background$2(-1), 5)), HALIGN.left_0])), Ltripleplay_ui_Field_2_classLit, 1, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, $inset(new Background$2($intern_41), 5))])), Ltripleplay_ui_Menu_2_classLit, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, $inset(new Background$3, 6))])), Ltripleplay_ui_MenuItem_2_classLit, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, new Background$1(-1)), HALIGN.left_0])), Ltripleplay_ui_MenuItem_2_classLit, 2, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, new Background$1($intern_42)), new Style$Binding(COLOR, valueOf(-1))])), Ltripleplay_ui_Tabs_2_classLit, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(($clinit_Tabs() , HIGHLIGHTER), new Tabs$2)]));
+  butBg = $inset_0(new RoundRectBackground(gfx, $intern_46), 5, 6, 2, 6);
+  butSelBg = $inset_0(new RoundRectBackground(gfx, $intern_45), 6, 5, 1, 7);
+  return $add_13($add_11($add_13($add_13($add_11($add_13($add_11($add_13($add_11($add_13($add_11($add_13(new Stylesheet$Builder, Ltripleplay_ui_Button_2_classLit, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(($clinit_Style() , BACKGROUND), butBg)])), Ltripleplay_ui_Button_2_classLit, 2, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, butSelBg)])), Ltripleplay_ui_ToggleButton_2_classLit, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, butBg)])), Ltripleplay_ui_ToggleButton_2_classLit, 2, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, butSelBg)])), Ltripleplay_ui_CheckBox_2_classLit, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, $inset_0(new RoundRectBackground(gfx, $intern_46), 3, 2, 0, 3))])), Ltripleplay_ui_CheckBox_2_classLit, 2, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, $inset_0(new RoundRectBackground(gfx, $intern_45), 3, 2, 0, 3))])), Ltripleplay_ui_Field_2_classLit, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, $inset(new Background$2(-1), 5)), HALIGN.left_0])), Ltripleplay_ui_Field_2_classLit, 1, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, $inset(new Background$2(-3355444), 5))])), Ltripleplay_ui_Menu_2_classLit, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, $inset(new Background$3, 6))])), Ltripleplay_ui_MenuItem_2_classLit, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, new Background$1(-1)), HALIGN.left_0])), Ltripleplay_ui_MenuItem_2_classLit, 2, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(BACKGROUND, new Background$1($intern_48)), new Style$Binding(COLOR, valueOf(-1))])), Ltripleplay_ui_Tabs_2_classLit, initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Binding_2_classLit, 1), $intern_1, 9, 0, [new Style$Binding(($clinit_Tabs() , HIGHLIGHTER), new Tabs$2)]));
 }
 
 function $clinit_Style(){
@@ -13225,42 +14817,42 @@ function toAlignment(align_0){
   }
 }
 
-defineClass(48, 1, {});
+defineClass(52, 1, {});
 _.inherited = false;
 var AUTO_SHRINK, BACKGROUND, COLOR, FONT, GRADIENT_COLOR, GRADIENT_TYPE, HALIGN, HIGHLIGHT, ICON_CUDDLE, ICON_EFFECT, ICON_GAP, ICON_POS, OUTLINE_CAP, OUTLINE_JOIN, OUTLINE_WIDTH, SHADOW, SHADOW_X, SHADOW_Y, TEXT_EFFECT, TEXT_WRAP, UNDERLINE, VALIGN;
-var Ltripleplay_ui_Style_2_classLit = createForClass('tripleplay.ui', 'Style', 48, Ljava_lang_Object_2_classLit);
+var Ltripleplay_ui_Style_2_classLit = createForClass('tripleplay.ui', 'Style', 52, Ljava_lang_Object_2_classLit);
 function Style$1(){
   Style.call(this, true);
 }
 
-defineClass(423, 48, {}, Style$1);
+defineClass(451, 52, {}, Style$1);
 _.getDefault = function getDefault(elem){
-  return valueOf($isSet(elem, ($clinit_Element$Flag() , ENABLED))?$intern_42:-10066330);
+  return valueOf($isSet(elem, ($clinit_Element$Flag() , ENABLED))?$intern_48:-10066330);
 }
 ;
-var Ltripleplay_ui_Style$1_2_classLit = createForClass('tripleplay.ui', 'Style/1', 423, Ltripleplay_ui_Style_2_classLit);
+var Ltripleplay_ui_Style$1_2_classLit = createForClass('tripleplay.ui', 'Style/1', 451, Ltripleplay_ui_Style_2_classLit);
 function Style$2(){
   Style.call(this, true);
 }
 
-defineClass(424, 48, {}, Style$2);
+defineClass(452, 52, {}, Style$2);
 _.getDefault = function getDefault_0(elem){
   return valueOf($isSet(elem, ($clinit_Element$Flag() , ENABLED))?-1426063361:-1429418804);
 }
 ;
-var Ltripleplay_ui_Style$2_2_classLit = createForClass('tripleplay.ui', 'Style/2', 424, Ltripleplay_ui_Style_2_classLit);
+var Ltripleplay_ui_Style$2_2_classLit = createForClass('tripleplay.ui', 'Style/2', 452, Ltripleplay_ui_Style_2_classLit);
 function Style$3($anonymous0, val$defaultValue){
   $clinit_Style();
   this.val$defaultValue2 = val$defaultValue;
   Style.call(this, $anonymous0);
 }
 
-defineClass(28, 48, {}, Style$3);
+defineClass(30, 52, {}, Style$3);
 _.getDefault = function getDefault_1(elem){
   return this.val$defaultValue2;
 }
 ;
-var Ltripleplay_ui_Style$3_2_classLit = createForClass('tripleplay.ui', 'Style/3', 28, Ltripleplay_ui_Style_2_classLit);
+var Ltripleplay_ui_Style$3_2_classLit = createForClass('tripleplay.ui', 'Style/3', 30, Ltripleplay_ui_Style_2_classLit);
 function Style$Binding(style, value_0){
   this.style_0 = style;
   this.value_0 = value_0;
@@ -13275,12 +14867,12 @@ function Style$Flag(inherited){
   this._default = (null , FALSE);
 }
 
-defineClass(114, 48, {}, Style$Flag);
+defineClass(123, 52, {}, Style$Flag);
 _.getDefault = function getDefault_2(mode){
   return this._default;
 }
 ;
-var Ltripleplay_ui_Style$Flag_2_classLit = createForClass('tripleplay.ui', 'Style/Flag', 114, Ltripleplay_ui_Style_2_classLit);
+var Ltripleplay_ui_Style$Flag_2_classLit = createForClass('tripleplay.ui', 'Style/Flag', 123, Ltripleplay_ui_Style_2_classLit);
 function Style$GradientTypeStyle(){
   Style.call(this, true);
   new Style$Binding(this, ($clinit_EffectRenderer$Gradient$Type() , BOTTOM_1));
@@ -13288,12 +14880,12 @@ function Style$GradientTypeStyle(){
   new Style$Binding(this, CENTER_5);
 }
 
-defineClass(411, 48, {}, Style$GradientTypeStyle);
+defineClass(439, 52, {}, Style$GradientTypeStyle);
 _.getDefault = function getDefault_3(elem){
   return $clinit_EffectRenderer$Gradient$Type() , BOTTOM_1;
 }
 ;
-var Ltripleplay_ui_Style$GradientTypeStyle_2_classLit = createForClass('tripleplay.ui', 'Style/GradientTypeStyle', 411, Ltripleplay_ui_Style_2_classLit);
+var Ltripleplay_ui_Style$GradientTypeStyle_2_classLit = createForClass('tripleplay.ui', 'Style/GradientTypeStyle', 439, Ltripleplay_ui_Style_2_classLit);
 function $clinit_Style$HAlign(){
   $clinit_Style$HAlign = emptyMethod;
   LEFT_3 = new Style$HAlign$1;
@@ -13307,42 +14899,42 @@ function Style$HAlign(enum$name, enum$ordinal){
 
 function values_29(){
   $clinit_Style$HAlign();
-  return initValues(getClassLiteralForArray(Ltripleplay_ui_Style$HAlign_2_classLit, 1), $intern_1, 53, 0, [LEFT_3, RIGHT_3, CENTER_1]);
+  return initValues(getClassLiteralForArray(Ltripleplay_ui_Style$HAlign_2_classLit, 1), $intern_1, 62, 0, [LEFT_3, RIGHT_3, CENTER_1]);
 }
 
-defineClass(53, 6, $intern_43);
+defineClass(62, 6, $intern_49);
 var CENTER_1, LEFT_3, RIGHT_3;
-var Ltripleplay_ui_Style$HAlign_2_classLit = createForEnum('tripleplay.ui', 'Style/HAlign', 53, Ljava_lang_Enum_2_classLit, values_29);
+var Ltripleplay_ui_Style$HAlign_2_classLit = createForEnum('tripleplay.ui', 'Style/HAlign', 62, Ljava_lang_Enum_2_classLit, values_29);
 function Style$HAlign$1(){
   Style$HAlign.call(this, 'LEFT', 0);
 }
 
-defineClass(412, 53, $intern_43, Style$HAlign$1);
+defineClass(440, 62, $intern_49, Style$HAlign$1);
 _.offset = function offset_0(size_0, extent){
   return 0;
 }
 ;
-var Ltripleplay_ui_Style$HAlign$1_2_classLit = createForEnum('tripleplay.ui', 'Style/HAlign/1', 412, Ltripleplay_ui_Style$HAlign_2_classLit, null);
+var Ltripleplay_ui_Style$HAlign$1_2_classLit = createForEnum('tripleplay.ui', 'Style/HAlign/1', 440, Ltripleplay_ui_Style$HAlign_2_classLit, null);
 function Style$HAlign$2(){
   Style$HAlign.call(this, 'RIGHT', 1);
 }
 
-defineClass(413, 53, $intern_43, Style$HAlign$2);
+defineClass(441, 62, $intern_49, Style$HAlign$2);
 _.offset = function offset_1(size_0, extent){
   return extent - size_0;
 }
 ;
-var Ltripleplay_ui_Style$HAlign$2_2_classLit = createForEnum('tripleplay.ui', 'Style/HAlign/2', 413, Ltripleplay_ui_Style$HAlign_2_classLit, null);
+var Ltripleplay_ui_Style$HAlign$2_2_classLit = createForEnum('tripleplay.ui', 'Style/HAlign/2', 441, Ltripleplay_ui_Style$HAlign_2_classLit, null);
 function Style$HAlign$3(){
   Style$HAlign.call(this, 'CENTER', 2);
 }
 
-defineClass(414, 53, $intern_43, Style$HAlign$3);
+defineClass(442, 62, $intern_49, Style$HAlign$3);
 _.offset = function offset_2(size_0, extent){
   return (extent - size_0) / 2;
 }
 ;
-var Ltripleplay_ui_Style$HAlign$3_2_classLit = createForEnum('tripleplay.ui', 'Style/HAlign/3', 414, Ltripleplay_ui_Style$HAlign_2_classLit, null);
+var Ltripleplay_ui_Style$HAlign$3_2_classLit = createForEnum('tripleplay.ui', 'Style/HAlign/3', 442, Ltripleplay_ui_Style$HAlign_2_classLit, null);
 function Style$HAlignStyle(){
   Style.call(this, false);
   this.left_0 = new Style$Binding(this, ($clinit_Style$HAlign() , LEFT_3));
@@ -13350,12 +14942,12 @@ function Style$HAlignStyle(){
   new Style$Binding(this, CENTER_1);
 }
 
-defineClass(407, 48, {}, Style$HAlignStyle);
+defineClass(435, 52, {}, Style$HAlignStyle);
 _.getDefault = function getDefault_4(elem){
   return $clinit_Style$HAlign() , CENTER_1;
 }
 ;
-var Ltripleplay_ui_Style$HAlignStyle_2_classLit = createForClass('tripleplay.ui', 'Style/HAlignStyle', 407, Ltripleplay_ui_Style_2_classLit);
+var Ltripleplay_ui_Style$HAlignStyle_2_classLit = createForClass('tripleplay.ui', 'Style/HAlignStyle', 435, Ltripleplay_ui_Style_2_classLit);
 function $clinit_Style$Pos(){
   $clinit_Style$Pos = emptyMethod;
   LEFT_4 = new Style$Pos('LEFT', 0);
@@ -13370,12 +14962,12 @@ function Style$Pos(enum$name, enum$ordinal){
 
 function values_30(){
   $clinit_Style$Pos();
-  return initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Pos_2_classLit, 1), $intern_1, 79, 0, [LEFT_4, ABOVE_0, RIGHT_4, BELOW_0]);
+  return initValues(getClassLiteralForArray(Ltripleplay_ui_Style$Pos_2_classLit, 1), $intern_1, 84, 0, [LEFT_4, ABOVE_0, RIGHT_4, BELOW_0]);
 }
 
-defineClass(79, 6, {3:1, 7:1, 6:1, 79:1}, Style$Pos);
+defineClass(84, 6, {3:1, 7:1, 6:1, 84:1}, Style$Pos);
 var ABOVE_0, BELOW_0, LEFT_4, RIGHT_4;
-var Ltripleplay_ui_Style$Pos_2_classLit = createForEnum('tripleplay.ui', 'Style/Pos', 79, Ljava_lang_Enum_2_classLit, values_30);
+var Ltripleplay_ui_Style$Pos_2_classLit = createForEnum('tripleplay.ui', 'Style/Pos', 84, Ljava_lang_Enum_2_classLit, values_30);
 function Style$PosStyle(){
   Style.call(this, false);
   new Style$Binding(this, ($clinit_Style$Pos() , LEFT_4));
@@ -13384,12 +14976,12 @@ function Style$PosStyle(){
   new Style$Binding(this, BELOW_0);
 }
 
-defineClass(409, 48, {}, Style$PosStyle);
+defineClass(437, 52, {}, Style$PosStyle);
 _.getDefault = function getDefault_5(elem){
   return $clinit_Style$Pos() , LEFT_4;
 }
 ;
-var Ltripleplay_ui_Style$PosStyle_2_classLit = createForClass('tripleplay.ui', 'Style/PosStyle', 409, Ltripleplay_ui_Style_2_classLit);
+var Ltripleplay_ui_Style$PosStyle_2_classLit = createForClass('tripleplay.ui', 'Style/PosStyle', 437, Ltripleplay_ui_Style_2_classLit);
 function $clinit_Style$TextEffect(){
   $clinit_Style$TextEffect = emptyMethod;
   PIXEL_OUTLINE = new Style$TextEffect$1;
@@ -13405,62 +14997,62 @@ function Style$TextEffect(enum$name, enum$ordinal){
 
 function values_31(){
   $clinit_Style$TextEffect();
-  return initValues(getClassLiteralForArray(Ltripleplay_ui_Style$TextEffect_2_classLit, 1), $intern_1, 33, 0, [PIXEL_OUTLINE, VECTOR_OUTLINE, SHADOW_0, GRADIENT, NONE_1]);
+  return initValues(getClassLiteralForArray(Ltripleplay_ui_Style$TextEffect_2_classLit, 1), $intern_1, 34, 0, [PIXEL_OUTLINE, VECTOR_OUTLINE, SHADOW_0, GRADIENT, NONE_1]);
 }
 
-defineClass(33, 6, $intern_44);
+defineClass(34, 6, $intern_50);
 var GRADIENT, NONE_1, PIXEL_OUTLINE, SHADOW_0, VECTOR_OUTLINE;
-var Ltripleplay_ui_Style$TextEffect_2_classLit = createForEnum('tripleplay.ui', 'Style/TextEffect', 33, Ljava_lang_Enum_2_classLit, values_31);
+var Ltripleplay_ui_Style$TextEffect_2_classLit = createForEnum('tripleplay.ui', 'Style/TextEffect', 34, Ljava_lang_Enum_2_classLit, values_31);
 function Style$TextEffect$1(){
   Style$TextEffect.call(this, 'PIXEL_OUTLINE', 0);
 }
 
-defineClass(418, 33, $intern_44, Style$TextEffect$1);
+defineClass(446, 34, $intern_50, Style$TextEffect$1);
 _.createEffectRenderer = function createEffectRenderer(elem){
   return new EffectRenderer$PixelOutline(resolveStyle(elem, ($clinit_Style() , HIGHLIGHT)).value_0);
 }
 ;
-var Ltripleplay_ui_Style$TextEffect$1_2_classLit = createForEnum('tripleplay.ui', 'Style/TextEffect/1', 418, Ltripleplay_ui_Style$TextEffect_2_classLit, null);
+var Ltripleplay_ui_Style$TextEffect$1_2_classLit = createForEnum('tripleplay.ui', 'Style/TextEffect/1', 446, Ltripleplay_ui_Style$TextEffect_2_classLit, null);
 function Style$TextEffect$2(){
   Style$TextEffect.call(this, 'VECTOR_OUTLINE', 1);
 }
 
-defineClass(419, 33, $intern_44, Style$TextEffect$2);
+defineClass(447, 34, $intern_50, Style$TextEffect$2);
 _.createEffectRenderer = function createEffectRenderer_0(elem){
   return new EffectRenderer$VectorOutline(resolveStyle(elem, ($clinit_Style() , HIGHLIGHT)).value_0, resolveStyle(elem, OUTLINE_WIDTH).value_0, resolveStyle(elem, OUTLINE_CAP), resolveStyle(elem, OUTLINE_JOIN));
 }
 ;
-var Ltripleplay_ui_Style$TextEffect$2_2_classLit = createForEnum('tripleplay.ui', 'Style/TextEffect/2', 419, Ltripleplay_ui_Style$TextEffect_2_classLit, null);
+var Ltripleplay_ui_Style$TextEffect$2_2_classLit = createForEnum('tripleplay.ui', 'Style/TextEffect/2', 447, Ltripleplay_ui_Style$TextEffect_2_classLit, null);
 function Style$TextEffect$3(){
   Style$TextEffect.call(this, 'SHADOW', 2);
 }
 
-defineClass(420, 33, $intern_44, Style$TextEffect$3);
+defineClass(448, 34, $intern_50, Style$TextEffect$3);
 _.createEffectRenderer = function createEffectRenderer_1(elem){
   return new EffectRenderer$Shadow(resolveStyle(elem, ($clinit_Style() , SHADOW)).value_0, resolveStyle(elem, SHADOW_X).value_0, resolveStyle(elem, SHADOW_Y).value_0);
 }
 ;
-var Ltripleplay_ui_Style$TextEffect$3_2_classLit = createForEnum('tripleplay.ui', 'Style/TextEffect/3', 420, Ltripleplay_ui_Style$TextEffect_2_classLit, null);
+var Ltripleplay_ui_Style$TextEffect$3_2_classLit = createForEnum('tripleplay.ui', 'Style/TextEffect/3', 448, Ltripleplay_ui_Style$TextEffect_2_classLit, null);
 function Style$TextEffect$4(){
   Style$TextEffect.call(this, 'GRADIENT', 3);
 }
 
-defineClass(421, 33, $intern_44, Style$TextEffect$4);
+defineClass(449, 34, $intern_50, Style$TextEffect$4);
 _.createEffectRenderer = function createEffectRenderer_2(elem){
   return new EffectRenderer$Gradient(resolveStyle(elem, ($clinit_Style() , GRADIENT_COLOR)).value_0, resolveStyle(elem, GRADIENT_TYPE));
 }
 ;
-var Ltripleplay_ui_Style$TextEffect$4_2_classLit = createForEnum('tripleplay.ui', 'Style/TextEffect/4', 421, Ltripleplay_ui_Style$TextEffect_2_classLit, null);
+var Ltripleplay_ui_Style$TextEffect$4_2_classLit = createForEnum('tripleplay.ui', 'Style/TextEffect/4', 449, Ltripleplay_ui_Style$TextEffect_2_classLit, null);
 function Style$TextEffect$5(){
   Style$TextEffect.call(this, 'NONE', 4);
 }
 
-defineClass(422, 33, $intern_44, Style$TextEffect$5);
+defineClass(450, 34, $intern_50, Style$TextEffect$5);
 _.createEffectRenderer = function createEffectRenderer_3(elem){
   return $clinit_EffectRenderer() , NONE_2;
 }
 ;
-var Ltripleplay_ui_Style$TextEffect$5_2_classLit = createForEnum('tripleplay.ui', 'Style/TextEffect/5', 422, Ltripleplay_ui_Style$TextEffect_2_classLit, null);
+var Ltripleplay_ui_Style$TextEffect$5_2_classLit = createForEnum('tripleplay.ui', 'Style/TextEffect/5', 450, Ltripleplay_ui_Style$TextEffect_2_classLit, null);
 function Style$TextEffectStyle(){
   Style.call(this, true);
   new Style$Binding(this, ($clinit_Style$TextEffect() , PIXEL_OUTLINE));
@@ -13470,12 +15062,12 @@ function Style$TextEffectStyle(){
   new Style$Binding(this, NONE_1);
 }
 
-defineClass(410, 48, {}, Style$TextEffectStyle);
+defineClass(438, 52, {}, Style$TextEffectStyle);
 _.getDefault = function getDefault_6(elem){
   return $clinit_Style$TextEffect() , NONE_1;
 }
 ;
-var Ltripleplay_ui_Style$TextEffectStyle_2_classLit = createForClass('tripleplay.ui', 'Style/TextEffectStyle', 410, Ltripleplay_ui_Style_2_classLit);
+var Ltripleplay_ui_Style$TextEffectStyle_2_classLit = createForClass('tripleplay.ui', 'Style/TextEffectStyle', 438, Ltripleplay_ui_Style_2_classLit);
 function $clinit_Style$VAlign(){
   $clinit_Style$VAlign = emptyMethod;
   TOP_0 = new Style$VAlign$1;
@@ -13489,42 +15081,42 @@ function Style$VAlign(enum$name, enum$ordinal){
 
 function values_32(){
   $clinit_Style$VAlign();
-  return initValues(getClassLiteralForArray(Ltripleplay_ui_Style$VAlign_2_classLit, 1), $intern_1, 54, 0, [TOP_0, BOTTOM_0, CENTER_2]);
+  return initValues(getClassLiteralForArray(Ltripleplay_ui_Style$VAlign_2_classLit, 1), $intern_1, 63, 0, [TOP_0, BOTTOM_0, CENTER_2]);
 }
 
-defineClass(54, 6, $intern_45);
+defineClass(63, 6, $intern_51);
 var BOTTOM_0, CENTER_2, TOP_0;
-var Ltripleplay_ui_Style$VAlign_2_classLit = createForEnum('tripleplay.ui', 'Style/VAlign', 54, Ljava_lang_Enum_2_classLit, values_32);
+var Ltripleplay_ui_Style$VAlign_2_classLit = createForEnum('tripleplay.ui', 'Style/VAlign', 63, Ljava_lang_Enum_2_classLit, values_32);
 function Style$VAlign$1(){
   Style$VAlign.call(this, 'TOP', 0);
 }
 
-defineClass(415, 54, $intern_45, Style$VAlign$1);
+defineClass(443, 63, $intern_51, Style$VAlign$1);
 _.offset = function offset_3(size_0, extent){
   return 0;
 }
 ;
-var Ltripleplay_ui_Style$VAlign$1_2_classLit = createForEnum('tripleplay.ui', 'Style/VAlign/1', 415, Ltripleplay_ui_Style$VAlign_2_classLit, null);
+var Ltripleplay_ui_Style$VAlign$1_2_classLit = createForEnum('tripleplay.ui', 'Style/VAlign/1', 443, Ltripleplay_ui_Style$VAlign_2_classLit, null);
 function Style$VAlign$2(){
   Style$VAlign.call(this, 'BOTTOM', 1);
 }
 
-defineClass(416, 54, $intern_45, Style$VAlign$2);
+defineClass(444, 63, $intern_51, Style$VAlign$2);
 _.offset = function offset_4(size_0, extent){
   return extent - size_0;
 }
 ;
-var Ltripleplay_ui_Style$VAlign$2_2_classLit = createForEnum('tripleplay.ui', 'Style/VAlign/2', 416, Ltripleplay_ui_Style$VAlign_2_classLit, null);
+var Ltripleplay_ui_Style$VAlign$2_2_classLit = createForEnum('tripleplay.ui', 'Style/VAlign/2', 444, Ltripleplay_ui_Style$VAlign_2_classLit, null);
 function Style$VAlign$3(){
   Style$VAlign.call(this, 'CENTER', 2);
 }
 
-defineClass(417, 54, $intern_45, Style$VAlign$3);
+defineClass(445, 63, $intern_51, Style$VAlign$3);
 _.offset = function offset_5(size_0, extent){
   return (extent - size_0) / 2;
 }
 ;
-var Ltripleplay_ui_Style$VAlign$3_2_classLit = createForEnum('tripleplay.ui', 'Style/VAlign/3', 417, Ltripleplay_ui_Style$VAlign_2_classLit, null);
+var Ltripleplay_ui_Style$VAlign$3_2_classLit = createForEnum('tripleplay.ui', 'Style/VAlign/3', 445, Ltripleplay_ui_Style$VAlign_2_classLit, null);
 function Style$VAlignStyle(){
   Style.call(this, false);
   new Style$Binding(this, ($clinit_Style$VAlign() , TOP_0));
@@ -13532,22 +15124,22 @@ function Style$VAlignStyle(){
   new Style$Binding(this, CENTER_2);
 }
 
-defineClass(408, 48, {}, Style$VAlignStyle);
+defineClass(436, 52, {}, Style$VAlignStyle);
 _.getDefault = function getDefault_7(elem){
   return $clinit_Style$VAlign() , CENTER_2;
 }
 ;
-var Ltripleplay_ui_Style$VAlignStyle_2_classLit = createForClass('tripleplay.ui', 'Style/VAlignStyle', 408, Ltripleplay_ui_Style_2_classLit);
+var Ltripleplay_ui_Style$VAlignStyle_2_classLit = createForClass('tripleplay.ui', 'Style/VAlignStyle', 436, Ltripleplay_ui_Style_2_classLit);
 function $clinit_Styles(){
   $clinit_Styles = emptyMethod;
-  _noneSingleton = new Styles(initDim(Ltripleplay_ui_Styles$Binding_2_classLit, $intern_1, 55, 0, 0, 1));
+  _noneSingleton = new Styles(initDim(Ltripleplay_ui_Styles$Binding_2_classLit, $intern_1, 64, 0, 0, 1));
 }
 
-function $add_9(this$static, mode, bindings){
+function $add_10(this$static, mode, bindings){
   var ii, nbindings;
   if (bindings.length == 0)
     return this$static;
-  nbindings = initDim(Ltripleplay_ui_Styles$Binding_2_classLit, $intern_1, 55, bindings.length, 0, 1);
+  nbindings = initDim(Ltripleplay_ui_Styles$Binding_2_classLit, $intern_1, 64, bindings.length, 0, 1);
   for (ii = 0; ii < bindings.length; ii++) {
     nbindings[ii] = new Styles$Binding(bindings[ii], mode);
   }
@@ -13582,14 +15174,14 @@ function $merge_0(this$static, obindings){
   var didx, dupidx, dups, idx, idx0, ii, ii0, nb, nbindings, ob;
   if (obindings.length == 0)
     return this$static;
-  dupidx = initDim(I_classLit, $intern_21, 0, obindings.length, 7, 1);
+  dupidx = initDim(I_classLit, $intern_23, 0, obindings.length, 7, 1);
   dups = 0;
   for (ii0 = 0; ii0 < obindings.length; ii0++) {
     idx0 = binarySearch(this$static._bindings, obindings[ii0], ($clinit_Comparators() , $clinit_Comparators() , NATURAL));
     idx0 >= 0 && ++dups;
     dupidx[ii0] = idx0;
   }
-  nbindings = initDim(Ltripleplay_ui_Styles$Binding_2_classLit, $intern_1, 55, this$static._bindings.length + obindings.length - dups, 0, 1);
+  nbindings = initDim(Ltripleplay_ui_Styles$Binding_2_classLit, $intern_1, 64, this$static._bindings.length + obindings.length - dups, 0, 1);
   arraycopy(this$static._bindings, 0, nbindings, 0, this$static._bindings.length);
   idx = this$static._bindings.length;
   for (ii = 0; ii < obindings.length; ii++) {
@@ -13612,7 +15204,7 @@ function Styles(bindings){
 
 function make(bindings){
   $clinit_Styles();
-  return $add_9(_noneSingleton, 0, bindings);
+  return $add_10(_noneSingleton, 0, bindings);
 }
 
 function resolveStyle(element, style){
@@ -13621,9 +15213,9 @@ function resolveStyle(element, style){
   value_0 = $get_8(element._styles, style, element);
   if (value_0 != null)
     return value_0;
-  group = instanceOf(element, 78)?element:element._parent;
+  group = instanceOf(element, 73)?element:element._parent;
   for (; group; group = group._parent) {
-    sheet_0 = group._sheet;
+    sheet_0 = group.stylesheet();
     if (!sheet_0)
       continue;
     value_0 = $get_10(sheet_0, style, element.getStyleClass(), element);
@@ -13633,9 +15225,9 @@ function resolveStyle(element, style){
   return style.getDefault(element);
 }
 
-defineClass(198, 1, {}, Styles);
+defineClass(209, 1, {}, Styles);
 var _noneSingleton;
-var Ltripleplay_ui_Styles_2_classLit = createForClass('tripleplay.ui', 'Styles', 198, Ljava_lang_Object_2_classLit);
+var Ltripleplay_ui_Styles_2_classLit = createForClass('tripleplay.ui', 'Styles', 209, Ljava_lang_Object_2_classLit);
 function $compareTo_3(this$static, other){
   var hc, ohc;
   if (this$static.style_0 == other.style_0)
@@ -13701,12 +15293,12 @@ function Styles$Binding_1(style, defaultV, disabledV, selectedV, disSelectedV){
   this._disSelectedV = disSelectedV;
 }
 
-defineClass(55, 1, {7:1, 55:1}, Styles$Binding, Styles$Binding_1);
-_.compareTo = function compareTo_8(other){
+defineClass(64, 1, {7:1, 64:1}, Styles$Binding, Styles$Binding_1);
+_.compareTo = function compareTo_9(other){
   return $compareTo_3(this, other);
 }
 ;
-var Ltripleplay_ui_Styles$Binding_2_classLit = createForClass('tripleplay.ui', 'Styles/Binding', 55, Ljava_lang_Object_2_classLit);
+var Ltripleplay_ui_Styles$Binding_2_classLit = createForClass('tripleplay.ui', 'Styles/Binding', 64, Ljava_lang_Object_2_classLit);
 function $get_10(this$static, style, eclass, elem){
   var parent_0, styles, value_0;
   styles = $get_6(this$static._styles, eclass);
@@ -13726,21 +15318,21 @@ function Stylesheet(styles){
   this._styles = styles;
 }
 
-defineClass(405, 1, {}, Stylesheet);
-var Ltripleplay_ui_Stylesheet_2_classLit = createForClass('tripleplay.ui', 'Stylesheet', 405, Ljava_lang_Object_2_classLit);
-function $add_10(this$static, eclass, mode, styles){
-  return $add_11(this$static, eclass, $add_9(($clinit_Styles() , $clinit_Styles() , _noneSingleton), mode, styles));
+defineClass(433, 1, {}, Stylesheet);
+var Ltripleplay_ui_Stylesheet_2_classLit = createForClass('tripleplay.ui', 'Stylesheet', 433, Ljava_lang_Object_2_classLit);
+function $add_11(this$static, eclass, mode, styles){
+  return $add_12(this$static, eclass, $add_10(($clinit_Styles() , $clinit_Styles() , _noneSingleton), mode, styles));
 }
 
-function $add_11(this$static, eclass, styles){
+function $add_12(this$static, eclass, styles){
   var ostyles;
   ostyles = $get_6(this$static._styles, eclass);
   $put_4(this$static._styles, eclass, !ostyles?styles:$merge(ostyles, styles));
   return this$static;
 }
 
-function $add_12(this$static, eclass, styles){
-  return $add_11(this$static, eclass, ($clinit_Styles() , $add_9((null , _noneSingleton), 0, styles)));
+function $add_13(this$static, eclass, styles){
+  return $add_12(this$static, eclass, ($clinit_Styles() , $add_10((null , _noneSingleton), 0, styles)));
 }
 
 function $create(this$static){
@@ -13754,8 +15346,8 @@ function Stylesheet$Builder(){
   this._styles = new HashMap;
 }
 
-defineClass(406, 1, {}, Stylesheet$Builder);
-var Ltripleplay_ui_Stylesheet$Builder_2_classLit = createForClass('tripleplay.ui', 'Stylesheet/Builder', 406, Ljava_lang_Object_2_classLit);
+defineClass(434, 1, {}, Stylesheet$Builder);
+var Ltripleplay_ui_Stylesheet$Builder_2_classLit = createForClass('tripleplay.ui', 'Stylesheet/Builder', 434, Ljava_lang_Object_2_classLit);
 function $clinit_Tabs(){
   $clinit_Tabs = emptyMethod;
   NOOP_HIGHLIGHTER = new Tabs$1;
@@ -13767,13 +15359,13 @@ var Ltripleplay_ui_Tabs_2_classLit = createForClass('tripleplay.ui', 'Tabs', nul
 function Tabs$1(){
 }
 
-defineClass(443, 1, {}, Tabs$1);
-var Ltripleplay_ui_Tabs$1_2_classLit = createForClass('tripleplay.ui', 'Tabs/1', 443, Ljava_lang_Object_2_classLit);
+defineClass(477, 1, {}, Tabs$1);
+var Ltripleplay_ui_Tabs$1_2_classLit = createForClass('tripleplay.ui', 'Tabs/1', 477, Ljava_lang_Object_2_classLit);
 function Tabs$2(){
 }
 
-defineClass(444, 1, {}, Tabs$2);
-var Ltripleplay_ui_Tabs$2_2_classLit = createForClass('tripleplay.ui', 'Tabs/2', 444, Ljava_lang_Object_2_classLit);
+defineClass(478, 1, {}, Tabs$2);
+var Ltripleplay_ui_Tabs$2_2_classLit = createForClass('tripleplay.ui', 'Tabs/2', 478, Ljava_lang_Object_2_classLit);
 function $onEmit_9(this$static){
   this$static.this$01._ldata = null;
   $invalidate(this$static.this$01);
@@ -13783,12 +15375,12 @@ function TextWidget$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(434, 478, {}, TextWidget$1);
+defineClass(469, 512, {}, TextWidget$1);
 _.onEmit = function onEmit_21(icon){
   $onEmit_9(this, icon);
 }
 ;
-var Ltripleplay_ui_TextWidget$1_2_classLit = createForClass('tripleplay.ui', 'TextWidget/1', 434, Lreact_Slot_2_classLit);
+var Ltripleplay_ui_TextWidget$1_2_classLit = createForClass('tripleplay.ui', 'TextWidget/1', 469, Lreact_Slot_2_classLit);
 function $addTextSize(this$static, size_0){
   if (this$static.text_0) {
     size_0.width_0 += this$static.text_0.width_1();
@@ -13849,7 +15441,7 @@ function TextWidget$TextLayoutData(this$0, hintX, hintY){
   }
 }
 
-defineClass(433, 148, {}, TextWidget$TextLayoutData);
+defineClass(468, 155, {}, TextWidget$TextLayoutData);
 _.computeSize_0 = function computeSize_2(hintX, hintY){
   var size_0, twidth;
   if (!!this.text_0 && this.autoShrink) {
@@ -13870,46 +15462,46 @@ _.layout_1 = function layout_6(left, top_0, width_0, height){
   !this.text_0?$close_7(this.this$01._tglyph):$updateTextGlyph(this, left, top_0, width_0, height);
 }
 ;
-_.toString$ = function toString_67(){
+_.toString$ = function toString_78(){
   return 'TextLayoutData[text=' + this.text_0 + ', icon=' + this.icon + ']';
 }
 ;
 _.autoShrink = false;
 _.wrap = false;
-var Ltripleplay_ui_TextWidget$TextLayoutData_2_classLit = createForClass('tripleplay.ui', 'TextWidget/TextLayoutData', 433, Ltripleplay_ui_Element$LayoutData_2_classLit);
+var Ltripleplay_ui_TextWidget$TextLayoutData_2_classLit = createForClass('tripleplay.ui', 'TextWidget/TextLayoutData', 468, Ltripleplay_ui_Element$LayoutData_2_classLit);
 function BlankBackground(){
   Background.call(this);
 }
 
-defineClass(197, 97, {}, BlankBackground);
+defineClass(208, 104, {}, BlankBackground);
 _.instantiate = function instantiate_2(size_0){
   return new BlankBackground$1(this, size_0);
 }
 ;
-var Ltripleplay_ui_bgs_BlankBackground_2_classLit = createForClass('tripleplay.ui.bgs', 'BlankBackground', 197, Ltripleplay_ui_Background_2_classLit);
+var Ltripleplay_ui_bgs_BlankBackground_2_classLit = createForClass('tripleplay.ui.bgs', 'BlankBackground', 208, Ltripleplay_ui_Background_2_classLit);
 function BlankBackground$1(this$0_1, $anonymous0){
   Background$Instance.call(this, this$0_1, $anonymous0);
 }
 
-defineClass(438, 191, $intern_23, BlankBackground$1);
+defineClass(471, 201, $intern_30, BlankBackground$1);
 _.addTo = function addTo_0(parent_0, x_0, y_0, depthAdjust){
 }
 ;
 _.close_0 = function close_20(){
 }
 ;
-var Ltripleplay_ui_bgs_BlankBackground$1_2_classLit = createForClass('tripleplay.ui.bgs', 'BlankBackground/1', 438, Ltripleplay_ui_Background$Instance_2_classLit);
+var Ltripleplay_ui_bgs_BlankBackground$1_2_classLit = createForClass('tripleplay.ui.bgs', 'BlankBackground/1', 471, Ltripleplay_ui_Background$Instance_2_classLit);
 function RoundRectBackground(gfx, borderColor){
   Background.call(this);
   this._gfx = gfx;
-  this._bgColor = $intern_41;
+  this._bgColor = -3355444;
   this._radius = 5;
   this._borderColor = borderColor;
   this._borderWidth = 2;
   this._borderRadius = 5;
 }
 
-defineClass(100, 97, {}, RoundRectBackground);
+defineClass(106, 104, {}, RoundRectBackground);
 _.instantiate = function instantiate_3(size_0){
   var canvas, iheight, iradius, iwidth, layer;
   canvas = $createCanvas_0(this._gfx, size_0);
@@ -13932,25 +15524,205 @@ _._borderColor = 0;
 _._borderRadius = 0;
 _._borderWidth = 0;
 _._radius = 0;
-var Ltripleplay_ui_bgs_RoundRectBackground_2_classLit = createForClass('tripleplay.ui.bgs', 'RoundRectBackground', 100, Ltripleplay_ui_Background_2_classLit);
+var Ltripleplay_ui_bgs_RoundRectBackground_2_classLit = createForClass('tripleplay.ui.bgs', 'RoundRectBackground', 106, Ltripleplay_ui_Background_2_classLit);
+function $clinit_AxisLayout(){
+  $clinit_AxisLayout = emptyMethod;
+  UNSTRETCHED = new AxisLayout$Constraint(false);
+  UNIFORM_STRETCHED = new AxisLayout$Constraint(true);
+}
+
+function $computeMetrics(this$static, elems, hintX, hintY){
+  var availX, availY, c, ehintY, elem, elem$iterator, elem$iterator0, m, pheight, psize, pwidth;
+  m = new AxisLayout$Metrics;
+  for (elem$iterator0 = elems.iterator(); elem$iterator0.hasNext();) {
+    elem = elem$iterator0.next_0();
+    if (!$isSet(elem, ($clinit_Element$Flag() , VISIBLE_2)))
+      continue;
+    ++m.count;
+    c = this$static._stretchByDefault?UNIFORM_STRETCHED:UNSTRETCHED;
+    if (c.stretch) {
+      ++m.stretchers;
+      m.totalWeight += c.weight;
+    }
+     else {
+      psize = elem.preferredSize(hintX, hintY);
+      pwidth = psize.width_0;
+      pheight = psize.height_0;
+      m.prefWidth += pwidth;
+      m.prefHeight += pheight;
+      m.maxWidth = max_0(m.maxWidth, pwidth);
+      m.maxHeight = max_0(m.maxHeight, pheight);
+      m.fixWidth += pwidth;
+      m.fixHeight += pheight;
+    }
+  }
+  for (elem$iterator = elems.iterator(); elem$iterator.hasNext();) {
+    elem = elem$iterator.next_0();
+    if (!$isSet(elem, ($clinit_Element$Flag() , VISIBLE_2)))
+      continue;
+    c = this$static._stretchByDefault?UNIFORM_STRETCHED:UNSTRETCHED;
+    if (!c.stretch)
+      continue;
+    availX = hintX - $gaps(m, this$static._gap);
+    availY = hintY - $gaps(m, this$static._gap);
+    ehintY = $computeSize_0(c, 0, m.totalWeight, availY - m.fixHeight);
+    psize = elem.preferredSize(availX, ehintY);
+    pwidth = psize.width_0;
+    pheight = psize.height_0;
+    m.unitWidth = max_0(m.unitWidth, pwidth / c.weight);
+    m.unitHeight = max_0(m.unitHeight, pheight / c.weight);
+    m.maxWidth = max_0(m.maxWidth, pwidth);
+    m.maxHeight = max_0(m.maxHeight, pheight);
+  }
+  m.prefWidth += m.stretchers * m.unitWidth;
+  m.prefHeight += m.stretchers * m.unitHeight;
+  return m;
+}
+
+defineClass(458, 550, {});
+_._gap = 5;
+_._stretchByDefault = false;
+var UNIFORM_STRETCHED, UNSTRETCHED;
+var Ltripleplay_ui_layout_AxisLayout_2_classLit = createForClass('tripleplay.ui.layout', 'AxisLayout', 458, Ltripleplay_ui_Layout_2_classLit);
+function $computeSize_0(this$static, size_0, totalWeight, availSize){
+  return this$static.stretch?availSize * this$static.weight / totalWeight:size_0;
+}
+
+function AxisLayout$Constraint(stretch){
+  this.stretch = stretch;
+  this.weight = 1;
+}
+
+defineClass(204, 551, {}, AxisLayout$Constraint);
+_.stretch = false;
+_.weight = 0;
+var Ltripleplay_ui_layout_AxisLayout$Constraint_2_classLit = createForClass('tripleplay.ui.layout', 'AxisLayout/Constraint', 204, Ltripleplay_ui_Layout$Constraint_2_classLit);
+function $gaps(this$static, gap){
+  return gap * (this$static.count - 1);
+}
+
+function AxisLayout$Metrics(){
+}
+
+defineClass(460, 1, {}, AxisLayout$Metrics);
+_.count = 0;
+_.fixHeight = 0;
+_.fixWidth = 0;
+_.maxHeight = 0;
+_.maxWidth = 0;
+_.prefHeight = 0;
+_.prefWidth = 0;
+_.stretchers = 0;
+_.totalWeight = 0;
+_.unitHeight = 0;
+_.unitWidth = 0;
+var Ltripleplay_ui_layout_AxisLayout$Metrics_2_classLit = createForClass('tripleplay.ui.layout', 'AxisLayout/Metrics', 460, Ljava_lang_Object_2_classLit);
+function $clinit_AxisLayout$Policy(){
+  $clinit_AxisLayout$Policy = emptyMethod;
+  DEFAULT_1 = new AxisLayout$Policy$1;
+  STRETCH = new AxisLayout$Policy$2;
+  EQUALIZE = new AxisLayout$Policy$3;
+  CONSTRAIN = new AxisLayout$Policy$4;
+}
+
+function AxisLayout$Policy(enum$name, enum$ordinal){
+  Enum.call(this, enum$name, enum$ordinal);
+}
+
+function values_33(){
+  $clinit_AxisLayout$Policy();
+  return initValues(getClassLiteralForArray(Ltripleplay_ui_layout_AxisLayout$Policy_2_classLit, 1), $intern_1, 48, 0, [DEFAULT_1, STRETCH, EQUALIZE, CONSTRAIN]);
+}
+
+defineClass(48, 6, $intern_52);
+var CONSTRAIN, DEFAULT_1, EQUALIZE, STRETCH;
+var Ltripleplay_ui_layout_AxisLayout$Policy_2_classLit = createForEnum('tripleplay.ui.layout', 'AxisLayout/Policy', 48, Ljava_lang_Enum_2_classLit, values_33);
+function $computeSize_1(size_0, extent){
+  return size_0 < extent?size_0:extent;
+}
+
+function AxisLayout$Policy$1(){
+  AxisLayout$Policy.call(this, 'DEFAULT', 0);
+}
+
+defineClass(461, 48, $intern_52, AxisLayout$Policy$1);
+var Ltripleplay_ui_layout_AxisLayout$Policy$1_2_classLit = createForEnum('tripleplay.ui.layout', 'AxisLayout/Policy/1', 461, Ltripleplay_ui_layout_AxisLayout$Policy_2_classLit, null);
+function AxisLayout$Policy$2(){
+  AxisLayout$Policy.call(this, 'STRETCH', 1);
+}
+
+defineClass(462, 48, $intern_52, AxisLayout$Policy$2);
+var Ltripleplay_ui_layout_AxisLayout$Policy$2_2_classLit = createForEnum('tripleplay.ui.layout', 'AxisLayout/Policy/2', 462, Ltripleplay_ui_layout_AxisLayout$Policy_2_classLit, null);
+function AxisLayout$Policy$3(){
+  AxisLayout$Policy.call(this, 'EQUALIZE', 2);
+}
+
+defineClass(463, 48, $intern_52, AxisLayout$Policy$3);
+var Ltripleplay_ui_layout_AxisLayout$Policy$3_2_classLit = createForEnum('tripleplay.ui.layout', 'AxisLayout/Policy/3', 463, Ltripleplay_ui_layout_AxisLayout$Policy_2_classLit, null);
+function AxisLayout$Policy$4(){
+  AxisLayout$Policy.call(this, 'CONSTRAIN', 3);
+}
+
+defineClass(464, 48, $intern_52, AxisLayout$Policy$4);
+var Ltripleplay_ui_layout_AxisLayout$Policy$4_2_classLit = createForEnum('tripleplay.ui.layout', 'AxisLayout/Policy/4', 464, Ltripleplay_ui_layout_AxisLayout$Policy_2_classLit, null);
+function AxisLayout$Vertical(){
+  $clinit_AxisLayout();
+  $clinit_AxisLayout$Policy();
+}
+
+defineClass(459, 458, {}, AxisLayout$Vertical);
+_.computeSize_1 = function computeSize_3(elems, hintX, hintY){
+  var m;
+  m = $computeMetrics(this, elems, hintX, hintY);
+  return new Dimension_0(m.maxWidth, m.prefHeight + $gaps(m, this._gap));
+}
+;
+_.layout_2 = function layout_7(elems, left, top_0, width_0, height){
+  var c, eheight, elem, elem$iterator, ewidth, halign, m, psize, stretchHeight, valign, y_0;
+  halign = resolveStyle(elems, ($clinit_Style() , HALIGN));
+  valign = resolveStyle(elems, VALIGN);
+  m = $computeMetrics(this, elems, width_0, height);
+  stretchHeight = max_0(0, height - $gaps(m, this._gap) - m.fixHeight);
+  y_0 = top_0 + (m.stretchers > 0?0:valign.offset(m.fixHeight + $gaps(m, this._gap), height));
+  for (elem$iterator = elems.iterator(); elem$iterator.hasNext();) {
+    elem = elem$iterator.next_0();
+    if (!$isSet(elem, ($clinit_Element$Flag() , VISIBLE_2)))
+      continue;
+    psize = elem.preferredSize(width_0, height);
+    c = this._stretchByDefault?UNIFORM_STRETCHED:UNSTRETCHED;
+    ewidth = $computeSize_1(psize.width_0, width_0);
+    eheight = $computeSize_0(c, psize.height_0, m.totalWeight, stretchHeight);
+    $setBounds_0(elem, left + halign.offset(ewidth, width_0), y_0, ewidth, eheight);
+    y_0 += eheight + this._gap;
+  }
+}
+;
+var Ltripleplay_ui_layout_AxisLayout$Vertical_2_classLit = createForClass('tripleplay.ui.layout', 'AxisLayout/Vertical', 459, Ltripleplay_ui_layout_AxisLayout_2_classLit);
 function $clinit_BorderLayout(){
   $clinit_BorderLayout = emptyMethod;
   CENTER_3 = ($clinit_BorderLayout$Position() , CENTER_4).stretched;
   EAST = EAST_0.stretched;
-  NS = initValues(getClassLiteralForArray(Ltripleplay_ui_layout_BorderLayout$Position_2_classLit, 1), $intern_1, 36, 0, [NORTH, SOUTH]);
-  WE = initValues(getClassLiteralForArray(Ltripleplay_ui_layout_BorderLayout$Position_2_classLit, 1), $intern_1, 36, 0, [WEST, EAST_0]);
-  WCE = initValues(getClassLiteralForArray(Ltripleplay_ui_layout_BorderLayout$Position_2_classLit, 1), $intern_1, 36, 0, [WEST, CENTER_4, EAST_0]);
+  NS = initValues(getClassLiteralForArray(Ltripleplay_ui_layout_BorderLayout$Position_2_classLit, 1), $intern_1, 37, 0, [NORTH, SOUTH]);
+  WE = initValues(getClassLiteralForArray(Ltripleplay_ui_layout_BorderLayout$Position_2_classLit, 1), $intern_1, 37, 0, [WEST, EAST_0]);
+  WCE = initValues(getClassLiteralForArray(Ltripleplay_ui_layout_BorderLayout$Position_2_classLit, 1), $intern_1, 37, 0, [WEST, CENTER_4, EAST_0]);
 }
 
-function $computeSize_0(this$static, elems, hintX, hintY){
-  return $computeSize_1(new BorderLayout$Slots(this$static, elems), hintX, hintY);
+function BorderLayout(){
+  $clinit_BorderLayout();
+  this.hgap = 0;
+  this.vgap = 0;
 }
 
-function $layout_0(this$static, elems, left, top_0, width_0, height){
+defineClass(156, 550, {}, BorderLayout);
+_.computeSize_1 = function computeSize_4(elems, hintX, hintY){
+  return $computeSize_2(new BorderLayout$Slots(this, elems), hintX, hintY);
+}
+;
+_.layout_2 = function layout_8(elems, left, top_0, width_0, height){
   var bounds, c, dim, halign, p, slots, valign;
   halign = resolveStyle(elems, ($clinit_Style() , HALIGN));
   valign = resolveStyle(elems, VALIGN);
-  slots = new BorderLayout$Slots(this$static, elems);
+  slots = new BorderLayout$Slots(this, elems);
   bounds = new Rectangle_0(left, top_0, width_0, height);
   $layoutNs(slots, ($clinit_BorderLayout$Position() , NORTH), halign, bounds);
   $layoutNs(slots, SOUTH, halign, bounds);
@@ -13965,18 +15737,11 @@ function $layout_0(this$static, elems, left, top_0, width_0, height){
   dim = $adjust(c, dim, bounds);
   $setBounds_1(slots, p, $align(c, bounds.x_0, halign.offset(dim.width_0, bounds.width_0)), $align(c, bounds.y_0, valign.offset(dim.height_0, bounds.height_0)), dim);
 }
-
-function BorderLayout(){
-  $clinit_BorderLayout();
-  this.hgap = 0;
-  this.vgap = 0;
-}
-
-defineClass(149, 512, {}, BorderLayout);
+;
 _.hgap = 0;
 _.vgap = 0;
 var CENTER_3, EAST, NS, WCE, WE;
-var Ltripleplay_ui_layout_BorderLayout_2_classLit = createForClass('tripleplay.ui.layout', 'BorderLayout', 149, Ltripleplay_ui_Layout_2_classLit);
+var Ltripleplay_ui_layout_BorderLayout_2_classLit = createForClass('tripleplay.ui.layout', 'BorderLayout', 156, Ltripleplay_ui_Layout_2_classLit);
 function $adjust(this$static, pref, boundary){
   var dim;
   dim = new Dimension_1(pref);
@@ -13998,9 +15763,9 @@ function BorderLayout$Constraint(pos, stretch){
   this._stretch = stretch;
 }
 
-defineClass(189, 513, {}, BorderLayout$Constraint);
+defineClass(199, 551, {}, BorderLayout$Constraint);
 _._stretch = false;
-var Ltripleplay_ui_layout_BorderLayout$Constraint_2_classLit = createForClass('tripleplay.ui.layout', 'BorderLayout/Constraint', 189, Ltripleplay_ui_Layout$Constraint_2_classLit);
+var Ltripleplay_ui_layout_BorderLayout$Constraint_2_classLit = createForClass('tripleplay.ui.layout', 'BorderLayout/Constraint', 199, Ltripleplay_ui_Layout$Constraint_2_classLit);
 function $clinit_BorderLayout$Position(){
   $clinit_BorderLayout$Position = emptyMethod;
   CENTER_4 = new BorderLayout$Position('CENTER', 0, 3);
@@ -14020,7 +15785,7 @@ function BorderLayout$Position(enum$name, enum$ordinal, orient){
 function positionOf(c){
   $clinit_BorderLayout$Position();
   var p, p$array, p$index, p$max;
-  for (p$array = initValues(getClassLiteralForArray(Ltripleplay_ui_layout_BorderLayout$Position_2_classLit, 1), $intern_1, 36, 0, [CENTER_4, NORTH, SOUTH, EAST_0, WEST]) , p$index = 0 , p$max = p$array.length; p$index < p$max; ++p$index) {
+  for (p$array = initValues(getClassLiteralForArray(Ltripleplay_ui_layout_BorderLayout$Position_2_classLit, 1), $intern_1, 37, 0, [CENTER_4, NORTH, SOUTH, EAST_0, WEST]) , p$index = 0 , p$max = p$array.length; p$index < p$max; ++p$index) {
     p = p$array[p$index];
     if (p.unstretched == c || p.stretched == c) {
       return p;
@@ -14029,18 +15794,18 @@ function positionOf(c){
   return null;
 }
 
-function values_33(){
+function values_34(){
   $clinit_BorderLayout$Position();
-  return initValues(getClassLiteralForArray(Ltripleplay_ui_layout_BorderLayout$Position_2_classLit, 1), $intern_1, 36, 0, [CENTER_4, NORTH, SOUTH, EAST_0, WEST]);
+  return initValues(getClassLiteralForArray(Ltripleplay_ui_layout_BorderLayout$Position_2_classLit, 1), $intern_1, 37, 0, [CENTER_4, NORTH, SOUTH, EAST_0, WEST]);
 }
 
-defineClass(36, 6, {3:1, 7:1, 6:1, 36:1}, BorderLayout$Position);
+defineClass(37, 6, {3:1, 7:1, 6:1, 37:1}, BorderLayout$Position);
 _.orient = 0;
 var CENTER_4, EAST_0, NORTH, SOUTH, WEST;
-var Ltripleplay_ui_layout_BorderLayout$Position_2_classLit = createForEnum('tripleplay.ui.layout', 'BorderLayout/Position', 36, Ljava_lang_Enum_2_classLit, values_33);
-function $computeSize_1(this$static, hintX, hintY){
+var Ltripleplay_ui_layout_BorderLayout$Position_2_classLit = createForEnum('tripleplay.ui.layout', 'BorderLayout/Position', 37, Ljava_lang_Enum_2_classLit, values_34);
+function $computeSize_2(this$static, hintX, hintY){
   var csize, dim, ehintX, ehintY, nsSize, pos, pos$array, pos$array0, pos$index, pos$index0, pos$max, pos$max0, wce, weSize;
-  wce = $count(this$static, ($clinit_BorderLayout() , WCE));
+  wce = $count_0(this$static, ($clinit_BorderLayout() , WCE));
   nsSize = new Dimension;
   for (pos$array0 = NS , pos$index0 = 0 , pos$max0 = pos$array0.length; pos$index0 < pos$max0; ++pos$index0) {
     pos = pos$array0[pos$index0];
@@ -14073,7 +15838,7 @@ function $computeSize_1(this$static, hintX, hintY){
   return new Dimension_0(max_0(weSize.width_0, nsSize.width_0), max_0(weSize.height_0, nsSize.height_0));
 }
 
-function $count(this$static, ps){
+function $count_0(this$static, ps){
   var count, p, p$index, p$max;
   count = 0;
   for (p$index = 0 , p$max = ps.length; p$index < p$max; ++p$index) {
@@ -14125,23 +15890,23 @@ function BorderLayout$Slots(this$0, elems){
   var elem, elem$iterator, existing, p;
   this.this$01 = this$0;
   this.elements = new HashMap;
-  for (elem$iterator = unmodifiableList(elems._children).iterator(); elem$iterator.hasNext();) {
+  for (elem$iterator = elems.iterator(); elem$iterator.hasNext();) {
     elem = elem$iterator.next_0();
     if (!$isSet(elem, ($clinit_Element$Flag() , VISIBLE_2)))
       continue;
     p = positionOf(elem._constraint);
     if (!p) {
-      throw new IllegalStateException('Element with a non-BorderLayout constraint: ' + elem);
+      throw new IllegalStateException_0('Element with a non-BorderLayout constraint: ' + elem);
     }
     existing = $put_4(this.elements, p, elem);
     if (existing) {
-      throw new IllegalStateException('Multiple elements: ' + elem + ' and ' + existing + ' with the same BorderLayout constraint: ' + p);
+      throw new IllegalStateException_0('Multiple elements: ' + elem + ' and ' + existing + ' with the same BorderLayout constraint: ' + p);
     }
   }
 }
 
-defineClass(190, 1, {}, BorderLayout$Slots);
-var Ltripleplay_ui_layout_BorderLayout$Slots_2_classLit = createForClass('tripleplay.ui.layout', 'BorderLayout/Slots', 190, Ljava_lang_Object_2_classLit);
+defineClass(200, 1, {}, BorderLayout$Slots);
+var Ltripleplay_ui_layout_BorderLayout$Slots_2_classLit = createForClass('tripleplay.ui.layout', 'BorderLayout/Slots', 200, Ljava_lang_Object_2_classLit);
 function $clinit_Insets(){
   $clinit_Insets = emptyMethod;
   ZERO_0 = new Insets(0, 0, 0, 0);
@@ -14161,8 +15926,8 @@ function Insets(top_0, right, bottom, left){
   this._left = left;
 }
 
-defineClass(150, 1, {}, Insets);
-_.toString$ = function toString_68(){
+defineClass(158, 1, {}, Insets);
+_.toString$ = function toString_79(){
   return this._top + ',' + this._right + ',' + this._bottom + ',' + this._left;
 }
 ;
@@ -14171,13 +15936,13 @@ _._left = 0;
 _._right = 0;
 _._top = 0;
 var ZERO_0;
-var Ltripleplay_ui_util_Insets_2_classLit = createForClass('tripleplay.ui.util', 'Insets', 150, Ljava_lang_Object_2_classLit);
+var Ltripleplay_ui_util_Insets_2_classLit = createForClass('tripleplay.ui.util', 'Insets', 158, Ljava_lang_Object_2_classLit);
 function $clinit_EffectRenderer(){
   $clinit_EffectRenderer = emptyMethod;
   NONE_2 = new EffectRenderer$1;
 }
 
-defineClass(517, 1, {});
+defineClass(555, 1, {});
 _.adjustHeight = function adjustHeight(height){
   return height;
 }
@@ -14187,11 +15952,11 @@ _.adjustWidth = function adjustWidth(width_0){
 }
 ;
 var NONE_2;
-var Ltripleplay_util_EffectRenderer_2_classLit = createForClass('tripleplay.util', 'EffectRenderer', 517, Ljava_lang_Object_2_classLit);
+var Ltripleplay_util_EffectRenderer_2_classLit = createForClass('tripleplay.util', 'EffectRenderer', 555, Ljava_lang_Object_2_classLit);
 function EffectRenderer$1(){
 }
 
-defineClass(446, 517, {}, EffectRenderer$1);
+defineClass(480, 555, {}, EffectRenderer$1);
 _.render = function render(canvas, layout, textColor, underlined, x_0, y_0){
   var bounds, sx, sy;
   $save(canvas.ctx);
@@ -14206,23 +15971,23 @@ _.render = function render(canvas, layout, textColor, underlined, x_0, y_0){
   $restore(canvas.ctx);
 }
 ;
-var Ltripleplay_util_EffectRenderer$1_2_classLit = createForClass('tripleplay.util', 'EffectRenderer/1', 446, Ltripleplay_util_EffectRenderer_2_classLit);
+var Ltripleplay_util_EffectRenderer$1_2_classLit = createForClass('tripleplay.util', 'EffectRenderer/1', 480, Ltripleplay_util_EffectRenderer_2_classLit);
 function EffectRenderer$Gradient(gradientColor, gradientType){
   $clinit_EffectRenderer();
   this.gradientColor = gradientColor;
   this.gradientType = gradientType;
 }
 
-defineClass(156, 517, {156:1}, EffectRenderer$Gradient);
-_.equals$ = function equals_37(obj){
+defineClass(163, 555, {163:1}, EffectRenderer$Gradient);
+_.equals$ = function equals_41(obj){
   var that;
-  if (!instanceOf(obj, 156))
+  if (!instanceOf(obj, 163))
     return false;
   that = obj;
   return this.gradientColor == that.gradientColor && this.gradientType == that.gradientType;
 }
 ;
-_.hashCode$ = function hashCode_40(){
+_.hashCode$ = function hashCode_44(){
   return 83 * this.gradientColor ^ 113 * this.gradientType.ordinal;
 }
 ;
@@ -14232,16 +15997,16 @@ _.render = function render_0(canvas, text_0, textColor, underlined, x_0, y_0){
   positions = null;
   switch (this.gradientType.ordinal) {
     case 0:
-      colors = initValues(getClassLiteralForArray(I_classLit, 1), $intern_21, 0, 7, [textColor, this.gradientColor]);
-      positions = initValues(getClassLiteralForArray(F_classLit, 1), $intern_31, 0, 7, [0, 1]);
+      colors = initValues(getClassLiteralForArray(I_classLit, 1), $intern_23, 0, 7, [textColor, this.gradientColor]);
+      positions = initValues(getClassLiteralForArray(F_classLit, 1), $intern_38, 0, 7, [0, 1]);
       break;
     case 1:
-      colors = initValues(getClassLiteralForArray(I_classLit, 1), $intern_21, 0, 7, [this.gradientColor, textColor]);
-      positions = initValues(getClassLiteralForArray(F_classLit, 1), $intern_31, 0, 7, [0, 1]);
+      colors = initValues(getClassLiteralForArray(I_classLit, 1), $intern_23, 0, 7, [this.gradientColor, textColor]);
+      positions = initValues(getClassLiteralForArray(F_classLit, 1), $intern_38, 0, 7, [0, 1]);
       break;
     case 2:
-      colors = initValues(getClassLiteralForArray(I_classLit, 1), $intern_21, 0, 7, [textColor, this.gradientColor, textColor]);
-      positions = initValues(getClassLiteralForArray(F_classLit, 1), $intern_31, 0, 7, [0, 0.5, 1]);
+      colors = initValues(getClassLiteralForArray(I_classLit, 1), $intern_23, 0, 7, [textColor, this.gradientColor, textColor]);
+      positions = initValues(getClassLiteralForArray(F_classLit, 1), $intern_38, 0, 7, [0, 0.5, 1]);
   }
   $save(canvas.ctx);
   $setFillGradient(canvas, $createGradient(canvas, new Gradient$Linear(text_0.size_0.height_0, colors, positions)));
@@ -14256,7 +16021,7 @@ _.render = function render_0(canvas, text_0, textColor, underlined, x_0, y_0){
 }
 ;
 _.gradientColor = 0;
-var Ltripleplay_util_EffectRenderer$Gradient_2_classLit = createForClass('tripleplay.util', 'EffectRenderer/Gradient', 156, Ltripleplay_util_EffectRenderer_2_classLit);
+var Ltripleplay_util_EffectRenderer$Gradient_2_classLit = createForClass('tripleplay.util', 'EffectRenderer/Gradient', 163, Ltripleplay_util_EffectRenderer_2_classLit);
 function $clinit_EffectRenderer$Gradient$Type(){
   $clinit_EffectRenderer$Gradient$Type = emptyMethod;
   BOTTOM_1 = new EffectRenderer$Gradient$Type('BOTTOM', 0);
@@ -14268,20 +16033,20 @@ function EffectRenderer$Gradient$Type(enum$name, enum$ordinal){
   Enum.call(this, enum$name, enum$ordinal);
 }
 
-function values_34(){
+function values_35(){
   $clinit_EffectRenderer$Gradient$Type();
-  return initValues(getClassLiteralForArray(Ltripleplay_util_EffectRenderer$Gradient$Type_2_classLit, 1), $intern_1, 99, 0, [BOTTOM_1, TOP_1, CENTER_5]);
+  return initValues(getClassLiteralForArray(Ltripleplay_util_EffectRenderer$Gradient$Type_2_classLit, 1), $intern_1, 105, 0, [BOTTOM_1, TOP_1, CENTER_5]);
 }
 
-defineClass(99, 6, {3:1, 7:1, 6:1, 99:1}, EffectRenderer$Gradient$Type);
+defineClass(105, 6, {3:1, 7:1, 6:1, 105:1}, EffectRenderer$Gradient$Type);
 var BOTTOM_1, CENTER_5, TOP_1;
-var Ltripleplay_util_EffectRenderer$Gradient$Type_2_classLit = createForEnum('tripleplay.util', 'EffectRenderer/Gradient/Type', 99, Ljava_lang_Enum_2_classLit, values_34);
+var Ltripleplay_util_EffectRenderer$Gradient$Type_2_classLit = createForEnum('tripleplay.util', 'EffectRenderer/Gradient/Type', 105, Ljava_lang_Enum_2_classLit, values_35);
 function EffectRenderer$PixelOutline(outlineColor){
   $clinit_EffectRenderer();
   this.outlineColor = outlineColor;
 }
 
-defineClass(153, 517, {153:1}, EffectRenderer$PixelOutline);
+defineClass(160, 555, {160:1}, EffectRenderer$PixelOutline);
 _.adjustHeight = function adjustHeight_0(height){
   return height + 2;
 }
@@ -14290,13 +16055,13 @@ _.adjustWidth = function adjustWidth_0(width_0){
   return width_0 + 2;
 }
 ;
-_.equals$ = function equals_38(obj){
-  if (!instanceOf(obj, 153))
+_.equals$ = function equals_42(obj){
+  if (!instanceOf(obj, 160))
     return false;
   return this.outlineColor == obj.outlineColor;
 }
 ;
-_.hashCode$ = function hashCode_41(){
+_.hashCode$ = function hashCode_45(){
   return this.outlineColor;
 }
 ;
@@ -14325,7 +16090,7 @@ _.render = function render_1(canvas, text_0, textColor, underlined, x_0, y_0){
 }
 ;
 _.outlineColor = 0;
-var Ltripleplay_util_EffectRenderer$PixelOutline_2_classLit = createForClass('tripleplay.util', 'EffectRenderer/PixelOutline', 153, Ltripleplay_util_EffectRenderer_2_classLit);
+var Ltripleplay_util_EffectRenderer$PixelOutline_2_classLit = createForClass('tripleplay.util', 'EffectRenderer/PixelOutline', 160, Ltripleplay_util_EffectRenderer_2_classLit);
 function EffectRenderer$Shadow(shadowColor, shadowX, shadowY){
   $clinit_EffectRenderer();
   this.shadowColor = shadowColor;
@@ -14333,7 +16098,7 @@ function EffectRenderer$Shadow(shadowColor, shadowX, shadowY){
   this.shadowY = shadowY;
 }
 
-defineClass(155, 517, {155:1}, EffectRenderer$Shadow);
+defineClass(162, 555, {162:1}, EffectRenderer$Shadow);
 _.adjustHeight = function adjustHeight_1(height){
   return height + abs_0(this.shadowY);
 }
@@ -14342,15 +16107,15 @@ _.adjustWidth = function adjustWidth_1(width_0){
   return width_0 + abs_0(this.shadowX);
 }
 ;
-_.equals$ = function equals_39(obj){
+_.equals$ = function equals_43(obj){
   var that;
-  if (!instanceOf(obj, 155))
+  if (!instanceOf(obj, 162))
     return false;
   that = obj;
   return this.shadowColor == that.shadowColor && this.shadowX == that.shadowX && this.shadowY == that.shadowY;
 }
 ;
-_.hashCode$ = function hashCode_42(){
+_.hashCode$ = function hashCode_46(){
   return this.shadowColor ^ round_int(this.shadowX) ^ round_int(this.shadowY);
 }
 ;
@@ -14376,7 +16141,7 @@ _.render = function render_2(canvas, text_0, textColor, underlined, x_0, y_0){
 _.shadowColor = 0;
 _.shadowX = 0;
 _.shadowY = 0;
-var Ltripleplay_util_EffectRenderer$Shadow_2_classLit = createForClass('tripleplay.util', 'EffectRenderer/Shadow', 155, Ltripleplay_util_EffectRenderer_2_classLit);
+var Ltripleplay_util_EffectRenderer$Shadow_2_classLit = createForClass('tripleplay.util', 'EffectRenderer/Shadow', 162, Ltripleplay_util_EffectRenderer_2_classLit);
 function EffectRenderer$VectorOutline(outlineColor, outlineWidth, cap, join_0){
   $clinit_EffectRenderer();
   this.outlineColor = outlineColor;
@@ -14385,7 +16150,7 @@ function EffectRenderer$VectorOutline(outlineColor, outlineWidth, cap, join_0){
   this.outlineJoin = join_0;
 }
 
-defineClass(154, 517, {154:1}, EffectRenderer$VectorOutline);
+defineClass(161, 555, {161:1}, EffectRenderer$VectorOutline);
 _.adjustHeight = function adjustHeight_2(height){
   return height + 2 * this.outlineWidth;
 }
@@ -14394,15 +16159,15 @@ _.adjustWidth = function adjustWidth_2(width_0){
   return width_0 + 2 * this.outlineWidth;
 }
 ;
-_.equals$ = function equals_40(obj){
+_.equals$ = function equals_44(obj){
   var that;
-  if (!instanceOf(obj, 154))
+  if (!instanceOf(obj, 161))
     return false;
   that = obj;
   return this.outlineColor == that.outlineColor && this.outlineWidth == that.outlineWidth && this.outlineCap == that.outlineCap && this.outlineJoin == that.outlineJoin;
 }
 ;
-_.hashCode$ = function hashCode_43(){
+_.hashCode$ = function hashCode_47(){
   return this.outlineColor ^ round_int(this.outlineWidth) ^ getHashCode(this.outlineCap) ^ getHashCode(this.outlineJoin);
 }
 ;
@@ -14427,7 +16192,7 @@ _.render = function render_3(canvas, text_0, textColor, underlined, x_0, y_0){
 ;
 _.outlineColor = 0;
 _.outlineWidth = 0;
-var Ltripleplay_util_EffectRenderer$VectorOutline_2_classLit = createForClass('tripleplay.util', 'EffectRenderer/VectorOutline', 154, Ltripleplay_util_EffectRenderer_2_classLit);
+var Ltripleplay_util_EffectRenderer$VectorOutline_2_classLit = createForClass('tripleplay.util', 'EffectRenderer/VectorOutline', 161, Ltripleplay_util_EffectRenderer_2_classLit);
 function $close_7(this$static){
   if (this$static._layer) {
     $close_2(this$static._layer);
@@ -14442,7 +16207,7 @@ function $prepare(this$static, gfx, width_0, height){
   layer = this$static._layer;
   if (!layer) {
     layer = new CanvasLayer(gfx, width_0, height);
-    $add_4(this$static._parent, layer);
+    $add_5(this$static._parent, layer);
     this$static._layer = layer;
   }
    else 
@@ -14455,20 +16220,20 @@ function Glyph(parent_0){
   this._parent = parent_0;
 }
 
-defineClass(448, 1, $intern_23, Glyph);
+defineClass(482, 1, $intern_30, Glyph);
 _.close_0 = function close_21(){
   $close_7(this);
 }
 ;
 _._preparedHeight = 0;
 _._preparedWidth = 0;
-var Ltripleplay_util_Glyph_2_classLit = createForClass('tripleplay.util', 'Glyph', 448, Ljava_lang_Object_2_classLit);
+var Ltripleplay_util_Glyph_2_classLit = createForClass('tripleplay.util', 'Glyph', 482, Ljava_lang_Object_2_classLit);
 function $applyClamp(start_0, range, dt){
   var pos;
-  return pos = $apply_0((dt < 0?0:dt > 500?500:dt) / 500) , start_0 + range * pos;
+  return pos = $apply_1((dt < 0?0:dt > 500?500:dt) / 500) , start_0 + range * pos;
 }
 
-function $apply_0(v){
+function $apply_1(v){
   var ov, v2;
   v2 = 2 * v;
   if (v2 < 1) {
@@ -14478,45 +16243,17 @@ function $apply_0(v){
   return (2 + ov * ov * ov) / 2;
 }
 
-function Layers$2(val$width, val$height){
-  this.val$width1 = val$width;
-  this.val$height2 = val$height;
-  this.val$color3 = $intern_41;
-  Layer.call(this);
-}
-
-defineClass(429, 18, $intern_34, Layers$2);
-_.height_1 = function height_4(){
-  return this.val$height2;
-}
-;
-_.paintImpl = function paintImpl_4(surf){
-  $fillRect_0($setFillColor(surf, this.val$color3), 0, 0, this.val$width1, this.val$height2);
-}
-;
-_.width_1 = function width_5(){
-  return this.val$width1;
-}
-;
-_.val$color3 = 0;
-_.val$height2 = 0;
-_.val$width1 = 0;
-var Ltripleplay_util_Layers$2_2_classLit = createForClass('tripleplay.util', 'Layers/2', 429, Lplayn_scene_Layer_2_classLit);
 function $clinit_Logger(){
   $clinit_Logger = emptyMethod;
   levels = new Logger$Levels;
 }
 
-function $debug_0(this$static, args){
-  $shouldLog(levels, ($clinit_Logger$Level() , DEBUG_0), this$static._ident) && $log_0('isExplored', args);
-}
-
-function $log_0(message, args){
+function $log_0(args){
   var error, sb;
-  sb = $append_6(new StringBuilder, message);
+  sb = $append_7(new StringBuilder, 'Screen choked');
   if (args.length > 1) {
     sb.string += ' [';
-    format_2(sb, args);
+    format_3(sb, args);
     sb.string += ']';
   }
   error = args.length % 2 == 1?args[args.length - 1]:null;
@@ -14525,7 +16262,7 @@ function $log_0(message, args){
 }
 
 function $warning(this$static, args){
-  $shouldLog(levels, ($clinit_Logger$Level() , WARNING), this$static._ident) && $log_0('Screen choked', args);
+  $shouldLog(levels, ($clinit_Logger$Level() , WARNING), this$static._ident) && $log_0(args);
 }
 
 function Logger(ident){
@@ -14533,18 +16270,18 @@ function Logger(ident){
   this._ident = ident;
 }
 
-function format_2(into, args){
+function format_3(into, args){
   var ii, ll;
   for (ii = 0 , ll = ~~(args.length / 2); ii < ll; ii++) {
     ii > 0 && (into.string += ', ' , into);
-    $append_5($append_6($append_5(into, args[2 * ii]), '='), args[2 * ii + 1]);
+    $append_6($append_7($append_6(into, args[2 * ii]), '='), args[2 * ii + 1]);
   }
   return into;
 }
 
-defineClass(140, 1, {}, Logger);
+defineClass(147, 1, {}, Logger);
 var levels;
-var Ltripleplay_util_Logger_2_classLit = createForClass('tripleplay.util', 'Logger', 140, Ljava_lang_Object_2_classLit);
+var Ltripleplay_util_Logger_2_classLit = createForClass('tripleplay.util', 'Logger', 147, Ljava_lang_Object_2_classLit);
 function $clinit_Logger$Level(){
   $clinit_Logger$Level = emptyMethod;
   DEBUG_0 = new Logger$Level('DEBUG', 0);
@@ -14558,14 +16295,14 @@ function Logger$Level(enum$name, enum$ordinal){
   Enum.call(this, enum$name, enum$ordinal);
 }
 
-function values_35(){
+function values_36(){
   $clinit_Logger$Level();
-  return initValues(getClassLiteralForArray(Ltripleplay_util_Logger$Level_2_classLit, 1), $intern_1, 62, 0, [DEBUG_0, INFO_1, WARNING, ERROR_0, OFF]);
+  return initValues(getClassLiteralForArray(Ltripleplay_util_Logger$Level_2_classLit, 1), $intern_1, 70, 0, [DEBUG_0, INFO_1, WARNING, ERROR_0, OFF]);
 }
 
-defineClass(62, 6, {3:1, 7:1, 6:1, 62:1}, Logger$Level);
+defineClass(70, 6, {3:1, 7:1, 6:1, 70:1}, Logger$Level);
 var DEBUG_0, ERROR_0, INFO_1, OFF, WARNING;
-var Ltripleplay_util_Logger$Level_2_classLit = createForEnum('tripleplay.util', 'Logger/Level', 62, Ljava_lang_Enum_2_classLit, values_35);
+var Ltripleplay_util_Logger$Level_2_classLit = createForEnum('tripleplay.util', 'Logger/Level', 70, Ljava_lang_Enum_2_classLit, values_36);
 function $shouldLog(this$static, level, ident){
   var ilevel;
   ilevel = $getStringValue(this$static._levels, ident);
@@ -14579,8 +16316,8 @@ function Logger$Levels(){
   this._levels = new HashMap;
 }
 
-defineClass(381, 1, {}, Logger$Levels);
-var Ltripleplay_util_Logger$Levels_2_classLit = createForClass('tripleplay.util', 'Logger/Levels', 381, Ljava_lang_Object_2_classLit);
+defineClass(404, 1, {}, Logger$Levels);
+var Ltripleplay_util_Logger$Levels_2_classLit = createForClass('tripleplay.util', 'Logger/Levels', 404, Ljava_lang_Object_2_classLit);
 function $clear_3(this$static){
   var toBeCleared;
   if (this$static._target) {
@@ -14590,24 +16327,24 @@ function $clear_3(this$static){
   }
 }
 
-function $set_6(this$static, target){
+function $set_8(this$static, target){
   $clear_3(this$static);
   this$static._target = target;
   return target;
 }
 
-defineClass(516, 1, {});
-var Ltripleplay_util_Ref_2_classLit = createForClass('tripleplay.util', 'Ref', 516, Ljava_lang_Object_2_classLit);
+defineClass(554, 1, {});
+var Ltripleplay_util_Ref_2_classLit = createForClass('tripleplay.util', 'Ref', 554, Ljava_lang_Object_2_classLit);
 function Ref$1(){
 }
 
-defineClass(445, 516, {}, Ref$1);
-var Ltripleplay_util_Ref$1_2_classLit = createForClass('tripleplay.util', 'Ref/1', 445, Ltripleplay_util_Ref_2_classLit);
-defineClass(451, 1, {});
-var Ltripleplay_util_StyledText_2_classLit = createForClass('tripleplay.util', 'StyledText', 451, Ljava_lang_Object_2_classLit);
+defineClass(479, 554, {}, Ref$1);
+var Ltripleplay_util_Ref$1_2_classLit = createForClass('tripleplay.util', 'Ref/1', 479, Ltripleplay_util_Ref_2_classLit);
+defineClass(485, 1, {});
+var Ltripleplay_util_StyledText_2_classLit = createForClass('tripleplay.util', 'StyledText', 485, Ljava_lang_Object_2_classLit);
 function $equals_5(this$static, other){
   var op;
-  if (instanceOf(other, 66)) {
+  if (instanceOf(other, 75)) {
     op = other;
     return $equals(this$static.text_0, op.text_0) && $equals_6(this$static.style_0, op.style_0);
   }
@@ -14621,16 +16358,16 @@ function StyledText$Plain(gfx, text_0, style){
   this.style_0 = style;
 }
 
-defineClass(66, 451, {66:1});
-_.equals$ = function equals_41(other){
+defineClass(75, 485, {75:1});
+_.equals$ = function equals_45(other){
   return $equals_5(this, other);
 }
 ;
-_.hashCode$ = function hashCode_44(){
+_.hashCode$ = function hashCode_48(){
   return getHashCode_0(this.text_0) ^ $hashCode_3(this.style_0);
 }
 ;
-var Ltripleplay_util_StyledText$Plain_2_classLit = createForClass('tripleplay.util', 'StyledText/Plain', 66, Ltripleplay_util_StyledText_2_classLit);
+var Ltripleplay_util_StyledText$Plain_2_classLit = createForClass('tripleplay.util', 'StyledText/Plain', 75, Ltripleplay_util_StyledText_2_classLit);
 function StyledText$Block(gfx, text_0, style, wrap, align_0){
   StyledText$Plain.call(this, gfx, text_0, style);
   this.wrap = wrap;
@@ -14641,10 +16378,10 @@ function StyledText$Block(gfx, text_0, style, wrap, align_0){
   this._bounds.height_0 = style.effect.adjustHeight(this._bounds.height_0);
 }
 
-defineClass(199, 66, {66:1}, StyledText$Block);
-_.equals$ = function equals_42(other){
+defineClass(211, 75, {75:1}, StyledText$Block);
+_.equals$ = function equals_46(other){
   var op;
-  if (instanceOf(other, 66)) {
+  if (instanceOf(other, 75)) {
     op = other;
     return $equals(this.text_0, op.text_0) && $equals_6(this.style_0, op.style_0);
   }
@@ -14652,11 +16389,11 @@ _.equals$ = function equals_42(other){
     return false;
 }
 ;
-_.hashCode$ = function hashCode_45(){
+_.hashCode$ = function hashCode_49(){
   return getHashCode_0(this.text_0) ^ $hashCode_3(this.style_0) ^ $hashCode_2(this.wrap) ^ getHashCode(this.align_0);
 }
 ;
-_.height_1 = function height_5(){
+_.height_1 = function height_4(){
   return this._bounds.height_0;
 }
 ;
@@ -14668,7 +16405,7 @@ _.render_0 = function render_4(canvas, x_0, y_0){
     layout = layout$array[layout$index];
     lx = x_0 + bx + this.align_0.getX(this.style_0.effect.adjustWidth(layout.size_0.width_0), this._bounds.width_0 - this._bounds.x_0);
     this.style_0.effect.render(canvas, layout, this.style_0.textColor, this.style_0.underlined, lx, ly);
-    ly += $intern_27 * layout.metrics.height_0 + $descent(layout.metrics) + $intern_26 * layout.metrics.height_0;
+    ly += $intern_34 * layout.metrics.height_0 + $descent(layout.metrics) + $intern_33 * layout.metrics.height_0;
   }
 }
 ;
@@ -14676,26 +16413,26 @@ _.resize = function resize(size_0){
   return new StyledText$Block(this._gfx, this.text_0, $withFont(this.style_0, $derive(this.style_0.font_0, size_0)), this.wrap, this.align_0);
 }
 ;
-_.toString$ = function toString_69(){
+_.toString$ = function toString_80(){
   return "Block '" + this.text_0 + "' @ " + this.style_0 + '/' + this.wrap + '/' + this.align_0;
 }
 ;
-_.width_1 = function width_6(){
+_.width_1 = function width_5(){
   return this._bounds.width_0;
 }
 ;
-var Ltripleplay_util_StyledText$Block_2_classLit = createForClass('tripleplay.util', 'StyledText/Block', 199, Ltripleplay_util_StyledText$Plain_2_classLit);
+var Ltripleplay_util_StyledText$Block_2_classLit = createForClass('tripleplay.util', 'StyledText/Block', 211, Ltripleplay_util_StyledText$Plain_2_classLit);
 function StyledText$Span(gfx, text_0, style){
   StyledText$Plain.call(this, gfx, text_0, style);
   this._layout = layoutText(gfx, gfx.dummyCtx, text_0, style);
 }
 
-defineClass(119, 66, {66:1, 119:1}, StyledText$Span);
-_.equals$ = function equals_43(other){
-  return instanceOf(other, 119) && $equals_5(this, other);
+defineClass(128, 75, {75:1, 128:1}, StyledText$Span);
+_.equals$ = function equals_47(other){
+  return instanceOf(other, 128) && $equals_5(this, other);
 }
 ;
-_.height_1 = function height_6(){
+_.height_1 = function height_5(){
   return this.style_0.effect.adjustHeight(this._layout.size_0.height_0);
 }
 ;
@@ -14707,23 +16444,23 @@ _.resize = function resize_0(size_0){
   return new StyledText$Span(this._gfx, this.text_0, $withFont(this.style_0, $derive(this.style_0.font_0, size_0)));
 }
 ;
-_.toString$ = function toString_70(){
+_.toString$ = function toString_81(){
   return "Span '" + this.text_0 + "' @ " + this.style_0;
 }
 ;
-_.width_1 = function width_7(){
+_.width_1 = function width_6(){
   return this.style_0.effect.adjustWidth(this._layout.size_0.width_0);
 }
 ;
-var Ltripleplay_util_StyledText$Span_2_classLit = createForClass('tripleplay.util', 'StyledText/Span', 119, Ltripleplay_util_StyledText$Plain_2_classLit);
+var Ltripleplay_util_StyledText$Span_2_classLit = createForClass('tripleplay.util', 'StyledText/Span', 128, Ltripleplay_util_StyledText$Plain_2_classLit);
 function $clinit_TextStyle(){
   $clinit_TextStyle = emptyMethod;
-  new TextStyle(null, true, $intern_42, ($clinit_EffectRenderer() , NONE_2), false);
+  new TextStyle(null, true, $intern_48, ($clinit_EffectRenderer() , NONE_2), false);
 }
 
 function $equals_6(this$static, other){
   var os;
-  if (!instanceOf(other, 101))
+  if (!instanceOf(other, 107))
     return false;
   os = other;
   return $equals_3(this$static, other) && this$static.textColor == os.textColor && this$static.effect.equals$(os.effect) && this$static.underlined == os.underlined;
@@ -14746,19 +16483,19 @@ function TextStyle(font, antialias, textColor, effect, underlined){
   this.underlined = underlined;
 }
 
-defineClass(101, 118, {118:1, 101:1}, TextStyle);
-_.equals$ = function equals_44(other){
+defineClass(107, 127, {127:1, 107:1}, TextStyle);
+_.equals$ = function equals_48(other){
   return $equals_6(this, other);
 }
 ;
-_.hashCode$ = function hashCode_46(){
+_.hashCode$ = function hashCode_50(){
   return $hashCode_3(this);
 }
 ;
 _.textColor = 0;
 _.underlined = false;
-var Ltripleplay_util_TextStyle_2_classLit = createForClass('tripleplay.util', 'TextStyle', 101, Lplayn_core_TextFormat_2_classLit);
-var Lcom_google_gwt_lang_CollapsedPropertyHolder_2_classLit = createForClass('com.google.gwt.lang', 'CollapsedPropertyHolder', 463, Ljava_lang_Object_2_classLit), Lcom_google_gwt_lang_JavaClassHierarchySetupUtil_2_classLit = createForClass('com.google.gwt.lang', 'JavaClassHierarchySetupUtil', 465, Ljava_lang_Object_2_classLit), Lcom_google_gwt_lang_LongLibBase$LongEmul_2_classLit = createForClass('com.google.gwt.lang', 'LongLibBase/LongEmul', null, Ljava_lang_Object_2_classLit), I_classLit = createForPrimitive('int', 'I'), Lcom_google_gwt_lang_ModuleUtils_2_classLit = createForClass('com.google.gwt.lang', 'ModuleUtils', 468, Ljava_lang_Object_2_classLit), F_classLit = createForPrimitive('float', 'F'), S_classLit = createForPrimitive('short', 'S'), C_classLit = createForPrimitive('char', 'C'), Ljava_util_Map$Entry_2_classLit = createForInterface('java.util', 'Map/Entry'), Lreact_Closeable_2_classLit = createForInterface('react', 'Closeable'), Ltripleplay_ui_AbstractTextButton_2_classLit = createForClass('tripleplay.ui', 'AbstractTextButton', null, Ltripleplay_ui_TextWidget_2_classLit), Ltripleplay_ui_Button_2_classLit = createForClass('tripleplay.ui', 'Button', null, Ltripleplay_ui_AbstractTextButton_2_classLit), Ltripleplay_ui_ToggleButton_2_classLit = createForClass('tripleplay.ui', 'ToggleButton', null, Ltripleplay_ui_AbstractTextButton_2_classLit), Ltripleplay_ui_CheckBox_2_classLit = createForClass('tripleplay.ui', 'CheckBox', null, Ltripleplay_ui_TextWidget_2_classLit), Ltripleplay_ui_Field_2_classLit = createForClass('tripleplay.ui', 'Field', null, Ltripleplay_ui_TextWidget_2_classLit), Ltripleplay_ui_Menu_2_classLit = createForClass('tripleplay.ui', 'Menu', null, Ltripleplay_ui_Elements_2_classLit), Ltripleplay_ui_MenuItem_2_classLit = createForClass('tripleplay.ui', 'MenuItem', null, Ltripleplay_ui_TextWidget_2_classLit);
+var Ltripleplay_util_TextStyle_2_classLit = createForClass('tripleplay.util', 'TextStyle', 107, Lplayn_core_TextFormat_2_classLit);
+var Lcom_google_gwt_lang_CollapsedPropertyHolder_2_classLit = createForClass('com.google.gwt.lang', 'CollapsedPropertyHolder', 497, Ljava_lang_Object_2_classLit), Lcom_google_gwt_lang_JavaClassHierarchySetupUtil_2_classLit = createForClass('com.google.gwt.lang', 'JavaClassHierarchySetupUtil', 499, Ljava_lang_Object_2_classLit), Lcom_google_gwt_lang_LongLibBase$LongEmul_2_classLit = createForClass('com.google.gwt.lang', 'LongLibBase/LongEmul', null, Ljava_lang_Object_2_classLit), I_classLit = createForPrimitive('int', 'I'), Lcom_google_gwt_lang_ModuleUtils_2_classLit = createForClass('com.google.gwt.lang', 'ModuleUtils', 502, Ljava_lang_Object_2_classLit), D_classLit = createForPrimitive('double', 'D'), F_classLit = createForPrimitive('float', 'F'), S_classLit = createForPrimitive('short', 'S'), C_classLit = createForPrimitive('char', 'C'), Ljava_util_Map$Entry_2_classLit = createForInterface('java.util', 'Map/Entry'), Lreact_Closeable_2_classLit = createForInterface('react', 'Closeable'), Ltripleplay_ui_AbstractTextButton_2_classLit = createForClass('tripleplay.ui', 'AbstractTextButton', null, Ltripleplay_ui_TextWidget_2_classLit), Ltripleplay_ui_Button_2_classLit = createForClass('tripleplay.ui', 'Button', null, Ltripleplay_ui_AbstractTextButton_2_classLit), Ltripleplay_ui_ToggleButton_2_classLit = createForClass('tripleplay.ui', 'ToggleButton', null, Ltripleplay_ui_AbstractTextButton_2_classLit), Ltripleplay_ui_CheckBox_2_classLit = createForClass('tripleplay.ui', 'CheckBox', null, Ltripleplay_ui_TextWidget_2_classLit), Ltripleplay_ui_Field_2_classLit = createForClass('tripleplay.ui', 'Field', null, Ltripleplay_ui_TextWidget_2_classLit), Ltripleplay_ui_Menu_2_classLit = createForClass('tripleplay.ui', 'Menu', null, Ltripleplay_ui_Elements_2_classLit), Ltripleplay_ui_MenuItem_2_classLit = createForClass('tripleplay.ui', 'MenuItem', null, Ltripleplay_ui_TextWidget_2_classLit);
 var $entry = registerEntry();
 var gwtOnLoad = gwtOnLoad = gwtOnLoad_0;
 addInitFunctions(init);
