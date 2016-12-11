@@ -28,7 +28,7 @@ import static de.cdietze.ld37.core.PointUtils.toY;
 public class BoardScreen extends Screen {
   public static final Logger log = new Logger("screen");
 
-  private static final Dimension maxSize = new Dimension(1200, 800);
+  private static final Dimension maxSize = new Dimension(2200, 1800);
   public final MainGame game;
 
   /**
@@ -62,8 +62,20 @@ public class BoardScreen extends Screen {
     root.setSize(width, height);
     root.setLocation((plat.graphics().viewSize.width() - width) * .5f, (plat.graphics().viewSize.height() - height) * .5f);
 
-    ScaledElement boardElement = new ScaledElement(boardLayer);
-    boardElement.addStyles(Style.BACKGROUND.is(Background.blank().inset(10f)));
+    GroupLayer group = new GroupLayer();
+    group.setSize(1024, 1024);
+
+    final ImageLayer wallsLayer = new ImageLayer(game.images.walls);
+    wallsLayer.setOrigin(Layer.Origin.CENTER);
+    wallsLayer.setSize(1024, 1024);
+    group.add(wallsLayer);
+
+    group.add(boardLayer);
+    boardLayer.setScale(728f / 8);
+
+//    ScaledElement boardElement = new ScaledElement(boardLayer);
+    ScaledElement boardElement = new ScaledElement(group);
+//    boardElement.addStyles(Style.BACKGROUND.is(Background.blank().inset(10f)));
 
 //    boardLayer.add(Layers.solid(0xffcccccc, dim.width(), dim.height()).setDepth(Depths.background));
 
