@@ -168,6 +168,11 @@ public class BoardScreen extends Screen {
         state.explored.get(entity.fieldIndex.get()).connectNotify(UiUtils.visibiltySlot(group));
         return Optional.<Layer>of(group);
       }
+      case BASE: {
+        final ImageLayer layer = new ImageLayer(game.images.base);
+        layer.setSize(1f, 1f).setOrigin(Layer.Origin.CENTER);
+        return Optional.<Layer>of(layer);
+      }
     }
     return Optional.absent();
   }
