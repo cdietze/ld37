@@ -77,11 +77,11 @@ public class BoardScreen extends Screen {
 
     GroupLayer batteryLayer = createBatteryRemainingLayer();
     batteryLayer.setDepth(8f);
-    group.addAt(batteryLayer, 0.35f, 0.90f);
+    group.addAt(batteryLayer, 0.31f, 0.86f);
 
     GroupLayer dustLayer = createDustRemainingLayer();
     dustLayer.setDepth(10f);
-    group.addAt(dustLayer, 0.35f, 0.94f);
+    group.addAt(dustLayer, 0.27f, 0.94f);
 
     group.addAt(boardLayer, group.width() * .5f, group.height() * .5f);
     boardLayer.setDepth(5f);
@@ -119,7 +119,7 @@ public class BoardScreen extends Screen {
 
   private GroupLayer createBatteryRemainingLayer() {
     final GroupLayer group = new GroupLayer();
-    final float itemDist = .5f / 15;
+    final float itemDist = .03f;
     state.battery.connectNotify(new Slot<Integer>() {
       @Override
       public void onEmit(Integer dustRemaining) {
