@@ -8,9 +8,11 @@ import playn.scene.ImageLayer;
 import playn.scene.Layer;
 import playn.scene.Pointer;
 import pythagoras.f.MathUtil;
+import pythagoras.i.Dimension;
 import react.Function;
 import react.RList;
 import react.Slot;
+import tripleplay.ui.Button;
 import tripleplay.ui.Group;
 import tripleplay.ui.Label;
 import tripleplay.ui.Root;
@@ -97,6 +99,7 @@ public class BoardScreen extends Screen {
 
             ).setConstraint(BorderLayout.EAST));
 
+    initWinListener();
     // log.info("screen#wasAdded", "viewSize", plat.graphics().viewSize, "offsetX", offsetX, "offsetY", offsetY, "squareSize", squareSize);
   }
 
@@ -257,6 +260,27 @@ public class BoardScreen extends Screen {
 
   private Optional<Layer> getEntityLayer(Entity entity) {
     return Optional.fromNullable(entityLayerMap.get(entity));
+  }
+
+  private void initWinListener() {
+    state.dustRemaining.connectNotify(new Slot<Integer>() {
+      @Override
+      public void onEmit(Integer dustRemaining) {
+        if (dustRemaining > 0) return;
+        Group group = UiUtils.createDialogGroup(plat);
+        group.add(new Label("Nice and clean again!"));
+        group.add(new Label("Thanks for playing!"));
+        group.add(new Button("Play again").onClick(new Slot<Button>() {
+          @Override
+          public void onEmit(Button event) {
+            LevelGenerator.Level level = LevelGenerator.generate(new Dimension(8, 8));
+            BoardState boardState = new BoardState(level);
+            game.screens.replace(new BoardScreen(game, boardState));
+          }
+        }));
+        createDialog(AxisLayout.vertical(), UiUtils.newSheet(plat.graphics())).add(group).useShade().slideTopDown().display();
+      }
+    });
   }
 
   private interface Depths {

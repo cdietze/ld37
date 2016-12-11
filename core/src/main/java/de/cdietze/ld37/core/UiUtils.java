@@ -10,11 +10,13 @@ import tripleplay.ui.layout.AxisLayout;
 
 public final class UiUtils {
 
+//  #626262 default gray
+//  #e3dacf wall color
+
   private UiUtils() {}
 
   public static Group createDialogGroup(Platform plat) {
-    /** Use the colors from {@link SimpleStyles} */
-    int bgColor = 0xFFCCCCCC, ulColor = 0xFFEEEEEE, brColor = 0xFFAAAAAA;
+    int bgColor = 0xFFe3dacf, ulColor = 0xFF626262;
     return new Group(AxisLayout.vertical()).setStyles(Style.BACKGROUND.is(Background.roundRect(plat.graphics(), bgColor, 5, ulColor, 2).inset(20f)));
   }
 

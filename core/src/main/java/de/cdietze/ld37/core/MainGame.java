@@ -38,7 +38,6 @@ public class MainGame extends SceneGame {
     new Pointer(plat, rootLayer, true);
 
     LevelGenerator.Level level = LevelGenerator.generate(new Dimension(8, 8));
-    plat.log().info("Generated level", "level", level);
     BoardState boardState = new BoardState(level);
     screens.push(new BoardScreen(this, boardState));
   }
