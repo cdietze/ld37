@@ -67,12 +67,14 @@ public final class PointUtils {
   /**
    * @return a list of the orthogonal neighbors of p that are inside {@code dim}.
    */
-  public static List<Integer> neighbors(IDimension dim, IPoint p) {
+  public static List<Integer> neighborsList(IDimension dim, int index) {
+    int x = toX(dim, index);
+    int y = toY(dim, index);
     ImmutableList.Builder<Integer> builder = ImmutableList.builder();
-    if (p.x() > 0) builder.add(toIndex(dim, p.x() - 1, p.y()));
-    if (p.y() > 0) builder.add(toIndex(dim, p.x(), p.y() - 1));
-    if (p.x() < dim.width() - 1) builder.add(toIndex(dim, p.x() + 1, p.y()));
-    if (p.y() < dim.height() - 1) builder.add(toIndex(dim, p.x(), p.y() + 1));
+    if (x > 0) builder.add(toIndex(dim, x - 1, y));
+    if (y > 0) builder.add(toIndex(dim, x, y - 1));
+    if (x < dim.width() - 1) builder.add(toIndex(dim, x + 1, y));
+    if (y < dim.height() - 1) builder.add(toIndex(dim, x, y + 1));
     return builder.build();
   }
 
