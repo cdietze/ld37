@@ -48,6 +48,7 @@ public class LevelGenerator {
     this.level = new Level(dim);
     level.baseIndexes.add(level.vacuumIndex);
     addAdditionalBases(3);
+    addDust();
   }
 
   private void addAdditionalBases(int totalBaseCount) {
@@ -63,6 +64,19 @@ public class LevelGenerator {
         if (dist < minDist || dist > maxDist) continue canidateLoop;
       }
       level.baseIndexes.add(candidateIndex);
+    }
+  }
+
+  private void addDust() {
+    int minDustAmount = (int) (.5 * dim.width() * dim.height());
+    for (Integer candidateIndex : MathUtils.shuffledRange(dim.width() * dim.height(), random)) {
+      if (level.dustAmount.size() >= minDustAmount) return;
+      if (level.baseIndexes.contains(candidateIndex)) continue;
+      level.dustAmount.setCount(candidateIndex, 4);
+      // Make sure that all dust-4s are surrounded by dust-2s
+      for (int neighbor : PointUtils.neighborsList(dim, candidateIndex)) {
+        level.dustAmount.setCount(neighbor, Math.max(2, level.dustAmount.count(neighbor)));
+      }
     }
   }
 }
