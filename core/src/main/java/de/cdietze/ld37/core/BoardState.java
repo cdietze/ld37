@@ -58,16 +58,21 @@ public class BoardState {
   }
 
   private List<Entity> createLint() {
+    BitSet indexes = getLintIndexes();
     ImmutableList.Builder<Entity> builder = ImmutableList.builder();
+    for (int i = indexes.nextSetBit(0); i >= 0; i = indexes.nextSetBit(i + 1)) {
+      builder.add(Entities.createLint(i));
+    }
+    return builder.build();
+  }
+
+  private BitSet getLintIndexes() {
     BitSet indexes = new BitSet();
     for (Entity dust : Iterables.filter(entities, entityTypePredicate(Entity.Type.DUST))) {
       indexes.set(dust.fieldIndex.get());
       indexes.or(PointUtils.neighbors(dim, dust.fieldIndex.get()));
     }
-    for (int i = indexes.nextSetBit(0); i >= 0; i = indexes.nextSetBit(i + 1)) {
-      builder.add(Entities.createLint(i));
-    }
-    return builder.build();
+    return indexes;
   }
 
   public boolean tryMoveVacuum(int target) {
@@ -105,6 +110,14 @@ public class BoardState {
     dust.dustAmount.decrementClamp(1, 0);
     if (dust.dustAmount.get() == 0) {
       entities.remove(dust);
+    }
+    cleanupLint();
+  }
+
+  private void cleanupLint() {
+    BitSet lintIndexes = getLintIndexes();
+    for (Entity lint : Iterables.filter(ImmutableList.copyOf(entities), entityTypePredicate(Entity.Type.LINT))) {
+      if (!lintIndexes.get(lint.fieldIndex.get())) entities.remove(lint);
     }
   }
 
