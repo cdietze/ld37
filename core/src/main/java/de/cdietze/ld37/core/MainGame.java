@@ -5,6 +5,7 @@ import playn.core.Platform;
 import playn.scene.ImageLayer;
 import playn.scene.Pointer;
 import playn.scene.SceneGame;
+import pythagoras.i.Dimension;
 import tripleplay.game.ScreenStack;
 import tripleplay.game.trans.SlideTransition;
 
@@ -37,7 +38,9 @@ public class MainGame extends SceneGame {
     // Register Pointer so we can handle any pointer input (clicks, mouse/touch events etc.)
     new Pointer(plat, rootLayer, true);
 
-    BoardState boardState = new BoardState();
+    LevelGenerator.Level level = LevelGenerator.generate(new Dimension(8, 8));
+    plat.log().info("Generated level", "level", level);
+    BoardState boardState = new BoardState(level);
     screens.push(new BoardScreen(this, boardState));
   }
 }
