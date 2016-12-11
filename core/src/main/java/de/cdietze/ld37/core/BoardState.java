@@ -76,6 +76,9 @@ public class BoardState {
     if (!entity.isPresent()) return;
     Entities.Dust dust = (Entities.Dust) entity.get();
     dust.dustAmount.decrementClamp(1, 0);
+    if (dust.dustAmount.get() == 0) {
+      entities.remove(dust);
+    }
   }
 
   private void consumeBattery() {
