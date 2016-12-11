@@ -1,19 +1,19 @@
 package de.cdietze.ld37.core;
 
 import com.google.common.base.Optional;
-import de.cdietze.playn_util.ScaledElement;
 import de.cdietze.playn_util.Screen;
 import playn.core.Color;
 import playn.scene.GroupLayer;
 import playn.scene.ImageLayer;
 import playn.scene.Layer;
 import playn.scene.Pointer;
-import pythagoras.f.Dimension;
 import pythagoras.f.MathUtil;
 import react.Function;
 import react.RList;
 import react.Slot;
-import tripleplay.ui.*;
+import tripleplay.ui.Group;
+import tripleplay.ui.Label;
+import tripleplay.ui.Root;
 import tripleplay.ui.layout.AxisLayout;
 import tripleplay.ui.layout.BorderLayout;
 import tripleplay.util.Colors;
@@ -28,7 +28,6 @@ import static de.cdietze.ld37.core.PointUtils.toY;
 public class BoardScreen extends Screen {
   public static final Logger log = new Logger("screen");
 
-  private static final Dimension maxSize = new Dimension(2200, 1800);
   public final MainGame game;
 
   /**
@@ -55,31 +54,32 @@ public class BoardScreen extends Screen {
   public void wasAdded() {
     super.wasAdded();
     Root root = iface.createRoot(new BorderLayout(), UiUtils.newSheet(plat.graphics()), layer);
-    // We define a maximum view size. Otherwise sprites become really blurry and its just too big
-
-    float width = Math.min(maxSize.width, plat.graphics().viewSize.width());
-    float height = Math.min(maxSize.height, plat.graphics().viewSize.height());
+    float width = plat.graphics().viewSize.width();
+    float height = plat.graphics().viewSize.height();
     root.setSize(width, height);
-    root.setLocation((plat.graphics().viewSize.width() - width) * .5f, (plat.graphics().viewSize.height() - height) * .5f);
 
+    float squareSize = Math.min(plat.graphics().viewSize.width(), plat.graphics().viewSize.height());
+
+    float offsetX = (plat.graphics().viewSize.width() - squareSize) * .5f;
+    float offsetY = (plat.graphics().viewSize.height() - squareSize) * .5f;
+
+    log.info("screen#wasAdded", "offsetX", offsetX, "offsetY", offsetY);
     GroupLayer group = new GroupLayer();
-    group.setSize(1024, 1024);
+    group.setSize(1f, 1f);
+    group.setScale(squareSize);
 
     final ImageLayer wallsLayer = new ImageLayer(game.images.walls);
+    float wallImageWidth = 1024f;
+    wallsLayer.setScale(1f / wallImageWidth);
     wallsLayer.setOrigin(Layer.Origin.CENTER);
-    wallsLayer.setSize(1024, 1024);
-    group.add(wallsLayer);
+    group.addAt(wallsLayer, group.width() * .5f, group.height() * .5f);
 
-    group.add(boardLayer);
-    boardLayer.setScale(728f / 8);
-
-//    ScaledElement boardElement = new ScaledElement(boardLayer);
-    ScaledElement boardElement = new ScaledElement(group);
-//    boardElement.addStyles(Style.BACKGROUND.is(Background.blank().inset(10f)));
-
-//    boardLayer.add(Layers.solid(0xffcccccc, dim.width(), dim.height()).setDepth(Depths.background));
-
-    root.add(boardElement.setConstraint(BorderLayout.CENTER));
+    group.addAt(boardLayer, group.width() * .5f, group.height() * .5f);
+    float wallWidth = 148f;
+    float wallToFloor = squareSize / (wallImageWidth - 2 * wallWidth);
+    boardLayer.setScale(1f / wallToFloor / 8);
+    root
+            .layer.addAt(group, offsetX, offsetY);
 
     root.add(
             new Group(AxisLayout.vertical()).add(
