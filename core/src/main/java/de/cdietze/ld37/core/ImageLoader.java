@@ -27,5 +27,11 @@ public class ImageLoader {
             plat.assets().getImage("images/dust2.png"),
             plat.assets().getImage("images/dust3.png"),
             plat.assets().getImage("images/dust4.png"));
+    public final List<Image> fluffList = ImmutableList.of(
+            plat.assets().getImage("images/fluff1.png"),
+            plat.assets().getImage("images/fluff2.png"),
+            plat.assets().getImage("images/fluff3.png"),
+            plat.assets().getImage("images/fluff4.png")
+    );
   }
 }

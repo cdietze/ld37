@@ -21,6 +21,7 @@ import tripleplay.util.Logger;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 import static de.cdietze.ld37.core.PointUtils.toX;
 import static de.cdietze.ld37.core.PointUtils.toY;
@@ -74,6 +75,10 @@ public class BoardScreen extends Screen {
     wallsLayer.setOrigin(Layer.Origin.CENTER);
     group.addAt(wallsLayer, group.width() * .5f, group.height() * .5f);
 
+    GroupLayer dustLayer = createDustRemainingLayer();
+    dustLayer.setDepth(10f);
+    group.addAt(dustLayer, 0.35f, 0.94f);
+
     group.addAt(boardLayer, group.width() * .5f, group.height() * .5f);
     float wallWidth = 148f;
     float wallToFloor = squareSize / (wallImageWidth - 2 * wallWidth);
@@ -83,12 +88,6 @@ public class BoardScreen extends Screen {
 
     root.add(
             new Group(AxisLayout.vertical()).add(
-                    new Label(state.dustRemaining.map(new Function<Integer, String>() {
-                      @Override
-                      public String apply(Integer input) {
-                        return "Dust Remaining: " + input;
-                      }
-                    })),
                     new Label(state.battery.map(new Function<Integer, String>() {
                       @Override
                       public String apply(Integer input) {
@@ -97,6 +96,28 @@ public class BoardScreen extends Screen {
                     }))
 
             ).setConstraint(BorderLayout.EAST));
+  }
+
+  private GroupLayer createDustRemainingLayer() {
+    final GroupLayer group = new GroupLayer();
+    final Random random = new Random();
+    final float dustDist = .6f / 40;
+    state.dustRemaining.connectNotify(new Slot<Integer>() {
+      @Override
+      public void onEmit(Integer dustRemaining) {
+        while (group.children() > dustRemaining) group.childAt(group.children() - 1).close();
+        while (group.children() < dustRemaining) {
+          final ImageLayer layer = new ImageLayer(game.images.fluffList.get(random.nextInt(game.images.fluffList.size())));
+          layer.setSize(0.05f, 0.05f);
+          group.add(layer);
+        }
+        for (int i = 0; i < group.children(); ++i) {
+          group.childAt(i).setTx(dustDist * i);
+          group.childAt(i).setTy((i % 2) * -0.01f);
+        }
+      }
+    });
+    return group;
   }
 
   private GroupLayer createFieldGroupLayer() {
