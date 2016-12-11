@@ -31,4 +31,10 @@ public class Entities {
       });
     }
   }
+
+  public static class Base extends Entity {
+    public Base(int initialFieldIndex) {
+      super(Type.BASE, initialFieldIndex);
+    }
+  }
 }

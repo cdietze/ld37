@@ -27,19 +27,26 @@ public class BoardState {
   {
     vacuum = new Entities.Vacuum(56, Direction.UP);
     entities.add(vacuum);
+    entities.add(new Entities.Base(vacuum.fieldIndex.get()));
     entities.add(new Entities.Dust(57, 4, dustRemaining));
     entities.add(new Entities.Dust(60, 4, dustRemaining));
     explore(vacuum.fieldIndex.get());
     battery.update(10);
   }
 
-  public boolean tryMoveVacuum(int target) { 
-    if (!isNeighbor(dim, vacuum.fieldIndex.get(), target)) return false;
+  public boolean tryMoveVacuum(int target) {
+    if (!canMoveHere(target)) return false;
     vacuum.fieldIndex.update(target);
     explore(target);
     tryToCollectDust();
     consumeBattery();
+    tryToRechargeBattery();
     return false;
+  }
+
+  private boolean canMoveHere(int target) {
+    return (battery.get() > 0 && isNeighbor(dim, vacuum.fieldIndex.get(), target))
+            || getEntityAt(target, Entity.Type.BASE).isPresent();
   }
 
   private void tryToCollectDust() {
@@ -51,6 +58,12 @@ public class BoardState {
 
   private void consumeBattery() {
     battery.decrementClamp(1, 0);
+  }
+  private void tryToRechargeBattery() {
+    Optional<Entity> base = getEntityAt(vacuum.fieldIndex.get(), Entity.Type.BASE);
+    if (base.isPresent()) {
+      battery.update(10);
+    }
   }
 
   private static List<Value<Boolean>> buildExplored(int fieldCount) {
