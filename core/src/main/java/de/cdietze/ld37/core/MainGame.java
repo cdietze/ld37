@@ -1,13 +1,13 @@
 package de.cdietze.ld37.core;
 
-import playn.core.Image;
 import playn.core.Platform;
-import playn.scene.ImageLayer;
+import playn.scene.Layer;
 import playn.scene.Pointer;
 import playn.scene.SceneGame;
 import pythagoras.i.Dimension;
 import tripleplay.game.ScreenStack;
 import tripleplay.game.trans.SlideTransition;
+import tripleplay.util.Layers;
 
 public class MainGame extends SceneGame {
 
@@ -29,10 +29,9 @@ public class MainGame extends SceneGame {
 
     this.images = ImageLoader.loadImages(plat);
     // create and add background image layer
-    Image bgImage = plat.assets().getImage("images/bg.png");
-    ImageLayer bgLayer = new ImageLayer(bgImage);
+    Layer bgLayer = Layers.solid(0xff626262, plat.graphics().screenSize().width(), plat.graphics().screenSize().height());
     // scale the background to fill the screen
-    bgLayer.setSize(plat.graphics().viewSize);
+    //bgLayer.setSize(plat.graphics().viewSize);
     rootLayer.add(bgLayer);
 
     // Register Pointer so we can handle any pointer input (clicks, mouse/touch events etc.)
