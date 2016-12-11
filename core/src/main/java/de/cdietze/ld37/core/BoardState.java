@@ -45,8 +45,21 @@ public class BoardState {
   }
 
   private boolean canMoveHere(int target) {
-    return (battery.get() > 0 && isNeighbor(dim, vacuum.fieldIndex.get(), target))
-            || getEntityAt(target, Entity.Type.BASE).isPresent();
+    return canMoveOneFieldHere(target)
+            || canStayHere(target)
+            || isExploredBase(target);
+  }
+
+  private boolean canMoveOneFieldHere(int target) {
+    return battery.get() > 0 && isNeighbor(dim, vacuum.fieldIndex.get(), target);
+  }
+
+  private boolean canStayHere(int target) {
+    return battery.get() > 0 && target == vacuum.fieldIndex.get() && getEntityAt(target, Entity.Type.DUST).isPresent();
+  }
+
+  private boolean isExploredBase(int target) {
+    return explored.get(target).get() && getEntityAt(target, Entity.Type.BASE).isPresent();
   }
 
   private void tryToCollectDust() {
