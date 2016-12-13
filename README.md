@@ -26,7 +26,7 @@ Tools:
 
 [Play it in your browser here](http://cdietze.github.io/ld37/)
 
-[Entry to the #37 Ludum Dare compo](http://ludumdare.com/compo/ludum-dare-37/?uid=67399)
+[Entry to the #37 Ludum Dare compo](http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=67399)
 
 ## Build
 
